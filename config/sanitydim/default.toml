@@ -188,7 +188,7 @@
 		play_sounds = true
 		#Insanity ambience max volume
 		#Range: 0.0 ~ 1.0
-		insanity_volume = 0.2
+		insanity_volume = 0.05
 
 		#Sanity indicator configuration
 		[sanity.client.indicator]

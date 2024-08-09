@@ -1,0 +1,10 @@
+{
+  "OneShotProtectionCooldown": 200,
+  "ProcHealthPercentage": 0.9,
+  "LeftoverHealthOnProcPercentage": 0.1,
+  "DoInvalidMaximumHealth": false,
+  "RequiredMaximumHealth": 20,
+  "DoSoundCue": true,
+  "DoParticlesOnProc": true,
+  "DoParticlesOnImmunityFrames": true
+}

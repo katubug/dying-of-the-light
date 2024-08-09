@@ -1,0 +1,97 @@
+{
+    "type": "chain",
+    "rules": [
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
+          "type": "difficulty_is",
+          "difficulties": ["easy"]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "attacker_is_boss"
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
+          "type": "attacker_is",
+          "mobs": [
+            "minecraft:spider",
+            "minecraft:zombie"
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "pass",
+        "if_false": "pass",
+        "predicate": {
+          "type": "attacker_is",
+          "mobs": [
+            "minecraft:spider"
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "pass",
+        "if_false": "pass",
+        "predicate": {
+          "type": "attacker_tagged_with",
+          "tags": []
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "pass",
+        "if_false": "pass",
+        "predicate": {
+          "type": "effect",
+          "effects": [
+            "minecraft:invisibility"
+          ],
+          "who": "defender"
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
+          "type": "in_player_set",
+          "player_sets": [
+            "no-mobs"
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "pass",
+        "if_false": "pass",
+        "predicate": {
+          "type": "spawn_type",
+          "types": [
+            ""
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "revenge_timer",
+          "timeout": -1
+        }
+      }
+    ]
+  }

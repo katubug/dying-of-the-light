@@ -15,11 +15,11 @@
 
 [Compatibilities]
 	#Enable this to use Farmer's delight foods instead of butchery's foods
-	"Farmers Delight Drops" = false
+	"Farmers Delight Drops" = true
 	#Enable to make TerraFirmaCraft mobs drop corpses
-	"TerraFirmaCraft Corpses" = true
+	"TerraFirmaCraft Corpses" = false
 	#Enable to use TFC drops instead of Butchery drops
-	"TerraFirmaCraft Drops" = true
+	"TerraFirmaCraft Drops" = false
 	#Enable to obtain life essence buckets from blood drain when right clicked with empty bucket
 	"Bloodmagic Life Essence" = false
 	#Enable vampirism drops from corpses
@@ -57,7 +57,7 @@
 	#Enables the Ender Dragons corpse
 	"Ender Dragon" = true
 	#Enable/Disable End Dragon Armor and its materials
-	"Ender Dragon Armor" = true
+	"Ender Dragon Armor" = false
 	#Enables the Elder Guardian's corpse
 	"Elder Guardian" = true
 	#Enables the Wither's corpse

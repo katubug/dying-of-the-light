@@ -1,7 +1,7 @@
 {
-  "volume": 70,
-  "clientPlayerVolume": 100,
-  "otherPlayerVolume": 100,
+  "volume": 50,
+  "clientPlayerVolume": 75,
+  "otherPlayerVolume": 75,
   "runningVolumeIncrease": 0,
   "wetSoundsVolume": 50,
   "maxSteppingEntities": 50,

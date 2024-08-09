@@ -10,7 +10,7 @@
 	# Hunger multiplied for each block mined with ultimine
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	exhaustion_per_block: 20.0d
+	exhaustion_per_block: 200.0d
 	
 	# Amount of experience taken per block mined (fractional values allowed)
 	# Default: 0.0
@@ -20,7 +20,7 @@
 	# Max amount of blocks that can be ultimined at once
 	# Default: 64
 	# Range: 0 ~ 32768
-	max_blocks: 64
+	max_blocks: 16
 	
 	# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
 	# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
@@ -41,7 +41,7 @@
 	
 	# Require a damageable tool, or an item in the ftbultimine:tools tag, to ultimine.
 	# Default: false
-	require_tool: false
+	require_tool: true
 	
 	# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
 	# Default: true
@@ -62,5 +62,5 @@
 	# Cooldown in ticks between successive uses of the ultimine feature
 	# Default: 0
 	# Range: 0 ~ 9223372036854775807
-	ultimine_cooldown: 0L
+	ultimine_cooldown: 10L
 }

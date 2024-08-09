@@ -1,11 +1,11 @@
 
 [general_fog]
 	#the default fog's opacity from 0 to 255
-	default_opacity = 80
+	default_opacity = 200
 	#the default fog's start distance from the player
-	default_start_fog = 25
+	default_start_fog = 5
 	#the default fog's end distance from the player multiplier (multiplies the vanilla fog end by this amount)
-	END_FOG_MULTIPLYER = 1.15
+	END_FOG_MULTIPLYER = 0.5
 
 [night_fog]
 	enabled = true

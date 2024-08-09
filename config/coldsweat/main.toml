@@ -15,7 +15,7 @@
 	"Rate Multiplier" = 1.0
 	#Damage dealt to the player when they are too hot or too cold
 	#Range: 0.0 ~ Infinity
-	"Temperature Damage" = 2.0
+	"Temperature Damage" = 1.0
 	#Sets whether damage scales with difficulty
 	"Damage Scaling" = true
 

@@ -1,7 +1,7 @@
 
 [General]
 	#If enabled your console will fill with spam showing the various types of data you will need to fine tune this config
-	showConsoleIDS = false
+	showConsoleIDS = true
 	#If selected the rest of the config is pointless. Default: false
 	tanningLotion = false
 	#Should players burn? Default: false
@@ -16,10 +16,10 @@
 	checkEffects = true
 	#Allow all of a mods' mobs from burning just by specifying the modid. Comma separated and quoted list
 	#Default: "iceandfire"
-	mods = ["iceandfire"]
+	mods = ["sanitydim"]
 	#Allows specific mods' mobs to burn just by specifying their full id for example modid:mobname.  Comma separated and quoted list
 	#Default: "minecraft:zombie","minecraft:skeleton"
-	mobs = ["minecraft:villager"]
+	mobs = ["minecraft:villager", "sanitydim:rotting_stalker", "sanitydim:sneaking_terror"]
 	#Allows specific mods' blocks to be ignored while checking if you are able to see the sky by specifying their full id for example modid:blockname.  Comma separated and quoted list
 	#Example: "minecraft:black_stained_glass"
 	ignoredBlocks = []

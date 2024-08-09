@@ -1,0 +1,39 @@
+
+["Reignited HUD"]
+
+	["Reignited HUD".player]
+		#Toggle Player Skins
+		skin = true
+		#Toggle Player Username
+		username = true
+		#Toggle Player Health
+		health = true
+		#Toggle Player Air Supply
+		air = true
+
+	["Reignited HUD".armor]
+		#Toggle Armor Level Display
+		level = true
+		#Toggle Armor Toughness Display
+		toughness = true
+
+	["Reignited HUD".food]
+		#Toggle Food Level Display
+		value = true
+		#Toggle Food Saturation Display
+		saturation = true
+
+	["Reignited HUD".item]
+		#Toggle Items Durability Display
+		equipment = true
+		#Toggle Items Durability Display
+		hand = true
+
+	["Reignited HUD".misc]
+		#Toggle Active Effects Display
+		effect = true
+		#Toggle Mount Information Display
+		mount = true
+		#Toggle Clock Display
+		time = true
+

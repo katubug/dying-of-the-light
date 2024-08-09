@@ -1,0 +1,364 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2024-08-07 17:43:37
+Description: Rendering entity in world
+
+software.bernie.geckolib.GeckoLibException: cave_dweller:animations/cave_dweller.animation.json: Unable to find animation.
+	at software.bernie.geckolib.model.GeoModel.getAnimation(GeoModel.java:115) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading,pl:mixin:APP:geckoanimfix.forge.mixins.json:GeoModelMixin,pl:mixin:A}
+	at software.bernie.geckolib.core.animation.AnimationProcessor.buildAnimationQueue(AnimationProcessor.java:45) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.setAnimation(AnimationController.java:338) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationState.setAndContinue(AnimationState.java:129) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at de.cadentem.cave_dweller.entities.CaveDwellerEntity.predicate(CaveDwellerEntity.java:361) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:mixin,re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.handleAnimationState(AnimationController.java:395) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.process(AnimationController.java:419) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationProcessor.tickAnimation(AnimationProcessor.java:83) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at software.bernie.geckolib.model.GeoModel.handleAnimations(GeoModel.java:592) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading,pl:mixin:APP:geckoanimfix.forge.mixins.json:GeoModelMixin,pl:mixin:A}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:220) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:49) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.m_7392_(GeoEntityRenderer.java:151) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at de.cadentem.cave_dweller.client.CaveDwellerRenderer.render(CaveDwellerRenderer.java:36) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:classloading}
+	at de.cadentem.cave_dweller.client.CaveDwellerRenderer.m_7392_(CaveDwellerRenderer.java:13) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:classloading}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114384_(EntityRenderDispatcher.java:140) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.oculus.json:MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.json:entity_render_context.MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.compat.sodium.json:copyEntity.shadows.EntityRenderDispatcherMixin,pl:mixin:APP:xenon.mixins.json:extras.entitydistance.EntityDispatcherMixin,pl:mixin:APP:mixins.oculus.compat.sodium.json:vertex_format.entity.MixinEntityRenderDispatcher,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109517_(LevelRenderer.java:1440) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.invokeRenderEntity(LevelRenderer.java) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderEntities(ShadowRenderer.java:635) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderShadows(ShadowRenderer.java:504) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.renderShadows(IrisRenderingPipeline.java:1010) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:classloading}
+	at net.minecraft.client.renderer.LevelRenderer.handler$zpp000$iris$renderTerrainShadows(LevelRenderer.java:6696) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109599_(LevelRenderer.java:1155) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109089_(GameRenderer.java:1126) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:909) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.2.30.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: 
+	GeckoLibIrisCompat (geckoanimfix), Version: 1.0.0
+		Mixin class: elocindev.geckoanimfix.mixin.common.GeoModelMixin
+		Target: software.bernie.geckolib.model.GeoModel
+		at TRANSFORMER/geckolib@4.4.7/software.bernie.geckolib.model.GeoModel.handleAnimations(GeoModel.java:592)
+
+	GeckoLib 4 (geckolib), Version: 4.4.7
+		Issue tracker URL: https://github.com/bernie-g/geckolib/issues
+		at TRANSFORMER/geckolib@4.4.7/software.bernie.geckolib.model.GeoModel.getAnimation(GeoModel.java:115)
+
+	Oculus (oculus), Version: 1.7.0
+		Issue tracker URL: https://github.com/Asek3/Oculus/issues
+		Mixin class: net.irisshaders.iris.mixin.LevelRendererAccessor
+		Target: net.minecraft.client.renderer.LevelRenderer
+		at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.LevelRenderer.invokeRenderEntity(LevelRenderer.java)
+
+	cave_dweller (cave_dweller), Version: 1.6.5
+		at TRANSFORMER/cave_dweller@1.6.5/de.cadentem.cave_dweller.entities.CaveDwellerEntity.predicate(CaveDwellerEntity.java:361)
+Stacktrace:
+	at software.bernie.geckolib.model.GeoModel.getAnimation(GeoModel.java:115) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading,pl:mixin:APP:geckoanimfix.forge.mixins.json:GeoModelMixin,pl:mixin:A}
+	at software.bernie.geckolib.core.animation.AnimationProcessor.buildAnimationQueue(AnimationProcessor.java:45) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.setAnimation(AnimationController.java:338) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationState.setAndContinue(AnimationState.java:129) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at de.cadentem.cave_dweller.entities.CaveDwellerEntity.predicate(CaveDwellerEntity.java:361) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:mixin,re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.handleAnimationState(AnimationController.java:395) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationController.process(AnimationController.java:419) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.core.animation.AnimationProcessor.tickAnimation(AnimationProcessor.java:83) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading}
+	at software.bernie.geckolib.model.GeoModel.handleAnimations(GeoModel.java:592) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:mixin,re:classloading,pl:mixin:APP:geckoanimfix.forge.mixins.json:GeoModelMixin,pl:mixin:A}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:220) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.actuallyRender(GeoEntityRenderer.java:49) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoRenderer.defaultRender(GeoRenderer.java:142) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at software.bernie.geckolib.renderer.GeoEntityRenderer.m_7392_(GeoEntityRenderer.java:151) ~[geckolib-forge-1.20.1-4.4.7.jar%23247!/:4.4.7] {re:classloading}
+	at de.cadentem.cave_dweller.client.CaveDwellerRenderer.render(CaveDwellerRenderer.java:36) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:classloading}
+	at de.cadentem.cave_dweller.client.CaveDwellerRenderer.m_7392_(CaveDwellerRenderer.java:13) ~[NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar%23259!/:1.6.5] {re:classloading}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114384_(EntityRenderDispatcher.java:140) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.oculus.json:MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.json:entity_render_context.MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.compat.sodium.json:copyEntity.shadows.EntityRenderDispatcherMixin,pl:mixin:APP:xenon.mixins.json:extras.entitydistance.EntityDispatcherMixin,pl:mixin:APP:mixins.oculus.compat.sodium.json:vertex_format.entity.MixinEntityRenderDispatcher,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109517_(LevelRenderer.java:1440) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.invokeRenderEntity(LevelRenderer.java) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderEntities(ShadowRenderer.java:635) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderShadows(ShadowRenderer.java:504) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.renderShadows(IrisRenderingPipeline.java:1010) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:classloading}
+	at net.minecraft.client.renderer.LevelRenderer.handler$zpp000$iris$renderTerrainShadows(LevelRenderer.java:6696) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109599_(LevelRenderer.java:1155) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109089_(GameRenderer.java:1126) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Entity being rendered --
+Details:
+	Entity Type: cave_dweller:cave_dweller (de.cadentem.cave_dweller.entities.CaveDwellerEntity)
+	Entity ID: 408
+	Entity Name: The Corpse Stalker
+	Entity's Exact location: -30.50, 8.00, -15.50
+	Entity's Block location: World: (-31,8,-16), Section: (at 1,8,0 in -2,0,-1; chunk contains blocks -32,-64,-16 to -17,319,-1), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114384_(EntityRenderDispatcher.java:140) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.oculus.json:MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.json:entity_render_context.MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.compat.sodium.json:copyEntity.shadows.EntityRenderDispatcherMixin,pl:mixin:APP:xenon.mixins.json:extras.entitydistance.EntityDispatcherMixin,pl:mixin:APP:mixins.oculus.compat.sodium.json:vertex_format.entity.MixinEntityRenderDispatcher,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109517_(LevelRenderer.java:1440) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.invokeRenderEntity(LevelRenderer.java) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderEntities(ShadowRenderer.java:635) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderShadows(ShadowRenderer.java:504) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.renderShadows(IrisRenderingPipeline.java:1010) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:classloading}
+	at net.minecraft.client.renderer.LevelRenderer.handler$zpp000$iris$renderTerrainShadows(LevelRenderer.java:6696) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109599_(LevelRenderer.java:1155) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109089_(GameRenderer.java:1126) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:909) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.2.30.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Renderer details --
+Details:
+	Assigned renderer: de.cadentem.cave_dweller.client.CaveDwellerRenderer@7773db1e
+	Location: 30.90,-8.62,13.33 - World: (30,-9,13), Section: (at 14,7,13 in 1,-1,0; chunk contains blocks 16,-64,0 to 31,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Rotation: -120.9375
+	Delta: 0.0
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114384_(EntityRenderDispatcher.java:140) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.oculus.json:MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.json:entity_render_context.MixinEntityRenderDispatcher,pl:mixin:APP:mixins.oculus.compat.sodium.json:copyEntity.shadows.EntityRenderDispatcherMixin,pl:mixin:APP:xenon.mixins.json:extras.entitydistance.EntityDispatcherMixin,pl:mixin:APP:mixins.oculus.compat.sodium.json:vertex_format.entity.MixinEntityRenderDispatcher,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109517_(LevelRenderer.java:1440) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.invokeRenderEntity(LevelRenderer.java) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderEntities(ShadowRenderer.java:635) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.shadows.ShadowRenderer.renderShadows(ShadowRenderer.java:504) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:mixin,re:classloading}
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.renderShadows(IrisRenderingPipeline.java:1010) ~[oculus-mc1.20.1-1.7.0.jar%23262!/:?] {re:classloading}
+	at net.minecraft.client.renderer.LevelRenderer.handler$zpp000$iris$renderTerrainShadows(LevelRenderer.java:6696) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.m_109599_(LevelRenderer.java:1155) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:adpother:coremod,pl:mixin:APP:xenon.mixins.json:features.render.world.clouds.WorldRendererMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:immediate.MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer,pl:mixin:APP:oculus-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting,pl:mixin:APP:goety.mixins.json:LevelRendererMixin,pl:mixin:APP:sleep_tight-common.mixins.json:LevelRendererMixin,pl:mixin:APP:mixins.oculus.json:LevelRendererAccessor,pl:mixin:APP:mixins.oculus.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:fabulous.MixinDisableFabulousGraphics,pl:mixin:APP:mixins.oculus.json:shadows.MixinLevelRenderer,pl:mixin:APP:mixins.oculus.json:sky.MixinLevelRenderer_SunMoonToggle,pl:mixin:APP:mixins.oculus.fantastic.json:MixinLevelRenderer,pl:mixin:APP:mixins.oculus.compat.sodium.json:sky.MixinLevelRenderer,pl:mixin:APP:lunar.mixins.json:LevelRendererMixin,pl:mixin:APP:celesteconfig.mixins.json:MixinLevelRenderer,pl:mixin:APP:xenon.mixins.json:features.options.weather.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:core.render.world.WorldRendererMixin,pl:mixin:APP:xenon.mixins.json:features.render.gui.outlines.WorldRendererMixin,pl:mixin:APP:mixins.oculus.json:shadows.MixinPreventRebuildNearInShadowPass,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109089_(GameRenderer.java:1126) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:909) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.2.30.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['HeyKatu'/558, l='ClientLevel', x=-30.90, y=8.62, z=-13.33]]
+	Chunk stats: 961, 609
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,78,0), Section: (at 0,14,0 in 0,4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 10823 game time, 10823 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:xenon.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:waterdripsound.mixins.json:client.MixinClientWorld,pl:mixin:APP:adpother.mixins.json:ClientLevelMixin,pl:mixin:APP:sanitydim.mixins.json:MixinClientLevel,pl:mixin:APP:mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:sound_physics_remastered.mixins.json:ClientLevelMixin,pl:mixin:APP:xenon.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:xenon.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2319) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:735) ~[client-1.20.1-20230612.114412-srg.jar%23286!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.2.30.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.30.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources, Moonlight Mods Dynamic Assets, visualoverhaul:rounddiscs
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 836755440 bytes (797 MiB) / 3082813440 bytes (2940 MiB) up to 8489271296 bytes (8096 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12700H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: NVIDIA GeForce RTX 3060 Laptop GPU
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2520
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.5599
+	Graphics card #1 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x46a6
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.3962
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 29798.51
+	Virtual memory used (MB): 19385.39
+	Swap memory total (MB): 13723.32
+	Swap memory used (MB): 277.45
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8096m -Xms256m
+	Loaded Shaderpack: Insanity-Shader-Universal-v1.650.zip
+		Profile: MEDIUM (+0 options changed by user)
+	Launched Version: forge-47.2.30
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 555.99, NVIDIA Corporation
+	Window size: 1400x900
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: en_us
+	CPU: 20x 12th Gen Intel(R) Core(TM) i7-12700H
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['HeyKatu'/558, l='ServerLevel[Beginnings]', x=-30.90, y=8.62, z=-13.33]]
+	Data Packs: vanilla, mod:waterdripsound (incompatible), mod:screamfromthecold, mod:fish_anywhere (incompatible), mod:xenon, mod:geckolib, mod:nyctophobia (incompatible), mod:jei, mod:graveyard (incompatible), mod:immersive_weathering (incompatible), mod:geckoanimfix (incompatible), mod:forgeendertech, mod:darkness (incompatible), mod:clumps (incompatible), mod:goety, mod:enhancedvisuals, mod:controlling (incompatible), mod:zombieawareness (incompatible), mod:mixinextras (incompatible), mod:burninthesun, mod:cave_dweller (incompatible), mod:adpother, mod:cloth_config (incompatible), mod:sound_physics_remastered (incompatible), mod:forge, mod:stalkercreepers (incompatible), mod:distantfriends, mod:infernalmobs (incompatible), mod:sanitydim (incompatible), mod:fog (incompatible), mod:realistictorches, mod:immersivecaves, mod:terrablender, mod:moonlight (incompatible), mod:mousetweaks, mod:visual_keybinder, mod:jade (incompatible), mod:creativecore, mod:corgilib, mod:eyesinthedarkness (incompatible), mod:voidfog, mod:curios (incompatible), mod:oculus, mod:betterfog (incompatible), mod:the_darkness_will_find_you (incompatible), mod:searchables (incompatible), mod:lunar, mod:thirst (incompatible), mod:tombstone, mod:coroutil (incompatible), mod:endofherobrine (incompatible), mod:unlitcampfire, mod:nobz, mod:appleskin (incompatible), mod:spoiled, mod:visuality (incompatible), mod:apathy (incompatible), mod:yet_another_config_lib_v3 (incompatible), mod:cold_sweat (incompatible), mod:visualoverhaul (incompatible), mod:midnightlib (incompatible), mod:architectury (incompatible), mod:celesteconfig (incompatible), mod:rustility, mod:presencefootsteps (incompatible), Immersive Weathering Generated Pack, mod:abyssal_decor, mod:thaumon, mod:sleep_tight (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.30.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.30.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.30.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.30.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.30.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		DripSounds-1.19.4-0.3.2.jar                       |Drip Sounds                   |waterdripsound                |0.3.2               |DONE      |Manifest: NOSIGNATURE
+		screamfromthecold-1.0.2.jar                       |ScreamFromTheCold             |screamfromthecold             |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		FishAnywhere-forge-1.20.1-1.0.1.jar               |FishAnywhere                  |fish_anywhere                 |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		xenon-0.3.19+mc1.20.1.jar                         |Xenon                         |xenon                         |0.3.19+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.4.7.jar                   |GeckoLib 4                    |geckolib                      |4.4.7               |DONE      |Manifest: NOSIGNATURE
+		Nyctophobia_1.6_(FORGE)_for_1.20+.jar             |Nyctophobia                   |nyctophobia                   |1.6                 |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.10.0.40.jar                   |Just Enough Items             |jei                           |15.10.0.40          |DONE      |Manifest: NOSIGNATURE
+		The_Graveyard_3.1_(FORGE)_for_1.20.1.jar          |The Graveyard                 |graveyard                     |3.1                 |DONE      |Manifest: NOSIGNATURE
+		abyssal_decor_1.20.1_0.1.6.jar                    |Abyssal Decor                 |abyssal_decor                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		immersive_weathering-1.20.1-2.0.2-forge.jar       |Immersive Weathering          |immersive_weathering          |1.20.1-2.0.2        |DONE      |Manifest: NOSIGNATURE
+		GeckoLibOculusCompat-Forge-1.0.1.jar              |GeckoLibIrisCompat            |geckoanimfix                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		ForgeEndertech-1.20.1-11.1.4.0-build.0572.jar     |ForgeEndertech                |forgeendertech                |11.1.4.0            |DONE      |Manifest: NOSIGNATURE
+		darkness-forge-1.20.1-2.0.103-fork.jar            |True Darkness                 |darkness                      |2.0.103             |DONE      |Manifest: NOSIGNATURE
+		Clumps-forge-1.20.1-12.0.0.4.jar                  |Clumps                        |clumps                        |12.0.0.4            |DONE      |Manifest: NOSIGNATURE
+		goety-2.5.19.0.jar                                |Goety                         |goety                         |2.5.19.0            |DONE      |Manifest: NOSIGNATURE
+		EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar         |EnhancedVisuals               |enhancedvisuals               |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		Controlling-forge-1.20.1-12.0.2.jar               |Controlling                   |controlling                   |12.0.2              |DONE      |Manifest: NOSIGNATURE
+		zombieawareness-1.20.1-1.13.1.jar                 |Zombie Awareness              |zombieawareness               |1.20.1-1.13.1       |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |DONE      |Manifest: NOSIGNATURE
+		burninthesun-forge-1.20.1-1.7.2.jar               |Burn in the Sun               |burninthesun                  |1.7.2               |DONE      |Manifest: NOSIGNATURE
+		NEW_corpse_stalker(JE)_MC-1.20.1_V-1.0.jar        |cave_dweller                  |cave_dweller                  |1.6.5               |DONE      |Manifest: NOSIGNATURE
+		AdPother-1.20.1-8.1.21.0-build.0782.jar           |Pollution of the Realms       |adpother                      |8.1.21.0            |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |DONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.20.1-1.4.5.jar   |Sound Physics Remastered      |sound_physics_remastered      |1.20.1-1.4.5        |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.2.30-universal.jar                |Forge                         |forge                         |47.2.30             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		stalkercreepers-1.20.1.1.jar                      |Stalker Creepers              |stalkercreepers               |1.20.1.1            |DONE      |Manifest: NOSIGNATURE
+		DistantFriends-forge-1.20.1-0.5.4.jar             |Distant Friends               |distantfriends                |0.5.4               |DONE      |Manifest: NOSIGNATURE
+		thaumon-forge-2.3.0+1.20.1.jar                    |Thaumon                       |thaumon                       |2.3.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		infernalmobs-1.20.1.3.jar                         |Infernal Mobs                 |infernalmobs                  |1.20.1.3            |DONE      |Manifest: NOSIGNATURE
+		sanitydim-mc1.20-1.1.0.jar                        |Sanity: Descent Into Madness  |sanitydim                     |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		Fog-forge-1.1.0-1.20.1.jar                        |Fog                           |fog                           |1.1.0-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		RealisticTorches-1.20.1-3.2.0.jar                 |Realistic Torches             |realistictorches              |1.20.1-3.2.0        |DONE      |Manifest: NOSIGNATURE
+		immersivecaves-1.3.6-forge-1.20.1.jar             |ImmersiveCaves                |immersivecaves                |1.3.5               |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.7.jar             |TerraBlender                  |terrablender                  |3.0.1.7             |DONE      |Manifest: NOSIGNATURE
+		moonlight-1.20-2.12.9-forge.jar                   |Moonlight Library             |moonlight                     |1.20-2.12.9         |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		visual_keybinder-1.20.1 - 0.1.5.jar               |Raw's Visual Keybinder        |visual_keybinder              |1.20.1 - 0.1.5      |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-forge-11.9.4.jar                      |Jade                          |jade                          |11.9.4+forge        |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.11.33_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.11.33             |DONE      |Manifest: NOSIGNATURE
+		sleep_tight-1.20-1.1.19.jar                       |Sleep Tight                   |sleep_tight                   |1.20-1.1.19         |DONE      |Manifest: NOSIGNATURE
+		corgilib-forge-1.20.1-4.0.2.0.jar                 |CorgiLib                      |corgilib                      |4.0.2.0             |DONE      |Manifest: NOSIGNATURE
+		EyesInTheDarkness-1.20.1-1.3.10.jar               |Eyes in the Darkness          |eyesinthedarkness             |1.3.10              |DONE      |Manifest: NOSIGNATURE
+		VoidFog-1.20.1-2.0.23.jar                         |VoidFog                       |voidfog                       |1.20.1-2.0.23       |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.9.1+1.20.1.jar                     |Curios API                    |curios                        |5.9.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.7.0.jar                         |Oculus                        |oculus                        |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		BetterFog-1.20.1-1.2.2.jar                        |Better Fog                    |betterfog                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		the-darkness-will-find-you-1.3.2-forge-1.20.1.jar |The Darkness Will Find You    |the_darkness_will_find_you    |1.3.2               |DONE      |Manifest: NOSIGNATURE
+		Searchables-forge-1.20.1-1.0.3.jar                |Searchables                   |searchables                   |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		Lunar-forge-1.20.1-0.2.0.jar                      |Lunar                         |lunar                         |0.2.0               |DONE      |Manifest: NOSIGNATURE
+		ThirstWasTaken-1.20.1-1.3.9.jar                   |Thirst was Taken              |thirst                        |1.20.1-1.3.9        |DONE      |Manifest: NOSIGNATURE
+		tombstone-1.20.1-8.6.8.jar                        |Corail Tombstone              |tombstone                     |8.6.8               |DONE      |Manifest: NOSIGNATURE
+		coroutil-forge-1.20.1-1.3.7.jar                   |CoroUtil                      |coroutil                      |1.20.1-1.3.7        |DONE      |Manifest: NOSIGNATURE
+		endofherobrine-1.20.1-1.0.8.2.jar                 |The End of Herobrine          |endofherobrine                |1.20.1-1.0.8.2      |DONE      |Manifest: NOSIGNATURE
+		unlitcampfire-forge-1.20.1-1.9.0.3.jar            |Unlit Campfire                |unlitcampfire                 |1.20.1-1.9.0.3      |DONE      |Manifest: NOSIGNATURE
+		nobz-1.0.jar                                      |No Baby Zombies               |nobz                          |1.0                 |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		Spoiled-forge-1.20.1-2.0.4.jar                    |Spoiled                       |spoiled                       |2.0.4               |DONE      |Manifest: NOSIGNATURE
+		visuality-forge-2.0.2.jar                         |Visuality: Reforged           |visuality                     |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		apathy-forge-1.20.1-2.7.1.jar                     |Apathy                        |apathy                        |2.7.1               |DONE      |Manifest: NOSIGNATURE
+		yet-another-config-lib-3.5.0+1.20.1-forge.jar     |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.5.0+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		ColdSweat-2.3-b05a.1.jar                          |Cold Sweat                    |cold_sweat                    |2.3-b05a.1          |DONE      |Manifest: NOSIGNATURE
+		visualoverhaul-forge-5.0.1.jar                    |VisualOverhaul                |visualoverhaul                |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		midnightlib-forge-1.4.2.jar                       |MidnightLib                   |midnightlib                   |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		Celestial Configuration-forge-1.20.1-1.1.1.jar    |Celestial Configuration       |celesteconfig                 |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		Rustility 1.1.jar                                 |Rustility (Rusted and Dusted) |rustility                     |1.0.                |DONE      |Manifest: NOSIGNATURE
+		PresenceFootsteps-1.20.1-1.9.1-beta.1.jar         |Presence Footsteps (Forge)    |presencefootsteps             |1.20.1-1.9.1-beta.1 |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: acda3407-54fb-42af-870e-009680e96c82
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.30

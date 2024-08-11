@@ -11,7 +11,7 @@
 	["Nyctophobia - Biome Config".nyctophobia_weight]
 		#Set weight of the Nyctophobia biomes
 		#Range: 0 ~ 100
-		weight = 50
+		weight = 100
 
 	["Nyctophobia - Biome Config".ancient_dead_coral_reef]
 		#Allow the biome to spawn: 

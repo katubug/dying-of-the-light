@@ -1,14 +1,14 @@
 {
   "messages": {
     "deathMessages": [
-      "It's okay. This happens sometimes. Pick yourself up and try again.",
+      "It\u0027s okay. This happens sometimes. Pick yourself up and try again.",
       "YOU DIED.",
       "Are you okay? Can you hear me?",
       "You deserved better than this.",
-      "I'm so sorry for your loss.",
+      "I\u0027m so sorry for your loss.",
       "Hello? Are you there?",
       "Wake up. Please, wake up. We need you.",
-      "I'll miss you..."
+      "I\u0027ll miss you..."
     ],
     "enabled": true
   }

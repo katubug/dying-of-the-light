@@ -1,9 +1,9 @@
-[15:23:22] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[15:23:22] [INIT] Loaded plugins:
-[15:23:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:23:22] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:23:22] [INFO] Loaded script server_scripts:eel_bait.js in 0.001 s
-[15:23:22] [INFO] Loaded 1/1 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
-[15:23:22] [INFO] Scripts loaded
-[15:23:24] [INFO] [minecraft:block] Found 521 tags, added 48 objects, removed 0 objects
-[15:23:26] [INFO] Server resource reload complete!
+[11:15:45] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[11:15:45] [INIT] Loaded plugins:
+[11:15:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:15:45] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:15:45] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
+[11:15:45] [INFO] Loaded 1/1 KubeJS server scripts in 0.004 s with 0 errors and 0 warnings
+[11:15:45] [INFO] Scripts loaded
+[11:15:45] [INFO] [minecraft:block] Found 463 tags, added 48 objects, removed 0 objects
+[11:15:46] [INFO] Server resource reload complete!

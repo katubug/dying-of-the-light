@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "wip"
+	group: ""
+	id: "7936A79D89F5088A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "66919E816F79F444"
+			tasks: [{
+				id: "046B41B65CE552C6"
+				item: "starmetal:star_metal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "24801BAFD3C388D5"
+			tasks: [{
+				id: "2562FC48840C6085"
+				item: "zombie_fabrics:fabric"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+	]
+	title: "WIP"
+}

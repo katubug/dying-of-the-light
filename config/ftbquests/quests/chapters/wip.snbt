@@ -28,6 +28,34 @@
 			x: -4.0d
 			y: -5.0d
 		}
+		{
+			description: ["My torch went out when I broke it! I guess that means I can't trust them to stay lit forever."]
+			id: "5404ADB50CF3002A"
+			rewards: [
+				{
+					id: "531ED61BD9C49E52"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "77C0714C2D0F6267"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			subtitle: "oh, whoops"
+			tasks: [{
+				block: "minecraft:torch"
+				block_type: 0
+				checkItem: false
+				id: "08E394A198EFEEDB"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Turn Out The Light"
+			x: -6.5d
+			y: -7.0d
+		}
 	]
 	title: "WIP"
 }

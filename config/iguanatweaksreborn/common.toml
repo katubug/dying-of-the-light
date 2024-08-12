@@ -508,11 +508,11 @@
 	#Changes Gold tools to have an innate Fortune/Looting I and changes the harvest level to be like stone tools
 	"Enable Gold" = true
 	#Various mining changes
-	"Enable Misc" = true
+	"Enable Misc" = false
 	#Various changes for different materials and ores.
-	"Enable Materials and ores" = true
+	"Enable Materials and ores" = false
 	#Change blocks hardness. Dimension Hardness, Depth Hardness and Custom Hardness are controlled via json in this feature's folder
-	"Enable Block Hardness" = true
+	"Enable Block Hardness" = false
 
 	#Various mining changes
 	[Mining.Misc]
@@ -535,13 +535,13 @@
 
 	#Various changes for different materials and ores.
 	[Mining."Materials and ores"]
-		"Ore generation Overhaul" = true
+		"Ore generation Overhaul" = false
 		#https://minecraft.wiki/w/Ore_vein
-		"Disable Ore Veins" = true
+		"Disable Ore Veins" = false
 		#Enables the following changes to vanilla data pack:
 		#* Stone (Broken with a non Silk-Touch tool) can drop Iron Nuggets
 		#* Silverfish can drop Iron Nuggets
-		"Farmable Iron data pack" = true
+		"Farmable Iron data pack" = false
 		#Enables the following changes to vanilla data pack:
 		#* Smelting copper in a furnace takes 2x time
 		#* Smelting Iron in a Furnace takes 4x time, and 2x time in a blast furnace
@@ -591,30 +591,30 @@
 
 ["Hunger & Health"]
 	#Remove hunger and get back to the Beta 1.7.3 days
-	"Enable No Hunger" = true
+	"Enable No Hunger" = false
 	#Make the player consume more hunger with different actions. If hunger is disabled, still works for Tiredness.
 	"Enable Exhaustion Increase" = true
 	#Makes Health regen work differently, similar to Combat Test snapshots. Can be customized. Hunger related stuff doesn't work (for obvious reasons) if No Hunger feature is enabled
-	"Enable Hunger Health Regen" = true
+	"Enable Hunger Health Regen" = false
 	#Changes to food nourishment and the speed on how food is eaten or how items are consumed. Custom Food Properties are controlled via json in this feature's folder. Removing entries from the json requires a minecraft restart.
 	"Enable Foods & Drinks" = true
 
 	#Remove hunger and get back to the Beta 1.7.3 days
 	["Hunger & Health"."No Hunger"]
 		#If true, Hunger effect is replaced by Weakness
-		"Convert Hunger to Weakness" = true
+		"Convert Hunger to Weakness" = false
 		#If true, Saturation effect is replaced by Haste
-		"Convert Saturation to Haste" = true
+		"Convert Saturation to Haste" = false
 		#Make cakes restore 40% missing health
 		"Buff cakes" = true
 		#(Client Only) If enabled, Foods will show "Snack" when the food instantly heals and "Meal" when the food heals over time. If advanced tooltips are enabled, the food will show how much it restores
 		"Food tooltip" = true
 		#(Client Only) Armor is rendered in the place of Hunger bar
-		"Render armor at Hunger" = true
+		"Render armor at Hunger" = false
 
 		["Hunger & Health"."No Hunger"."Passive Health Regen"]
 			#If true, Passive Regeneration is enabled
-			Enable = false
+			Enable = true
 
 			#Min represents how many ticks the regeneration of 1 HP takes when health is 100%, Max how many ticks when health is 0%
 			["Hunger & Health"."No Hunger"."Passive Health Regen"."Regen Speed"]

@@ -1,7 +1,7 @@
-[11:08:33] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[11:08:33] [INIT] Loaded plugins:
-[11:08:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:08:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:08:35] [INFO] Loaded script startup_scripts:items.js in 0.325 s
-[11:08:35] [INFO] Loaded script startup_scripts:safety_item.js in 0.014 s
-[11:08:35] [INFO] Loaded 2/2 KubeJS startup scripts in 1.513 s with 0 errors and 0 warnings
+[18:34:26] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[18:34:26] [INIT] Loaded plugins:
+[18:34:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:34:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:34:27] [INFO] Loaded script startup_scripts:items.js in 0.14 s
+[18:34:27] [INFO] Loaded script startup_scripts:safety_item.js in 0.01 s
+[18:34:27] [INFO] Loaded 2/2 KubeJS startup scripts in 0.866 s with 0 errors and 0 warnings

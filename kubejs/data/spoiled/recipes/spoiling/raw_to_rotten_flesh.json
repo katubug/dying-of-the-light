@@ -1,0 +1,23 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+            "type": "spoiled:initialize_spoiling"
+          }
+        ],
+        "recipe": {
+          "type": "spoiled:spoil_recipe",
+          "ingredient": {
+            "tag": "forge:raw_to_rotten_flesh"
+          },
+          "result": {
+            "item": "minecraft:rotten_flesh",
+            "count": 1
+            },
+          "spoilTime":30
+        }
+      }
+    ]
+  }

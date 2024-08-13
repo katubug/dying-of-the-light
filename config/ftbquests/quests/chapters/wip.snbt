@@ -54,7 +54,7 @@
 			}]
 			title: "Turn Out The Light"
 			x: -6.0d
-			y: -10.5d
+			y: -10.0d
 		}
 		{
 			description: ["I'm so thirsty. I feel like I haven't drunk water in years... &aI don't think my health will restore unless I drink something&r."]
@@ -94,23 +94,49 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -12.0d
+			y: -14.0d
 		}
 		{
-			id: "5757BE12AAE3744C"
+			id: "52943FA26BF052A6"
+			tasks: [{
+				id: "25C093507200906C"
+				nbt: {
+					sanity.sanity: 0.4214531f
+				}
+				type: "questsadditions:playernbt"
+			}]
+			x: -16.0d
+			y: -10.5d
+		}
+		{
+			id: "70C4D165904E1E9F"
+			tasks: [{
+				icon: "minecraft:light"
+				id: "3B971295600AEB91"
+				stage: "sun_warning"
+				title: "The Sun"
+				type: "gamestage"
+			}]
+			title: "The Sun is Not Your Friend"
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			id: "7AF5557D687143FD"
 			rewards: [{
-				count: 4
-				id: "2ECD86D611126B87"
-				item: "betternethermap:variablemap"
+				id: "24991DE0F40990F0"
+				item: "legendarysurvivaloverhaul:bandage"
 				type: "item"
 			}]
 			tasks: [{
-				id: "223CFEEC90BD77A6"
-				item: "minecraft:map"
-				type: "item"
+				icon: "legendarysurvivaloverhaul:bandage"
+				id: "0CA2CD030D79DA7D"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 100
 			}]
-			x: -6.0d
-			y: -7.0d
+			x: -4.5d
+			y: -12.5d
 		}
 	]
 	title: "WIP"

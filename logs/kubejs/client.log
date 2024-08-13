@@ -1,7 +1,7 @@
-[13:33:34] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[13:33:34] [INIT] Loaded plugins:
-[13:33:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:33:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:33:34] [INFO] Loaded script client_scripts:jeihide.js in 0.002 s
-[13:33:34] [INFO] Loaded 1/1 KubeJS client scripts in 0.018 s with 0 errors and 0 warnings
-[13:33:39] [INFO] Client resource reload complete!
+[15:47:54] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[15:47:54] [INIT] Loaded plugins:
+[15:47:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:47:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:47:54] [INFO] Loaded script client_scripts:jeihide.js in 0.002 s
+[15:47:54] [INFO] Loaded 1/1 KubeJS client scripts in 0.017 s with 0 errors and 0 warnings
+[15:47:58] [INFO] Client resource reload complete!

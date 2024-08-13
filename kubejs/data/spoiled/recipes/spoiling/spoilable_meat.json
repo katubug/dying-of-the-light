@@ -1,0 +1,24 @@
+
+{
+    "type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+            "type": "spoiled:initialize_spoiling"
+          }
+        ],
+        "recipe": {
+          "type": "spoiled:spoil_recipe",
+          "ingredient": {
+            "tag": "forge:spoilable_meat"
+          },
+          "result": {
+            "item": "kubejs:rotten_ichor",
+            "count": 1
+            },
+          "spoilTime":40
+        }
+      }
+    ]
+  }

@@ -6,7 +6,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Show Config Button" = true
+	"Boolean: Show Config Button" = false
 
 [Menus]
 	#

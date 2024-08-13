@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values": [
+        "cursery:curse_switchy",
+        "cursery:curse_undead",
+        "extra_enchantments:frenzy",
+        "extra_enchantments:freezing_aspect",
+        "extra_enchantments:spectral_vision",
+        "extra_enchantments:enigma_resonator",
+        "extra_enchantments:resonating_shot",
+        "extra_enchantments:undead_curse",
+        "extra_enchantments:nausea_curse",
+        "cursery:curse_laddering",
+        "naturesaura:aura_mending",
+        "cursery:curse_explosive",
+        "cursery:curse_loose",
+        "glowroot:glowrooted",
+        "glowroot:red_light",
+        "glowroot:yellow_light",
+        "cursery:curse_anvil",
+        "improved_damage:durable"
+    ]
+  }
+
+
+
+  

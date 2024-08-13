@@ -15,7 +15,7 @@
 				item: "starmetal:star_metal"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -25,8 +25,8 @@
 				item: "zombie_fabrics:fabric"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -4.5d
+			y: -11.0d
 		}
 		{
 			description: ["My torch went out when I broke it! I guess that means I can't trust them to stay lit forever."]
@@ -53,7 +53,63 @@
 				value: 1L
 			}]
 			title: "Turn Out The Light"
-			x: -6.5d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			description: ["I'm so thirsty. I feel like I haven't drunk water in years... &aI don't think my health will restore unless I drink something&r."]
+			id: "0AC26D0E563DF0EF"
+			rewards: [{
+				id: "060417F4A34A6DDD"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5570347E9C118F28"
+				title: "Thirsty?"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"I don't know where I... am. I don't know where... we... are? I'm finding it hard to think. I feel... &dfragile&r."
+				""
+				"It's too quiet, here. It is unnerving."
+				""
+				"And the sun! It's huge... it &dhurts my skin&r. I'd better &6stay underground during the day&r, for now."
+			]
+			id: "0A981F6115A5041A"
+			tasks: [{
+				id: "2A36D43ECC51AC61"
+				title: "The Entry Point"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			id: "5757BE12AAE3744C"
+			rewards: [{
+				count: 4
+				id: "2ECD86D611126B87"
+				item: "betternethermap:variablemap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "223CFEEC90BD77A6"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			x: -6.0d
 			y: -7.0d
 		}
 	]

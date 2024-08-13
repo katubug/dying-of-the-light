@@ -17,10 +17,10 @@
 		passive = 0.0
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
-		raining = 0.1
+		raining = 0.0
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
-		hunger_threshold = 8
+		hunger_threshold = 15
 		#Players with food levels at and below <hunger_threshold> gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
 		hungry = -0.2
@@ -65,7 +65,7 @@
 		#Supports boolean block state properties (can be omitted together with brackets)
 		#Prefix with TAG_ and follow with a tag registry name to define all blocks with the tag
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds; needs testing
-		blocks = ["minecraft:campfire[lit=true];0.1;4;false"]
+		blocks = ["minecraft:campfire[lit=true];0.1;4;false", "minecraft:campfire[lit=true];0.1;4;false", "chimes:bamboo_chimes;0.1;4;false", "chimes:iron_chimes;0.1;4;false", "chimes:carved_bamboo_chimes;0.1;4;false", "chimes:copper_chimes;0.1;4;false", "chimes:amethyst_chimes;0.1;4;false"]
 
 	#Configuration for active sanity sources
 	[sanity.active]
@@ -102,7 +102,7 @@
 		pet_death = -60.0
 		#Players gain this amount of sanity upon successfully trading with a villager
 		#Range: -100.0 ~ 100.0
-		villager_trade = 10.0
+		villager_trade = 5.0
 		#Villager trade cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		villager_trade_cd = 600.0
@@ -144,7 +144,7 @@
 		#Where A is how much sanity is gained upon usage and B is a custom category
 		#Items with the same categories share the same cooldown
 		#The sanity gained will be multiplied by (timeSinceLastUsage / categoryCooldown) capping at 1.0
-		items = ["minecraft:pufferfish;-5;0", "minecraft:poisonous_potato;-5;0", "minecraft:spider_eye;-5;0", "minecraft:rotten_flesh;-5;0", "minecraft:chorus_fruit;-3;0", "minecraft:ender_pearl;-1;0", "minecraft:honey_bottle;6;1", "minecraft:golden_carrot;7;1", "minecraft:golden_apple;8;1", "minecraft:enchanted_golden_apple;13;1"]
+		items = ["minecraft:pufferfish;-5;0", "minecraft:poisonous_potato;-5;0", "minecraft:spider_eye;-5;0", "minecraft:rotten_flesh;-5;0", "minecraft:chorus_fruit;-3;0", "minecraft:ender_pearl;-1;0", "minecraft:honey_bottle;6;1", "minecraft:golden_carrot;7;1", "minecraft:golden_apple;8;1", "minecraft:enchanted_golden_apple;13;1", "minecraft:mutton;-5;0", "minecraft:cooked_porkchop;-5;0", "minecraft:porkchop;-5;0", "minecraft:cooked_beef;-5;0", "minecraft:beef;-5;0", "minecraft:rabbit;-5;0", "minecraft:cooked_chicken;-5;0", "minecraft:cooked_rabbit;-5;0", "minecraft:chicken;-5;0", "minecraft:cooked_mutton;-5;0", "farmersrespite:long_apple_cider;5;0", "farmersrespite:strong_green_tea;5;0", "farmersrespite:strong_hot_cocoa;5;0", "farmersrespite:long_rose_hip_tea;5;0", "farmersrespite:long_black_tea;5;0", "farmersrespite:long_yellow_tea;5;0", "farmersrespite:long_green_tea;5;0", "farmersrespite:gamblers_tea;5;0", "farmersrespite:purulent_tea;5;0", "farmersdelight:fruit_salad;5;0", "farmersdelight:glow_berry_custard;5;0", "farmersrespite:dandelion_tea;5;0", "farmersrespite:rose_hip_tea;5;0", "farmersrespite:black_tea;5;0", "farmersrespite:yellow_tea;5;0", "farmersrespite:green_tea;5;0", "farmersdelight:hot_cocoa;5;0", "farmersrespite:long_dandelion_tea;5;0", "farmersrespite:strong_yellow_tea;5;0", "farmersrespite:strong_black_tea;5;0", "farmersrespite:strong_rose_hip_tea;5;0", "farmersrespite:strong_apple_cider;5;0", "farmersrespite:strong_melon_juice;5;0", "minecraft:glistering_melon_slice;5;0", "farmersdelight:apple_cider;5;0", "farmersdelight:melon_juice;5;0", "butcher:sirloin_steak;-5;0", "butcher:raw_sirloin_steak;-5;0", "butcher:rib_steak;-5;0", "butcher:cookedmincebeef;-5;0", "butcher:raw_ribeye_steak;-5;0", "butcher:raw_pork_loin;-5;0", "butcher:pork_belly;-5;0", "butcher:raw_pork_belly;-5;0", "butcher:pork_leg;-5;0", "butcher:raw_rump_steak;-5;0", "butcher:rump_steak;-5;0", "butcher:raw_pork_leg;-5;0", "butcher:ham;-5;0", "butcher:raw_pork_ham;-5;0", "butcher:pork_shoulder;-5;0", "butcher:raw_pork_shoulder;-5;0", "butcher:pork_loin;-5;0", "butcher:villager_meat;-20;0", "butcher:cookedmincedlamb;-5;0", "butcher:mincedlamb;-8;0", "butcher:lamb_loin;-8;0", "butcher:rawlambloin;-8;0", "butcher:leg_of_lamb;-8;0", "butcher:raw_leg_of_lamb;-8;0", "butcher:lamb_shoulder;-8;0", "butcher:raw_lamb_shoulder;-8;0", "butcher:lamb_sirloin;-8;0", "butcher:raw_lamb_sirloin;-8;0", "butcher:cooked_lamb_rib;-8;0", "butcher:lambrib;-8;0", "butcher:mincedbeef;-5;0", "butcher:tbonesteak;-5;0", "butcher:raw_tbone_steak;-5;0", "butcher:raw_chuck_steak;-5;0", "butcher:chuck_steak;-5;0", "butcher:hoglinmeat;-5;0", "butcher:cookedhoglinmeat;-5;0", "butcher:turtle_meat;-10;0", "butcher:cookedturtlemeat;-10;0", "butcher:frogsleg;-5;0", "butcher:cooked_green_frogs_leg;-5;0", "butcher:rawpandameat;-20;0", "butcher:llamameat;-5;0", "butcher:porkscratchings;-5;0", "butcher:rawllamameat;-5;0", "butcher:foxmeat;-15;0", "butcher:rawfoxmeat;-15;0", "butcher:cookedbatmeat;-5;0", "butcher:batmeat;-5;0", "butcher:cooked_orange_frog_leg;-5;0", "butcher:cooked_villager_meat;-20;0", "butcher:pandameat;-20;0", "butcher:rawbearmeat;-5;0", "butcher:bearmeat;-5;0", "farmersdelight:smoked_ham;-5;0", "butcher:frog_heart;-10;0", "butcher:villagerbrain;-50;0", "butcher:rawcamelmeat;-5;0", "butcher:dolphinmeat;-20;0", "butcher:rawdolphinmeat;-20;0", "butcher:orange_frog_leg;-5;0", "butcher:cooked_gray_frog_leg;-5;0", "butcher:gray_frog_leg;-5;0", "farmersdelight:pasta_with_meatballs;-5;0", "farmersdelight:pasta_with_mutton_chop;-5;0", "farmersdelight:roast_chicken;-5;0", "farmersdelight:shepherds_pie;-5;0", "farmersdelight:roasted_mutton_chops;-5;0", "farmersdelight:steak_and_potatoes;-5;0", "farmersdelight:honey_glazed_ham;-5;0", "farmersrespite:strong_coffee;-5;0", "farmersrespite:long_coffee;-5;0", "farmersdelight:bacon_and_eggs;-5;0", "farmersdelight:beef_stew;-5;0", "farmersdelight:nether_salad;-5;0", "farmersdelight:barbecue_stick;-5;0", "farmersdelight:chicken_sandwich;-5;0", "farmersdelight:hamburger;-5;0", "farmersdelight:bacon_sandwich;-5;0", "farmersdelight:mutton_wrap;-5;0", "farmersdelight:chicken_soup;-5;0", "farmersdelight:minced_beef;-5;0", "farmersdelight:beef_patty;-5;0", "farmersdelight:chicken_cuts;-5;0", "farmersdelight:cooked_chicken_cuts;-5;0", "farmersdelight:bacon;-5;0", "farmersdelight:cooked_bacon;-5;0", "farmersdelight:mutton_chops;-5;0", "farmersdelight:cooked_mutton_chops;-5;0", "farmersdelight:ham;-5;0", "farmersrespite:gamblers_tea;-5;0", "farmersrespite:purulent_tea;-5;0", "farmersrespite:coffee;-5;0", "farmersrespite:strong_gamblers_tea;-5;0", "farmersrespite:strong_purulent_tea;-5;0", "farmersrespite:long_gamblers_tea;-5;0", "farmersrespite:long_purulent_tea;-5;0"]
 		#Define a list of custom categories for items specified in <items>
 		#A category should be included as follows: A;B
 		#Where A is a category id (integer) and B is a cooldown (in seconds) all items in this category share

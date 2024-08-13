@@ -146,14 +146,14 @@
 	#"event", "conversion", "reinforcement", "triggered", "bucket", "spawn_egg", "command", "dispenser", and "patrol".
 	#More documentation for exactly what these do is on the wiki.
 	#Default: 
-	spawnTypeSet = ""
+	spawnTypeSet = "spawner"
 	#What happens to mobs spawned with a method included in spawnTypeSet?
 	#May be one of:
 	#allow - The mob is allowed to attack the player.
 	#deny  - The mob is not allowed to attack the player.
 	#pass  - Defer to the next rule.
 	#Default: pass
-	spawnTypeIncluded = "pass"
+	spawnTypeIncluded = "allow"
 	#What happens to mobs that were *not* spawned with a method included in spawnTypeSet?
 	#May be one of:
 	#allow - The mob is allowed to attack the player.
@@ -172,7 +172,7 @@
 	#     Make of that information what you will ;)
 	#Default: -1
 	#Range: -9223372036854775808 ~ 9223372036854775807
-	revengeTimer = -1
+	revengeTimer = 1200
 
 ["Last Resort Rule"]
 	#If absolutely none of the previous rules applied, what happens?

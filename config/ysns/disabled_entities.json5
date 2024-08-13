@@ -1,0 +1,88 @@
+{
+  // ----------------------------------------------------------------------------------------------------------------
+  //                                     You Shall Not Spawn by ElocinDev.
+  //                                          disabled_entities.json5
+  // ----------------------------------------------------------------------------------------------------------------
+  //  
+  // Here you can disable entities from spawning globally, with no exceptions.
+  // Format: "modid:entity_name"
+  // Example: "minecraft:zombie"
+  //  
+  // Note: As a more advanced method, you can use regex by starting the entry with !
+  // Format: "!{Regular expression}"
+  // Example: "!minecraft:.*" will disable all entities from minecraft. (NOT RECOMMENDED, JUST AN EXAMPLE)
+  //  
+  "disabled": [
+    "boh:ben_drowned",
+    "boh:jeff_the_killer",
+    "boh:siren_head",
+    "boh:pyramid_head",
+    "boh:saw_runner",
+    "boh:xenomorph",
+    "boh:facehugger",
+    "boh:chestburster",
+    "boh:lifeform",
+    "boh:slender_man",
+    "boh:demogorgon",
+    "boh:gold_lost",
+    "boh:gold_hostile",
+    "boh:unown_1",
+    "boh:unown_2",
+    "boh:unown_3",
+    "boh:unown_4",
+    "boh:unown_5",
+    "boh:unown_6",
+    "boh:unown_7",
+    "boh:unown_8",
+    "boh:unown_9",
+    "boh:unown_10",
+    "boh:unown_11",
+    "boh:unown_12",
+    "boh:unown_13",
+    "boh:unown_14",
+    "boh:unown_15",
+    "boh:rake",
+    "boh:michael_davies",
+    "boh:smile_dog",
+    "boh:neco_arc",
+    "boh:decoy_dog",
+    "boh:springtrap",
+    "boh:ao_oni",
+    "boh:rexy",
+    "boh:sonic_exe",
+    "boh:exe_monitor",
+    "boh:herobrine",
+    "boh:six",
+    "boh:james_sunderland",
+    "boh:gray_alien",
+    "boh:saucer",
+    "boh:sotiris",
+    "boh:souichi",
+    "boh:simonhenriksson",
+    "boh:book_simon",
+    "boh:michael_myers",
+    "boh:eyeless_jack",
+    "boh:wendigo",
+    "boh:nemesis",
+    "boh:jason_voorhees",
+    "boh:jason_mask",
+    "boh:goji",
+    "boh:light_head",
+    "boh:deer",
+    "boh:deer_mimic",
+    "boh:granny",
+    "boh:real_deer",
+    "boh:red",
+    "boh:crucifix_projectile",
+    "boh:sadako",
+    "boh:entity_well",
+    "boh:specimen_9_boss",
+    "boh:taken_pillar",
+    "boh:taken_hands",
+    "boh:blood_spill",
+    "boh:torment_pyramid",
+    "boh:wf_pistol_projectile"
+  ],
+  // Don't touch this!
+  "CONFIG_VERSION": 1
+}

@@ -407,6 +407,21 @@
       },
       "particlesPerDamage": 1
     },
+    "thirst": {
+      "enabled": true,
+      "opacity": 1.0,
+      "defaultIntensity": 0,
+      "maxIntensity": 5,
+      "fadeFactor": 0.05000000074505806,
+      "thirstLevel": {
+        "min": 2,
+        "max": 8
+      },
+      "focus": {
+        "disabled": false,
+        "opacity": 1.0
+      }
+    },
     "temperature": {
       "enabled": true,
       "opacity": 1.0,

@@ -38,8 +38,14 @@
 					xp: 500
 				}
 				{
-					id: "77C0714C2D0F6267"
-					item: "minecraft:torch"
+					id: "09499D4BDC70CC65"
+					item: {
+						Count: 1
+						id: "realistictorches:matchbox"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -57,7 +63,11 @@
 			y: -10.0d
 		}
 		{
-			description: ["I'm so thirsty. I feel like I haven't drunk water in years... &aI don't think my health will restore unless I drink something&r."]
+			description: [
+				"I'm so thirsty. I feel like I haven't tasted water in years..."
+				""
+				"&aI don't think my health will restore unless I keep hydrated&r. But I don't want to drink just any water; I'd better &6boil it to purity&r first."
+			]
 			id: "0AC26D0E563DF0EF"
 			rewards: [{
 				id: "060417F4A34A6DDD"
@@ -84,8 +94,6 @@
 				"I don't know where I... am. I don't know where... we... are? I'm finding it hard to think. I feel... &dfragile&r."
 				""
 				"It's too quiet, here. It is unnerving."
-				""
-				"And the sun! It's huge... it &dhurts my skin&r. I'd better &6stay underground during the day&r, for now."
 			]
 			id: "0A981F6115A5041A"
 			tasks: [{
@@ -109,6 +117,11 @@
 			y: -10.5d
 		}
 		{
+			description: [
+				"Oh hell, what's wrong with the sun? It's &ahuge&r, and it &dhurts my skin&r. I guess I'd better &6stay underground while the sun's out&r. For now, anyway."
+				""
+				"Maybe I'll be &asafe if it's raining&r."
+			]
 			id: "70C4D165904E1E9F"
 			tasks: [{
 				icon: "minecraft:light"
@@ -122,10 +135,15 @@
 			y: -12.5d
 		}
 		{
+			description: [
+				"Ouch! That really stings... &dMy body feels wrong&r. Like each of my limbs is its own... being? I'd better focus on &akeeping all my parts healthy&r."
+				""
+				"Come on, think. I know some &bherbs&r are supposed to be medicinal? And I know how to &amake &bBandages&r from cloth. What else can I remember...?"
+			]
 			id: "7AF5557D687143FD"
 			rewards: [{
-				id: "24991DE0F40990F0"
-				item: "legendarysurvivaloverhaul:bandage"
+				id: "58EC883AC55D5B2C"
+				item: "legendarysurvivaloverhaul:plaster"
 				type: "item"
 			}]
 			tasks: [{
@@ -137,6 +155,73 @@
 			}]
 			x: -4.5d
 			y: -12.5d
+		}
+		{
+			dependencies: ["7AF5557D687143FD"]
+			id: "32B876742F70A603"
+			rewards: [{
+				id: "24343C150F133C70"
+				item: "legendarysurvivaloverhaul:tonic"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26436C3D93E2244D"
+					item: "legendarysurvivaloverhaul:healing_herbs"
+					type: "item"
+				}
+				{
+					id: "573DC764741D5612"
+					item: "legendarysurvivaloverhaul:bandage"
+					type: "item"
+				}
+				{
+					id: "495D8C846CA16DB4"
+					item: "legendarysurvivaloverhaul:medikit"
+					type: "item"
+				}
+			]
+			title: "Healing Items"
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"Even despite everything, I still find myself wanting something to pass the time. I think if I could &afocus on something productive&r, it would help me to &akeep my wits about me&r."
+				""
+				"I used to love fishing, as a kid. I think I'll &6make myself a &bFishing Rod&r."
+				""
+				"I've seen fish in a &asurprising amount of places&r, I wonder if they &acan live in any water&r."
+			]
+			id: "085671CEEECD2D16"
+			rewards: [{
+				id: "52A3B9F055B1F0C8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:lure"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FA3F5375E5C1EE3"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "I Need a Pasttime"
+			x: -6.0d
+			y: -8.0d
 		}
 	]
 	title: "WIP"

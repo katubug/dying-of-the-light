@@ -209,5 +209,41 @@
       "effect": "",
       "nbt": {}
     }
+  ],
+  "crockpot:tea": [
+    {
+      "hydration": 2,
+      "saturation": 2.0,
+      "effectChance": 0.0,
+      "effect": "",
+      "nbt": {}
+    }
+  ],
+  "crockpot:veg_stinger": [
+    {
+      "hydration": 3,
+      "saturation": 2.0,
+      "effectChance": 0.05,
+      "effect": "legendarysurvivaloverhaul:thirst",
+      "nbt": {}
+    }
+  ],
+  "crockpot:iced_tea": [
+    {
+      "hydration": 6,
+      "saturation": 2.0,
+      "effectChance": 0.0,
+      "effect": "",
+      "nbt": {}
+    }
+  ],
+  "crockpot:gazpacho": [
+    {
+      "hydration": 3,
+      "saturation": 2.0,
+      "effectChance": 0.0,
+      "effect": "",
+      "nbt": {}
+    }
   ]
 }

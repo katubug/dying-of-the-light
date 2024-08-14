@@ -81,7 +81,24 @@
     "boh:taken_hands",
     "boh:blood_spill",
     "boh:torment_pyramid",
-    "boh:wf_pistol_projectile"
+    "boh:wf_pistol_projectile",
+    "born_in_chaos_v1:skeleton_thrasher",
+    "born_in_chaos_v1:door_knight",
+    "born_in_chaos_v1:fallen_chaos_knight",
+    "born_in_chaos_v1:zombie_bruiser",
+    "born_in_chaos_v1:phantom_creeper",
+    "born_in_chaos_v1:phantom_creeper_copy",
+    "born_in_chaos_v1:zombie_lumberjack",
+    "born_in_chaos_v1:zombie_clown",
+    "born_in_chaos_v1:maggot",
+    "born_in_chaos_v1:corpse_fly",
+    "born_in_chaos_v1:bloody_gadfly",
+    "born_in_chaos_v1:skeleton_demoman",
+    "born_in_chaos_v1:door_knight_not_despawn",
+    "born_in_chaos_v1:skeleton_thrasher_not_despawn",
+    "born_in_chaos_v1:zombie_clown_not_despawn",
+    "born_in_chaos_v1:decaying_zombie_not_despawn",
+    "born_in_chaos_v1:bonescaller_not_despawn"
   ],
   // Don't touch this!
   "CONFIG_VERSION": 1

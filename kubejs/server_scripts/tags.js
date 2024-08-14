@@ -130,6 +130,26 @@ ServerEvents.tags('item', event => {
         'minecraft:cooked_chicken', 
         'minecraft:cooked_mutton'
     )
+
+    event.add(
+        'forge:picnic_baskets',
+        'muffins_picnic:white_picnic_basket',
+        'muffins_picnic:light_gray_picnic_basket',
+        'muffins_picnic:gray_picnic_basket',
+        'muffins_picnic:black_picnic_basket',
+        'muffins_picnic:brown_picnic_basket',
+        'muffins_picnic:red_picnic_basket',
+        'muffins_picnic:orange_picnic_basket',
+        'muffins_picnic:yellow_picnic_basket',
+        'muffins_picnic:lime_picnic_basket',
+        'muffins_picnic:green_picnic_basket',
+        'muffins_picnic:cyan_picnic_basket',
+        'muffins_picnic:light_blue_picnic_basket',
+        'muffins_picnic:blue_picnic_basket',
+        'muffins_picnic:purple_picnic_basket',
+        'muffins_picnic:magenta_picnic_basket',
+        'muffins_picnic:pink_picnic_basket'
+    )
 })
 
 

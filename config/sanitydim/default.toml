@@ -144,30 +144,7 @@
 		#Where A is how much sanity is gained upon usage and B is a custom category
 		#Items with the same categories share the same cooldown
 		#The sanity gained will be multiplied by (timeSinceLastUsage / categoryCooldown) capping at 1.0
-		items = ["minecraft:pufferfish;-5;0", "minecraft:poisonous_potato;-5;0", "minecraft:spider_eye;-5;0", "minecraft:rotten_flesh;-5;0", "minecraft:chorus_fruit;-3;0", "minecraft:ender_pearl;-1;0", "minecraft:honey_bottle;6;1", "minecraft:golden_carrot;7;1", "minecraft:golden_apple;8;1", "minecraft:enchanted_golden_apple;13;1", "minecraft:mutton;-5;0", "minecraft:cooked_porkchop;-5;0", "minecraft:porkchop;-5;0", "minecraft:cooked_beef;-5;0", "minecraft:beef;-5;0", "minecraft:rabbit;-5;0", "minecraft:cooked_chicken;-5;0", "minecraft:cooked_rabbit;-5;0", "minecraft:chicken;-5;0", "minecraft:cooked_mutton;-5;0", "crockpot:hoglin_nose;-3;0", 
-"crockpot:honey_nuggets;-5;0", 
-"crockpot:honey_ham;-5;0", 
-"crockpot:hot_chili;-5;0", 
-"crockpot:meat_balls;-3;0", 
-"crockpot:bone_soup;-5;0", 
-"crockpot:bone_stew;-5;0", 
-"crockpot:froggle_bunwich;-5;0", 
-"crockpot:bunny_stew;-5;0", 
-"crockpot:kabobs;-2;0", 
-"crockpot:surf_n_turf;-5;0", 
-"crockpot:turkey_dinner;-5;0", 
-"crockpot:bacon_eggs;-5;0", 
-"crockpot:frog_legs;-3;0", 
-"crockpot:cooked_frog_legs;-2;0", 
-"crockpot:cooked_hoglin_nose;-2;0", 
-"crockpot:iced_tea;2;1", 
-"crockpot:tea;5;1", 
-"minecraft:glistering_melon_slice;10;1", 
-"crockpot:hot_cocoa;5;1", 
-"crockpot:ice_cream;10;1",
-"crockpot:monster_tartare;-10;0", 
-"crockpot:monster_lasagna;-10;0", 
-"crockpot:potato_tornado;-10;0",]
+		items = ["minecraft:pufferfish;-5;0", "minecraft:poisonous_potato;-5;0", "minecraft:spider_eye;-5;0", "minecraft:rotten_flesh;-5;0", "minecraft:chorus_fruit;-3;0", "minecraft:ender_pearl;-1;0", "minecraft:honey_bottle;6;1", "minecraft:golden_carrot;7;1", "minecraft:golden_apple;8;1", "minecraft:enchanted_golden_apple;13;1", "minecraft:mutton;-5;0", "minecraft:cooked_porkchop;-5;0", "minecraft:porkchop;-5;0", "minecraft:cooked_beef;-5;0", "minecraft:beef;-5;0", "minecraft:rabbit;-5;0", "minecraft:cooked_chicken;-5;0", "minecraft:cooked_rabbit;-5;0", "minecraft:chicken;-5;0", "minecraft:cooked_mutton;-5;0", "crockpot:hoglin_nose;-3;0", "crockpot:honey_nuggets;-5;0", "crockpot:honey_ham;-5;0", "crockpot:hot_chili;-5;0", "crockpot:meat_balls;-3;0", "crockpot:bone_soup;-5;0", "crockpot:bone_stew;-5;0", "crockpot:froggle_bunwich;-5;0", "crockpot:bunny_stew;-5;0", "crockpot:kabobs;-2;0", "crockpot:surf_n_turf;-5;0", "crockpot:turkey_dinner;-5;0", "crockpot:bacon_eggs;-5;0", "crockpot:frog_legs;-3;0", "crockpot:cooked_frog_legs;-2;0", "crockpot:cooked_hoglin_nose;-2;0", "crockpot:iced_tea;2;1", "crockpot:tea;5;1", "minecraft:glistering_melon_slice;10;1", "crockpot:hot_cocoa;5;1", "crockpot:ice_cream;10;1", "crockpot:monster_tartare;-10;0", "crockpot:monster_lasagna;-10;0", "crockpot:potato_tornado;-10;0"]
 		#Define a list of custom categories for items specified in <items>
 		#A category should be included as follows: A;B
 		#Where A is a category id (integer) and B is a cooldown (in seconds) all items in this category share
@@ -181,7 +158,7 @@
 		#Blocks with the same categories share the same cooldown
 		#The sanity gained will be multiplied by (timeSinceLastUsage / categoryCooldown) capping at 1.0
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds need testing
-		broken_blocks = ["minecraft:infested_stone;-8;0;false;false", "minecraft:infested_cobblestone;-8;0;false;false", "minecraft:infested_stone_bricks;-8;0;false;false", "minecraft:infested_cracked_stone_bricks;-8;0;false;false", "minecraft:infested_mossy_stone_bricks;-8;0;false;false", "minecraft:infested_chiseled_stone_bricks;-8;0;false;false", "minecraft:infested_deepslate;-8;0;false;false"]
+		broken_blocks = ["minecraft:infested_stone;-8;0;false;false", "minecraft:infested_cobblestone;-8;0;false;false", "minecraft:infested_stone_bricks;-8;0;false;false", "minecraft:infested_cracked_stone_bricks;-8;0;false;false", "minecraft:infested_mossy_stone_bricks;-8;0;false;false", "minecraft:infested_chiseled_stone_bricks;-8;0;false;false", "minecraft:infested_deepslate;-8;0;false;false", "born_in_chaos_v1:infected_diamond_ore;-8;0;false;false", "born_in_chaos_v1:infected_deepslate_diamond_ore;-8;0;false;false"]
 		#Define a list of custom categories for blocks specified in <broken_blocks>
 		#A category should be included as follows: A;B
 		#Where A is a category id (integer) and B is a cooldown (in seconds) all blocks in this category share

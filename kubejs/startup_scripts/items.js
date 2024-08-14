@@ -4,8 +4,8 @@ StartupEvents.registry('item', event => {
     // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
     // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
     event.create('eel_bait').displayName("Eel Bait")
-    event.create('rotten_goop').displayName("Rotten Goop")
-    event.create('rotten_ichor').displayName("Rotten Ichor")
+    event.create('rotted_residue').displayName("Rotted Residue")
+    event.create('putrid_ichor').displayName("Putrid Ichor")
 
   })
   

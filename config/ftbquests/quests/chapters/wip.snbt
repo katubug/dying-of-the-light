@@ -223,6 +223,29 @@
 			x: -6.0d
 			y: -8.0d
 		}
+		{
+			description: [
+				"I've noticed that &afood spoils more quickly here&r. I think there must be a way to &apreserve it&r, maybe by crafting a &bPicnic Basket&r to keep it in. It should &atake longer to spoil&r this way."
+				""
+				"Perhaps there's a way to &apreserve it indefinitely&r?"
+			]
+			id: "46302055705891EA"
+			tasks: [{
+				id: "577015539535953C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:picnic_baskets"
+					}
+				}
+				title: "Any #forge:picnic_baskets"
+				type: "item"
+			}]
+			title: "Preserving Food"
+			x: -11.0d
+			y: -9.0d
+		}
 	]
 	title: "WIP"
 }

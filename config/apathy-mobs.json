@@ -20,24 +20,27 @@
       },
       {
         "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "revenge_timer",
+          "timeout": 1200
+        }
+      },
+      {
+        "type": "predicated",
         "if_true": "deny",
         "if_false": "pass",
         "predicate": {
           "type": "attacker_is",
           "mobs": [
             "minecraft:spider",
-            "minecraft:zombie"
-          ]
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "pass",
-        "if_false": "pass",
-        "predicate": {
-          "type": "attacker_is",
-          "mobs": [
-            "minecraft:spider"
+            "born_in_chaos_v1:baby_skeleton",
+            "born_in_chaos_v1:siamese_skeletons",
+            "born_in_chaos_v1:nightmare_stalker",
+            "born_in_chaos_v1:bone_imp",
+            "born_in_chaos_v1:mr_pumpkin",
+            "born_in_chaos_v1:senor_pumpkin"
           ]
         }
       },
@@ -82,15 +85,6 @@
           "types": [
             ""
           ]
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "allow",
-        "if_false": "pass",
-        "predicate": {
-          "type": "revenge_timer",
-          "timeout": 1200
         }
       }
     ]

@@ -11,7 +11,7 @@
 	# Whether body members receive localized damages.
 	"Localized Body Damage Enabled" = true
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
-	"Hide Info From Debug" = true
+	"Hide Info From Debug" = false
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -38,7 +38,7 @@
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
-	"Altitude Modifier" = -3.0
+	"Altitude Modifier" = 0
 
 	[temperature.on-death]
 		# If enabled, players will be immune to temperature effects after death.

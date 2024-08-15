@@ -150,6 +150,20 @@ ServerEvents.tags('item', event => {
         'muffins_picnic:magenta_picnic_basket',
         'muffins_picnic:pink_picnic_basket'
     )
+    /*
+    let saltedFoods = [
+        Item.of('minecraft:beetroot_soup', '{Salted:1b}')
+    ]
+
+    for (const food of saltedFoods) {
+        event.remove(
+            'spoiled:foods',
+            food
+        )
+    }*/
+
+
+    
 })
 
 

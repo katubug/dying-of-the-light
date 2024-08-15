@@ -120,7 +120,6 @@
 112, forest, terralith:alpine_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 113, forest, terralith:alpine_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 114, forest, terralith:alpine_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-115, forest, terralith:alpine_grove, MONSTER, boh:raatma, 1, 1, 1
 116, forest, terralith:alpine_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 117, forest, terralith:alpine_grove, CREATURE, minecraft:sheep, 12, 4, 4
 118, forest, terralith:alpine_grove, CREATURE, minecraft:pig, 10, 4, 4
@@ -220,7 +219,6 @@
 212, jungle, terralith:amethyst_canyon, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 213, jungle, terralith:amethyst_canyon, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 214, jungle, terralith:amethyst_canyon, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-215, jungle, terralith:amethyst_canyon, MONSTER, boh:raatma, 1, 1, 1
 216, jungle, terralith:amethyst_canyon, MONSTER, boh:stiltwalker, 10, 1, 2
 217, jungle, terralith:amethyst_canyon, CREATURE, minecraft:sheep, 12, 4, 4
 218, jungle, terralith:amethyst_canyon, CREATURE, minecraft:pig, 10, 4, 4
@@ -274,7 +272,6 @@
 266, jungle, terralith:amethyst_rainforest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 267, jungle, terralith:amethyst_rainforest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 268, jungle, terralith:amethyst_rainforest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-269, jungle, terralith:amethyst_rainforest, MONSTER, boh:raatma, 1, 1, 1
 270, jungle, terralith:amethyst_rainforest, MONSTER, boh:stiltwalker, 10, 1, 2
 271, jungle, terralith:amethyst_rainforest, CREATURE, minecraft:sheep, 12, 4, 4
 272, jungle, terralith:amethyst_rainforest, CREATURE, minecraft:pig, 10, 4, 4
@@ -517,7 +514,6 @@
 509, badlands, minecraft:badlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 510, badlands, minecraft:badlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 511, badlands, minecraft:badlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-512, badlands, minecraft:badlands, MONSTER, boh:raatma, 1, 1, 1
 513, badlands, minecraft:badlands, MONSTER, boh:stiltwalker, 10, 1, 2
 514, badlands, minecraft:badlands, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 515, badlands, minecraft:badlands, CREATURE, crockpot:volt_goat, 50, 1, 3
@@ -563,7 +559,6 @@
 555, jungle, minecraft:bamboo_jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 556, jungle, minecraft:bamboo_jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 557, jungle, minecraft:bamboo_jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-558, jungle, minecraft:bamboo_jungle, MONSTER, boh:raatma, 1, 1, 1
 559, jungle, minecraft:bamboo_jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 560, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:sheep, 12, 4, 4
 561, jungle, minecraft:bamboo_jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -694,7 +689,6 @@
 686, beach, minecraft:beach, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 687, beach, minecraft:beach, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 688, beach, minecraft:beach, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-689, beach, minecraft:beach, MONSTER, boh:raatma, 1, 1, 1
 690, beach, minecraft:beach, MONSTER, boh:stiltwalker, 10, 1, 2
 691, beach, minecraft:beach, CREATURE, minecraft:turtle, 10, 2, 5
 692, beach, minecraft:beach, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -739,7 +733,6 @@
 731, forest, minecraft:birch_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 732, forest, minecraft:birch_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 733, forest, minecraft:birch_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-734, forest, minecraft:birch_forest, MONSTER, boh:raatma, 1, 1, 1
 735, forest, minecraft:birch_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 736, forest, minecraft:birch_forest, CREATURE, minecraft:sheep, 12, 2, 2
 737, forest, minecraft:birch_forest, CREATURE, minecraft:pig, 10, 2, 2
@@ -787,7 +780,6 @@
 779, forest, terralith:birch_taiga, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 780, forest, terralith:birch_taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 781, forest, terralith:birch_taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-782, forest, terralith:birch_taiga, MONSTER, boh:raatma, 1, 1, 1
 783, forest, terralith:birch_taiga, MONSTER, boh:stiltwalker, 10, 1, 2
 784, forest, terralith:birch_taiga, CREATURE, minecraft:wolf, 10, 4, 4
 785, forest, terralith:birch_taiga, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -831,7 +823,6 @@
 823, plains, terralith:blooming_plateau, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 824, plains, terralith:blooming_plateau, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 825, plains, terralith:blooming_plateau, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-826, plains, terralith:blooming_plateau, MONSTER, boh:raatma, 1, 1, 1
 827, plains, terralith:blooming_plateau, MONSTER, boh:stiltwalker, 10, 1, 2
 828, plains, terralith:blooming_plateau, CREATURE, minecraft:donkey, 10, 1, 2
 829, plains, terralith:blooming_plateau, CREATURE, minecraft:rabbit, 10, 1, 3
@@ -970,7 +961,6 @@
 962, badlands, terralith:bryce_canyon, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 963, badlands, terralith:bryce_canyon, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 964, badlands, terralith:bryce_canyon, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-965, badlands, terralith:bryce_canyon, MONSTER, boh:raatma, 1, 1, 1
 966, badlands, terralith:bryce_canyon, MONSTER, boh:stiltwalker, 10, 1, 2
 967, badlands, terralith:bryce_canyon, CREATURE, minecraft:wolf, 10, 4, 4
 968, badlands, terralith:bryce_canyon, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -1016,7 +1006,6 @@
 1008, extreme_hills, terralith:caldera, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 1009, extreme_hills, terralith:caldera, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1010, extreme_hills, terralith:caldera, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1011, extreme_hills, terralith:caldera, MONSTER, boh:raatma, 1, 1, 1
 1012, extreme_hills, terralith:caldera, MONSTER, boh:stiltwalker, 10, 1, 2
 1013, extreme_hills, terralith:caldera, CREATURE, minecraft:sheep, 12, 4, 4
 1014, extreme_hills, terralith:caldera, CREATURE, minecraft:pig, 10, 4, 4
@@ -1604,7 +1593,6 @@
 1596, extreme_hills, minecraft:cherry_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 1597, extreme_hills, minecraft:cherry_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1598, extreme_hills, minecraft:cherry_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1599, extreme_hills, minecraft:cherry_grove, MONSTER, boh:raatma, 1, 1, 1
 1600, extreme_hills, minecraft:cherry_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 1601, extreme_hills, minecraft:cherry_grove, CREATURE, minecraft:pig, 10, 1, 2
 1602, extreme_hills, minecraft:cherry_grove, CREATURE, minecraft:rabbit, 10, 1, 3
@@ -1650,7 +1638,6 @@
 1642, forest, terralith:cloud_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 1643, forest, terralith:cloud_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1644, forest, terralith:cloud_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1645, forest, terralith:cloud_forest, MONSTER, boh:raatma, 1, 1, 1
 1646, forest, terralith:cloud_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 1647, forest, terralith:cloud_forest, CREATURE, minecraft:sheep, 12, 4, 4
 1648, forest, terralith:cloud_forest, CREATURE, minecraft:pig, 10, 4, 4
@@ -1702,7 +1689,6 @@
 1694, ocean, minecraft:cold_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 1695, ocean, minecraft:cold_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1696, ocean, minecraft:cold_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1697, ocean, minecraft:cold_ocean, MONSTER, boh:raatma, 1, 1, 1
 1698, ocean, minecraft:cold_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 1699, ocean, minecraft:cold_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 1700, ocean, minecraft:cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -1841,7 +1827,6 @@
 1833, forest, minecraft:dark_forest, MONSTER, boh:stiltwalker, 10, 1, 1
 1834, forest, minecraft:dark_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1835, forest, minecraft:dark_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1836, forest, minecraft:dark_forest, MONSTER, boh:raatma, 1, 1, 1
 1837, forest, minecraft:dark_forest, CREATURE, minecraft:sheep, 12, 2, 2
 1838, forest, minecraft:dark_forest, CREATURE, minecraft:pig, 10, 2, 2
 1839, forest, minecraft:dark_forest, CREATURE, minecraft:chicken, 10, 2, 2
@@ -1889,7 +1874,6 @@
 1881, ocean, minecraft:deep_cold_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 1882, ocean, minecraft:deep_cold_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 1883, ocean, minecraft:deep_cold_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1884, ocean, minecraft:deep_cold_ocean, MONSTER, boh:raatma, 1, 1, 1
 1885, ocean, minecraft:deep_cold_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 1886, ocean, minecraft:deep_cold_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 1887, ocean, minecraft:deep_cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -1909,35 +1893,13 @@
 1901, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, fishofthieves:wildsplash, 10, 2, 4
 1902, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, fishofthieves:wrecker, 50, 4, 8
 1903, ocean, minecraft:deep_cold_ocean, EITD_EYES, eyesinthedarkness:eyes, 20, 1, 1
-1904, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:baby_skeleton, 25, 1, 2
-1905, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:barrel_zombie, 16, 1, 1
-1906, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:decaying_zombie, 35, 1, 1
-1907, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:decrepit_skeleton, 45, 1, 1
-1908, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:dire_hound_leader, 10, 1, 1
-1909, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:dread_hound, 15, 3, 5
-1910, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:mr_pumpkin, 13, 1, 3
-1911, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:nightmare_stalker, 10, 1, 1
-1912, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:restless_spirit, 20, 1, 1
 1913, none, minecraft:deep_dark, MONSTER, the_darkness_will_find_you:sculk_cat, 60, 1, 1
 1914, none, minecraft:deep_dark, MONSTER, the_darkness_will_find_you:sculk_cow, 60, 1, 1
 1915, none, minecraft:deep_dark, MONSTER, the_darkness_will_find_you:sculk_pig, 60, 1, 1
-1916, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:seared_spirit, 10, 1, 1
-1917, none, minecraft:deep_dark, MONSTER, boh:seed_eater, 10, 1, 1
 1918, none, minecraft:deep_dark, MONSTER, the_darkness_will_find_you:shackled, 60, 1, 1
-1919, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:siamese_skeletons, 16, 1, 1
-1920, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:sir_pumpkinhead, 10, 1, 1
-1921, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:spirit_guide_assistant, 10, 2, 2
-1922, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:spirit_guide, 16, 1, 1
 1923, none, minecraft:deep_dark, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
-1924, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
-1925, none, minecraft:deep_dark, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-1926, none, minecraft:deep_dark, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 1927, none, minecraft:deep_dark, AMBIENT, distantfriends:friend, 20, 1, 2
-1928, none, minecraft:deep_dark, WATER_CREATURE, born_in_chaos_v1:corpse_fish, 10, 3, 5
-1929, none, minecraft:deep_dark, WATER_CREATURE, born_in_chaos_v1:glutton_fish, 10, 1, 1
-1930, none, minecraft:deep_dark, WATER_AMBIENT, fishofthieves:battlegill, 10, 2, 4
-1931, none, minecraft:deep_dark, WATER_AMBIENT, fishofthieves:devilfish, 10, 1, 2
-1932, none, minecraft:deep_dark, EITD_EYES, eyesinthedarkness:eyes, 20, 1, 1
+1932, none, minecraft:deep_dark, EITD_EYES, eyesinthedarkness:eyes, 1, 1, 1
 1933, none, nyctophobia:deep_dark_forest, MONSTER, minecraft:spider, 80, 4, 4
 1934, none, nyctophobia:deep_dark_forest, MONSTER, minecraft:zombie, 80, 4, 4
 1935, none, nyctophobia:deep_dark_forest, MONSTER, minecraft:zombie_villager, 10, 1, 1
@@ -2012,7 +1974,6 @@
 2004, ocean, minecraft:deep_frozen_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2005, ocean, minecraft:deep_frozen_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2006, ocean, minecraft:deep_frozen_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2007, ocean, minecraft:deep_frozen_ocean, MONSTER, boh:raatma, 1, 1, 1
 2008, ocean, minecraft:deep_frozen_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 2009, ocean, minecraft:deep_frozen_ocean, CREATURE, minecraft:polar_bear, 10, 1, 2
 2010, ocean, minecraft:deep_frozen_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -2065,7 +2026,6 @@
 2057, ocean, minecraft:deep_lukewarm_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2058, ocean, minecraft:deep_lukewarm_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2059, ocean, minecraft:deep_lukewarm_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2060, ocean, minecraft:deep_lukewarm_ocean, MONSTER, boh:raatma, 1, 1, 1
 2061, ocean, minecraft:deep_lukewarm_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 2062, ocean, minecraft:deep_lukewarm_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2063, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2120,7 +2080,6 @@
 2112, ocean, minecraft:deep_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2113, ocean, minecraft:deep_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2114, ocean, minecraft:deep_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2115, ocean, minecraft:deep_ocean, MONSTER, boh:raatma, 1, 1, 1
 2116, ocean, minecraft:deep_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 2117, ocean, minecraft:deep_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2118, ocean, minecraft:deep_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2200,7 +2159,6 @@
 2192, desert, minecraft:desert, MONSTER, boh:stiltwalker, 10, 1, 1
 2193, desert, minecraft:desert, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2194, desert, minecraft:desert, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2195, desert, minecraft:desert, MONSTER, boh:raatma, 1, 1, 1
 2196, desert, minecraft:desert, CREATURE, minecraft:rabbit, 10, 2, 3
 2197, desert, minecraft:desert, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2198, desert, minecraft:desert, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2288,7 +2246,6 @@
 2280, desert, terralith:desert_oasis, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2281, desert, terralith:desert_oasis, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2282, desert, terralith:desert_oasis, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2283, desert, terralith:desert_oasis, MONSTER, boh:raatma, 1, 1, 1
 2284, desert, terralith:desert_oasis, MONSTER, boh:stiltwalker, 10, 1, 2
 2285, desert, terralith:desert_oasis, CREATURE, minecraft:rabbit, 10, 2, 3
 2286, desert, terralith:desert_oasis, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -2420,7 +2377,6 @@
 2412, extreme_hills, terralith:emerald_peaks, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2413, extreme_hills, terralith:emerald_peaks, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2414, extreme_hills, terralith:emerald_peaks, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2415, extreme_hills, terralith:emerald_peaks, MONSTER, boh:raatma, 1, 1, 1
 2416, extreme_hills, terralith:emerald_peaks, MONSTER, boh:stiltwalker, 10, 1, 2
 2417, extreme_hills, terralith:emerald_peaks, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2418, extreme_hills, terralith:emerald_peaks, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2545,7 +2501,6 @@
 2537, badlands, minecraft:eroded_badlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2538, badlands, minecraft:eroded_badlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2539, badlands, minecraft:eroded_badlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2540, badlands, minecraft:eroded_badlands, MONSTER, boh:raatma, 1, 1, 1
 2541, badlands, minecraft:eroded_badlands, MONSTER, boh:stiltwalker, 10, 1, 2
 2542, badlands, minecraft:eroded_badlands, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2543, badlands, minecraft:eroded_badlands, CREATURE, crockpot:volt_goat, 50, 1, 3
@@ -2620,7 +2575,6 @@
 2612, forest, minecraft:flower_forest, MONSTER, boh:stiltwalker, 10, 1, 1
 2613, forest, minecraft:flower_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2614, forest, minecraft:flower_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2615, forest, minecraft:flower_forest, MONSTER, boh:raatma, 1, 1, 1
 2616, forest, minecraft:flower_forest, CREATURE, minecraft:sheep, 12, 4, 4
 2617, forest, minecraft:flower_forest, CREATURE, minecraft:pig, 10, 4, 4
 2618, forest, minecraft:flower_forest, CREATURE, minecraft:chicken, 10, 4, 4
@@ -2669,7 +2623,6 @@
 2661, forest, minecraft:forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2662, forest, minecraft:forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2663, forest, minecraft:forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2664, forest, minecraft:forest, MONSTER, boh:raatma, 1, 1, 1
 2665, forest, minecraft:forest, MONSTER, boh:stiltwalker, 10, 1, 2
 2666, forest, minecraft:forest, CREATURE, minecraft:sheep, 12, 4, 4
 2667, forest, minecraft:forest, CREATURE, minecraft:pig, 10, 4, 4
@@ -2718,7 +2671,6 @@
 2710, forest, terralith:forested_highlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2711, forest, terralith:forested_highlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2712, forest, terralith:forested_highlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2713, forest, terralith:forested_highlands, MONSTER, boh:raatma, 1, 1, 1
 2714, forest, terralith:forested_highlands, MONSTER, boh:stiltwalker, 10, 1, 2
 2715, forest, terralith:forested_highlands, CREATURE, minecraft:sheep, 12, 4, 4
 2716, forest, terralith:forested_highlands, CREATURE, minecraft:pig, 10, 4, 4
@@ -2770,7 +2722,6 @@
 2762, savanna, terralith:fractured_savanna, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2763, savanna, terralith:fractured_savanna, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2764, savanna, terralith:fractured_savanna, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2765, savanna, terralith:fractured_savanna, MONSTER, boh:raatma, 1, 1, 1
 2766, savanna, terralith:fractured_savanna, MONSTER, boh:stiltwalker, 10, 1, 2
 2767, savanna, terralith:fractured_savanna, CREATURE, minecraft:sheep, 12, 4, 4
 2768, savanna, terralith:fractured_savanna, CREATURE, minecraft:pig, 10, 4, 4
@@ -2866,7 +2817,6 @@
 2858, ocean, minecraft:frozen_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2859, ocean, minecraft:frozen_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2860, ocean, minecraft:frozen_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2861, ocean, minecraft:frozen_ocean, MONSTER, boh:raatma, 1, 1, 1
 2862, ocean, minecraft:frozen_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 2863, ocean, minecraft:frozen_ocean, CREATURE, minecraft:polar_bear, 10, 1, 2
 2864, ocean, minecraft:frozen_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -2918,7 +2868,6 @@
 2910, extreme_hills, minecraft:frozen_peaks, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2911, extreme_hills, minecraft:frozen_peaks, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2912, extreme_hills, minecraft:frozen_peaks, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2913, extreme_hills, minecraft:frozen_peaks, MONSTER, boh:raatma, 1, 1, 1
 2914, extreme_hills, minecraft:frozen_peaks, MONSTER, boh:stiltwalker, 10, 1, 2
 2915, extreme_hills, minecraft:frozen_peaks, CREATURE, minecraft:goat, 10, 1, 3
 2916, extreme_hills, minecraft:frozen_peaks, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -2964,7 +2913,6 @@
 2956, river, minecraft:frozen_river, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 2957, river, minecraft:frozen_river, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 2958, river, minecraft:frozen_river, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-2959, river, minecraft:frozen_river, MONSTER, boh:raatma, 1, 1, 1
 2960, river, minecraft:frozen_river, MONSTER, boh:stiltwalker, 10, 1, 2
 2961, river, minecraft:frozen_river, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 2962, river, minecraft:frozen_river, AMBIENT, minecraft:bat, 10, 8, 8
@@ -3119,7 +3067,6 @@
 3111, beach, terralith:gravel_beach, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3112, beach, terralith:gravel_beach, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3113, beach, terralith:gravel_beach, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3114, beach, terralith:gravel_beach, MONSTER, boh:raatma, 1, 1, 1
 3115, beach, terralith:gravel_beach, MONSTER, boh:stiltwalker, 10, 1, 2
 3116, beach, terralith:gravel_beach, CREATURE, minecraft:turtle, 10, 1, 2
 3117, beach, terralith:gravel_beach, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -3211,7 +3158,6 @@
 3203, forest, minecraft:grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3204, forest, minecraft:grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3205, forest, minecraft:grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3206, forest, minecraft:grove, MONSTER, boh:raatma, 1, 1, 1
 3207, forest, minecraft:grove, MONSTER, boh:stiltwalker, 10, 1, 2
 3208, forest, minecraft:grove, CREATURE, minecraft:sheep, 12, 4, 4
 3209, forest, minecraft:grove, CREATURE, minecraft:pig, 10, 4, 4
@@ -3485,7 +3431,6 @@
 3477, swamp, terralith:ice_marsh, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3478, swamp, terralith:ice_marsh, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3479, swamp, terralith:ice_marsh, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3480, swamp, terralith:ice_marsh, MONSTER, boh:raatma, 1, 1, 1
 3481, swamp, terralith:ice_marsh, MONSTER, boh:stiltwalker, 10, 1, 2
 3482, swamp, terralith:ice_marsh, CREATURE, minecraft:sheep, 12, 2, 2
 3483, swamp, terralith:ice_marsh, CREATURE, minecraft:pig, 10, 2, 2
@@ -3579,7 +3524,6 @@
 3571, extreme_hills, minecraft:jagged_peaks, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3572, extreme_hills, minecraft:jagged_peaks, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3573, extreme_hills, minecraft:jagged_peaks, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3574, extreme_hills, minecraft:jagged_peaks, MONSTER, boh:raatma, 1, 1, 1
 3575, extreme_hills, minecraft:jagged_peaks, MONSTER, boh:stiltwalker, 10, 1, 2
 3576, extreme_hills, minecraft:jagged_peaks, CREATURE, minecraft:goat, 10, 1, 3
 3577, extreme_hills, minecraft:jagged_peaks, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -3624,7 +3568,6 @@
 3616, jungle, minecraft:jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3617, jungle, minecraft:jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3618, jungle, minecraft:jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3619, jungle, minecraft:jungle, MONSTER, boh:raatma, 1, 1, 1
 3620, jungle, minecraft:jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 3621, jungle, minecraft:jungle, CREATURE, minecraft:sheep, 12, 4, 4
 3622, jungle, minecraft:jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -3677,7 +3620,6 @@
 3669, jungle, terralith:jungle_mountains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3670, jungle, terralith:jungle_mountains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3671, jungle, terralith:jungle_mountains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3672, jungle, terralith:jungle_mountains, MONSTER, boh:raatma, 1, 1, 1
 3673, jungle, terralith:jungle_mountains, MONSTER, boh:stiltwalker, 10, 1, 2
 3674, jungle, terralith:jungle_mountains, CREATURE, minecraft:sheep, 12, 4, 4
 3675, jungle, terralith:jungle_mountains, CREATURE, minecraft:pig, 10, 4, 4
@@ -3729,7 +3671,6 @@
 3721, forest, terralith:lavender_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3722, forest, terralith:lavender_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3723, forest, terralith:lavender_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3724, forest, terralith:lavender_forest, MONSTER, boh:raatma, 1, 1, 1
 3725, forest, terralith:lavender_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 3726, forest, terralith:lavender_forest, CREATURE, minecraft:sheep, 12, 4, 4
 3727, forest, terralith:lavender_forest, CREATURE, minecraft:pig, 10, 4, 4
@@ -3778,7 +3719,6 @@
 3770, forest, terralith:lavender_valley, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3771, forest, terralith:lavender_valley, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3772, forest, terralith:lavender_valley, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3773, forest, terralith:lavender_valley, MONSTER, boh:raatma, 1, 1, 1
 3774, forest, terralith:lavender_valley, MONSTER, boh:stiltwalker, 10, 1, 2
 3775, forest, terralith:lavender_valley, CREATURE, minecraft:sheep, 12, 4, 4
 3776, forest, terralith:lavender_valley, CREATURE, minecraft:pig, 10, 4, 4
@@ -3854,7 +3794,6 @@
 3846, ocean, minecraft:lukewarm_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3847, ocean, minecraft:lukewarm_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3848, ocean, minecraft:lukewarm_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3849, ocean, minecraft:lukewarm_ocean, MONSTER, boh:raatma, 1, 1, 1
 3850, ocean, minecraft:lukewarm_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 3851, ocean, minecraft:lukewarm_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 3852, ocean, minecraft:lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -3998,7 +3937,6 @@
 3990, forest, terralith:lush_valley, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 3991, forest, terralith:lush_valley, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 3992, forest, terralith:lush_valley, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-3993, forest, terralith:lush_valley, MONSTER, boh:raatma, 1, 1, 1
 3994, forest, terralith:lush_valley, MONSTER, boh:stiltwalker, 10, 1, 2
 3995, forest, terralith:lush_valley, CREATURE, minecraft:sheep, 12, 4, 4
 3996, forest, terralith:lush_valley, CREATURE, minecraft:pig, 10, 4, 4
@@ -4051,7 +3989,6 @@
 4043, swamp, minecraft:mangrove_swamp, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4044, swamp, minecraft:mangrove_swamp, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4045, swamp, minecraft:mangrove_swamp, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4046, swamp, minecraft:mangrove_swamp, MONSTER, boh:raatma, 1, 1, 1
 4047, swamp, minecraft:mangrove_swamp, MONSTER, boh:stiltwalker, 10, 1, 2
 4048, swamp, minecraft:mangrove_swamp, CREATURE, minecraft:frog, 10, 2, 5
 4049, swamp, minecraft:mangrove_swamp, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -4098,7 +4035,6 @@
 4090, plains, minecraft:meadow, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4091, plains, minecraft:meadow, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4092, plains, minecraft:meadow, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4093, plains, minecraft:meadow, MONSTER, boh:raatma, 1, 1, 1
 4094, plains, minecraft:meadow, MONSTER, boh:stiltwalker, 10, 1, 2
 4095, plains, minecraft:meadow, CREATURE, minecraft:donkey, 10, 1, 2
 4096, plains, minecraft:meadow, CREATURE, minecraft:rabbit, 10, 1, 3
@@ -4136,7 +4072,6 @@
 4128, forest, terralith:mirage_isles, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4129, forest, terralith:mirage_isles, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4130, forest, terralith:mirage_isles, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4131, forest, terralith:mirage_isles, MONSTER, boh:raatma, 1, 1, 1
 4132, forest, terralith:mirage_isles, MONSTER, boh:stiltwalker, 10, 1, 2
 4133, forest, terralith:mirage_isles, CREATURE, minecraft:sheep, 12, 2, 2
 4134, forest, terralith:mirage_isles, CREATURE, minecraft:pig, 10, 2, 2
@@ -4183,7 +4118,6 @@
 4175, forest, terralith:moonlight_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4176, forest, terralith:moonlight_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4177, forest, terralith:moonlight_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4178, forest, terralith:moonlight_grove, MONSTER, boh:raatma, 1, 1, 1
 4179, forest, terralith:moonlight_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 4180, forest, terralith:moonlight_grove, CREATURE, minecraft:sheep, 12, 4, 4
 4181, forest, terralith:moonlight_grove, CREATURE, minecraft:pig, 10, 4, 4
@@ -4231,7 +4165,6 @@
 4223, forest, terralith:moonlight_valley, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4224, forest, terralith:moonlight_valley, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4225, forest, terralith:moonlight_valley, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4226, forest, terralith:moonlight_valley, MONSTER, boh:raatma, 1, 1, 1
 4227, forest, terralith:moonlight_valley, MONSTER, boh:stiltwalker, 10, 1, 2
 4228, forest, terralith:moonlight_valley, CREATURE, minecraft:sheep, 12, 4, 4
 4229, forest, terralith:moonlight_valley, CREATURE, minecraft:pig, 10, 4, 4
@@ -4397,7 +4330,6 @@
 4389, ocean, minecraft:ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4390, ocean, minecraft:ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4391, ocean, minecraft:ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4392, ocean, minecraft:ocean, MONSTER, boh:raatma, 1, 1, 1
 4393, ocean, minecraft:ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 4394, ocean, minecraft:ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 4395, ocean, minecraft:ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4449,7 +4381,6 @@
 4441, forest, minecraft:old_growth_birch_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4442, forest, minecraft:old_growth_birch_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4443, forest, minecraft:old_growth_birch_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4444, forest, minecraft:old_growth_birch_forest, MONSTER, boh:raatma, 1, 1, 1
 4445, forest, minecraft:old_growth_birch_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 4446, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:sheep, 12, 2, 2
 4447, forest, minecraft:old_growth_birch_forest, CREATURE, minecraft:pig, 10, 2, 2
@@ -4498,7 +4429,6 @@
 4490, taiga, minecraft:old_growth_pine_taiga, MONSTER, boh:stiltwalker, 10, 1, 1
 4491, taiga, minecraft:old_growth_pine_taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4492, taiga, minecraft:old_growth_pine_taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4493, taiga, minecraft:old_growth_pine_taiga, MONSTER, boh:raatma, 1, 1, 1
 4494, taiga, minecraft:old_growth_pine_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 4495, taiga, minecraft:old_growth_pine_taiga, CREATURE, minecraft:pig, 10, 4, 4
 4496, taiga, minecraft:old_growth_pine_taiga, CREATURE, minecraft:chicken, 10, 4, 4
@@ -4549,7 +4479,6 @@
 4541, taiga, minecraft:old_growth_spruce_taiga, MONSTER, boh:stiltwalker, 10, 1, 1
 4542, taiga, minecraft:old_growth_spruce_taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4543, taiga, minecraft:old_growth_spruce_taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4544, taiga, minecraft:old_growth_spruce_taiga, MONSTER, boh:raatma, 1, 1, 1
 4545, taiga, minecraft:old_growth_spruce_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 4546, taiga, minecraft:old_growth_spruce_taiga, CREATURE, minecraft:pig, 10, 4, 4
 4547, taiga, minecraft:old_growth_spruce_taiga, CREATURE, minecraft:chicken, 10, 4, 4
@@ -4600,7 +4529,6 @@
 4592, swamp, terralith:orchid_swamp, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4593, swamp, terralith:orchid_swamp, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4594, swamp, terralith:orchid_swamp, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4595, swamp, terralith:orchid_swamp, MONSTER, boh:raatma, 1, 1, 1
 4596, swamp, terralith:orchid_swamp, MONSTER, boh:stiltwalker, 10, 1, 2
 4597, swamp, terralith:orchid_swamp, CREATURE, minecraft:sheep, 12, 2, 2
 4598, swamp, terralith:orchid_swamp, CREATURE, minecraft:pig, 10, 2, 2
@@ -4649,7 +4577,6 @@
 4641, badlands, terralith:painted_mountains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4642, badlands, terralith:painted_mountains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4643, badlands, terralith:painted_mountains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4644, badlands, terralith:painted_mountains, MONSTER, boh:raatma, 1, 1, 1
 4645, badlands, terralith:painted_mountains, MONSTER, boh:stiltwalker, 10, 1, 2
 4646, badlands, terralith:painted_mountains, CREATURE, minecraft:goat, 10, 1, 3
 4647, badlands, terralith:painted_mountains, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -4695,7 +4622,6 @@
 4687, plains, minecraft:plains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4688, plains, minecraft:plains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4689, plains, minecraft:plains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4690, plains, minecraft:plains, MONSTER, boh:raatma, 1, 1, 1
 4691, plains, minecraft:plains, MONSTER, boh:stiltwalker, 10, 1, 2
 4692, plains, minecraft:plains, CREATURE, minecraft:sheep, 12, 4, 4
 4693, plains, minecraft:plains, CREATURE, minecraft:pig, 10, 4, 4
@@ -4787,7 +4713,6 @@
 4779, river, minecraft:river, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4780, river, minecraft:river, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4781, river, minecraft:river, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4782, river, minecraft:river, MONSTER, boh:raatma, 1, 1, 1
 4783, river, minecraft:river, MONSTER, boh:stiltwalker, 10, 1, 2
 4784, river, minecraft:river, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 4785, river, minecraft:river, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4834,7 +4759,6 @@
 4826, jungle, terralith:rocky_jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4827, jungle, terralith:rocky_jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4828, jungle, terralith:rocky_jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4829, jungle, terralith:rocky_jungle, MONSTER, boh:raatma, 1, 1, 1
 4830, jungle, terralith:rocky_jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 4831, jungle, terralith:rocky_jungle, CREATURE, minecraft:sheep, 12, 4, 4
 4832, jungle, terralith:rocky_jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -4888,7 +4812,6 @@
 4880, extreme_hills, terralith:rocky_mountains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4881, extreme_hills, terralith:rocky_mountains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4882, extreme_hills, terralith:rocky_mountains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4883, extreme_hills, terralith:rocky_mountains, MONSTER, boh:raatma, 1, 1, 1
 4884, extreme_hills, terralith:rocky_mountains, MONSTER, boh:stiltwalker, 10, 1, 2
 4885, extreme_hills, terralith:rocky_mountains, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 4886, extreme_hills, terralith:rocky_mountains, AMBIENT, minecraft:bat, 10, 8, 8
@@ -4978,7 +4901,6 @@
 4970, forest, terralith:sakura_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 4971, forest, terralith:sakura_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 4972, forest, terralith:sakura_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-4973, forest, terralith:sakura_grove, MONSTER, boh:raatma, 1, 1, 1
 4974, forest, terralith:sakura_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 4975, forest, terralith:sakura_grove, CREATURE, minecraft:sheep, 12, 4, 4
 4976, forest, terralith:sakura_grove, CREATURE, minecraft:pig, 10, 4, 4
@@ -5026,7 +4948,6 @@
 5018, forest, terralith:sakura_valley, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5019, forest, terralith:sakura_valley, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5020, forest, terralith:sakura_valley, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5021, forest, terralith:sakura_valley, MONSTER, boh:raatma, 1, 1, 1
 5022, forest, terralith:sakura_valley, MONSTER, boh:stiltwalker, 10, 1, 2
 5023, forest, terralith:sakura_valley, CREATURE, minecraft:sheep, 12, 4, 4
 5024, forest, terralith:sakura_valley, CREATURE, minecraft:pig, 10, 4, 4
@@ -5077,7 +4998,6 @@
 5069, desert, terralith:sandstone_valley, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5070, desert, terralith:sandstone_valley, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5071, desert, terralith:sandstone_valley, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5072, desert, terralith:sandstone_valley, MONSTER, boh:raatma, 1, 1, 1
 5073, desert, terralith:sandstone_valley, MONSTER, boh:stiltwalker, 10, 1, 2
 5074, desert, terralith:sandstone_valley, CREATURE, minecraft:rabbit, 10, 2, 3
 5075, desert, terralith:sandstone_valley, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
@@ -5121,7 +5041,6 @@
 5113, savanna, minecraft:savanna, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5114, savanna, minecraft:savanna, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5115, savanna, minecraft:savanna, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5116, savanna, minecraft:savanna, MONSTER, boh:raatma, 1, 1, 1
 5117, savanna, minecraft:savanna, MONSTER, boh:stiltwalker, 10, 1, 2
 5118, savanna, minecraft:savanna, CREATURE, minecraft:sheep, 12, 4, 4
 5119, savanna, minecraft:savanna, CREATURE, minecraft:pig, 10, 4, 4
@@ -5171,7 +5090,6 @@
 5163, badlands, terralith:savanna_badlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5164, badlands, terralith:savanna_badlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5165, badlands, terralith:savanna_badlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5166, badlands, terralith:savanna_badlands, MONSTER, boh:raatma, 1, 1, 1
 5167, badlands, terralith:savanna_badlands, MONSTER, boh:stiltwalker, 10, 1, 2
 5168, badlands, terralith:savanna_badlands, CREATURE, minecraft:sheep, 12, 4, 4
 5169, badlands, terralith:savanna_badlands, CREATURE, minecraft:pig, 10, 4, 4
@@ -5223,7 +5141,6 @@
 5215, savanna, minecraft:savanna_plateau, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5216, savanna, minecraft:savanna_plateau, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5217, savanna, minecraft:savanna_plateau, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5218, savanna, minecraft:savanna_plateau, MONSTER, boh:raatma, 1, 1, 1
 5219, savanna, minecraft:savanna_plateau, MONSTER, boh:stiltwalker, 10, 1, 2
 5220, savanna, minecraft:savanna_plateau, CREATURE, minecraft:sheep, 12, 4, 4
 5221, savanna, minecraft:savanna_plateau, CREATURE, minecraft:pig, 10, 4, 4
@@ -5274,7 +5191,6 @@
 5266, savanna, terralith:savanna_slopes, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5267, savanna, terralith:savanna_slopes, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5268, savanna, terralith:savanna_slopes, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5269, savanna, terralith:savanna_slopes, MONSTER, boh:raatma, 1, 1, 1
 5270, savanna, terralith:savanna_slopes, MONSTER, boh:stiltwalker, 10, 1, 2
 5271, savanna, terralith:savanna_slopes, CREATURE, minecraft:sheep, 12, 4, 4
 5272, savanna, terralith:savanna_slopes, CREATURE, minecraft:pig, 10, 4, 4
@@ -5325,7 +5241,6 @@
 5317, extreme_hills, terralith:scarlet_mountains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5318, extreme_hills, terralith:scarlet_mountains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5319, extreme_hills, terralith:scarlet_mountains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5320, extreme_hills, terralith:scarlet_mountains, MONSTER, boh:raatma, 1, 1, 1
 5321, extreme_hills, terralith:scarlet_mountains, MONSTER, boh:stiltwalker, 10, 1, 2
 5322, extreme_hills, terralith:scarlet_mountains, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 5323, extreme_hills, terralith:scarlet_mountains, AMBIENT, minecraft:bat, 10, 8, 8
@@ -5368,7 +5283,6 @@
 5360, forest, terralith:shield, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5361, forest, terralith:shield, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5362, forest, terralith:shield, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5363, forest, terralith:shield, MONSTER, boh:raatma, 1, 1, 1
 5364, forest, terralith:shield, MONSTER, boh:stiltwalker, 10, 1, 2
 5365, forest, terralith:shield, CREATURE, minecraft:sheep, 12, 4, 4
 5366, forest, terralith:shield, CREATURE, minecraft:pig, 10, 4, 4
@@ -5513,7 +5427,6 @@
 5505, forest, terralith:siberian_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5506, forest, terralith:siberian_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5507, forest, terralith:siberian_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5508, forest, terralith:siberian_grove, MONSTER, boh:raatma, 1, 1, 1
 5509, forest, terralith:siberian_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 5510, forest, terralith:siberian_grove, CREATURE, minecraft:sheep, 12, 4, 4
 5511, forest, terralith:siberian_grove, CREATURE, minecraft:pig, 10, 4, 4
@@ -5565,7 +5478,6 @@
 5557, forest, terralith:siberian_taiga, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5558, forest, terralith:siberian_taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5559, forest, terralith:siberian_taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5560, forest, terralith:siberian_taiga, MONSTER, boh:raatma, 1, 1, 1
 5561, forest, terralith:siberian_taiga, MONSTER, boh:stiltwalker, 10, 1, 2
 5562, forest, terralith:siberian_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 5563, forest, terralith:siberian_taiga, CREATURE, minecraft:pig, 10, 4, 4
@@ -5877,7 +5789,6 @@
 5869, icy, terralith:snowy_badlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5870, icy, terralith:snowy_badlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5871, icy, terralith:snowy_badlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5872, icy, terralith:snowy_badlands, MONSTER, boh:raatma, 1, 1, 1
 5873, icy, terralith:snowy_badlands, MONSTER, boh:stiltwalker, 10, 1, 2
 5874, icy, terralith:snowy_badlands, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 5875, icy, terralith:snowy_badlands, AMBIENT, minecraft:bat, 10, 8, 8
@@ -5922,7 +5833,6 @@
 5914, beach, minecraft:snowy_beach, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5915, beach, minecraft:snowy_beach, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5916, beach, minecraft:snowy_beach, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5917, beach, minecraft:snowy_beach, MONSTER, boh:raatma, 1, 1, 1
 5918, beach, minecraft:snowy_beach, MONSTER, boh:stiltwalker, 10, 1, 2
 5919, beach, minecraft:snowy_beach, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 5920, beach, minecraft:snowy_beach, AMBIENT, minecraft:bat, 10, 8, 8
@@ -5968,7 +5878,6 @@
 5960, forest, terralith:snowy_cherry_grove, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 5961, forest, terralith:snowy_cherry_grove, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 5962, forest, terralith:snowy_cherry_grove, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-5963, forest, terralith:snowy_cherry_grove, MONSTER, boh:raatma, 1, 1, 1
 5964, forest, terralith:snowy_cherry_grove, MONSTER, boh:stiltwalker, 10, 1, 2
 5965, forest, terralith:snowy_cherry_grove, CREATURE, minecraft:pig, 10, 1, 2
 5966, forest, terralith:snowy_cherry_grove, CREATURE, minecraft:rabbit, 10, 1, 3
@@ -6017,7 +5926,6 @@
 6009, forest, terralith:snowy_maple_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6010, forest, terralith:snowy_maple_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6011, forest, terralith:snowy_maple_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6012, forest, terralith:snowy_maple_forest, MONSTER, boh:raatma, 1, 1, 1
 6013, forest, terralith:snowy_maple_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 6014, forest, terralith:snowy_maple_forest, CREATURE, minecraft:sheep, 12, 4, 4
 6015, forest, terralith:snowy_maple_forest, CREATURE, minecraft:pig, 10, 4, 4
@@ -6072,7 +5980,6 @@
 6064, icy, minecraft:snowy_plains, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6065, icy, minecraft:snowy_plains, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6066, icy, minecraft:snowy_plains, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6067, icy, minecraft:snowy_plains, MONSTER, boh:raatma, 1, 1, 1
 6068, icy, minecraft:snowy_plains, MONSTER, boh:stiltwalker, 10, 1, 2
 6069, icy, minecraft:snowy_plains, CREATURE, minecraft:rabbit, 10, 2, 3
 6070, icy, minecraft:snowy_plains, CREATURE, minecraft:polar_bear, 10, 1, 2
@@ -6118,7 +6025,6 @@
 6110, forest, terralith:snowy_shield, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6111, forest, terralith:snowy_shield, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6112, forest, terralith:snowy_shield, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6113, forest, terralith:snowy_shield, MONSTER, boh:raatma, 1, 1, 1
 6114, forest, terralith:snowy_shield, MONSTER, boh:stiltwalker, 10, 1, 2
 6115, forest, terralith:snowy_shield, CREATURE, minecraft:sheep, 12, 4, 4
 6116, forest, terralith:snowy_shield, CREATURE, minecraft:pig, 10, 4, 4
@@ -6171,7 +6077,6 @@
 6163, extreme_hills, minecraft:snowy_slopes, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6164, extreme_hills, minecraft:snowy_slopes, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6165, extreme_hills, minecraft:snowy_slopes, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6166, extreme_hills, minecraft:snowy_slopes, MONSTER, boh:raatma, 1, 1, 1
 6167, extreme_hills, minecraft:snowy_slopes, MONSTER, boh:stiltwalker, 10, 1, 2
 6168, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:rabbit, 10, 2, 3
 6169, extreme_hills, minecraft:snowy_slopes, CREATURE, minecraft:goat, 10, 1, 3
@@ -6219,7 +6124,6 @@
 6211, taiga, minecraft:snowy_taiga, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6212, taiga, minecraft:snowy_taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6213, taiga, minecraft:snowy_taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6214, taiga, minecraft:snowy_taiga, MONSTER, boh:raatma, 1, 1, 1
 6215, taiga, minecraft:snowy_taiga, MONSTER, boh:stiltwalker, 10, 1, 2
 6216, taiga, minecraft:snowy_taiga, CREATURE, minecraft:sheep, 12, 4, 4
 6217, taiga, minecraft:snowy_taiga, CREATURE, minecraft:pig, 10, 4, 4
@@ -6345,7 +6249,6 @@
 6337, jungle, minecraft:sparse_jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6338, jungle, minecraft:sparse_jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6339, jungle, minecraft:sparse_jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6340, jungle, minecraft:sparse_jungle, MONSTER, boh:raatma, 1, 1, 1
 6341, jungle, minecraft:sparse_jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 6342, jungle, minecraft:sparse_jungle, CREATURE, minecraft:sheep, 12, 4, 4
 6343, jungle, minecraft:sparse_jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -6396,7 +6299,6 @@
 6388, plains, terralith:steppe, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6389, plains, terralith:steppe, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6390, plains, terralith:steppe, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6391, plains, terralith:steppe, MONSTER, boh:raatma, 1, 1, 1
 6392, plains, terralith:steppe, MONSTER, boh:stiltwalker, 10, 1, 2
 6393, plains, terralith:steppe, CREATURE, minecraft:sheep, 12, 4, 4
 6394, plains, terralith:steppe, CREATURE, minecraft:pig, 10, 4, 4
@@ -6445,7 +6347,6 @@
 6437, extreme_hills, minecraft:stony_peaks, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6438, extreme_hills, minecraft:stony_peaks, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6439, extreme_hills, minecraft:stony_peaks, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6440, extreme_hills, minecraft:stony_peaks, MONSTER, boh:raatma, 1, 1, 1
 6441, extreme_hills, minecraft:stony_peaks, MONSTER, boh:stiltwalker, 10, 1, 2
 6442, extreme_hills, minecraft:stony_peaks, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 6443, extreme_hills, minecraft:stony_peaks, AMBIENT, minecraft:bat, 10, 8, 8
@@ -6620,7 +6521,6 @@
 6612, swamp, minecraft:swamp, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6613, swamp, minecraft:swamp, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6614, swamp, minecraft:swamp, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6615, swamp, minecraft:swamp, MONSTER, boh:raatma, 1, 1, 1
 6616, swamp, minecraft:swamp, MONSTER, boh:stiltwalker, 10, 1, 2
 6617, swamp, minecraft:swamp, CREATURE, minecraft:sheep, 12, 2, 2
 6618, swamp, minecraft:swamp, CREATURE, minecraft:pig, 10, 2, 2
@@ -6671,7 +6571,6 @@
 6663, taiga, minecraft:taiga, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6664, taiga, minecraft:taiga, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6665, taiga, minecraft:taiga, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6666, taiga, minecraft:taiga, MONSTER, boh:raatma, 1, 1, 1
 6667, taiga, minecraft:taiga, MONSTER, boh:stiltwalker, 10, 1, 2
 6668, taiga, minecraft:taiga, CREATURE, minecraft:sheep, 12, 4, 4
 6669, taiga, minecraft:taiga, CREATURE, minecraft:pig, 10, 4, 4
@@ -6720,7 +6619,6 @@
 6712, forest, terralith:temperate_highlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6713, forest, terralith:temperate_highlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6714, forest, terralith:temperate_highlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6715, forest, terralith:temperate_highlands, MONSTER, boh:raatma, 1, 1, 1
 6716, forest, terralith:temperate_highlands, MONSTER, boh:stiltwalker, 10, 1, 2
 6717, forest, terralith:temperate_highlands, CREATURE, minecraft:sheep, 12, 4, 4
 6718, forest, terralith:temperate_highlands, CREATURE, minecraft:pig, 10, 4, 4
@@ -6825,7 +6723,6 @@
 6817, jungle, terralith:tropical_jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6818, jungle, terralith:tropical_jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6819, jungle, terralith:tropical_jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6820, jungle, terralith:tropical_jungle, MONSTER, boh:raatma, 1, 1, 1
 6821, jungle, terralith:tropical_jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 6822, jungle, terralith:tropical_jungle, CREATURE, minecraft:sheep, 12, 4, 4
 6823, jungle, terralith:tropical_jungle, CREATURE, minecraft:pig, 10, 4, 4
@@ -6878,7 +6775,6 @@
 6870, jungle, underground_jungle:underground_jungle, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 6871, jungle, underground_jungle:underground_jungle, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 6872, jungle, underground_jungle:underground_jungle, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-6873, jungle, underground_jungle:underground_jungle, MONSTER, boh:raatma, 1, 1, 1
 6874, jungle, underground_jungle:underground_jungle, MONSTER, boh:stiltwalker, 10, 1, 2
 6875, jungle, underground_jungle:underground_jungle, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 6876, jungle, underground_jungle:underground_jungle, AMBIENT, minecraft:bat, 10, 8, 8
@@ -7012,7 +6908,6 @@
 7004, extreme_hills, terralith:volcanic_peaks, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7005, extreme_hills, terralith:volcanic_peaks, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7006, extreme_hills, terralith:volcanic_peaks, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7007, extreme_hills, terralith:volcanic_peaks, MONSTER, boh:raatma, 1, 1, 1
 7008, extreme_hills, terralith:volcanic_peaks, MONSTER, boh:stiltwalker, 10, 1, 2
 7009, extreme_hills, terralith:volcanic_peaks, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 7010, extreme_hills, terralith:volcanic_peaks, AMBIENT, minecraft:bat, 10, 8, 8
@@ -7056,7 +6951,6 @@
 7048, ocean, minecraft:warm_ocean, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7049, ocean, minecraft:warm_ocean, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7050, ocean, minecraft:warm_ocean, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7051, ocean, minecraft:warm_ocean, MONSTER, boh:raatma, 1, 1, 1
 7052, ocean, minecraft:warm_ocean, MONSTER, boh:stiltwalker, 10, 1, 2
 7053, ocean, minecraft:warm_ocean, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 7054, ocean, minecraft:warm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
@@ -7110,7 +7004,6 @@
 7102, river, terralith:warm_river, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7103, river, terralith:warm_river, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7104, river, terralith:warm_river, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7105, river, terralith:warm_river, MONSTER, boh:raatma, 1, 1, 1
 7106, river, terralith:warm_river, MONSTER, boh:stiltwalker, 10, 1, 2
 7107, river, terralith:warm_river, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 7108, river, terralith:warm_river, AMBIENT, minecraft:bat, 10, 8, 8
@@ -7270,7 +7163,6 @@
 7262, forest, terralith:white_cliffs, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7263, forest, terralith:white_cliffs, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7264, forest, terralith:white_cliffs, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7265, forest, terralith:white_cliffs, MONSTER, boh:raatma, 1, 1, 1
 7266, forest, terralith:white_cliffs, MONSTER, boh:stiltwalker, 10, 1, 2
 7267, forest, terralith:white_cliffs, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 7268, forest, terralith:white_cliffs, AMBIENT, minecraft:bat, 10, 8, 8
@@ -7491,7 +7383,6 @@
 7483, savanna, minecraft:windswept_savanna, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7484, savanna, minecraft:windswept_savanna, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7485, savanna, minecraft:windswept_savanna, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7486, savanna, minecraft:windswept_savanna, MONSTER, boh:raatma, 1, 1, 1
 7487, savanna, minecraft:windswept_savanna, MONSTER, boh:stiltwalker, 10, 1, 2
 7488, savanna, minecraft:windswept_savanna, CREATURE, minecraft:sheep, 12, 4, 4
 7489, savanna, minecraft:windswept_savanna, CREATURE, minecraft:pig, 10, 4, 4
@@ -7586,7 +7477,6 @@
 7578, forest, terralith:wintry_forest, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7579, forest, terralith:wintry_forest, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7580, forest, terralith:wintry_forest, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7581, forest, terralith:wintry_forest, MONSTER, boh:raatma, 1, 1, 1
 7582, forest, terralith:wintry_forest, MONSTER, boh:stiltwalker, 10, 1, 2
 7583, forest, terralith:wintry_forest, CREATURE, minecraft:sheep, 10, 3, 3
 7584, forest, terralith:wintry_forest, CREATURE, minecraft:pig, 10, 2, 2
@@ -7638,7 +7528,6 @@
 7630, forest, terralith:wintry_lowlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7631, forest, terralith:wintry_lowlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7632, forest, terralith:wintry_lowlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7633, forest, terralith:wintry_lowlands, MONSTER, boh:raatma, 1, 1, 1
 7634, forest, terralith:wintry_lowlands, MONSTER, boh:stiltwalker, 10, 1, 2
 7635, forest, terralith:wintry_lowlands, CREATURE, minecraft:sheep, 10, 3, 3
 7636, forest, terralith:wintry_lowlands, CREATURE, minecraft:pig, 10, 2, 2
@@ -7690,7 +7579,6 @@
 7682, badlands, minecraft:wooded_badlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7683, badlands, minecraft:wooded_badlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7684, badlands, minecraft:wooded_badlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7685, badlands, minecraft:wooded_badlands, MONSTER, boh:raatma, 1, 1, 1
 7686, badlands, minecraft:wooded_badlands, MONSTER, boh:stiltwalker, 10, 1, 2
 7687, badlands, minecraft:wooded_badlands, CREATURE, born_in_chaos_v1:thornshell_crab, 10, 1, 1
 7688, badlands, minecraft:wooded_badlands, CREATURE, crockpot:volt_goat, 50, 1, 3
@@ -7735,7 +7623,6 @@
 7727, taiga, terralith:yellowstone, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7728, taiga, terralith:yellowstone, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7729, taiga, terralith:yellowstone, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7730, taiga, terralith:yellowstone, MONSTER, boh:raatma, 1, 1, 1
 7731, taiga, terralith:yellowstone, MONSTER, boh:stiltwalker, 10, 1, 2
 7732, taiga, terralith:yellowstone, CREATURE, minecraft:sheep, 12, 4, 4
 7733, taiga, terralith:yellowstone, CREATURE, minecraft:pig, 10, 4, 4
@@ -7831,7 +7718,6 @@
 7823, forest, terralith:yosemite_lowlands, MONSTER, the_darkness_will_find_you:spreader, 60, 1, 1
 7824, forest, terralith:yosemite_lowlands, MONSTER, born_in_chaos_v1:swarmer, 11, 1, 1
 7825, forest, terralith:yosemite_lowlands, MONSTER, born_in_chaos_v1:zombie_fisherman, 30, 1, 1
-7826, forest, terralith:yosemite_lowlands, MONSTER, boh:raatma, 1, 1, 1
 7827, forest, terralith:yosemite_lowlands, MONSTER, boh:stiltwalker, 10, 1, 2
 7828, forest, terralith:yosemite_lowlands, CREATURE, minecraft:sheep, 12, 4, 4
 7829, forest, terralith:yosemite_lowlands, CREATURE, minecraft:pig, 10, 4, 4

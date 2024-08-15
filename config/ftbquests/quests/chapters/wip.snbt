@@ -194,20 +194,27 @@
 				"I've seen fish in a &asurprising amount of places&r, I wonder if they &acan live in any water&r."
 			]
 			id: "085671CEEECD2D16"
-			rewards: [{
-				id: "52A3B9F055B1F0C8"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:lure"
-							lvl: 1s
-						}]
+			rewards: [
+				{
+					id: "52A3B9F055B1F0C8"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 1s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0E6F82A46643863D"
+					item: "tide:fishing_journal"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0FA3F5375E5C1EE3"
 				item: {
@@ -245,6 +252,17 @@
 			title: "Preserving Food"
 			x: -11.0d
 			y: -9.0d
+		}
+		{
+			description: ["find in clown caravans"]
+			id: "6C573B2E7989BD19"
+			tasks: [{
+				id: "7740B87FACB70551"
+				item: "born_in_chaos_v1:intoxicating_decoction"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
 		}
 	]
 	title: "WIP"

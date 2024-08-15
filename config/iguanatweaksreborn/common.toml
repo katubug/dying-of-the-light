@@ -453,7 +453,7 @@
 		"Falling breaking glass" = true
 		#Poison will damage the player every this ticks at level I. Vanilla is 25.
 		#Range: > 1
-		"Poison damage speed" = 60
+		"Poison damage speed" = 25
 		#The maximum amount of blocks a sponge can soak. (Vanilla is 64, disabled if quark is installed)
 		#Range: > -2147483648
 		"Maximum Sponge Soak Blocks" = 256
@@ -466,8 +466,8 @@
 		"Better hardcore death" = true
 		#The amount of ticks the player consumes when underwater. In vanilla it's 1 without Respiration enchantment. For non integer numbers the decimal part will count as a chance to have a +1
 		#Range: 0.0 ~ 100.0
-		"Player air ticks consumed" = 1.5
-		"Increase drown damage the more drowning" = true
+		"Player air ticks consumed" = 1.0
+		"Increase drown damage the more drowning" = false
 		#If enabled, the Totem of Undying will give Resistance IV for 5.5 seconds
 		"Totem resistance" = true
 		#The ticks of Water Breathing given by the Turtle Helmet. Vanilla is 200
@@ -489,11 +489,11 @@
 		#If true, Iron golems will only drop Iron when killed by the player.
 		"Iron from Golems only when killed by Player" = true
 		#If true, renderDebugInfo is enabled by default. Requires a world restart
-		"No Coordinates" = true
+		"No Coordinates" = false
 		#If true, randomTickSpeed is set to 2 from 3
-		"Reduced Random Tick Speed" = true
+		"Reduced Random Tick Speed" = false
 		#If true, maxEntityCramming game rule is set to 6 from 24
-		"Reduced mob cramming" = true
+		"Reduced mob cramming" = false
 		#Kelp blocks smelt 16 items instead of 20
 		"Less burn time for Kelp block" = true
 		#Prevents duping falling blocks when they travel across dimensions. (If quark is present this is disabled)
@@ -502,7 +502,7 @@
 		"Remove piston physics exploit" = true
 		#Range: 0.0 ~ 1.0
 		"Fishing has a chance to fish a guardian" = 0.0
-		"No fish if fishing in the same spot" = true
+		"No fish if fishing in the same spot" = false
 
 [Mining]
 	#Changes Gold tools to have an innate Fortune/Looting I and changes the harvest level to be like stone tools
@@ -673,9 +673,9 @@
 		#If below 'Starve at Hunger' player will starve faster.
 		"Faster Starving when really hungry" = true
 		#Set to true to disable the health regen boost given when max hunger and saturation (false in Vanilla).
-		"Disable Saturation Regen Boost" = true
+		"Disable Saturation Regen Boost" = false
 		#Set to true to consume Hunger only (and not saturation) when regenerating health (false for Vanilla).
-		"Consume Hunger Only" = true
+		"Consume Hunger Only" = false
 		#Vanilla consumes 1 saturation or hunger whenever Exhaustion reaches 4.0. You can change that value with this config option. NOTE that Minecraft caps this value to 40.
 		#Range: 0.0 ~ 40.0
 		"Max Exhaustion" = 4.0
@@ -970,20 +970,20 @@
 
 [Combat]
 	#Players be left with half a heart when too much damage that would kill them is dealt (only works for damage taken from mobs)
-	"Enable Unfair one-shots" = true
+	"Enable Unfair one-shots" = false
 	#Player will deal reduced knockback if attacking with a non-weapon or spamming.
 	"Enable Knockback" = true
 	#Adds a new attribute to add regenerating absorption hearts to the player.
 	"Enable Regenerating Absorption" = true
 	#Various changes from weapons damage to armor reduction
-	"Enable Misc Stats" = true
+	"Enable Misc Stats" = false
 	"Enable Snowballs" = true
 	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness
 	"Enable Absorption Armor" = false
 	#Rework critical hits to be a chance to happen instead of damage on jump
-	"Enable Critical Hits" = true
+	"Enable Critical Hits" = false
 	#Change armor and toughness formula
-	"Enable Armor Rework" = true
+	"Enable Armor Rework" = false
 	#Players are able to hit mobs through no collision blocks like grass or torches.
 	"Enable Swing Through Grass" = true
 	#Adds a new attribute that deals bonus damage that bypasses armor

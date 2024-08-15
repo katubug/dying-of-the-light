@@ -3,11 +3,13 @@
     "rules": [
       {
         "type": "predicated",
-        "if_true": "deny",
+        "if_true": "allow",
         "if_false": "pass",
         "predicate": {
-          "type": "difficulty_is",
-          "difficulties": ["easy"]
+          "type": "in_player_set",
+          "player_sets": [
+            "insane"
+          ]
         }
       },
       {
@@ -63,6 +65,15 @@
             "minecraft:invisibility"
           ],
           "who": "defender"
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
+          "type": "difficulty_is",
+          "difficulties": ["easy"]
         }
       },
       {

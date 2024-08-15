@@ -12,6 +12,7 @@ global.changetarget = event => {
     //restarting the entire game!
     let { newTarget } = event
     if (newTarget == null) return
+    if (newTarget.getHealth() < 10) return
     if (newTarget.mainHandItem.id == 'minecraft:torch') {
         event.setNewTarget(null)
     }

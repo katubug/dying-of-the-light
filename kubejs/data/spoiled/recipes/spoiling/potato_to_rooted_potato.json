@@ -1,0 +1,23 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+            "type": "spoiled:initialize_spoiling"
+          }
+        ],
+        "recipe": {
+          "type": "spoiled:spoil_recipe",
+          "ingredient": {
+            "item": "minecraft:potato"
+          },
+          "result": {
+            "item": "iguanatweaksreborn:rooted_potato",
+            "count": 1
+            },
+          "spoilTime":25
+        }
+      }
+    ]
+  }

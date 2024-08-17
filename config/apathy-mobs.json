@@ -3,6 +3,15 @@
     "rules": [
       {
         "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
+          "type": "difficulty_is",
+          "difficulties": ["easy"]
+        }
+      },
+      {
+        "type": "predicated",
         "if_true": "allow",
         "if_false": "pass",
         "predicate": {
@@ -37,12 +46,15 @@
           "type": "attacker_is",
           "mobs": [
             "minecraft:spider",
+            "minecraft:zombie",
             "born_in_chaos_v1:baby_skeleton",
             "born_in_chaos_v1:siamese_skeletons",
             "born_in_chaos_v1:nightmare_stalker",
             "born_in_chaos_v1:bone_imp",
             "born_in_chaos_v1:mr_pumpkin",
-            "born_in_chaos_v1:senor_pumpkin"
+            "born_in_chaos_v1:senor_pumpkin",
+            "graveyard:wraith",
+            "graveyard:reaper"
           ]
         }
       },
@@ -65,15 +77,6 @@
             "minecraft:invisibility"
           ],
           "who": "defender"
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "deny",
-        "if_false": "pass",
-        "predicate": {
-          "type": "difficulty_is",
-          "difficulties": ["easy"]
         }
       },
       {

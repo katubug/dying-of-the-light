@@ -194,7 +194,7 @@
     }
   },
   "booleanEntries": {
-    "disableWitherSkeletonSpawner": false,
+    "disableWitherSkeletonSpawner": true,
     "urnHasDoubleInventory": true,
     "enableBossMusic": true
   }

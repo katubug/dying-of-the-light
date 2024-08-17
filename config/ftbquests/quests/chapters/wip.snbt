@@ -1,10 +1,19 @@
 {
+	autofocus_id: "0A981F6115A5041A"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "wip"
 	group: ""
 	id: "7936A79D89F5088A"
+	images: [{
+		height: 6.0d
+		image: "dying_light:textures/ui_images/logo.png"
+		rotation: 0.0d
+		width: 13.837837837837839d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -15,8 +24,8 @@
 				item: "starmetal:star_metal"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: 7.0d
+			y: 13.0d
 		}
 		{
 			id: "24801BAFD3C388D5"
@@ -25,42 +34,8 @@
 				item: "zombie_fabrics:fabric"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -11.0d
-		}
-		{
-			description: ["My torch went out when I broke it! I guess that means I can't trust them to stay lit forever."]
-			id: "5404ADB50CF3002A"
-			rewards: [
-				{
-					id: "531ED61BD9C49E52"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "09499D4BDC70CC65"
-					item: {
-						Count: 1
-						id: "realistictorches:matchbox"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "oh, whoops"
-			tasks: [{
-				block: "minecraft:torch"
-				block_type: 0
-				checkItem: false
-				id: "08E394A198EFEEDB"
-				type: "questsadditions:break"
-				value: 1L
-			}]
-			title: "Turn Out The Light"
-			x: -6.0d
-			y: -10.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -86,23 +61,44 @@
 				title: "Thirsty?"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: -11.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			description: [
-				"I don't know where I... am. I don't know where... we... are? I'm finding it hard to think. I feel... &dfragile&r."
+				"I need you to listen to me. You're in a dangerous situation, but I think I can help you navigate this &awithout you losing your mind&r. Hopefully."
 				""
-				"It's too quiet, here. It is unnerving."
+				"Who am I? &aA friend&r. Someone who is invested in your well-being. That's all you need to know, for now."
+				""
+				"Take this &bTorch&r. Most creatures here are afraid of fire - as long as &6you hold it in your main hand&r, you should be safe. I don't know if it will help &aif you're at low health&r, and I know &dsome creatures aren't affected&r, so be careful."
+				""
+				"We'll talk more soon. First, make sure you're somewhere safe. &dOut of the sun&r - away from danger. Then, I'll &agive you more information&r."
 			]
 			id: "0A981F6115A5041A"
+			rewards: [
+				{
+					id: "1C7EAA9566A99E35"
+					item: "hardcore_torches:lit_torch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E84C4EEA3260694"
+					item: "hardcore_torches:fire_starter"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "you're here, now, and that's what matters"
 			tasks: [{
 				id: "2A36D43ECC51AC61"
 				title: "The Entry Point"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -14.0d
+			title: "Awakening"
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			id: "52943FA26BF052A6"
@@ -113,51 +109,45 @@
 				}
 				type: "questsadditions:playernbt"
 			}]
-			x: -16.0d
-			y: -10.5d
+			x: 6.5d
+			y: 14.0d
 		}
 		{
 			description: [
-				"Oh hell, what's wrong with the sun? It's &ahuge&r, and it &dhurts my skin&r. I guess I'd better &6stay underground while the sun's out&r. For now, anyway."
+				"The &dsun is your enemy&r, here. I see you found out the hard way."
 				""
-				"Maybe I'll be &asafe if it's raining&r."
+				"We don't know what happened, but it looks like the sun is &a lot closer&r than it ever used to be, and &abeing outside burns&r. There are ways around it, like &6Fire Resistance&r, but that's not easy to come by."
+				""
+				"For now, you'll want to &6stick to underground travel&r, or &6travel at night&r. It does seem to &arain a lot&r here, which should protect you as well."
 			]
 			id: "70C4D165904E1E9F"
+			rewards: [{
+				auto: "disabled"
+				command: "/weather rain"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "5F36C1EA53BE14B1"
+				title: "Click this to summon rain."
+				type: "command"
+			}]
 			tasks: [{
 				icon: "minecraft:light"
 				id: "3B971295600AEB91"
 				stage: "sun_warning"
-				title: "The Sun"
+				title: "Burn in the Sun"
 				type: "gamestage"
 			}]
-			title: "The Sun is Not Your Friend"
-			x: -7.5d
-			y: -12.5d
+			title: "It Burns"
+			x: -2.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["79C525BCEB7FE2B5"]
 			description: [
-				"Ouch! That really stings... &dMy body feels wrong&r. Like each of my limbs is its own... being? I'd better focus on &akeeping all my parts healthy&r."
+				"Your overall health will regenerate like normal, but if you've &asustained injuries&r, you'll need to &6treat them with special items&r."
 				""
-				"Come on, think. I know some &bherbs&r are supposed to be medicinal? And I know how to &amake &bBandages&r from cloth. What else can I remember...?"
+				"&bHerbs&r can heal up to 1 limb, &bBandages&r are a little better than that, and if you're in really bad shape, you'll need a &bMedkit&r. They're not easy to come by, but they're very powerful."
 			]
-			id: "7AF5557D687143FD"
-			rewards: [{
-				id: "58EC883AC55D5B2C"
-				item: "legendarysurvivaloverhaul:plaster"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "legendarysurvivaloverhaul:bandage"
-				id: "0CA2CD030D79DA7D"
-				stat: "minecraft:damage_taken"
-				type: "stat"
-				value: 100
-			}]
-			x: -4.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["7AF5557D687143FD"]
 			id: "32B876742F70A603"
 			rewards: [{
 				id: "24343C150F133C70"
@@ -182,8 +172,8 @@
 				}
 			]
 			title: "Healing Items"
-			x: -2.5d
-			y: -12.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -227,8 +217,8 @@
 				type: "item"
 			}]
 			title: "I Need a Pasttime"
-			x: -6.0d
-			y: -8.0d
+			x: -8.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -250,8 +240,8 @@
 				type: "item"
 			}]
 			title: "Preserving Food"
-			x: -11.0d
-			y: -9.0d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			description: ["find in clown caravans"]
@@ -261,8 +251,127 @@
 				item: "born_in_chaos_v1:intoxicating_decoction"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -11.5d
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["46302055705891EA"]
+			id: "0DDBEB753CB36A3F"
+			tasks: [{
+				id: "3D83C09DD9A4DCBF"
+				item: "echochest:echo_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"Don't minimize the importance of &afriendship&r for your mental health. I can't physically be there with you, so you'll need to make do. Maybe you can &6tame a pet&r, and keep them around."
+				""
+				"Just be careful that &anothing happens to them&r. A tragedy like that would be crushing."
+			]
+			id: "708CDBBF3DE6402A"
+			rewards: [{
+				id: "09E14043AF3DF536"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				icon: "minecraft:wheat"
+				id: "15858A7E26A69668"
+				type: "advancement"
+			}]
+			title: "Companionship"
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"Oh, yeah, you'll &atake damage differently&r, too. Each of your limbs, and your head, is &aaffected separately&r, and you'll need to be careful not to get &ddebilitated&r!"
+				""
+				"&6Press H&r to take stock of your health, and see what needs attention. It's really important to do check-ins with yourself periodically. Once you've &6used a healing item&r, you can use this menu to &aselect which limb/s to heal&r."
+				""
+				"{image:dying_light:textures/quest_images/locational_damage.png width:200 height:200 align:center}"
+			]
+			id: "79C525BCEB7FE2B5"
+			rewards: [{
+				id: "07C61AC233D17A09"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "graveyard:vial_of_blood"
+				id: "6590F0AFE04BBEA9"
+				stat: "minecraft:damage_taken"
+				title: "Take Damage"
+				type: "stat"
+				value: 100
+			}]
+			title: "Locational Damage"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"You might notice that &ayou're being watched by glowing eyes&r. It's okay, you'll get use to it."
+				""
+				"The things watching you are &amostly harmless&r. In fact, most of them are more afraid of you than you are of them, and will &aflee if you get too close&r."
+				""
+				"There are some threats out there &dwhich are indeed dangerous&r, but as long as you're careful to avoid them, you should be fine. For a while."
+			]
+			id: "028E496E272E2BE2"
+			tasks: [{
+				id: "5BD41CECEDA7C518"
+				title: "The Watching Ones"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"You've probably noticed you're &asensitive to temperature, now&r. You'll need to keep a close eye on your body temps if you want to survive here."
+				""
+				"When you're too warm, your &athirst will increase&r, so be sure to &astay hydrated&r, especially in hot areas."
+				""
+				"When you're too cold, your body will start burning energy, &aincreasing your hunger&r. So you'll always want to keep some food on you."
+				""
+				"There are other ways of dealing with the elements, too. Clothes. Different types of food. Jumping into water. You'll figure it out as we go."
+			]
+			id: "1B394C3591A983C6"
+			rewards: [{
+				id: "1B504D318707C9C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							temperature: 12.6f
+						}
+					}
+					id: "legendarysurvivaloverhaul:thermometer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F12FC2D1406BAC0"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "504F8CE384478AE6"
+			tasks: [{
+				id: "2A34FD7E62353BEF"
+				title: "Seasons"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 4.5d
 		}
 	]
 	title: "WIP"

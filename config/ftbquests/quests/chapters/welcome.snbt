@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "014A3391F19F78EC"
+	images: [{
+		height: 15.0d
+		image: "dying_light:textures/ui_images/welcome_banner.png"
+		rotation: 0.0d
+		width: 26.666666666666664d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &9Dying of the Light&r, a cozy horror modpack designed by HeyKatu (it's me, hi)."
+				""
+				"This pack is designed to emulate the &aeerie-but-comfortable&r vibes of games such as &nDredge&r and &nStrange Horticulture&r. It attempts to &aavoid jumpscares whenever possible&r, instead focusing on a sense of unease."
+				""
+				"However, it will still have scary elements, and will deal with potentially triggering topics such as &amental illness&r (although it does so in a &apro-self-care&r way)."
+				""
+				"If you'd like, you can &6set difficulty to Easy&r to prevent any hostile creatures from attacking you, period. You will still have to deal with the other survival aspects of the pack, but you can rest easy knowing &ayou are safe&r."
+				""
+				"Thanks for playing!"
+			]
+			id: "6C508F9592F24515"
+			rewards: [{
+				id: "07BA025CA97E0790"
+				item: "hardcore_torches:lit_torch"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "36EB9C9366A0215A"
+				title: "Breaking the Fourth Wall"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"This modpack adds a lot of &aclient-side mods&r which are &doptional&r, but may enhance your experience."
+				""
+				"If you find them frustrating or distracting, &6you can safely disable them&r!"
+				""
+				"These mods are:"
+				""
+				"- &lFirst Person Model&r: allows you to see your whole body in first person."
+			]
+			hide: false
+			id: "3C0FDF1561619D43"
+			shape: "gear"
+			tasks: [{
+				id: "5E6F09E5A5784F69"
+				title: "Client Side Mods"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"It is &ahighly recommended&r that you &6play this pack using shaders&r, as it greatly enhances the ambience. The pack includes a few choices:"
+				""
+				"- &lInsanity Shaders&r: You cannot beat this shader for a spooky atmosphere. This is my top choice, hands down!"
+				""
+				"- &lSpooklementary&r: A darker, more saturated option which is also lighter on performance. A solid second place. Also adds additional eyes in the darkness."
+			]
+			id: "5E5382368FA3021C"
+			tasks: [{
+				id: "6FD4573BD150700C"
+				title: "Resource Packs"
+				type: "checkmark"
+			}]
+			title: "Resource Packs and Shaders"
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	title: "Welcome"
+}

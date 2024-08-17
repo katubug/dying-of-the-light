@@ -31,7 +31,7 @@
 	#Makes particles spawn more often. Set to 0 to disable
 	#Range: 0.0 ~ 1.0
 	particle_spawn_chance = 0.15
-	24h_time_format = true
+	24h_time_format = false
 
 [misc]
 	#Show insomnia missing time when laying on a bed

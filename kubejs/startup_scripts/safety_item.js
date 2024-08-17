@@ -11,9 +11,16 @@ global.changetarget = event => {
     //since this is a global event you can run /kubejs reload startup_scripts to reload whatever is in here without
     //restarting the entire game!
     let { newTarget } = event
+    let vtorch = 'minecraft:torch'
+    let vlantern = 'minecraft:lantern'
+    let ltorch = 'hardcore_torches:lit_torch'
+    let llantern = 'hardcore_torches:lit_lantern'
     if (newTarget == null) return
     if (newTarget.getHealth() < 10) return
-    if (newTarget.mainHandItem.id == 'minecraft:torch') {
+    if (newTarget.mainHandItem.id == vtorch 
+        || newTarget.mainHandItem.id == ltorch 
+        || newTarget.mainHandItem.id == vlantern 
+        || newTarget.mainHandItem.id == llantern) {
         event.setNewTarget(null)
     }
 }

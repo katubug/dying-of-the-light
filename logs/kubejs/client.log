@@ -1,11 +1,11 @@
-[16:49:09] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[16:49:09] [INIT] Loaded plugins:
-[16:49:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:49:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:49:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[16:49:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[16:49:09] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[16:49:09] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
-[16:49:09] [INFO] Loaded script client_scripts:jeihide.js in 0.001 s
-[16:49:09] [INFO] Loaded 1/1 KubeJS client scripts in 0.022 s with 0 errors and 0 warnings
-[16:49:15] [INFO] Client resource reload complete!
+[14:58:38] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[14:58:38] [INIT] Loaded plugins:
+[14:58:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:58:38] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:58:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:58:38] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:58:38] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:58:38] [INFO] Loaded script client_scripts:jeihide.js in 0.001 s
+[14:58:38] [INFO] Loaded script client_scripts:tooltips.js in 0.001 s
+[14:58:38] [INFO] Loaded 2/2 KubeJS client scripts in 0.018 s with 0 errors and 0 warnings
+[14:58:45] [INFO] Client resource reload complete!

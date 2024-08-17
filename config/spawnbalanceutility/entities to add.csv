@@ -1,21 +1,3 @@
-boh:big_daddy, MONSTER
-boh:little_sister, MONSTER
-boh:krampus, MONSTER
-boh:mothman, MONSTER
-fishofthieves:splashtail, WATER_AMBIENT
-fishofthieves:pondie, WATER_AMBIENT
-fishofthieves:islehopper, WATER_AMBIENT
-fishofthieves:ancientscale, WATER_AMBIENT
-fishofthieves:plentifin, WATER_AMBIENT
-fishofthieves:wildsplash, WATER_AMBIENT
-fishofthieves:devilfish, WATER_AMBIENT
-fishofthieves:battlegill, WATER_AMBIENT
-fishofthieves:wrecker, WATER_AMBIENT
-fishofthieves:stormfish, WATER_AMBIENT
-born_in_chaos_v1:pumpkin_spirit, MONSTER
-born_in_chaos_v1:corpse_fish, WATER_CREATURE
-born_in_chaos_v1:thornshell_crab, CREATURE
-born_in_chaos_v1:glutton_fish, WATER_CREATURE
 endofherobrine:herobrine, herobrine
 endofherobrine:builder, herobrine
 endofherobrine:lurker, herobrine
@@ -33,22 +15,7 @@ endofherobrine:stray, MONSTER
 endofherobrine:villager, CREATURE
 endofherobrine:zombie, MONSTER
 endofherobrine:zombie_villager, MONSTER
-aquamirae:golden_moth, AMBIENT
-aquamirae:maw, MONSTER
-aquamirae:anglerfish, WATER_CREATURE
-aquamirae:maze_mother, MONSTER
-aquamirae:pillagers_patrol, MONSTER
-aquamirae:tortured_soul, MONSTER
-aquamirae:eel, MONSTER
-aquamirae:spinefish, WATER_AMBIENT
-aquamirae:luminous_jelly, WATER_AMBIENT
 
-missioner?
+cave_dweller:cave_dweller, MONSTER
 
-for nether:
-born_in_chaos_v1:spiritof_chaos,
-born_in_chaos_v1:lifestealer, MONSTER
-born_in_chaos_v1:bonescaller, 11, 1, 1
-born_in_chaos_v1:supreme_bonescaller
-born_in_chaos_v1:scarlet_persecutor
-born_in_chaos_v1:dark_vortex
+

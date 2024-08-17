@@ -150,19 +150,70 @@ ServerEvents.tags('item', event => {
         'muffins_picnic:magenta_picnic_basket',
         'muffins_picnic:pink_picnic_basket'
     )
-    /*
-    let saltedFoods = [
-        Item.of('minecraft:beetroot_soup', '{Salted:1b}')
-    ]
+    event.add(
+        'salt:can_be_salted',
+        'crockpot:california_roll', 
+        'crockpot:cooked_eggplant',
+        'crockpot:cooked_egg',
+        'crockpot:frog_legs',
+        'crockpot:cooked_frog_legs',
+        'crockpot:hoglin_nose',
+        'crockpot:cooked_hoglin_nose',
+        'crockpot:asparagus_soup',
+        'crockpot:bacon_eggs',
+        'crockpot:bone_soup',
+        'crockpot:bone_stew',
+        'crockpot:breakfast_skillet',
+        'crockpot:bunny_stew',
+        'crockpot:ceviche',
+        'crockpot:fish_sticks',
+        'crockpot:fish_tacos',
+        'crockpot:flower_salad',
+        'crockpot:froggle_bunwich',
+        'crockpot:gazpacho',
+        'crockpot:honey_ham',
+        'crockpot:honey_nuggets',
+        'crockpot:hot_chili',
+        'crockpot:kabobs',
+        'crockpot:mashed_potatoes',
+        'crockpot:meat_balls',
+        'crockpot:monster_lasagna',
+        'crockpot:monster_tartare',
+        'crockpot:moqueca',
+        'crockpot:mushy_cake',
+        'crockpot:pepper_popper',
+        'crockpot:perogies',
+        'crockpot:plain_omelette',
+        'crockpot:potato_souffle',
+        'crockpot:potato_tornado',
+        'crockpot:pow_cake',
+        'crockpot:ratatouille',
+        'crockpot:salmon_sushi',
+        'crockpot:salsa',
+        'crockpot:scotch_egg',
+        'crockpot:seafood_gumbo',
+        'crockpot:stuffed_eggplant',
+        'crockpot:surf_n_turf',
+        'crockpot:tropical_bouillabaisse',
+        'crockpot:turkey_dinner',
+        'crockpot:veg_stinger'
+    )
 
-    for (const food of saltedFoods) {
-        event.remove(
-            'spoiled:foods',
-            food
-        )
-    }*/
-
-
+    event.add(
+        'forge:sanity_drain_armor',
+        'aquamirae:terrible_helmet',
+         'aquamirae:terrible_chestplate',
+         'aquamirae:terrible_leggings',
+         'aquamirae:terrible_boots',
+         'aquamirae:abyssal_heaume',
+         'aquamirae:abyssal_brigantine',
+         'aquamirae:abyssal_leggings',
+         'aquamirae:abyssal_boots',
+         'aquamirae:three_bolt_helmet',
+         'aquamirae:three_bolt_suit',
+         'aquamirae:three_bolt_leggings',
+         'aquamirae:three_bolt_boots'
+    )
     
 })
 

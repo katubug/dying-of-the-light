@@ -79,6 +79,13 @@ doMinigame = true
 			icon = "tide:endstone_perch"
 			unlockedByDefault = false
 
+		[journal.pages.fishofthieves]
+			id = "fishofthieves"
+			title = "journal.title.fishofthieves"
+			content = "journal.content.fishofthieves"
+			icon = "fishofthieves:splashtail"
+			unlockedByDefault = false
+
 		[journal.pages.legendary]
 			id = "legendary"
 			title = "journal.title.legendary"
@@ -459,6 +466,56 @@ doMinigame = true
 			fish = "tide:elytrout"
 			description = "profile.item.tide.elytrout"
 			page = "end"
+
+		[journal.profiles.splashtail]
+			fish = "fishofthieves:splashtail"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.pondie]
+			fish = "fishofthieves:pondie"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.islehopper]
+			fish = "fishofthieves:islehopper"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.ancientscale]
+			fish = "fishofthieves:ancientscale"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.plentifin]
+			fish = "fishofthieves:plentifin"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.wildsplash]
+			fish = "fishofthieves:wildsplash"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.devilfish]
+			fish = "fishofthieves:devilfish"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.battlegill]
+			fish = "fishofthieves:battlegill"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.wrecker]
+			fish = "fishofthieves:wrecker"
+			description = ""
+			page = "fishofthieves"
+
+		[journal.profiles.stormfish]
+			fish = "fishofthieves:stormfish"
+			description = ""
+			page = "fishofthieves"
 
 		[journal.profiles.midas_fish]
 			fish = "tide:midas_fish"

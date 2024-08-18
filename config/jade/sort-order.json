@@ -1,12 +1,6 @@
 {
   "crockpot:birdcage": null,
   "crockpot:crock_pot": null,
-  "goety:block_owner": null,
-  "goety:soul_energy": null,
-  "goety:summon_breed": null,
-  "goety:summon_growth": null,
-  "goety:summon_lifespan": null,
-  "goety:summon_owner": null,
   "jade:block_face": null,
   "jade:distance": null,
   "jade:mod_name": null,
@@ -52,6 +46,5 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:zombie_villager": null,
-  "tombstone:graves": null,
-  "unlitcampfire:campfireinfo": null
+  "tombstone:graves": null
 }

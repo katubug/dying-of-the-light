@@ -1,0 +1,23 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+            "type": "spoiled:initialize_spoiling"
+          }
+        ],
+        "recipe": {
+          "type": "spoiled:spoil_recipe",
+          "ingredient": {
+            "item": "minecraft:bread"
+          },
+          "result": {
+            "item": "immersive_weathering:moss_clump",
+            "count": 1
+            },
+          "spoilTime":60
+        }
+      }
+    ]
+  }

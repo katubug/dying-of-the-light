@@ -177,11 +177,15 @@
 		}
 		{
 			description: [
-				"Even despite everything, I still find myself wanting something to pass the time. I think if I could &afocus on something productive&r, it would help me to &akeep my wits about me&r."
+				"angler's workshop to customize rod"
 				""
-				"I used to love fishing, as a kid. I think I'll &6make myself a &bFishing Rod&r."
+				"hold bait in off hand"
 				""
-				"I've seen fish in a &asurprising amount of places&r, I wonder if they &acan live in any water&r."
+				"bait items:"
+				"- bait"
+				"- worms"
+				"- grubs"
+				"- leeches"
 			]
 			id: "085671CEEECD2D16"
 			rewards: [

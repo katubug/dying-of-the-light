@@ -10,8 +10,13 @@
       "recipe": {
         "type": "spoiled:spoil_recipe",
         "ingredient": {
-          "tag": "spoiled:foods/vanilla"
-        }
+          "tag": "forge:cooked_to_rotten_flesh"
+        },
+        "result": {
+          "item": "minecraft:rotten_flesh",
+          "count": 1
+          },
+        "spoilTime":60
       }
     }
   ]

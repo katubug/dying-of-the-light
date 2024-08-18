@@ -384,7 +384,7 @@
 [body-damage]
 	# Multiply the damage taken by the player when shot in the head.
 	#Range: 1.0 ~ 1000.0
-	"Headshot Multiplier" = 2.0
+	"Headshot Multiplier" = 1.0
 	# How much of the hurt player's damage is assigned to the body parts.
 	#Range: 0.0 ~ 1000.0
 	"Body Damage Multiplier" = 1.0

@@ -1,0 +1,23 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+      {
+        "conditions": [
+          {
+            "type": "spoiled:initialize_spoiling"
+          }
+        ],
+        "recipe": {
+          "type": "spoiled:spoil_recipe",
+          "ingredient": {
+            "item": "kubejs:putrid_ichor"
+          },
+          "result": {
+            "item": "fishofthieves:grubs",
+            "count": 1
+            },
+          "spoilTime":60
+        }
+      }
+    ]
+  }

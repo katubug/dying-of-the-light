@@ -1,29 +1,30 @@
-[13:40:07] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[13:40:07] [INIT] Loaded plugins:
-[13:40:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:40:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:40:07] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[13:40:07] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[13:40:07] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[13:40:07] [INFO] Loaded script server_scripts:compostable_items.js in 0.001 s
-[13:40:07] [INFO] Loaded script server_scripts:eel_bait.js in 0.001 s
-[13:40:07] [INFO] Loaded script server_scripts:grace_period.js in 0.0 s
-[13:40:07] [INFO] Loaded script server_scripts:loot_editing.js in 0.001 s
-[13:40:07] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
-[13:40:07] [INFO] Loaded script server_scripts:recipe_removal.js in 0.001 s
-[13:40:07] [INFO] Loaded script server_scripts:sanity_effects.js in 0.001 s
-[13:40:07] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
-[13:40:07] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
-[13:40:07] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[13:40:07] [INFO] Loaded 10/10 KubeJS server scripts in 0.011 s with 0 errors and 0 warnings
-[13:40:07] [INFO] Scripts loaded
-[13:40:07] [INFO] Initializing recipe event...
-[13:40:07] [INFO] [minecraft:item] Found 558 tags, added 318 objects, removed 0 objects
-[13:40:07] [INFO] [minecraft:block] Found 487 tags, added 48 objects, removed 0 objects
-[13:40:08] [INFO] Processing recipes...
-[13:40:08] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[13:40:08] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[13:40:08] [INFO] Found 3424 recipes in 25.69 ms
-[13:40:08] [INFO] Posted recipe events in 10.29 ms
-[13:40:08] [INFO] Added 2 recipes, removed 5 recipes, modified 0 recipes, with 0 failed recipes in 10.06 ms
-[13:40:08] [INFO] Server resource reload complete!
+[16:53:14] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[16:53:14] [INIT] Loaded plugins:
+[16:53:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:53:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:53:14] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[16:53:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:53:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:53:14] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:53:14] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:eel_bait.js in 0.001 s
+[16:53:14] [INFO] Loaded script server_scripts:grace_period.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:sanity_effects.js in 0.002 s
+[16:53:14] [INFO] Loaded script server_scripts:sky_warning.js in 0.001 s
+[16:53:14] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
+[16:53:14] [INFO] Loaded script server_scripts:tags.js in 0.001 s
+[16:53:14] [INFO] Loaded 10/10 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
+[16:53:14] [INFO] Scripts loaded
+[16:53:14] [INFO] Initializing recipe event...
+[16:53:14] [INFO] [minecraft:item] Found 582 tags, added 403 objects, removed 0 objects
+[16:53:14] [INFO] [minecraft:block] Found 498 tags, added 48 objects, removed 0 objects
+[16:53:15] [INFO] Processing recipes...
+[16:53:15] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:53:15] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:53:15] [INFO] Found 3806 recipes in 30.90 ms
+[16:53:15] [INFO] Posted recipe events in 22.33 ms
+[16:53:15] [INFO] Added 2 recipes, removed 5 recipes, modified 0 recipes, with 0 failed recipes in 21.97 ms
+[16:53:15] [INFO] Server resource reload complete!

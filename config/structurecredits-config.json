@@ -3,7 +3,7 @@
   "showOnlyOneTime": false,
   "cooldown": 30,
   "chatMessage": false,
-  "infoMessageSent": false,
+  "infoMessageSent": true,
   "dontShowAll": [
     "minecraft:",
     "dimdungeons:"

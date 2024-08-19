@@ -1,0 +1,10 @@
+
+["Void Tome Configuration"]
+	#Should Void Tome be locked behind killing the Dragon?
+	"Locked behind Free the End" = true
+	#Can Void Tome be unlocked by a regular method?
+	"Default obtaining method" = true
+	#Defines how severe is screenshake produced by Void Tome effects
+	#Range: 0.0 ~ 1.0
+	"Screenshake amount" = 0.01
+

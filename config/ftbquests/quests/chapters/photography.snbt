@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "photography"
+	group: ""
+	id: "195B79065C9CCAB8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["It is said that &aphotographing someone steals their soul&r."]
+			id: "4EA36CD0281FC5AB"
+			rewards: [{
+				id: "387E0C600AD7234D"
+				item: {
+					Count: 1
+					id: "exposure:camera"
+					tag: {
+						Active: 0b
+						Enchantments: [{
+							id: "tombstone:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0347A89A0D022154"
+				item: {
+					Count: 1
+					id: "exposure:camera"
+					tag: {
+						Active: 0b
+						Enchantments: [{
+							id: "tombstone:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Documenting Your Journey"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["Take a photo of a &eCow&r, &eSheep&r, and &ePig&r simultaneously."]
+			id: "7B14E835053C360A"
+			tasks: [{
+				id: "0C61139919FB1B5F"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:cow": 1b
+						"minecraft:pig": 1b
+						"minecraft:sheep": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Take a Group Photo"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "63F37F851074BFCF"
+			tasks: [{
+				id: "09FF6ED981500277"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"endofherobrine:herobrine": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Take a Photo of Herobrine"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "281064B532F2240B"
+			tasks: [{
+				id: "364551A800A33C2F"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"cave_dweller:cave_dweller": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Cave Dweller"
+			x: -5.5d
+			y: -3.5d
+		}
+	]
+	title: "Photography"
+}

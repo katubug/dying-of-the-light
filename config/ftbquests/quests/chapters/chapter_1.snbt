@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	id: "5D44EF920D942D46"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"I need you to listen to me. You're in a dangerous situation, but I think I can help you navigate this &awithout you losing your mind&r. Hopefully."
+				""
+				"Who am I? &aA friend&r. Someone who is invested in your well-being. That's all you need to know, for now."
+				""
+				"Take this &bTorch&r. Most creatures here are afraid of fire - as long as &6you hold it in your main hand&r, you should be safe. I don't know if it will help &aif you're at low health&r, and I know &dsome creatures aren't affected&r, so be careful."
+				""
+				"We'll talk more soon. First, make sure you're somewhere safe. &dOut of the sun&r - away from danger. Then, I'll &agive you more information&r."
+			]
+			id: "0A981F6115A5041A"
+			rewards: [
+				{
+					id: "1C7EAA9566A99E35"
+					item: "hardcore_torches:lit_torch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E84C4EEA3260694"
+					item: "hardcore_torches:fire_starter"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "you're here, now, and that's what matters"
+			tasks: [{
+				id: "2A36D43ECC51AC61"
+				title: "The Entry Point"
+				type: "checkmark"
+			}]
+			title: "Awakening"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &dsun is your enemy&r, here. I see you found out the hard way."
+				""
+				"We don't know what happened, but it looks like the sun is &a lot closer&r than it ever used to be, and &abeing outside burns&r. There are ways around it, like &6Fire Resistance&r, but that's not easy to come by."
+				""
+				"For now, you'll want to &6stick to underground travel&r, or &6travel at night&r. It does seem to &arain a lot&r here, which should protect you as well."
+			]
+			id: "70C4D165904E1E9F"
+			rewards: [{
+				auto: "disabled"
+				command: "/weather rain"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "5F36C1EA53BE14B1"
+				title: "Click this to summon rain."
+				type: "command"
+			}]
+			tasks: [{
+				icon: "minecraft:light"
+				id: "3B971295600AEB91"
+				stage: "sun_warning"
+				title: "Burn in the Sun"
+				type: "gamestage"
+			}]
+			title: "It Burns"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 1"
+}

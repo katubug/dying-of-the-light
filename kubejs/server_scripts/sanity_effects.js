@@ -45,3 +45,48 @@ PlayerEvents.tick(event => {
         event.server.runCommandSilent(`sanity add ${event.player.name.string} -10`)
     }
 })
+/*
+ItemEvents.rightClicked(event => {
+    const { item, server, player} = event 
+    let film = item.nbt['Film']['Count']
+    let filmType = item.nbt['Film']['id']
+    if (item.getId() == 'exposure:camera' && film >=1 && filmType == 'exposure:black_and_white_film') {
+        player.tell("bw")
+        server.runCommandSilent(`sanity add ${event.player.name.string} 5`)
+    }
+    if (item.getId() == 'exposure:camera' && film >=1 && filmType == 'exposure:color_film') {
+
+        player.tell("color")
+        server.runCommandSilent(`sanity add ${event.player.name.string} 10`)
+    }
+})
+    */
+ItemEvents.rightClicked('exposure:camera', event => {
+    const { item, server, player } = event
+    let film = item.nbt.Film.Count
+    let filmType = item.nbt.Film.id
+    let filmCount = item.nbt.Film.tag.Frames[15]
+
+    if (film < 1) return
+
+    switch (filmType) {
+        case 'exposure:black_and_white_film':
+            player.tell("bw")
+            server.runCommandSilent(`sanity add ${event.player.username} 5`)
+            break
+
+        case 'exposure:color_film':
+            if (filmCount == null) {
+                player.tell("color")
+                server.runCommandSilent(`sanity add ${event.player.username} 10`)
+            }
+            break
+    }
+})
+
+BlockEvents.leftClicked( event => {
+    const { item, server, player } = event
+    if (player.mainHandItem.hasTag('forge:sanity_drain_item')) {
+        event.server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
+    }
+})

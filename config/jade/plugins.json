@@ -50,6 +50,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
   "tombstone": {
     "graves": true
   },

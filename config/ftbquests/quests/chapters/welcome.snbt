@@ -45,6 +45,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["6C508F9592F24515"]
 			description: [
 				"This modpack adds a lot of &aclient-side mods&r which are &doptional&r, but may enhance your experience."
 				""
@@ -53,6 +54,8 @@
 				"These mods are:"
 				""
 				"- &lFirst Person Model&r: allows you to see your whole body in first person."
+				""
+				"- &lAmbient Sounds&r:"
 			]
 			hide: false
 			id: "3C0FDF1561619D43"
@@ -66,6 +69,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["3C0FDF1561619D43"]
 			description: [
 				"It is &ahighly recommended&r that you &6play this pack using shaders&r, as it greatly enhances the ambience. The pack includes a few choices:"
 				""
@@ -81,6 +85,51 @@
 			}]
 			title: "Resource Packs and Shaders"
 			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"In this pack, you'll have &aneeds to take care of&r, beyond what you'd expect in vanilla. These needs are as follows:"
+				""
+				"- Thirst"
+				"- Tiredness"
+				"- Locational Damage"
+				"- Temperature"
+				"- Food spoilage"
+			]
+			id: "619B225244EE9A1B"
+			tasks: [{
+				id: "482B4B9616375EE8"
+				title: "Needs"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5382368FA3021C"]
+			description: [
+				"This modpack adds several &anew mechanics&r, which you'll need to contend with."
+				""
+				"&cYou have sanity&r. This mechanic will be covered in depth in another quest, but for now just know that &aself-care is vital&r, even more so than usual."
+				""
+				"&cYou have more needs&r. You will now get &athirsty&r, and can become &bovertired&r."
+				""
+				"&cFood will spoil over time&r. In most cases, this will result in your stored food &abecoming inedible&r. However, in some cases, it will instead provide useful items such as &bcompost, worms, or rooted vegetables&r."
+				""
+				"&cThe world has temperature&r. You'll need to avoid getting both too hot (or else your &athirst will increase&r), or too cold (or else your &ahunger will increase&r). And on that note - "
+				""
+				"&cThe sun is lethal&r. The sun is inexplicably close to this world, and going outside without cover is damaging to your health."
+				""
+				"&cYou can become injured&r. When taking damage, you'll notice an indicator to the right of your hotbar which shows your &abodily well-being&r. You can &6press H to view&r this menu in detail, and choose which limbs to apply a &bhealing item&r to."
+			]
+			id: "58A436B93EC5625A"
+			tasks: [{
+				id: "1F6AAE56A157D361"
+				title: "New Mechanics"
+				type: "checkmark"
+			}]
+			x: 6.0d
 			y: 5.0d
 		}
 	]

@@ -418,8 +418,6 @@ ServerEvents.tags('item', event => {
         'tide:hardened_clayfish',
         'tide:clayfish',
         'tide:mint_carp',
-        'born_in_chaos_v1:sea_terror_eye',
-        'born_in_chaos_v1:bloody_gadfly_eye',
         'aquamirae:spinefish',
         'aquamirae:fin',
         'fishofthieves:pondie',
@@ -433,22 +431,18 @@ ServerEvents.tags('item', event => {
         'fishofthieves:devilfish',
         'fishofthieves:wildsplash',
         'fishofthieves:ancientscale',
-        'born_in_chaos_v1:rotten_fish',
-        'born_in_chaos_v1:monster_flesh',
         'fishofthieves:splashtail',
-        'born_in_chaos_v1:corpse_maggot', 
         'crockpot:frog_legs', 
         'crockpot:hoglin_nose'
     )
 
     event.add(
         'forge:sanity_drain_item',
-        'born_in_chaos_v1:nightmare_scythe'
+        'void_tome:void_tome'
     )
 
     event.add(
         'forge:bait_flesh',
-        'born_in_chaos_v1:rotten_fish',
         'kubejs:putrid_ichor',
         'minecraft:rotten_flesh',
         'fishofthieves:earthworms',

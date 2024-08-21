@@ -145,7 +145,7 @@
       "canBeWithered": false
     },
     "nightmare": {
-      "enabled": true,
+      "enabled": false,
       "weight": 10,
       "minGroup": 1,
       "maxGroup": 1,

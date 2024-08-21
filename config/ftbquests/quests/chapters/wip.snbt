@@ -24,8 +24,8 @@
 				item: "starmetal:star_metal"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "24801BAFD3C388D5"
@@ -34,272 +34,8 @@
 				item: "zombie_fabrics:fabric"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
-		}
-		{
-			description: [
-				"I'm so thirsty. I feel like I haven't tasted water in years..."
-				""
-				"&aI don't think my health will restore unless I keep hydrated&r. But I don't want to drink just any water; I'd better &6boil it to purity&r first."
-			]
-			id: "0AC26D0E563DF0EF"
-			rewards: [{
-				id: "060417F4A34A6DDD"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:water"
-						Purity: 3
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5570347E9C118F28"
-				title: "Thirsty?"
-				type: "checkmark"
-			}]
-			x: -4.5d
+			x: 1.5d
 			y: 4.0d
-		}
-		{
-			id: "52943FA26BF052A6"
-			tasks: [{
-				id: "25C093507200906C"
-				nbt: {
-					sanity.sanity: 0.4214531f
-				}
-				type: "questsadditions:playernbt"
-			}]
-			x: 6.5d
-			y: 14.0d
-		}
-		{
-			dependencies: ["79C525BCEB7FE2B5"]
-			description: [
-				"Your overall health will regenerate like normal, but if you've &asustained injuries&r, you'll need to &6treat them with special items&r."
-				""
-				"&bHerbs&r can heal up to 1 limb, &bBandages&r are a little better than that, and if you're in really bad shape, you'll need a &bMedkit&r. They're not easy to come by, but they're very powerful."
-			]
-			id: "32B876742F70A603"
-			rewards: [{
-				id: "24343C150F133C70"
-				item: "legendarysurvivaloverhaul:tonic"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "26436C3D93E2244D"
-					item: "legendarysurvivaloverhaul:healing_herbs"
-					type: "item"
-				}
-				{
-					id: "573DC764741D5612"
-					item: "legendarysurvivaloverhaul:bandage"
-					type: "item"
-				}
-				{
-					id: "495D8C846CA16DB4"
-					item: "legendarysurvivaloverhaul:medikit"
-					type: "item"
-				}
-			]
-			title: "Healing Items"
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			description: [
-				"angler's workshop to customize rod"
-				""
-				"hold bait in off hand"
-				""
-				"bait items:"
-				"- bait"
-				"- worms"
-				"- grubs"
-				"- leeches"
-			]
-			id: "085671CEEECD2D16"
-			rewards: [
-				{
-					id: "52A3B9F055B1F0C8"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:lure"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0E6F82A46643863D"
-					item: "tide:fishing_journal"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0FA3F5375E5C1EE3"
-				item: {
-					Count: 1
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "I Need a Pasttime"
-			x: -8.0d
-			y: 7.0d
-		}
-		{
-			description: [
-				"I've noticed that &afood spoils more quickly here&r. I think there must be a way to &apreserve it&r, maybe by crafting a &bPicnic Basket&r to keep it in. It should &atake longer to spoil&r this way."
-				""
-				"Perhaps there's a way to &apreserve it indefinitely&r?"
-			]
-			id: "46302055705891EA"
-			tasks: [{
-				id: "577015539535953C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:picnic_baskets"
-					}
-				}
-				title: "Any #forge:picnic_baskets"
-				type: "item"
-			}]
-			title: "Preserving Food"
-			x: -1.5d
-			y: 8.0d
-		}
-		{
-			description: ["find in clown caravans"]
-			id: "6C573B2E7989BD19"
-			tasks: [{
-				id: "7740B87FACB70551"
-				item: "born_in_chaos_v1:intoxicating_decoction"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 14.0d
-		}
-		{
-			description: [
-				"Don't minimize the importance of &afriendship&r for your mental health. I can't physically be there with you, so you'll need to make do. Maybe you can &6tame a pet&r, and keep them around."
-				""
-				"Just be careful that &anothing happens to them&r. A tragedy like that would be crushing."
-			]
-			id: "708CDBBF3DE6402A"
-			rewards: [{
-				id: "09E14043AF3DF536"
-				item: "minecraft:name_tag"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "minecraft:husbandry/tame_an_animal"
-				criterion: ""
-				icon: "minecraft:wheat"
-				id: "15858A7E26A69668"
-				type: "advancement"
-			}]
-			title: "Companionship"
-			x: -7.0d
-			y: 8.5d
-		}
-		{
-			description: [
-				"Oh, yeah, you'll &atake damage differently&r, too. Each of your limbs, and your head, is &aaffected separately&r, and you'll need to be careful not to get &ddebilitated&r!"
-				""
-				"&6Press H&r to take stock of your health, and see what needs attention. It's really important to do check-ins with yourself periodically. Once you've &6used a healing item&r, you can use this menu to &aselect which limb/s to heal&r."
-				""
-				"{image:dying_light:textures/quest_images/locational_damage.png width:200 height:200 align:center}"
-			]
-			id: "79C525BCEB7FE2B5"
-			rewards: [{
-				id: "07C61AC233D17A09"
-				item: "legendarysurvivaloverhaul:plaster"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "graveyard:vial_of_blood"
-				id: "6590F0AFE04BBEA9"
-				stat: "minecraft:damage_taken"
-				title: "Take Damage"
-				type: "stat"
-				value: 100
-			}]
-			title: "Locational Damage"
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			description: [
-				"You might notice that &ayou're being watched by glowing eyes&r. It's okay, you'll get use to it."
-				""
-				"The things watching you are &amostly harmless&r. In fact, most of them are more afraid of you than you are of them, and will &aflee if you get too close&r."
-				""
-				"There are some threats out there &dwhich are indeed dangerous&r, but as long as you're careful to avoid them, you should be fine. For a while."
-			]
-			id: "028E496E272E2BE2"
-			tasks: [{
-				id: "5BD41CECEDA7C518"
-				title: "The Watching Ones"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			description: [
-				"You've probably noticed you're &asensitive to temperature, now&r. You'll need to keep a close eye on your body temps if you want to survive here."
-				""
-				"When you're too warm, your &athirst will increase&r, so be sure to &astay hydrated&r, especially in hot areas."
-				""
-				"When you're too cold, your body will start burning energy, &aincreasing your hunger&r. So you'll always want to keep some food on you."
-				""
-				"There are other ways of dealing with the elements, too. Clothes. Different types of food. Jumping into water. You'll figure it out as we go."
-			]
-			id: "1B394C3591A983C6"
-			rewards: [{
-				id: "1B504D318707C9C7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							temperature: 12.6f
-						}
-					}
-					id: "legendarysurvivaloverhaul:thermometer"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2F12FC2D1406BAC0"
-				title: "Temperature"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			id: "504F8CE384478AE6"
-			tasks: [{
-				id: "2A34FD7E62353BEF"
-				title: "Seasons"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: 4.5d
 		}
 		{
 			description: ["If you put this in the stonecutter, you can get Mutagen, which lets you craft stuff from the Thaumon mod."]
@@ -309,8 +45,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "2088C24A0C50374F"
@@ -327,8 +63,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 7.0d
-			y: 11.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			id: "716196194F930A68"
@@ -345,8 +81,67 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "14C6E4CDBD954F66"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-128379751
+								-873381404
+								-1438275779
+								105458153
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ3ZjAyZDE0Nzc1YmZiMGE2ZDk1OGViNGE0NGE1YWE4Y2Y2MmYxN2U3NDlhMmMxNjE1Y2RiN2E3M2ZkZmRkOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 95994\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Shadow Monster\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "6CA9952926ABCFDF"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Cave Dweller"
+				to_observe: "cave_dweller:cave_dweller"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14C6E4CDBD954F66"]
+			id: "281064B532F2240B"
+			tasks: [{
+				id: "364551A800A33C2F"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"cave_dweller:cave_dweller": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Cave Dweller"
+			x: -5.5d
+			y: 8.0d
 		}
 	]
 	title: "WIP"

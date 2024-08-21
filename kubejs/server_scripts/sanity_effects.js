@@ -32,35 +32,11 @@ PlayerEvents.tick(event => {
     if (player.feetArmorItem.hasTag('forge:sanity_drain_armor')) {
         event.server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
     }
-    if (player.hasEffect('born_in_chaos_v1:light_rampage')) {
-        event.server.runCommandSilent(`sanity add ${event.player.name.string} -3`)
-    }
-    if (player.hasEffect('born_in_chaos_v1:medium_rampage')) {
-        event.server.runCommandSilent(`sanity add ${event.player.name.string} -5`)
-    }
-    if (player.hasEffect('born_in_chaos_v1:strong_rampage')) {
-        event.server.runCommandSilent(`sanity add ${event.player.name.string} -7`)
-    }
-    if (player.hasEffect('born_in_chaos_v1:rampant_rampage')) {
-        event.server.runCommandSilent(`sanity add ${event.player.name.string} -10`)
+    if (player.hasEffect('legendarysurvivaloverhaul:headache')) {
+        event.server.runCommandSilent(`sanity add ${event.player.name.string} -2`)
     }
 })
-/*
-ItemEvents.rightClicked(event => {
-    const { item, server, player} = event 
-    let film = item.nbt['Film']['Count']
-    let filmType = item.nbt['Film']['id']
-    if (item.getId() == 'exposure:camera' && film >=1 && filmType == 'exposure:black_and_white_film') {
-        player.tell("bw")
-        server.runCommandSilent(`sanity add ${event.player.name.string} 5`)
-    }
-    if (item.getId() == 'exposure:camera' && film >=1 && filmType == 'exposure:color_film') {
 
-        player.tell("color")
-        server.runCommandSilent(`sanity add ${event.player.name.string} 10`)
-    }
-})
-    */
 ItemEvents.rightClicked('exposure:camera', event => {
     const { item, server, player } = event
     let film = item.nbt.Film.Count
@@ -71,22 +47,33 @@ ItemEvents.rightClicked('exposure:camera', event => {
 
     switch (filmType) {
         case 'exposure:black_and_white_film':
-            player.tell("bw")
+            //player.tell("bw")
             server.runCommandSilent(`sanity add ${event.player.username} 5`)
             break
 
         case 'exposure:color_film':
             if (filmCount == null) {
-                player.tell("color")
+                //player.tell("color")
                 server.runCommandSilent(`sanity add ${event.player.username} 10`)
             }
             break
     }
 })
-
-BlockEvents.leftClicked( event => {
+ItemEvents.rightClicked( event => {
     const { item, server, player } = event
     if (player.mainHandItem.hasTag('forge:sanity_drain_item')) {
-        event.server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
+        //player.tell("heehe")
+        server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
+    }
+})
+
+NetworkEvents.dataReceived('leftClickData', event=> {
+    const {player, data, server} = event;
+    const {hand} = data;
+    const item = player.getItemInHand(hand);
+    //if (item.hasTag('forge:sanity_drain_item')) {
+    if (player.mainHandItem.hasTag('forge:sanity_drain_item')) {
+        player.tell("boop")
+        server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
     }
 })

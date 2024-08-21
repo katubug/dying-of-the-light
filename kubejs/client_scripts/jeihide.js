@@ -11,14 +11,9 @@ JEIEvents.hideItems(event => {
         'ftbquests:screen_7',
         'ftbquests:task_screen_configurator',
         'aquamirae:maze_rose',
-        'born_in_chaos_v1:damned_demomans_hat_helmet', 
-        'born_in_chaos_v1:trident_hayfork', 
-        'born_in_chaos_v1:skullbreaker_hammer',
-        'born_in_chaos_v1:wood_splitter_axe',
-        'born_in_chaos_v1:phantom_bomb', 
-        'born_in_chaos_v1:supreme_measure', 
         'immersive_weathering:ice_sickle',
-        'aquamirae:poisoned_chakra'
+        'aquamirae:poisoned_chakra',
+        'legendarysurvivaloverhaul:seasonal_calendar'
 ];
     
 for (const hide of toHide) {

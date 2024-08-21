@@ -6,6 +6,7 @@ StartupEvents.registry('item', event => {
     event.create('eel_bait').displayName("Eel Bait")
     event.create('rotted_residue').displayName("Rotted Residue")
     event.create('putrid_ichor').displayName("Putrid Ichor")
+    event.create('summoning_powder').displayName("Summoning Powder")
 
   })
   
@@ -367,24 +368,6 @@ event.create('carved_crimson_1', 'cardinal')
   .displayName('Carved Spruce Wood Vertical') 
   .tagBlock('minecraft:mineable/axe') 
 
-})
-
-// Make Potions Stackable
-
-ItemEvents.modification(event =>{
-  event.modify('minecraft:potion', item =>{
-    item.maxStackSize = 16
-    })
-
-  event.modify('minecraft:lingering_potion', item =>{
-    item.maxStackSize = 16
-    })
-
-  event.modify('minecraft:splash_potion', item =>{
-    item.maxStackSize = 16
-    })
-
-    
 })
 
 BlockEvents.modification(event => {

@@ -13,17 +13,6 @@
   // Example: "!minecraft:.*" will disable all entities from minecraft. (NOT RECOMMENDED, JUST AN EXAMPLE)
   //  
   "disabled": [
-    "born_in_chaos_v1:skeleton_thrasher",
-    "born_in_chaos_v1:fallen_chaos_knight",
-    "born_in_chaos_v1:zombie_bruiser",
-    "born_in_chaos_v1:phantom_creeper",
-    "born_in_chaos_v1:phantom_creeper_copy",
-    "born_in_chaos_v1:zombie_lumberjack",
-    "born_in_chaos_v1:bloody_gadfly",
-    "born_in_chaos_v1:skeleton_demoman",
-    "born_in_chaos_v1:skeleton_thrasher_not_despawn",
-    "born_in_chaos_v1:decaying_zombie_not_despawn",
-    "born_in_chaos_v1:bonescaller_not_despawn",
     "graveyard:nightmare",
     "graveyard:acolyte"
   ],

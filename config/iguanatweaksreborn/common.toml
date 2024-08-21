@@ -170,7 +170,7 @@
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
 	"Enable Tiredness" = true
 	#Changes to death
-	"Enable Death" = true
+	"Enable Death" = false
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
 	"Enable Sleeping Effects" = false
 
@@ -240,7 +240,7 @@
 		#If true, the player's killer will not despawn and when killed will drop 4x more items and experience.
 		"Player's killer bounty" = true
 		#If true, the player's experience is stored in the grave.
-		"Grave keeps experience" = true
+		"Grave keeps experience" = false
 
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
 	["Sleep & Respawn"."Sleeping Effects"]

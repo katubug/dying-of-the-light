@@ -1,30 +1,43 @@
-[16:53:14] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[16:53:14] [INIT] Loaded plugins:
-[16:53:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:53:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:53:14] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[16:53:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[16:53:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[16:53:14] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[16:53:14] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:eel_bait.js in 0.001 s
-[16:53:14] [INFO] Loaded script server_scripts:grace_period.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:sanity_effects.js in 0.002 s
-[16:53:14] [INFO] Loaded script server_scripts:sky_warning.js in 0.001 s
-[16:53:14] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
-[16:53:14] [INFO] Loaded script server_scripts:tags.js in 0.001 s
-[16:53:14] [INFO] Loaded 10/10 KubeJS server scripts in 0.019 s with 0 errors and 0 warnings
-[16:53:14] [INFO] Scripts loaded
-[16:53:14] [INFO] Initializing recipe event...
-[16:53:14] [INFO] [minecraft:item] Found 582 tags, added 403 objects, removed 0 objects
-[16:53:14] [INFO] [minecraft:block] Found 498 tags, added 48 objects, removed 0 objects
-[16:53:15] [INFO] Processing recipes...
-[16:53:15] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:53:15] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:53:15] [INFO] Found 3806 recipes in 30.90 ms
-[16:53:15] [INFO] Posted recipe events in 22.33 ms
-[16:53:15] [INFO] Added 2 recipes, removed 5 recipes, modified 0 recipes, with 0 failed recipes in 21.97 ms
-[16:53:15] [INFO] Server resource reload complete!
+[14:48:47] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[14:48:47] [INIT] Loaded plugins:
+[14:48:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:48:47] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:48:47] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[14:48:47] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[14:48:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:48:47] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:48:47] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:48:47] [INFO] Loaded script server_scripts:apathy_setup.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:compostable_items.js in 0.001 s
+[14:48:47] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:grace_period.js in 0.001 s
+[14:48:47] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:safety_item_server.js in 0.001 s
+[14:48:47] [INFO] Loaded script server_scripts:sanity_effects.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
+[14:48:47] [INFO] Loaded script server_scripts:tags.js in 0.001 s
+[14:48:47] [INFO] Loaded script server_scripts:tree_lore.js in 0.001 s
+[14:48:47] [INFO] Loaded 13/13 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[14:48:47] [INFO] Scripts loaded
+[14:48:47] [INFO] Initializing recipe event...
+[14:48:47] [INFO] [minecraft:item] Found 679 tags, added 397 objects, removed 0 objects
+[14:48:47] [INFO] [minecraft:block] Found 594 tags, added 48 objects, removed 0 objects
+[14:48:47] [INFO] Processing recipes...
+[14:48:47] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:48:47] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:48:47] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:48:47] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:48:47] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:48:47] [INFO] Found 3852 recipes in 35.20 ms
+[14:48:47] [INFO] Posted recipe events in 7.705 ms
+[14:48:47] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: Index 0 out of bounds for length 0
+[14:48:47] [INFO] Added 2 recipes, removed 4 recipes, modified 1 recipes, with 1 failed recipes in 10.57 ms
+[14:48:48] [INFO] Server resource reload complete!
+[14:48:52] [ERROR] ! tree_lore.js#4: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Entities" from null
+[14:48:57] [ERROR] ! tree_lore.js#4: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Entities" from null
+[14:54:54] [ERROR] ! tree_lore.js#4: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Entities" from null
+[14:55:01] [ERROR] ! tree_lore.js#4: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Entities" from null
+[14:55:20] [ERROR] ! tree_lore.js#4: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Entities" from null

@@ -1,1 +1,14 @@
-[]
+[
+	{
+        "mob":["cave_dweller:cave_dweller"],
+        "gamestage":"dweller_resolved",
+        "result":"deny",
+        "continue": true
+    },
+    {
+        "mob":["cave_dweller:cave_dweller"],
+        "gamestage":"dweller_resolved",
+        "result":"deny",
+        "continue": true
+    }
+]

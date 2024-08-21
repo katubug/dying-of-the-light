@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
+	icon: "minecraft:writable_book"
 	id: "014A3391F19F78EC"
 	images: [{
 		height: 15.0d
@@ -22,7 +23,7 @@
 				""
 				"This pack is designed to emulate the &aeerie-but-comfortable&r vibes of games such as &nDredge&r and &nStrange Horticulture&r. It attempts to &aavoid jumpscares whenever possible&r, instead focusing on a sense of unease."
 				""
-				"However, it will still have scary elements, and will deal with potentially triggering topics such as &amental illness&r (although it does so in a &apro-self-care&r way)."
+				"However, it will still have scary elements, and will deal with potentially triggering topics such as &apersonal tragedy&r and &amental illness&r (although it does so in a &apro-self-care&r way)."
 				""
 				"If you'd like, you can &6set difficulty to Easy&r to prevent any hostile creatures from attacking you, period. You will still have to deal with the other survival aspects of the pack, but you can rest easy knowing &ayou are safe&r."
 				""
@@ -53,12 +54,33 @@
 				""
 				"These mods are:"
 				""
-				"- &lFirst Person Model&r: allows you to see your whole body in first person."
+				"- &l&2First Person Model&r: allows you to see your whole body in first person."
 				""
-				"- &lAmbient Sounds&r:"
+				"- &l&2Ambient Sounds&r: By default, this sets sounds to be fairly quiet, but you can adjust them further, or remove the entirely if youo like."
+				""
+				"-&l&2Advancements Tracker&r: This mod allows you to view and track your advancements by clicking &6ctrl+L&r. You can enable a widget on the side of your screen in the mod options, and toggle it on and off (disabled by default)."
+				""
+				"-&l&2No Hurt Animation&r: A mod which removes the screen-shake when you take damage. You can remove this mod to disable it."
+				""
+				"-&l&2Traveler's Titles&r: This mod gives you small pop-ups when you enter a new biome or dimension."
+				""
+				"-&l&2Structure Credits&r: This mod pops up the name of a structure and what mod it's from when you enter it."
+				""
+				"I &dstrongly advise to keep these enabled&r for atmospheric purposes, but:"
+				""
+				"-&l&2Enhanced Visuals&r: Adds client-side effects to things like taking damage, freezing, overheating, or creeper explosions. Can be disabled piecemeal in the config."
+				""
+				"-&l&2Presence Footsteps&r: Makes your footfalls more immersive. Can be tweaked or removed."
+				""
+				"-&l&2Sound Physics Remastered&r: Makes caves more echoey, and also provides sound damping effects when there are solid blocks between you and the source. Super immersive, but can be disabled."
 			]
 			hide: false
 			id: "3C0FDF1561619D43"
+			rewards: [{
+				id: "6D770A5A26AA7EDF"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5E6F09E5A5784F69"
@@ -73,11 +95,16 @@
 			description: [
 				"It is &ahighly recommended&r that you &6play this pack using shaders&r, as it greatly enhances the ambience. The pack includes a few choices:"
 				""
-				"- &lInsanity Shaders&r: You cannot beat this shader for a spooky atmosphere. This is my top choice, hands down!"
+				"- &l&2Insanity Shaders&r: You cannot beat this shader for a spooky atmosphere. This is my top choice, hands down!"
 				""
-				"- &lSpooklementary&r: A darker, more saturated option which is also lighter on performance. A solid second place. Also adds additional eyes in the darkness."
+				"- &l&2Spooklementary&r: A darker, more saturated option which is also lighter on performance. A solid second place. Also adds additional eyes in the darkness."
+				""
+				"For &aResource Packs&r, I recommend enabling everything except for the following:"
+				""
+				"{image:dying_light:textures/quest_images/resource_packs.png width:280 height:320 align:center}"
 			]
 			id: "5E5382368FA3021C"
+			shape: "gear"
 			tasks: [{
 				id: "6FD4573BD150700C"
 				title: "Resource Packs"
@@ -88,6 +115,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["58A436B93EC5625A"]
 			description: [
 				"In this pack, you'll have &aneeds to take care of&r, beyond what you'd expect in vanilla. These needs are as follows:"
 				""
@@ -98,6 +126,7 @@
 				"- Food spoilage"
 			]
 			id: "619B225244EE9A1B"
+			shape: "gear"
 			tasks: [{
 				id: "482B4B9616375EE8"
 				title: "Needs"
@@ -113,7 +142,7 @@
 				""
 				"&cYou have sanity&r. This mechanic will be covered in depth in another quest, but for now just know that &aself-care is vital&r, even more so than usual."
 				""
-				"&cYou have more needs&r. You will now get &athirsty&r, and can become &bovertired&r."
+				"&cYou have more needs&r. You will now get &athirsty&r, and can become &bovertired&r. &ePhantoms&r are disabled."
 				""
 				"&cFood will spoil over time&r. In most cases, this will result in your stored food &abecoming inedible&r. However, in some cases, it will instead provide useful items such as &bcompost, worms, or rooted vegetables&r."
 				""
@@ -122,8 +151,13 @@
 				"&cThe sun is lethal&r. The sun is inexplicably close to this world, and going outside without cover is damaging to your health."
 				""
 				"&cYou can become injured&r. When taking damage, you'll notice an indicator to the right of your hotbar which shows your &abodily well-being&r. You can &6press H to view&r this menu in detail, and choose which limbs to apply a &bhealing item&r to."
+				""
+				"&cYour torches don't last forever&r. &bTorches and Lanterns&r both have finite amounts of fuel, and must be &aperiodically refreshed&r, even when held in your inventory. Hand-held &btorches&r will also &aextinguish when exposed to rain or water&r."
+				""
+				"&cThe world has seasons&r. Not all crops will flourish in each season, and you'll encounter weather and temperature appropriate to the time of year."
 			]
 			id: "58A436B93EC5625A"
+			shape: "gear"
 			tasks: [{
 				id: "1F6AAE56A157D361"
 				title: "New Mechanics"

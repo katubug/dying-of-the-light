@@ -13,7 +13,7 @@
             "tag": "forge:spoilable_fish"
           },
           "result": {
-            "item": "born_in_chaos_v1:rotten_fish",
+            "item": "fishofthieves:fish_bone",
             "count": 1
             },
           "spoilTime":20

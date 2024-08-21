@@ -17,16 +17,9 @@
         "predicate": {
           "type": "in_player_set",
           "player_sets": [
-            "insane"
+            "insane",
+            "low_health"
           ]
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "allow",
-        "if_false": "pass",
-        "predicate": {
-          "type": "attacker_is_boss"
         }
       },
       {
@@ -43,15 +36,29 @@
         "if_true": "deny",
         "if_false": "pass",
         "predicate": {
+          "type": "in_player_set",
+          "player_sets": [
+            "safety_item"
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "attacker_is_boss"
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
           "type": "attacker_is",
           "mobs": [
             "minecraft:spider",
             "minecraft:zombie",
-            "born_in_chaos_v1:baby_skeleton",
-            "born_in_chaos_v1:siamese_skeletons",
-            "born_in_chaos_v1:bone_imp",
-            "born_in_chaos_v1:mr_pumpkin",
-            "born_in_chaos_v1:senor_pumpkin",
             "graveyard:wraith",
             "graveyard:reaper"
           ]

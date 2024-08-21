@@ -50,6 +50,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true

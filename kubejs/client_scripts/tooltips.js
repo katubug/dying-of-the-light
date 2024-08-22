@@ -11,4 +11,8 @@ ItemEvents.tooltip(event => {
         'Also prevents food spoilage.'
     )
 
+    event.add('thaumon:mutagen',
+        'Click onto Oak Wood Logs to summon the Earth Spirit.'
+    )
+
 })

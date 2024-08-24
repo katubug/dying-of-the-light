@@ -24,18 +24,8 @@
 				item: "starmetal:star_metal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.5d
-		}
-		{
-			id: "24801BAFD3C388D5"
-			tasks: [{
-				id: "2562FC48840C6085"
-				item: "zombie_fabrics:fabric"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			description: ["If you put this in the stonecutter, you can get Mutagen, which lets you craft stuff from the Thaumon mod."]
@@ -45,43 +35,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			id: "2088C24A0C50374F"
-			tasks: [{
-				id: "7022AA90D2E00DEE"
-				item: {
-					Count: 1
-					id: "exposure:photograph"
-					tag: {
-						"minecraft:creeper": 1b
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			id: "716196194F930A68"
-			tasks: [{
-				id: "13FBD022B36B87F9"
-				item: {
-					Count: 1
-					id: "exposure:photograph"
-					tag: {
-						"minecraft:cow": 1b
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 4.5d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -151,7 +105,7 @@
 				stage: "insightful"
 				type: "gamestage"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -194,6 +148,202 @@
 			title: "Learn the story of Cave Dweller"
 			x: -5.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "62DEF424711114D5"
+			tasks: [{
+				id: "6E7F86DC3E0BB4F7"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Nameless Hanged"
+				to_observe: "graveyard:nameless_hanged"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"search food in jei"
+				""
+				"pay attention to numerical values listed, don't just go by the number of items (ie it's like mystic alchemy)"
+				""
+				"portable crock pot can make some recipes that basic can't (such as asparagazpacho)"
+			]
+			id: "434B44E6A1A72B01"
+			tasks: [{
+				id: "336C93FDCC383098"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "1288CD493430D87B"
+			tasks: [{
+				id: "7251EEE89EE8ACBF"
+				observe_type: 5
+				timer: 100L
+				title: "Study Captain Cornelia"
+				to_observe: "aquamirae:captain_cornelia"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "488E57E50B7EEA13"
+			tasks: [{
+				id: "0E968C31B11435B1"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Rotting Stalker"
+				to_observe: "sanitydim:rotting_stalker"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "06A650977AD36E4F"
+			tasks: [{
+				id: "1CD0F6A1A34C03F3"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Sneaking Terror"
+				to_observe: "sanitydim:sneaking_terror"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "1BA5321F5473DC64"
+			tasks: [{
+				id: "48104E3D934F4971"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"graveyard:nameless_hanged": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Nameless Hanged"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "1F8AEA41053112D0"
+			tasks: [{
+				id: "2DA5882A470C2BEE"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"aquamirae:captain_cornelia": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph Captain Cornelia"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "346BD2AA2AE4D886"
+			tasks: [{
+				id: "18C1DB634584AD8D"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"sanitydim:rotting_stalker": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Rotting Stalker"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "3D9BBE18812FFC06"
+			tasks: [{
+				id: "032B598C8A7DC3FA"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"sanitydim:sneaking_terror": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Sneaking Terror"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "18B331087284BB4F"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "139B391DD98DD361"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "0B71388F1AD7E536"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "26F4F9D8A36745CF"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["434B44E6A1A72B01"]
+			description: ["lures animals"]
+			id: "7D11B24C28EC52D3"
+			tasks: [{
+				id: "527382BEA75CDB60"
+				item: "crockpot:pow_cake"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "6079DE59B33AA9C6"
+			tasks: [{
+				icon: "endofherobrine:herobrine_head"
+				id: "152261B8FB53F545"
+				observe_type: 6
+				timer: 100L
+				title: "Study the Posessed"
+				to_observe: "forge:posessed"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 6.0d
 		}
 	]
 	title: "WIP"

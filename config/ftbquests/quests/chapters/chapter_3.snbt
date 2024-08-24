@@ -1,0 +1,30 @@
+{
+	autofocus_id: "7C86E075FC301A7D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: ""
+	id: "6CB81FBA5AE33505"
+	images: [{
+		height: 15.0d
+		image: "dying_light:textures/ui_images/book_bg.png"
+		rotation: 0.0d
+		width: 26.666666666666664d
+		x: 1.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "7C86E075FC301A7D"
+		invisible: true
+		tasks: [{
+			id: "3AC081A25EE67FF8"
+			title: "d"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Chapter 3"
+}

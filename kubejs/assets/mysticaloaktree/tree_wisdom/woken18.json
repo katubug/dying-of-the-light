@@ -1,0 +1,5 @@
+{
+  "type": "woken_up",
+  "trust_required": 50,
+  "text": "You've awakened me, but are you yourself awake?"
+}

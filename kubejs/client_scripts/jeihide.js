@@ -13,7 +13,9 @@ JEIEvents.hideItems(event => {
         'aquamirae:maze_rose',
         'immersive_weathering:ice_sickle',
         'aquamirae:poisoned_chakra',
-        'legendarysurvivaloverhaul:seasonal_calendar'
+        'legendarysurvivaloverhaul:seasonal_calendar',
+        'crockpot:milkmade_hat',
+        'crockpot:creative_milkmade_hat',
 ];
     
 for (const hide of toHide) {

@@ -1,40 +1,42 @@
-[19:13:41] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[19:13:41] [INIT] Loaded plugins:
-[19:13:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:13:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:13:41] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[19:13:41] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[19:13:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:13:41] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:13:41] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[19:13:41] [INFO] Loaded script server_scripts:apathy_setup.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:grace_period.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:insight.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:safety_item_server.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:sanity_effects.js in 0.001 s
-[19:13:41] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[19:13:41] [INFO] Loaded script server_scripts:tree_lore.js in 0.0 s
-[19:13:41] [INFO] Loaded 14/14 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
-[19:13:41] [INFO] Scripts loaded
-[19:13:41] [INFO] Initializing recipe event...
-[19:13:41] [INFO] [minecraft:block] Found 594 tags, added 48 objects, removed 0 objects
-[19:13:41] [INFO] [minecraft:item] Found 679 tags, added 397 objects, removed 0 objects
-[19:13:41] [INFO] Processing recipes...
-[19:13:41] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[19:13:41] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[19:13:41] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[19:13:41] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[19:13:41] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[19:13:41] [INFO] Found 3852 recipes in 16.05 ms
-[19:13:41] [INFO] Posted recipe events in 5.322 ms
-[19:13:41] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
-[19:13:41] [INFO] Added 2 recipes, removed 4 recipes, modified 1 recipes, with 1 failed recipes in 4.724 ms
-[19:13:41] [INFO] Server resource reload complete!
-[19:13:44] [ERROR] ! tree_lore.js#12: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Id" from undefined
+[20:23:33] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[20:23:33] [INIT] Loaded plugins:
+[20:23:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:23:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:23:33] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[20:23:33] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:23:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:23:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:23:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[20:23:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:23:34] [INFO] Loaded script server_scripts:apathy_setup.js in 0.001 s
+[20:23:34] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:eel_bait.js in 0.001 s
+[20:23:34] [INFO] Loaded script server_scripts:grace_period.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:insight.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:quests.js in 0.001 s
+[20:23:34] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:safety_item_server.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:sanity_effects.js in 0.001 s
+[20:23:34] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
+[20:23:34] [INFO] Loaded script server_scripts:tags.js in 0.001 s
+[20:23:34] [INFO] Loaded script server_scripts:tree_lore.js in 0.0 s
+[20:23:34] [INFO] Loaded 15/15 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[20:23:34] [INFO] Scripts loaded
+[20:23:34] [INFO] Initializing recipe event...
+[20:23:34] [INFO] [minecraft:entity_type] Found 48 tags, added 14 objects, removed 0 objects
+[20:23:34] [INFO] [minecraft:item] Found 682 tags, added 415 objects, removed 0 objects
+[20:23:34] [INFO] [minecraft:block] Found 603 tags, added 48 objects, removed 0 objects
+[20:23:34] [INFO] Processing recipes...
+[20:23:34] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:23:34] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:23:34] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:23:34] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:23:34] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[20:23:34] [INFO] Found 3853 recipes in 15.63 ms
+[20:23:34] [INFO] Posted recipe events in 5.196 ms
+[20:23:34] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
+[20:23:34] [INFO] Added 2 recipes, removed 6 recipes, modified 1 recipes, with 1 failed recipes in 4.090 ms
+[20:23:34] [INFO] Server resource reload complete!

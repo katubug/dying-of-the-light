@@ -45,7 +45,7 @@ PlayerEvents.tick(event => {
 })
 
 ItemEvents.rightClicked('exposure:camera', event => {
-    const { item, server, player } = event
+    const { item, server, player, level} = event
     let film = item.nbt.Film.Count                  //Player needs to have film
     let filmType = item.nbt.Film.id                 //Different film types provide different benefit levels
     let Active = item.nbt.Active                    //Player must be looking through the viewfinder
@@ -59,7 +59,18 @@ ItemEvents.rightClicked('exposure:camera', event => {
             player.tell("bw")
             server.runCommandSilent(`sanity add ${event.player.username} 5`)
             player.persistentData.insightCount++ // player gets insight for observing/photographing
-            }
+            //attempting damage. okay it does work! it also targets the player though, so we need to make the damage different.
+            /*
+            let box = AABB.of(player.x-10, player.y-2, player.x-10, player.x+10, player.y+2, player.z+10)
+                let dim = event.server.getLevel('minecraft:overworld')
+                let entitiesWithin = dim.getEntitiesWithin(box)
+                entitiesWithin.attack(10)
+            }*/
+            level.getEntitiesWithin(player.boundingBox.inflate(10)).forEach(entity => {
+                if(entity == player || !entity.hasTag('forge:spirit_damage')) return;
+                entity.attack(entity.level.damageSources().magic(),10)
+            })
+        }
             break
 
         case 'exposure:color_film':

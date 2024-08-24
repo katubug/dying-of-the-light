@@ -6,8 +6,8 @@
         "continue": true
     },
     {
-        "mob":["cave_dweller:cave_dweller"],
-        "gamestage":"dweller_resolved",
+        "mob":["eyesinthedarkness:eyes"],
+        "gamestage":"low_insight",
         "result":"deny",
         "continue": true
     }

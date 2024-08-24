@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4EA36CD0281FC5AB"
+	autofocus_id: "4B5DB40123A640D8"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -27,7 +27,7 @@
 			y: -7.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,7 +49,7 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "spstar"
 			size: 2.0d
 			tasks: [{
 				id: "3ED3006EBD0171A6"
@@ -102,6 +102,17 @@
 			title: "Take a Photo of Herobrine"
 			x: -7.5d
 			y: -5.0d
+		}
+		{
+			id: "4B5DB40123A640D8"
+			invisible: true
+			tasks: [{
+				id: "5AA8E5769B388278"
+				title: "w"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
 		}
 	]
 	title: "Photography"

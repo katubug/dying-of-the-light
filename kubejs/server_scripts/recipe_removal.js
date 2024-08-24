@@ -5,7 +5,10 @@ ServerEvents.recipes(event => {
         {output: 'aquamirae:maze_rose'},
         {output: 'immersive_weathering:ice_sickle'},
         {output: 'aquamirae:poisoned_chakra'},
-        {output: 'legendarysurvivaloverhaul:seasonal_calendar'}
+        {output: 'legendarysurvivaloverhaul:seasonal_calendar'},
+        {output: 'ring_of_return:ring_of_return'},
+        {output:'crockpot:milkmade_hat'},
+        {output:'crockpot:creative_milkmade_hat'},
         ];
     
 for (const remove of toRemove) {

@@ -1,14 +1,20 @@
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('minecraft:cyan_bed'),
+        Item.of('ring_of_return:ring_of_return'),
         [
-            'AAA',
-            'BBB'
+            ' A ',
+            'ABA',
+            ' A '
         ], {
-            A: 'zombie_fabrics:fabric',
-            B: '#minecraft:planks'
+            A: 'minecraft:iron_nugget',
+            B: 'minecraft:ender_pearl'
         }
     )
+
+
+
+
+
 /*
     //Lantern Filling/Lighting
 

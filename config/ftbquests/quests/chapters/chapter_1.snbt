@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0A981F6115A5041A"
+	autofocus_id: "4195ADD466665D29"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -70,7 +70,7 @@
 				""
 				"Who am I? &aA friend&r. Someone who is invested in your well-being. That's all you need to know, for now."
 				""
-				"Take this &bTorch&r. Most creatures here are afraid of fire - as long as &6you hold it in your main hand&r, you should be safe. I don't know if it will help &aif you're at low health&r, and I know &dsome creatures aren't affected&r, so be careful."
+				"Take this &bTorch&r, stay in the light. As soon as you can, &6make yourself a &bLantern&r - the &ecreatures&r will avoid you while you hold one. I don't know if it will help &aif you're at low health&r, and I know &dsome creatures aren't affected&r, so be careful."
 				""
 				"We'll talk more soon. First, make sure you're somewhere safe. &dOut of the sun&r - away from danger. Then, I'll &agive you more information&r."
 			]
@@ -88,7 +88,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "spstar"
 			size: 2.0d
 			subtitle: "you're here, now, and that's what matters"
 			tasks: [{
@@ -98,14 +98,14 @@
 			}]
 			title: "Awakening"
 			x: -2.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
 			description: [
 				"The &dsun is your enemy&r, here. I see you found out the hard way."
 				""
-				"We don't know what happened, but it looks like the sun is &a lot closer&r than it ever used to be, and &abeing outside burns&r. There are ways around it, like &6Fire Resistance&r, but that's not easy to come by."
+				"We don't know what happened, but it looks like the sun is &aa lot closer&r than it ever used to be, and &abeing outside burns&r. There are ways around it, like &6Fire Resistance&r, but that's not easy to come by."
 				""
 				"For now, you'll want to &6stick to underground travel&r, or &6travel at night&r. It does seem to &arain a lot&r here, which should protect you as well."
 			]
@@ -128,7 +128,7 @@
 			}]
 			title: "It Burns"
 			x: -2.0d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -143,14 +143,16 @@
 			}]
 			title: "Signs of Life?"
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6227ECCC0C34E83A"]
 			description: [
-				"Oh, no. Are &aall the villages like this&r? No wonder I haven't seen anyone."
+				"Oh, no... no."
 				""
-				"We should see if we can &6help them&r."
+				"Are &aall the villages like this&r? No wonder I haven't seen anyone. Maybe there's something &6you can do to help them&r."
+				""
+				"At least it seems like they're &atoo rotted to be hostile&r. I wonder if they even realize they're not human, anymore. Oh, and I'd be careful around them &djust in case&r. Who knows what will happen if they &dsmell blood&r."
 			]
 			hide_text_until_complete: true
 			id: "2A2CAE3F8A8D5B06"
@@ -175,31 +177,52 @@
 				to_observe: "minecraft:zombie_villager"
 				type: "observation"
 			}]
-			title: "What's Become of Them"
+			title: "The Villagers"
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"The world is dangerous, and sometimes &ayou just want to go home&r."
+				""
+				"I've found an easy way to accomplish this - it's called the &bRing of Return&r. Keep it close to you at all times, and you'll never struggle to return to safety. But be careful - it &donly works in the Overworld&r."
+			]
 			id: "6B3CED1C026D4300"
+			rewards: [{
+				id: "4B9BEFECB511C673"
+				item: "ring_of_return:ring_of_return"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76FDB07CF148E3A2"
 				item: "ring_of_return:ring_of_return"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1B394C3591A983C6"]
+			description: [
+				"This might not sound crucial to survival, but hear me out - you'll want a calendar."
+				""
+				"It allows you to &atrack what season you're in&r, which will help you with things like &agrowing crops&r and &amanaging your temperature&r."
+			]
 			id: "151A7C37A91DE175"
+			rewards: [{
+				command: "/sanity add @s 20"
+				id: "13B8149F9181B28F"
+				title: "Click this to regain some sanity."
+				type: "command"
+			}]
 			tasks: [{
 				id: "52358D9631F8FEB7"
 				item: "sereneseasons:calendar"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["70C4D165904E1E9F"]
@@ -226,7 +249,7 @@
 			}]
 			title: "Locational Damage"
 			x: -2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["79C525BCEB7FE2B5"]
@@ -260,11 +283,28 @@
 			]
 			title: "Healing Items"
 			x: -2.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1B394C3591A983C6"]
+			description: [
+				"Okay, you want to know my tip for climate tolerance? Use the local flora. These &bspecial types of ferns&r can be used to make &bPotions of Heat and Cold Resistance&r."
+				""
+				"In particularly hot or cold climates, this can be the difference between life or death."
+			]
 			id: "2BB9F1B106180655"
+			rewards: [{
+				count: 3
+				id: "31A4EE4E2508D2D5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:awkward"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6EB9B28C2FCBCFFF"
@@ -278,7 +318,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0AC26D0E563DF0EF"]
@@ -289,15 +329,17 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			description: [
-				"It's important to &astay sane&r. One of the best ways to do this, in my opinion, is to &6go fishing&r! This world has a &awide variety of fish&r which can be caught in &amultiple biomes&r, and even &adimensions&r!"
+				"One of the most soothing ways to restore your sanity is to &ago fishing&r. The waters here are teeming with a wide variety of fish, found across multiple biomes and even in other dimensions."
 				""
-				"You can use an &bAngler's Workshop&r to customize your &bFishing Rod&r with different attachments."
+				"To enhance your fishing experience, seek out an &bAngler's Workshop&r, where you can &acustomize your Fishing Rod with&r different attachments."
 				""
-				"You might also want to try using &bBait&r, which you can do by &6holding it in your offhand while you fish&r. Aside from the items explicitly called &bBait&r, you can also use &bGrubs, Worms, and Leeches&r."
+				"For greater success, consider using &bBait&r. Hold it in your offhand while you fish to increase your chances of a fruitful catch. Alongside items explicitly called Bait, you can also use &bGrubs&r, &bWorms&r, and &bLeeches&r."
+				""
+				"Let the gentle rhythm of the water and the thrill of the catch restore your spirit, one fish at a time."
 			]
 			id: "085671CEEECD2D16"
 			rewards: [
@@ -350,11 +392,7 @@
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
-			description: [
-				"I've noticed that &afood spoils more quickly here&r. I think there must be a way to &apreserve it&r, maybe by crafting a &bPicnic Basket&r to keep it in. It should &atake longer to spoil&r this way."
-				""
-				"Perhaps there's a way to &apreserve it indefinitely&r?"
-			]
+			description: ["I don't know if it's the air here, or what, but &asomething is spoiling food&r faster than normal. "]
 			id: "46302055705891EA"
 			tasks: [{
 				id: "577015539535953C"
@@ -370,7 +408,7 @@
 			}]
 			title: "Preserving Food"
 			x: 2.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["46302055705891EA"]
@@ -393,14 +431,16 @@
 			}]
 			title: "Salting Your Food"
 			x: 2.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
 			description: [
-				"Don't minimize the importance of &afriendship&r for your mental health. I can't physically be there with you, so you'll need to make do. Maybe you can &6tame a pet&r, and keep them around."
+				"In this eerie world, a &aloyal companion&r can be the anchor that keeps your mind from drifting into darkness. Seek out a &ecat&r, &eparrot&r, or &edog&r to tame - let their presence soothe your troubled spirit."
 				""
-				"Just be careful that &anothing happens to them&r. A tragedy like that would be crushing."
+				"But remember, this bond is sacred. Your &apet will be a source of comfort&r, but if they perish, the &dpain of their loss will weigh heavily&r on your soul, driving you closer to the brink of madness."
+				""
+				"Care for them well, protect them from harm, and in turn, they will protect your sanity."
 			]
 			id: "708CDBBF3DE6402A"
 			rewards: [{
@@ -421,6 +461,13 @@
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
+			description: [
+				"This world whispers in the dark, testing the strength of your mind. Beware, for &ayour sanity is fragile&r, easily shattered by the unseen horrors lurking in the shadows."
+				""
+				"&6Avoid the darkness and the creatures that dwell within it&r, for they are harbingers of madness. &aSeek the comfort of light&r and engage in calming rituals—&6sip warm tea&r, &6sleep frequently&r, and &6rest your mind by the water’s edge&r."
+				""
+				"Protect your mind with care, for if you let the shadows creep in, madness will surely follow."
+			]
 			id: "128C0831D93CC414"
 			rewards: [{
 				id: "151F815886624CF4"
@@ -452,6 +499,8 @@
 				}
 				type: "item"
 			}]
+			shape: "spstar"
+			size: 2.0d
 			tasks: [{
 				id: "0ABCBC16A2F51A54"
 				title: "Your Mind is Fragile"
@@ -486,15 +535,11 @@
 				type: "gamestage"
 			}]
 			x: 11.5d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
-			description: [
-				"I'm so thirsty. I feel like I haven't tasted water in years..."
-				""
-				"&aI don't think my health will restore unless I keep hydrated&r. But I don't want to drink just any water; I'd better &6boil it to purity&r first."
-			]
+			description: ["boiling water to purity"]
 			id: "0AC26D0E563DF0EF"
 			rewards: [{
 				id: "060417F4A34A6DDD"
@@ -514,7 +559,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -547,7 +592,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -595,15 +640,21 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
+			description: [
+				"In a world shrouded by shadows, the simple act of &atending to life&r can bring peace to a troubled mind. Seek out &bflowers&r, symbols of beauty and tranquility, and &6pot them&r with care."
+				""
+				"Let your garden become a sanctuary, a place where your sanity can take root and flourish. With each flower you plant, you &areclaim a piece of yourself&r from the encroaching night."
+			]
 			id: "357596FCEB3837DE"
 			tasks: [{
 				id: "3443284AB31491F6"
 				item: "minecraft:flower_pot"
 				type: "item"
 			}]
+			title: "Potting Flowers"
 			x: 9.5d
 			y: 4.0d
 		}
@@ -633,16 +684,7 @@
 			y: 4.0d
 		}
 		{
-			id: "434B44E6A1A72B01"
-			tasks: [{
-				id: "336C93FDCC383098"
-				item: "crockpot:crock_pot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
+			dependencies: ["128C0831D93CC414"]
 			id: "45D6628870FD9B7E"
 			tasks: [{
 				id: "1E5894A7966EA55A"
@@ -660,6 +702,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["128C0831D93CC414"]
 			description: ["Breeding and shearing animals restores sanity"]
 			id: "3A408A52D6759C11"
 			tasks: [{
@@ -672,6 +715,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["128C0831D93CC414"]
 			description: ["trading with villagers increases sanity"]
 			id: "4E6BB83278FECB3A"
 			tasks: [{
@@ -684,6 +728,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["128C0831D93CC414"]
 			id: "10CC10B537D225E3"
 			tasks: [
 				{
@@ -706,6 +751,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["0A981F6115A5041A"]
 			id: "5F90C57572D6F1B1"
 			tasks: [{
 				id: "4327D857C5E12429"
@@ -713,7 +759,110 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A981F6115A5041A"]
+			id: "55811766CF3E4D38"
+			shape: "epstar"
+			tasks: [{
+				id: "31DFA8747AF0A28C"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["708CDBBF3DE6402A"]
+			description: [
+				"The loss of your companion weighs heavily on your heart, pulling your mind toward the abyss. But all is not lost - there is a way to &rrestore what has been taken&r."
+				""
+				"Venture into the &cNether&r, a realm where the boundaries between life and death are thin. Seek out a &bRespawn Anchor&r, a relic of ancient power. &6Fill it with &bGlowstone&r to charge its energy, then offer your pet’s &bCollar&r to the Anchor."
+				""
+				"With this ritual, the bond between you and your companion can be reforged, and they will return to your side. But beware - the magic is imperfect. To truly bring your companion back to life, you will need a &bWeakness Potion&r and &bGolden Apple&r."
+			]
+			id: "45BCC36FF707D3C8"
+			rewards: [
+				{
+					id: "06FB8D454549DF17"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "6C303E6C8CC506F6"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FFE01A06A03C275"
+				item: {
+					Count: 1
+					id: "pet_cemetery:pet_collar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Restoring What Was Lost"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			id: "4195ADD466665D29"
+			invisible: true
+			tasks: [{
+				id: "22F197E3C3590D54"
+				title: "d"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"Remember I told you to craft a &bLantern&r? That's because it can &aprotect you from hostile creatures&r. So long as you're &6holding it in your main hand&r, monsters will avoid you."
+				""
+				"But you'll need to &afuel and light it&r. Lanterns accept fuel from &bOil Cans&r, which you can fill with &brendered Animal Fat&r or &bTallow&r. I've left you a little to get you started."
+				""
+				"But keep in mind - not all monsters fear the light. And if they &dsmell blood&r, they'll come for you regardless."
+			]
+			id: "1B5C14A58EAEF356"
+			rewards: [{
+				id: "59A476E76AE5305B"
+				item: {
+					Count: 1
+					id: "hardcore_torches:oil_can"
+					tag: {
+						Fuel: 360000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DBDDFF2F14D319F"
+					item: "hardcore_torches:unlit_lantern"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2C1834E0B566942D"
+					stage: "lantern_quest"
+					title: "Try to Light the Lantern"
+					type: "gamestage"
+				}
+			]
+			title: "Craft and Light a Lantern"
+			x: -2.0d
+			y: 1.5d
 		}
 	]
 	title: "Chapter 1"

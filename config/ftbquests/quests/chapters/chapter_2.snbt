@@ -1,24 +1,37 @@
 {
+	autofocus_id: "6E02CA4CA4C9DAC8"
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "chapter_2"
 	group: ""
 	icon: "minecraft:golden_apple"
 	id: "4F626A36D04F7CA6"
-	images: [{
-		height: 15.0d
-		image: "dying_light:textures/ui_images/book_bg.png"
-		rotation: 0.0d
-		width: 26.666666666666664d
-		x: 1.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 15.0d
+			image: "dying_light:textures/ui_images/book_bg.png"
+			rotation: 0.0d
+			width: 26.666666666666664d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/village_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.0d
+			y: -5.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2A2CAE3F8A8D5B06"]
 			id: "3C7F896A612AB817"
+			shape: "spstar"
 			tasks: [{
 				advancement: "minecraft:story/cure_zombie_villager"
 				criterion: ""
@@ -26,7 +39,7 @@
 				type: "advancement"
 			}]
 			x: -7.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3C7F896A612AB817"]
@@ -43,7 +56,18 @@
 				value: 50L
 			}]
 			x: -7.0d
-			y: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "6E02CA4CA4C9DAC8"
+			invisible: true
+			tasks: [{
+				id: "2CA0A3E9F28DE317"
+				title: "d"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	title: "Chapter 2"

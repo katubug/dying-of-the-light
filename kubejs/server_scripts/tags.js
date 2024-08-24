@@ -1,10 +1,6 @@
 ServerEvents.tags('item', event => {
 
-    event.add(
-        'spoiled:foods/vanilla', 
-        'meadow:alpine_salt'
-    )
-
+    //Which Fish items spoil into Fish Bones
     event.add(
         'forge:spoilable_fish',
         'fishofthieves:cooked_wildsplash',
@@ -95,9 +91,11 @@ ServerEvents.tags('item', event => {
         'tide:crimson_fangjaw',
         'tide:ashen_perch',
         'tide:witherfin',
-        'tide:soulscaler'
+        'tide:soulscaler',
+        'aquamirae:cooked_spinefish'
     )
 
+    //Which food items spoil into Wet Goop
     event.add(
         'forge:spoilable_food',
         'abyssal_decor:muckroot_soup',
@@ -135,9 +133,15 @@ ServerEvents.tags('item', event => {
         'minecraft:pumpkin_pie',
         'minecraft:mushroom_stew',
         'minecraft:rabbit_stew',
-        'tide:fish_stew'
+        'tide:fish_stew',
+        'midnight:cooked_suavis',
+        'aquamirae:sea_casserole',
+        'aquamirae:sea_stew',
+        'aquamirae:poseidons_breakfast',
+        'abyssal_decor:cinnamon_roll'
     )
 
+    //Which Meat items spoil into Putrid Ichor
     event.add(
         'forge:spoilable_meat',
         'crockpot:seafood_gumbo',
@@ -163,6 +167,7 @@ ServerEvents.tags('item', event => {
         'crockpot:potato_tornado'
     )
 
+    //Which vegetable items spoil into Rotted Residue
     event.add(
         'forge:spoilable_veggies',
         'crockpot:tomato',
@@ -178,10 +183,13 @@ ServerEvents.tags('item', event => {
         'minecraft:baked_potato',
         'minecraft:beetroot',
         'minecraft:sweet_berries',
-        'minecraft:apple'
+        'minecraft:apple',
+        'abyssal_decor:cinnamon_apple',
+        'aquamirae:esca'
         
     )
 
+    //Which cooked items spoil into Rotten Flesh (slower)
     event.add(
         'forge:cooked_to_rotten_flesh',
         'minecraft:cooked_porkchop', 
@@ -190,9 +198,11 @@ ServerEvents.tags('item', event => {
         'crockpot:cooked_frog_legs', 
         'minecraft:cooked_rabbit', 
         'minecraft:cooked_chicken', 
-        'minecraft:cooked_mutton'
+        'minecraft:cooked_mutton',
+        'midnight:cooked_stag_flank',
     )
 
+    //Which raw items spoil into Rotten Flesh (Faster)
     event.add(
         'forge:raw_to_rotten_flesh',
         'minecraft:cooked_porkchop', 
@@ -203,7 +213,8 @@ ServerEvents.tags('item', event => {
         'minecraft:cooked_chicken', 
         'minecraft:cooked_mutton'
     )
-
+    
+    //Picnic Baskets (FTB Quests)
     event.add(
         'forge:picnic_baskets',
         'muffins_picnic:white_picnic_basket',
@@ -223,6 +234,8 @@ ServerEvents.tags('item', event => {
         'muffins_picnic:magenta_picnic_basket',
         'muffins_picnic:pink_picnic_basket'
     )
+
+    //Food items which can be salted
     event.add(
         'salt:can_be_salted',
         'crockpot:california_roll', 
@@ -334,9 +347,18 @@ ServerEvents.tags('item', event => {
         'tide:midas_fish',
         'tide:voidseeker',
         'tide:shooting_starfish',
-        'tide:cooked_fish'
+        'tide:cooked_fish',
+        'crockpot:popcorn',
+        'midnight:cooked_stag_flank',
+        'aquamirae:cooked_spinefish',
+        'aquamirae:sea_casserole',
+        'aquamirae:esca',
+        'midnight:cooked_suavis',
+        'aquamirae:sea_stew',
+        'aquamirae:poseidons_breakfast'
     )
 
+    //Sanity draining armors
     event.add(
         'forge:sanity_drain_armor',
         'aquamirae:terrible_helmet',
@@ -353,6 +375,7 @@ ServerEvents.tags('item', event => {
          'aquamirae:three_bolt_boots'
     )
 
+    //"Raw" food with chance to apply poison
     event.add(
         'iguanatweaksreborn:raw_food',
         'tide:warped_guppy',
@@ -449,7 +472,37 @@ ServerEvents.tags('item', event => {
         'fishofthieves:leeches',
         'fishofthieves:grubs'
     )
+
+    event.add(
+        'minecraft:animal_fat',
+        'immersive_weathering:tallow'
+    )
     
 })
 
 
+ServerEvents.tags('entity_type', event => {
+
+    event.add(
+        'forge:spirit_damage',
+        'minecraft:cow'
+    )
+
+    event.add(
+        'forge:possessed',
+        'endofherobrine:chicken',
+        'endofherobrine:cow',
+        'endofherobrine:pig',
+        'endofherobrine:pigman',
+        'endofherobrine:rabbit',
+        'endofherobrine:husk',
+        'endofherobrine:villager',
+        'endofherobrine:sheep',
+        'endofherobrine:silverfish',
+        'endofherobrine:stray',
+        'endofherobrine:skeleton',
+        'endofherobrine:zombie',
+        'endofherobrine:zombie_villager'
+    )
+
+})

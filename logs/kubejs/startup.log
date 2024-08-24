@@ -1,12 +1,13 @@
-[17:32:31] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[17:32:31] [INIT] Loaded plugins:
-[17:32:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:32:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:32:31] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[17:32:31] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[17:32:31] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[17:32:31] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[17:32:31] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[17:32:32] [INFO] Loaded script startup_scripts:items.js in 0.131 s
-[17:32:32] [INFO] Loaded script startup_scripts:safety_item.js in 0.011 s
-[17:32:32] [INFO] Loaded 2/2 KubeJS startup scripts in 0.951 s with 0 errors and 0 warnings
+[20:05:09] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[20:05:09] [INIT] Loaded plugins:
+[20:05:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:05:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:05:09] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[20:05:09] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:05:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:05:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:05:09] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[20:05:09] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:05:10] [INFO] Loaded script startup_scripts:items.js in 0.139 s
+[20:05:10] [INFO] Loaded script startup_scripts:safety_item.js in 0.01 s
+[20:05:10] [INFO] Loaded 2/2 KubeJS startup scripts in 0.985 s with 0 errors and 0 warnings

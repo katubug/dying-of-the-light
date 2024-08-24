@@ -58,7 +58,7 @@
           "type": "attacker_is",
           "mobs": [
             "minecraft:spider",
-            "minecraft:zombie",
+            "minecraft:zombie_villager",
             "graveyard:wraith",
             "graveyard:reaper"
           ]

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7D67C25BACDF2E54"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -165,6 +166,17 @@
 			}]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			id: "7D67C25BACDF2E54"
+			invisible: true
+			tasks: [{
+				id: "5C9F8A94AD71C1C7"
+				title: "d"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Welcome"

@@ -1,15 +1,17 @@
-[09:55:11] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[09:55:11] [INIT] Loaded plugins:
-[09:55:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[09:55:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[09:55:11] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[09:55:11] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[09:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[09:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[09:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[09:55:11] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[09:55:11] [INFO] Loaded script client_scripts:jeihide.js in 0.001 s
-[09:55:11] [INFO] Loaded script client_scripts:left_click_events.js in 0.006 s
-[09:55:11] [INFO] Loaded script client_scripts:tooltips.js in 0.002 s
-[09:55:11] [INFO] Loaded 3/3 KubeJS client scripts in 0.051 s with 0 errors and 0 warnings
-[09:55:19] [INFO] Client resource reload complete!
+[16:10:00] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[16:10:00] [INIT] Loaded plugins:
+[16:10:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:10:00] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:10:00] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[16:10:00] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[16:10:00] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:10:00] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:10:00] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[16:10:00] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:10:00] [INIT] - com.probejs.ProbeJSPlugin
+[16:10:00] [INFO] Loaded script client_scripts:jeihide.js in 0.001 s
+[16:10:00] [INFO] Loaded script client_scripts:left_click_events.js in 0.014 s
+[16:10:00] [INFO] Loaded script client_scripts:spirit_damage.js in 0.004 s
+[16:10:00] [INFO] Loaded script client_scripts:tooltips.js in 0.002 s
+[16:10:00] [INFO] Loaded 4/4 KubeJS client scripts in 0.058 s with 0 errors and 0 warnings
+[16:10:09] [INFO] Client resource reload complete!

@@ -3,29 +3,47 @@
     {
       "hydration": 8,
       "saturation": 4.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
-  "crockpot:veg_stinger": [
+  "minecraft:apple": [
     {
-      "hydration": 3,
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "legendarysurvivaloverhaul:chorus_fruit_juice": [
+    {
+      "hydration": 12,
+      "saturation": 8.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "legendarysurvivaloverhaul:apple_juice": [
+    {
+      "hydration": 6,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "minecraft:rabbit_stew": [
+    {
+      "hydration": 6,
       "saturation": 2.0,
-      "effects": [
-        {
-          "chance": 0.05,
-          "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "minecraft:beetroot_soup": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -33,14 +51,7 @@
     {
       "hydration": 6,
       "saturation": 1.5,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -48,59 +59,48 @@
     {
       "hydration": 3,
       "saturation": 0.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
-  "farmersdelight:chicken_soup": [
+  "minecraft:suspicious_stew": [
     {
-      "hydration": 2,
-      "saturation": 1.0,
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "legendarysurvivaloverhaul:large_canteen": [
+    {
+      "hydration": 3,
+      "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.0,
-          "effect": "",
+          "chance": 0.75,
+          "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 600,
           "amplifier": 0
         }
       ],
-      "nbt": {}
+      "nbt": {
+        "legendarysurvivaloverhaul:HydrationPurity": "normal"
+      }
+    },
+    {
+      "hydration": 6,
+      "saturation": 1.5,
+      "effects": [],
+      "nbt": {
+        "legendarysurvivaloverhaul:HydrationPurity": "purified"
+      }
     }
   ],
   "legendarysurvivaloverhaul:beetroot_juice": [
     {
       "hydration": 9,
       "saturation": 4.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "farmersdelight:vegetable_soup": [
-    {
-      "hydration": 2,
-      "saturation": 1.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -108,14 +108,7 @@
     {
       "hydration": 2,
       "saturation": 1.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -123,14 +116,7 @@
     {
       "hydration": 20,
       "saturation": 20.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -138,14 +124,7 @@
     {
       "hydration": 9,
       "saturation": 3.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -153,36 +132,55 @@
     {
       "hydration": 12,
       "saturation": 12.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
-  "farmersdelight:hot_cocoa": [
+  "legendarysurvivaloverhaul:canteen": [
     {
-      "hydration": 4,
-      "saturation": 1.0,
+      "hydration": 3,
+      "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.0,
-          "effect": "",
+          "chance": 0.75,
+          "effect": "legendarysurvivaloverhaul:thirst",
           "duration": 600,
           "amplifier": 0
         }
       ],
+      "nbt": {
+        "legendarysurvivaloverhaul:HydrationPurity": "normal"
+      }
+    },
+    {
+      "hydration": 6,
+      "saturation": 1.5,
+      "effects": [],
+      "nbt": {
+        "legendarysurvivaloverhaul:HydrationPurity": "purified"
+      }
+    }
+  ],
+  "minecraft:mushroom_stew": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "legendarysurvivaloverhaul:pumpkin_juice": [
+    {
+      "hydration": 7,
+      "saturation": 4.0,
+      "effects": [],
       "nbt": {}
     }
   ],
   "minecraft:rotten_flesh": [
     {
-      "hydration": -1,
-      "saturation": 0.0,
+      "hydration": -2,
+      "saturation": -1.0,
       "effects": [
         {
           "chance": 1.0,
@@ -194,18 +192,19 @@
       "nbt": {}
     }
   ],
+  "legendarysurvivaloverhaul:glistering_melon_juice": [
+    {
+      "hydration": 16,
+      "saturation": 16.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
   "legendarysurvivaloverhaul:carrot_juice": [
     {
       "hydration": 4,
       "saturation": 2.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
+      "effects": [],
       "nbt": {}
     }
   ],
@@ -282,205 +281,6 @@
       "hydration": 6,
       "saturation": 1.5,
       "effects": [],
-      "nbt": {}
-    }
-  ],
-  "crockpot:gazpacho": [
-    {
-      "hydration": 3,
-      "saturation": 2.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "minecraft:apple": [
-    {
-      "hydration": 2,
-      "saturation": 0.5,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "legendarysurvivaloverhaul:chorus_fruit_juice": [
-    {
-      "hydration": 12,
-      "saturation": 8.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "legendarysurvivaloverhaul:apple_juice": [
-    {
-      "hydration": 6,
-      "saturation": 3.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "legendarysurvivaloverhaul:large_canteen": [
-    {
-      "hydration": 3,
-      "saturation": 0.0,
-      "effects": [
-        {
-          "chance": 0.75,
-          "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {
-        "legendarysurvivaloverhaul:HydrationPurity": "normal"
-      }
-    },
-    {
-      "hydration": 6,
-      "saturation": 1.5,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {
-        "legendarysurvivaloverhaul:HydrationPurity": "purified"
-      }
-    }
-  ],
-  "crockpot:iced_tea": [
-    {
-      "hydration": 6,
-      "saturation": 2.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "legendarysurvivaloverhaul:canteen": [
-    {
-      "hydration": 3,
-      "saturation": 0.0,
-      "effects": [
-        {
-          "chance": 0.75,
-          "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {
-        "legendarysurvivaloverhaul:HydrationPurity": "normal"
-      }
-    },
-    {
-      "hydration": 6,
-      "saturation": 1.5,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {
-        "legendarysurvivaloverhaul:HydrationPurity": "purified"
-      }
-    }
-  ],
-  "legendarysurvivaloverhaul:pumpkin_juice": [
-    {
-      "hydration": 7,
-      "saturation": 4.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "farmersdelight:pumpkin_soup": [
-    {
-      "hydration": 2,
-      "saturation": 1.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "legendarysurvivaloverhaul:glistering_melon_juice": [
-    {
-      "hydration": 16,
-      "saturation": 16.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
-      "nbt": {}
-    }
-  ],
-  "crockpot:tea": [
-    {
-      "hydration": 2,
-      "saturation": 2.0,
-      "effects": [
-        {
-          "chance": 0.0,
-          "effect": "",
-          "duration": 600,
-          "amplifier": 0
-        }
-      ],
       "nbt": {}
     }
   ]

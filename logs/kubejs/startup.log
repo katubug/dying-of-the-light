@@ -1,13 +1,14 @@
-[09:55:07] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[09:55:07] [INIT] Loaded plugins:
-[09:55:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[09:55:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[09:55:07] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[09:55:07] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[09:55:07] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[09:55:07] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[09:55:07] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[09:55:07] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[09:55:11] [INFO] Loaded script startup_scripts:items.js in 0.301 s
-[09:55:11] [INFO] Loaded script startup_scripts:safety_item.js in 0.032 s
-[09:55:11] [INFO] Loaded 2/2 KubeJS startup scripts in 3.139 s with 0 errors and 0 warnings
+[16:09:58] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[16:09:58] [INIT] Loaded plugins:
+[16:09:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:09:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:09:58] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[16:09:58] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[16:09:58] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:09:58] [INIT] - com.probejs.ProbeJSPlugin
+[16:10:00] [INFO] Loaded script startup_scripts:items.js in 0.127 s
+[16:10:00] [INFO] Loaded script startup_scripts:safety_item.js in 0.008 s
+[16:10:00] [INFO] Loaded 2/2 KubeJS startup scripts in 2.018 s with 0 errors and 0 warnings

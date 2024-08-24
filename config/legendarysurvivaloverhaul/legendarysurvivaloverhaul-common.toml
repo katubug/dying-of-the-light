@@ -11,7 +11,7 @@
 	# Whether body members receive localized damages.
 	"Localized Body Damage Enabled" = true
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
-	"Hide Info From Debug" = false
+	"Hide Info From Debug" = true
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -38,7 +38,7 @@
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
-	"Altitude Modifier" = 0
+	"Altitude Modifier" = -3.0
 
 	[temperature.on-death]
 		# If enabled, players will be immune to temperature effects after death.
@@ -85,9 +85,9 @@
 		#Range: -1000.0 ~ 1000.0
 		"Default Overworld Modifier" = 20.0
 		#Range: -1000.0 ~ 1000.0
-		"Default Nether Modifier" = 30.0
+		"Default Nether Modifier" = 28.0
 		#Range: -1000.0 ~ 1000.0
-		"Default The End Modifier" = 5.0
+		"Default The End Modifier" = -15.0
 
 	[temperature.huddling]
 		# How much nearby players increase the ambient temperature by.
@@ -96,7 +96,7 @@
 		"Player Huddling Modifier" = 0.5
 		# The radius, in blocks, around which players will add to each other's temperature.
 		#Range: 0 ~ 10
-		"Player Huddling Radius" = 2
+		"Player Huddling Radius" = 1
 
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
@@ -139,29 +139,29 @@
 		# Add an adaptive heating effect on armors.
 		[temperature.coat.heating]
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat I" = 1.0
+			"Heating Coat I" = 2.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat II" = 2.0
+			"Heating Coat II" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat III" = 3.0
+			"Heating Coat III" = 4.0
 
 		# Add an adaptive cooling effect on armors.
 		[temperature.coat.cooling]
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat I" = 1.0
+			"Cooling Coat I" = 2.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat II" = 2.0
+			"Cooling Coat II" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat III" = 3.0
+			"Cooling Coat III" = 4.0
 
 		# Add an adaptive temperature effect on armors that can both heat and cool the player.
 		[temperature.coat.thermal]
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat I" = 1.0
+			"Thermal Coat I" = 2.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat II" = 2.0
+			"Thermal Coat II" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat III" = 3.0
+			"Thermal Coat III" = 4.0
 
 	[temperature.advanced]
 		# Maximum distance, in blocks, where thermal sources will have an effect on temperature.
@@ -193,6 +193,14 @@
 			"Minimum Temperature Modification" = 0.2
 
 	[temperature.integration]
+
+		[temperature.integration.terrafirmacraft]
+			# If TerraFirmaCraft is installed, then biome, time, season (if serene seasons installed) and altitude modifiers will be disabled, and TerraFirmaCraft calculation used instead.
+			# All other modifiers remain to calculate Player temperature.
+			"TerraFirmaCraft Temperature Override Enabled" = true
+			# How much the temperature given from TerraFirmaCraft is multiplied, to adjust with the other temperature effects.
+			#Range: 0.0 ~ 1000.0
+			"TerraFirmaCraft Temperature Multiplier" = 1.0
 
 		[temperature.integration.seasons]
 			# If Serene Seasons is installed, then seasons will have an effect on the player's temperature.
@@ -260,14 +268,6 @@
 					#Range: -1000.0 ~ 1000.0
 					"Late Dry Season Modifier" = 3.0
 
-		[temperature.integration.terrafirmacraft]
-			# If TerraFirmaCraft is installed, then biome, time, season (if serene seasons installed) and altitude modifiers will be disabled, and TerraFirmaCraft calculation used instead.
-			# All other modifiers remain to calculate Player temperature.
-			"TerraFirmaCraft Temperature Override Enabled" = true
-			# How much the temperature given from TerraFirmaCraft is multiplied, to adjust with the other temperature effects.
-			#Range: 0.0 ~ 1000.0
-			"TerraFirmaCraft Temperature Multiplier" = 1.0
-
 # Options related to thirst
 [thirst]
 	# If enabled, players will take damage from the complete dehydration.
@@ -300,10 +300,10 @@
 	[thirst.canteen]
 		# Capacity of the canteen used to store water.
 		#Range: 0 ~ 1000
-		"Canteen Capacity" = 5
+		"Canteen Capacity" = 10
 		# Capacity of the large canteen used to store water.
 		#Range: 0 ~ 1000
-		"Large Canteen Capacity" = 10
+		"Large Canteen Capacity" = 20
 		# Allow override of purified water stored in canteen with normal water.
 		"Allow Override Purified Water" = true
 
@@ -397,7 +397,7 @@
 	# Set to -1 to force loss of all additional hearts on death.
 	# Set to 0 to make additional hearts permanent.
 	#Range: > -1
-	"Hearts Lost On Death" = 1
+	"Hearts Lost On Death" = -1
 
 	[heart-fruits.effects]
 		# Amount of hearts gained from eating a Heart Fruit.
@@ -418,7 +418,7 @@
 	"Body Damage Multiplier" = 1.0
 	# How much health ratio are recovered in all body parts from bed sleeping.
 	#Range: 0.0 ~ 1.0
-	"Body Part Health Ratio Recovered" = 0.3
+	"Body Part Health Ratio Recovered" = 1.0
 	# How much health ratio are recovered from bed sleeping.
 	#Range: 0.0 ~ 1.0
 	"Health Ratio Recovered" = 0.3
@@ -456,7 +456,7 @@
 		"Legs Part Health" = 8
 		# Both feet will have this health.
 		#Range: 0.0 ~ 1000.0
-		"Feet Part Health" = 5
+		"Feet Part Health" = 8
 
 	[body-damage.body-parts-effects]
 

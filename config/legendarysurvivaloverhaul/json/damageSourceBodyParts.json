@@ -1,4 +1,8 @@
 {
+  "magic": {
+    "bodyParts": [],
+    "damageDistribution": "NONE"
+  },
   "bad_respawn_point": {
     "bodyParts": [
       "HEAD",
@@ -101,6 +105,10 @@
     ],
     "damageDistribution": "ALL"
   },
+  "in_wall": {
+    "bodyParts": [],
+    "damageDistribution": "NONE"
+  },
   "legendarysurvivaloverhaul.hypothermia": {
     "bodyParts": [],
     "damageDistribution": "NONE"
@@ -142,5 +150,9 @@
       "RIGHT_LEG"
     ],
     "damageDistribution": "ONE_OF"
+  },
+  "wither": {
+    "bodyParts": [],
+    "damageDistribution": "NONE"
   }
 }

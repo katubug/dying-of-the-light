@@ -1,46 +1,48 @@
-[10:56:33] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[10:56:33] [INIT] Loaded plugins:
-[10:56:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[10:56:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[10:56:33] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[10:56:33] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[10:56:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[10:56:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[10:56:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[10:56:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[10:56:33] [INFO] Loaded script server_scripts:apathy_setup.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:camera.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:grace_period.js in 0.001 s
-[10:56:33] [INFO] Loaded script server_scripts:insight.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:quests.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:safety_item_server.js in 0.001 s
-[10:56:33] [INFO] Loaded script server_scripts:sanity_effects.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[10:56:33] [INFO] Loaded script server_scripts:tree_lore.js in 0.0 s
-[10:56:33] [INFO] Loaded 16/16 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
-[10:56:33] [INFO] Scripts loaded
-[10:56:33] [INFO] Initializing recipe event...
-[10:56:33] [INFO] [minecraft:entity_type] Found 49 tags, added 24 objects, removed 0 objects
-[10:56:33] [INFO] [minecraft:item] Found 678 tags, added 415 objects, removed 0 objects
-[10:56:33] [INFO] [minecraft:block] Found 590 tags, added 48 objects, removed 0 objects
-[10:56:33] [INFO] Processing recipes...
-[10:56:33] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:56:33] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:56:33] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:56:33] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:56:33] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[10:56:33] [INFO] Found 3847 recipes in 11.11 ms
-[10:56:33] [INFO] Posted recipe events in 5.064 ms
-[10:56:33] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
-[10:56:33] [INFO] Added 2 recipes, removed 6 recipes, modified 1 recipes, with 1 failed recipes in 3.602 ms
-[10:56:33] [INFO] Server resource reload complete!
-[10:56:42] [INFO] camera.js#2: Loaded Java class 'net.minecraft.util.Mth'
-[10:56:53] [ERROR] ! camera.js#7: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Frames" from undefined
-[10:56:54] [ERROR] ! camera.js#7: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Frames" from undefined
+[16:58:30] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[16:58:30] [INIT] Loaded plugins:
+[16:58:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:58:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:58:30] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[16:58:30] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[16:58:30] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:58:30] [INIT] - com.probejs.ProbeJSPlugin
+[16:58:30] [INFO] Loaded script server_scripts:apathy_setup.js in 0.001 s
+[16:58:30] [INFO] Loaded script server_scripts:camera.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:compostable_items.js in 0.001 s
+[16:58:30] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:fire_resistance.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:insight.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:quests.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
+[16:58:30] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:safety_item_server.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:sanity_effects.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:sky_warning.js in 0.001 s
+[16:58:30] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
+[16:58:30] [INFO] spirit_damage.js#10: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[16:58:30] [INFO] Loaded script server_scripts:spirit_damage.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:tags.js in 0.0 s
+[16:58:30] [INFO] Loaded script server_scripts:tree_lore.js in 0.001 s
+[16:58:30] [INFO] Loaded 17/17 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
+[16:58:30] [INFO] Scripts loaded
+[16:58:30] [INFO] Initializing recipe event...
+[16:58:30] [INFO] [minecraft:entity_type] Found 49 tags, added 24 objects, removed 0 objects
+[16:58:30] [INFO] [minecraft:damage_type] Found 30 tags, added 1 objects, removed 0 objects
+[16:58:30] [INFO] [minecraft:item] Found 678 tags, added 415 objects, removed 0 objects
+[16:58:30] [INFO] [minecraft:block] Found 590 tags, added 48 objects, removed 0 objects
+[16:58:30] [INFO] Processing recipes...
+[16:58:30] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:58:30] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:58:30] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:58:30] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:58:30] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[16:58:30] [INFO] Found 3847 recipes in 15.42 ms
+[16:58:30] [INFO] Posted recipe events in 6.171 ms
+[16:58:30] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
+[16:58:30] [INFO] Added 2 recipes, removed 6 recipes, modified 1 recipes, with 1 failed recipes in 3.955 ms
+[16:58:31] [INFO] Server resource reload complete!
+[17:00:45] [INFO] camera.js#3: Loaded Java class 'net.minecraft.util.Mth'

@@ -1,106 +1,8 @@
 {
-  "farmersdelight:fish_stew": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 2,
-      "duration": 2400
-    }
-  ],
-  "crockpot:veg_stinger": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": -1,
-      "duration": 1200
-    }
-  ],
-  "crockpot:bone_stew": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 1,
-      "duration": 1200
-    }
-  ],
-  "crockpot:turkey_dinner": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 2,
-      "duration": 1200
-    }
-  ],
-  "farmersdelight:chicken_soup": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 2,
-      "duration": 2400
-    }
-  ],
-  "farmersdelight:vegetable_soup": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 2,
-      "duration": 2400
-    }
-  ],
-  "minecraft:melon_slice": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": -1,
-      "duration": 1200
-    }
-  ],
-  "crockpot:moqueca": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 1,
-      "duration": 1800
-    }
-  ],
-  "farmersdelight:hot_cocoa": [
+  "legendarysurvivaloverhaul:melon_juice": [
     {
       "group": "DRINK",
-      "temperatureLevel": 3,
-      "duration": 3600
-    }
-  ],
-  "crockpot:hot_cocoa": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 3,
-      "duration": 2400
-    }
-  ],
-  "crockpot:salsa": [
-    {
-      "group": "FOOD",
       "temperatureLevel": -1,
-      "duration": 2400
-    }
-  ],
-  "farmersdelight:beef_stew": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": 2,
-      "duration": 2400
-    }
-  ],
-  "crockpot:ice_cream": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": -3,
-      "duration": 1200
-    }
-  ],
-  "crockpot:watermelon_icle": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": -4,
-      "duration": 1800
-    }
-  ],
-  "crockpot:gazpacho": [
-    {
-      "group": "FOOD",
-      "temperatureLevel": -2,
       "duration": 1200
     }
   ],
@@ -125,11 +27,39 @@
       "duration": 1200
     }
   ],
-  "farmersdelight:baked_cod_stew": [
+  "crockpot:veg_stinger": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:bone_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:turkey_dinner": [
     {
       "group": "FOOD",
       "temperatureLevel": 2,
-      "duration": 2400
+      "duration": 1200
+    }
+  ],
+  "minecraft:suspicious_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "minecraft:melon_slice": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
     }
   ],
   "crockpot:iced_tea": [
@@ -137,6 +67,13 @@
       "group": "FOOD",
       "temperatureLevel": -2,
       "duration": 1200
+    }
+  ],
+  "crockpot:moqueca": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1800
     }
   ],
   "crockpot:fruit_medley": [
@@ -158,11 +95,25 @@
       "duration": 1200
     }
   ],
-  "farmersdelight:pumpkin_soup": [
+  "crockpot:hot_cocoa": [
     {
       "group": "FOOD",
-      "temperatureLevel": 2,
+      "temperatureLevel": 3,
       "duration": 2400
+    }
+  ],
+  "crockpot:salsa": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:glistering_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 3600
     }
   ],
   "crockpot:tea": [
@@ -172,10 +123,31 @@
       "duration": 1200
     }
   ],
+  "crockpot:ice_cream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 1200
+    }
+  ],
   "crockpot:bunny_stew": [
     {
       "group": "FOOD",
       "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:watermelon_icle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -4,
+      "duration": 1800
+    }
+  ],
+  "crockpot:gazpacho": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
       "duration": 1200
     }
   ],

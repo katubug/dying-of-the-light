@@ -12,3 +12,21 @@ PlayerEvents.tick(event => {
         }
     }
 })
+
+PlayerEvents.tick(event => {
+    const player = event.player;
+
+    if (player.age % 200 != 0) return
+    // Check if the player is wearing any piece of Netherite armor
+    const isWearingNetherite = player.inventory.armor.some(item => 
+        item.id === 'minecraft:netherite_helmet' ||
+        item.id === 'minecraft:netherite_chestplate' ||
+        item.id === 'minecraft:netherite_leggings' ||
+        item.id === 'minecraft:netherite_boots'
+    );
+
+    // If wearing Netherite armor, apply fire resistance
+    if (isWearingNetherite) {
+        player.potionEffects.add('minecraft:fire_resistance', 200);
+    }
+});

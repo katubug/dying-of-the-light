@@ -1,3 +1,4 @@
+//HUGE THANKS to Liopyu from the KubeJS discord for holding my hand through this whole dang process.
 let $ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
     let DAMAGE_TYPE = $ResourceKey.createRegistryKey("damage_type")
     function getDamageSource(level, damageType, targetEntity, causingEntity) {
@@ -54,12 +55,10 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage to it
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage")) 
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),7)
+                            target.entity.attack(damageSource, 7);
                         //If it's an unfair spirit entity, two-shot it (cuz black and white)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),30)
+                            target.entity.attack(damageSource, 30);
                     }
             })
             }
@@ -100,12 +99,10 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),15)
+                            target.entity.attack(damageSource, 7);
                         //If it's an unfair spirit entity, one shot it (cuz color)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),50)
+                            target.entity.attack(damageSource, 30);
                     }
             })
                 }
@@ -153,12 +150,10 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage to it
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),7)
+                            target.entity.attack(damageSource, 7);
                         //If it's an unfair spirit entity, two-shot it (cuz black and white)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),30)
+                            target.entity.attack(damageSource, 30);
                     }
             })
         }
@@ -199,12 +194,10 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),15)
+                            target.entity.attack(damageSource, 7);
                         //If it's an unfair spirit entity, one shot it (cuz color)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            target.entity.attack(damageSource, 15);
-                            //entity.attack(entity.level.damageSources().magic(),50)
+                            target.entity.attack(damageSource, 30);
                     }
             })
             }

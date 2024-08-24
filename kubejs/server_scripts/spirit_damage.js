@@ -1,4 +1,5 @@
 // Register Damage Type
+//HUGE THANKS to Liopyu from the KubeJS discord for holding my hand through this whole dang process.
 ServerEvents.highPriorityData(event => {
     event.addJson("kubejs:damage_type/spirit_damage", {
         "effects": "hurt",

@@ -97,7 +97,7 @@
       "canBeWithered": false
     },
     "wraith": {
-      "enabled": false,
+      "enabled": true,
       "weight": 0,
       "minGroup": 0,
       "maxGroup": 0,
@@ -145,7 +145,7 @@
       "canBeWithered": false
     },
     "nightmare": {
-      "enabled": false,
+      "enabled": true,
       "weight": 10,
       "minGroup": 1,
       "maxGroup": 1,

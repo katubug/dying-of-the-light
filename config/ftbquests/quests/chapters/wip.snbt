@@ -41,6 +41,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "14C6E4CDBD954F66"
+			progression_mode: "linear"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -152,6 +153,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "62DEF424711114D5"
+			progression_mode: "linear"
 			tasks: [{
 				id: "6E7F86DC3E0BB4F7"
 				observe_type: 5
@@ -183,6 +185,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "1288CD493430D87B"
+			progression_mode: "linear"
 			tasks: [{
 				id: "7251EEE89EE8ACBF"
 				observe_type: 5
@@ -197,6 +200,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "488E57E50B7EEA13"
+			progression_mode: "linear"
 			tasks: [{
 				id: "0E968C31B11435B1"
 				observe_type: 5
@@ -211,6 +215,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "06A650977AD36E4F"
+			progression_mode: "linear"
 			tasks: [{
 				id: "1CD0F6A1A34C03F3"
 				observe_type: 5
@@ -333,6 +338,7 @@
 		{
 			dependencies: ["44C3A1487558DE6C"]
 			id: "6079DE59B33AA9C6"
+			progression_mode: "linear"
 			tasks: [{
 				icon: "endofherobrine:herobrine_head"
 				id: "152261B8FB53F545"

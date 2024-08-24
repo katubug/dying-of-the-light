@@ -305,18 +305,17 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "6EB9B28C2FCBCFFF"
-					item: "legendarysurvivaloverhaul:sun_fern"
-					type: "item"
+			tasks: [{
+				id: "183B0BBEE35D83BA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(legendarysurvivaloverhaul:ice_fern)item(legendarysurvivaloverhaul:sun_fern))"
+					}
 				}
-				{
-					id: "6E7B9E05B82B8D23"
-					item: "legendarysurvivaloverhaul:ice_fern"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.5d
 		}
@@ -862,6 +861,22 @@
 			]
 			title: "Craft and Light a Lantern"
 			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A2CAE3F8A8D5B06"]
+			hide_details_until_startable: true
+			id: "7DAE9062575584B7"
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "0B86AAAD8FCD9EBD"
+				observe_type: 5
+				timer: 0L
+				title: "Find (or make) a Survivor"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			x: 4.0d
 			y: 1.5d
 		}
 	]

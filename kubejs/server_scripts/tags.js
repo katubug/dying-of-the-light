@@ -486,7 +486,14 @@ ServerEvents.tags('entity_type', event => {
     event.add(
         'forge:spirit_damage',
         'cave_dweller:cave_dweller',
-        'aquamirae:captain_cornelia'
+        'aquamirae:captain_cornelia',
+        'graveyard:ghoul',
+        'graveyard:ghouling',
+        'graveyard:lich',
+        'graveyard:nightmare',
+        'graveyard:reaper',
+        'graveyard:revenant',
+        'graveyard:wraith',
     )
 
     event.add(

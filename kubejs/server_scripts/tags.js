@@ -485,7 +485,14 @@ ServerEvents.tags('entity_type', event => {
 
     event.add(
         'forge:spirit_damage',
-        'minecraft:cow'
+        'cave_dweller:cave_dweller',
+        'aquamirae:captain_cornelia'
+    )
+
+    event.add(
+        'forge:spirit_damage_1s',
+        'sanitydim:rotting_stalker',
+        'sanitydim:sneaking_terror',
     )
 
     event.add(

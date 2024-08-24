@@ -45,6 +45,7 @@ PlayerEvents.tick(event => {
 })
 
 ItemEvents.rightClicked('exposure:camera', event => {
+    const Mth = Java.loadClass('net.minecraft.util.Mth')
     const { item, server, player, level} = event
     let film = item.nbt.Film.Count                  //Player needs to have film
     let filmType = item.nbt.Film.id                 //Different film types provide different benefit levels
@@ -56,7 +57,7 @@ ItemEvents.rightClicked('exposure:camera', event => {
     switch (filmType) {
         case 'exposure:black_and_white_film':
             if (filmCount == null && Active >= 1) { //Make this only fire when the camera has charges left AND after the player is looking through the viewfinder
-            player.tell("bw")
+            //player.tell("bw")
             server.runCommandSilent(`sanity add ${event.player.username} 5`)
             player.persistentData.insightCount++ // player gets insight for observing/photographing
             //attempting damage. okay it does work! it also targets the player though, so we need to make the damage different.
@@ -66,16 +67,58 @@ ItemEvents.rightClicked('exposure:camera', event => {
                 let entitiesWithin = dim.getEntitiesWithin(box)
                 entitiesWithin.attack(10)
             }*/
+           /*
             level.getEntitiesWithin(player.boundingBox.inflate(10)).forEach(entity => {
-                if(entity == player || !entity.hasTag('forge:spirit_damage')) return;
+                if(entity == player || !entity.hasTag('spirit_damage')) return;
                 entity.attack(entity.level.damageSources().magic(),10)
+            })
+                */
+            //Thanks to ChiefArug and Raia for this code: https://discord.com/channels/303440391124942858/1257097850785890415
+            let myBoundingBox = player.getBoundingBox().inflate(4)
+            player.getLevel().getEntitiesWithin(myBoundingBox).forEach(entity => {
+                // math stuff here
+                let dx = player.getX() - entity.getX()
+                let dz = player.getZ() - entity.getZ()
+                let entityYaw = Mth.wrapDegrees(Math.atan2(dz, dx) * (180/JavaMath.PI) +90)
+                entityYaw = entityYaw % 360
+                if (entityYaw < 0) entityYaw += 360
+                //player.tell(`Entity Yaw: ${entityYaw}`);
+        
+                let playerYaw = player.getYaw() % 360
+                if (playerYaw < 0) playerYaw += 360
+                //player.tell(`Player Yaw: ${playerYaw}`);
+        
+                let minYaw = (playerYaw - 15) % 360
+                if (minYaw < 0) minYaw += 360
+                let maxYaw = (playerYaw + 15) % 360
+                if (maxYaw < 0) maxYaw += 360
+                //player.tell(`Min Yaw: ${minYaw}, Max Yaw: ${maxYaw}`);
+        
+                let isWithinRange
+                if (minYaw < maxYaw) 
+                    {
+                        isWithinRange = (entityYaw >= minYaw && entityYaw <= maxYaw)
+                    } 
+                    else 
+                    {
+                        isWithinRange = (entityYaw >= minYaw || entityYaw <= maxYaw)
+                    }
+                //player.tell(`Is Within Range: ${isWithinRange}`);
+        
+                    
+                    if (isWithinRange) {
+                        if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
+                            entity.attack(entity.level.damageSources().magic(),30)
+                        if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
+                            entity.attack(entity.level.damageSources().magic(),1000)
+                    }
             })
         }
             break
 
         case 'exposure:color_film':
             if (filmCount == null && Active >= 1) {
-                player.tell("color")
+                //player.tell("color")
                 server.runCommandSilent(`sanity add ${event.player.username} 10`)
                 player.persistentData.insightCount++
             }

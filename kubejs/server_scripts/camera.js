@@ -1,9 +1,19 @@
+let $ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
+    let DAMAGE_TYPE = $ResourceKey.createRegistryKey("damage_type")
+    function getDamageSource(level, damageType, targetEntity, causingEntity) {
+    let resourceKey = $ResourceKey.create(DAMAGE_TYPE, Utils.id(damageType))
+    let holder = level.registryAccess().registryOrThrow(DAMAGE_TYPE).getHolderOrThrow(resourceKey)
+    return new DamageSource(holder, targetEntity, causingEntity)
+    }
+
 ItemEvents.rightClicked('exposure:camera', event => {
     const { item, server, player, entity, target } = event
     const Mth = Java.loadClass('net.minecraft.util.Mth')
     let film = item.nbt.Film.Count
     let filmType = item.nbt.Film.id
     let Active = item.nbt.Active
+
+    let damageSource = getDamageSource(entity.getLevel(), "kubejs:spirit_damage", target.entity, entity);
     
     if (film < 1) return
     if (!item.nbt.Film.tag){
@@ -43,11 +53,13 @@ ItemEvents.rightClicked('exposure:camera', event => {
         
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage to it
-                        if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            entity.attack(entity.level.damageSources().magic(),7)
+                        if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage")) 
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),7)
                         //If it's an unfair spirit entity, two-shot it (cuz black and white)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            entity.attack(entity.level.damageSources().magic(),30)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),30)
                     }
             })
             }
@@ -88,10 +100,12 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            entity.attack(entity.level.damageSources().magic(),15)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),15)
                         //If it's an unfair spirit entity, one shot it (cuz color)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            entity.attack(entity.level.damageSources().magic(),50)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),50)
                     }
             })
                 }
@@ -139,10 +153,12 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage to it
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            entity.attack(entity.level.damageSources().magic(),7)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),7)
                         //If it's an unfair spirit entity, two-shot it (cuz black and white)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            entity.attack(entity.level.damageSources().magic(),30)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),30)
                     }
             })
         }
@@ -183,10 +199,12 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     if (isWithinRange) {
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
-                            entity.attack(entity.level.damageSources().magic(),15)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),15)
                         //If it's an unfair spirit entity, one shot it (cuz color)
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage_1s"))
-                            entity.attack(entity.level.damageSources().magic(),50)
+                            target.entity.attack(damageSource, 15);
+                            //entity.attack(entity.level.damageSources().magic(),50)
                     }
             })
             }

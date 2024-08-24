@@ -1,48 +1,68 @@
-[16:58:30] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[16:58:30] [INIT] Loaded plugins:
-[16:58:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:58:30] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:58:30] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[16:58:30] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[16:58:30] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[16:58:30] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[16:58:30] [INIT] - com.probejs.ProbeJSPlugin
-[16:58:30] [INFO] Loaded script server_scripts:apathy_setup.js in 0.001 s
-[16:58:30] [INFO] Loaded script server_scripts:camera.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:compostable_items.js in 0.001 s
-[16:58:30] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:fire_resistance.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:insight.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:quests.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
-[16:58:30] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:safety_item_server.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:sanity_effects.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:sky_warning.js in 0.001 s
-[16:58:30] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
-[16:58:30] [INFO] spirit_damage.js#10: Loaded Java class 'net.minecraft.resources.ResourceKey'
-[16:58:30] [INFO] Loaded script server_scripts:spirit_damage.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[16:58:30] [INFO] Loaded script server_scripts:tree_lore.js in 0.001 s
-[16:58:30] [INFO] Loaded 17/17 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
-[16:58:30] [INFO] Scripts loaded
-[16:58:30] [INFO] Initializing recipe event...
-[16:58:30] [INFO] [minecraft:entity_type] Found 49 tags, added 24 objects, removed 0 objects
-[16:58:30] [INFO] [minecraft:damage_type] Found 30 tags, added 1 objects, removed 0 objects
-[16:58:30] [INFO] [minecraft:item] Found 678 tags, added 415 objects, removed 0 objects
-[16:58:30] [INFO] [minecraft:block] Found 590 tags, added 48 objects, removed 0 objects
-[16:58:30] [INFO] Processing recipes...
-[16:58:30] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:58:30] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:58:30] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:58:30] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:58:30] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[16:58:30] [INFO] Found 3847 recipes in 15.42 ms
-[16:58:30] [INFO] Posted recipe events in 6.171 ms
-[16:58:30] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
-[16:58:30] [INFO] Added 2 recipes, removed 6 recipes, modified 1 recipes, with 1 failed recipes in 3.955 ms
-[16:58:31] [INFO] Server resource reload complete!
-[17:00:45] [INFO] camera.js#3: Loaded Java class 'net.minecraft.util.Mth'
+[17:57:10] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[17:57:10] [INIT] Loaded plugins:
+[17:57:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:57:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[17:57:10] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[17:57:10] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[17:57:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[17:57:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[17:57:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[17:57:10] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[17:57:10] [INIT] - com.probejs.ProbeJSPlugin
+[17:57:10] [INFO] Loaded script server_scripts:apathy_setup.js in 0.0 s
+[17:57:10] [INFO] camera.js#1: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[17:57:10] [INFO] Loaded script server_scripts:camera.js in 0.001 s
+[17:57:10] [INFO] Loaded script server_scripts:compostable_items.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:eel_bait.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:fire_resistance.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:insight.js in 0.001 s
+[17:57:10] [INFO] Loaded script server_scripts:loot_editing.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:quests.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:recipes.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:recipe_removal.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:safety_item_server.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:sanity_effects.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:sky_warning.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:spawntest.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:spirit_damage.js in 0.0 s
+[17:57:10] [INFO] Loaded script server_scripts:tags.js in 0.001 s
+[17:57:10] [INFO] Loaded script server_scripts:tree_lore.js in 0.0 s
+[17:57:10] [INFO] Loaded 17/17 KubeJS server scripts in 0.006 s with 0 errors and 0 warnings
+[17:57:10] [INFO] Scripts loaded
+[17:57:10] [INFO] Initializing recipe event...
+[17:57:10] [INFO] [minecraft:entity_type] Found 49 tags, added 24 objects, removed 0 objects
+[17:57:10] [INFO] [minecraft:damage_type] Found 30 tags, added 1 objects, removed 0 objects
+[17:57:10] [INFO] [minecraft:block] Found 590 tags, added 48 objects, removed 0 objects
+[17:57:10] [INFO] [minecraft:item] Found 678 tags, added 415 objects, removed 0 objects
+[17:57:11] [INFO] Processing recipes...
+[17:57:11] [WARN] Failed to parse recipe 'autumnity:maple_pressure_plate[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:57:11] [WARN] Failed to parse recipe 'cozy_home:drawer_quartz_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:57:11] [WARN] Failed to parse recipe 'cozy_home:andesite_brick_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:57:11] [WARN] Failed to parse recipe 'cozy_home:spruce_fireplace_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:57:11] [WARN] Failed to parse recipe 'autumnity:maple_button[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:57:11] [INFO] Found 3847 recipes in 14.64 ms
+[17:57:11] [INFO] Posted recipe events in 6.827 ms
+[17:57:11] [WARN] Error parsing recipe cozy_home:andesite_brick_to_block_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":["  ","  "],"key":{},"result":{"item":"minecraft:andesite","count":1}}: null
+[17:57:11] [INFO] Added 2 recipes, removed 6 recipes, modified 1 recipes, with 1 failed recipes in 4.069 ms
+[17:57:11] [INFO] Server resource reload complete!
+[17:57:15] [INFO] camera.js#11: Loaded Java class 'net.minecraft.util.Mth'
+[17:57:16] [INFO] spirit_damage.js#31: ServerPlayer['HeyKatu'/280, l='ServerLevel[New World]', x=19.38, y=63.00, z=-2076.66] [net.minecraft.server.level.ServerPlayer]
+[17:57:16] [INFO] spirit_damage.js#34: 67.0
+[18:05:39] [INFO] spirit_damage.js#31: ServerPlayer['HeyKatu'/280, l='ServerLevel[New World]', x=19.51, y=63.00, z=-2075.05] [net.minecraft.server.level.ServerPlayer]
+[18:05:39] [INFO] spirit_damage.js#34: 68.0
+[18:06:19] [INFO] spirit_damage.js#31: ServerPlayer['HeyKatu'/280, l='ServerLevel[New World]', x=13.60, y=63.00, z=-2067.74] [net.minecraft.server.level.ServerPlayer]
+[18:06:19] [INFO] spirit_damage.js#34: 69.0
+[18:09:15] [ERROR] ! camera.js#160: Error in 'ItemEvents.rightClicked': TypeError: Cannot call method "attack" of null
+[18:09:33] [ERROR] ! spirit_damage.js#30: Error in 'EntityEvents.death': TypeError: Cannot read property "persistentData" from null
+[18:09:33] [ERROR] ! spirit_damage.js#30: Error in 'EntityEvents.death': TypeError: Cannot read property "persistentData" from null
+[18:09:56] [ERROR] ! camera.js#12: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Count" from undefined
+[18:09:57] [ERROR] ! camera.js#12: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Count" from undefined
+[18:09:58] [ERROR] ! camera.js#12: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Count" from undefined
+[18:10:00] [ERROR] ! camera.js#12: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Count" from undefined
+[18:10:03] [ERROR] ! camera.js#116: Error in 'ItemEvents.rightClicked': TypeError: Cannot read property "Frames" from undefined
+[18:10:04] [ERROR] ! camera.js#57: Error in 'ItemEvents.rightClicked': TypeError: Cannot call method "attack" of null
+[18:10:07] [INFO] spirit_damage.js#31: ServerPlayer['HeyKatu'/280, l='ServerLevel[New World]', x=10.59, y=63.00, z=-2068.60] [net.minecraft.server.level.ServerPlayer]
+[18:10:07] [INFO] spirit_damage.js#34: 70.0
+[18:10:54] [INFO] spirit_damage.js#31: ServerPlayer['HeyKatu'/280, l='ServerLevel[New World]', x=15.30, y=63.00, z=-2072.92] [net.minecraft.server.level.ServerPlayer]
+[18:10:54] [INFO] spirit_damage.js#34: 71.0
+[18:12:30] [ERROR] ! tree_lore.js#12: Error in 'BlockEvents.rightClicked': TypeError: Cannot read property "Id" from undefined

@@ -35,14 +35,10 @@ cave_dweller:cave_dweller
 sanitydim:rotting_stalker
 sanitydim:sneaking_terror
 eyesinthedarkness:eyes
-tide:spectral_shimmerfin
-tide:twilight_angler
-tide:mooncaster
 distantfriends:friend
-endofherobrine:herobrine, herobrine
-endofherobrine:builder, herobrine
-endofherobrine:lurker, herobrine
-endofherobrine:armor_stand
+endofherobrine:herobrine
+endofherobrine:builder
+endofherobrine:lurker
 endofherobrine:chicken
 endofherobrine:cow
 endofherobrine:husk

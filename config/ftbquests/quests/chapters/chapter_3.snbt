@@ -388,7 +388,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6079DE59B33AA9C6"]
+			dependencies: ["1B7AF70862C5DF64"]
 			id: "2E4B5074B02D5864"
 			tasks: [{
 				block: "minecraft:lectern"
@@ -469,6 +469,24 @@
 			}]
 			x: -3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6079DE59B33AA9C6"]
+			id: "1B7AF70862C5DF64"
+			tasks: [{
+				id: "30240E8A128F6E9C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(exposure:photograph)or(nbt(fuzzy:{\"endofherobrine:herobrine\":1b})nbt(fuzzy:{\"endofherobrine:lurker\":1b})))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Photograph Herobrine"
+			x: 1.0d
+			y: -1.5d
 		}
 	]
 	title: "Chapter 3"

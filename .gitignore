@@ -5,3 +5,6 @@ mods/eeriemusic-1.20.1-1.4.jar.disabled
 /kubejs/data/watching
 /kubejs/data/fromthefog
 kubejs/assets/From-The-Fog-1.20.5-1.20.6-v1.9.3-Data-Resource-Pack.zip
+/logs/telemetry
+logs/latest.log
+logs/telemetry/20240824-8.json

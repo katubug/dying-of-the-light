@@ -11,6 +11,7 @@ global.changetarget = event => {
     //since this is a global event you can run /kubejs reload startup_scripts to reload whatever is in here without
     //restarting the entire game!
     /*
+    //This has stopped working. It doesn't seem to be correctly recognizing when the player is holding an item.
     let { newTarget } = event
     if (newTarget == null) return
     console.log(newTarget)

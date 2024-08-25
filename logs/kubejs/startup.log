@@ -1,14 +1,14 @@
-[16:09:58] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[16:09:58] [INIT] Loaded plugins:
-[16:09:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:09:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:09:58] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[16:09:58] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[16:09:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[16:09:58] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[16:09:58] [INIT] - com.probejs.ProbeJSPlugin
-[16:10:00] [INFO] Loaded script startup_scripts:items.js in 0.127 s
-[16:10:00] [INFO] Loaded script startup_scripts:safety_item.js in 0.008 s
-[16:10:00] [INFO] Loaded 2/2 KubeJS startup scripts in 2.018 s with 0 errors and 0 warnings
+[10:13:33] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[10:13:33] [INIT] Loaded plugins:
+[10:13:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[10:13:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[10:13:33] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[10:13:33] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[10:13:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[10:13:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[10:13:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[10:13:33] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[10:13:33] [INIT] - com.probejs.ProbeJSPlugin
+[10:13:34] [INFO] Loaded script startup_scripts:items.js in 0.13 s
+[10:13:34] [INFO] Loaded script startup_scripts:safety_item.js in 0.005 s
+[10:13:34] [INFO] Loaded 2/2 KubeJS startup scripts in 1.005 s with 0 errors and 0 warnings

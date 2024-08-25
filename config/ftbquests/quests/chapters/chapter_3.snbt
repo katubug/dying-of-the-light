@@ -1,6 +1,7 @@
 {
 	autofocus_id: "7C86E075FC301A7D"
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "chapter_3"
 	group: ""
@@ -15,16 +16,458 @@
 	}]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "7C86E075FC301A7D"
-		invisible: true
-		tasks: [{
-			id: "3AC081A25EE67FF8"
-			title: "d"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "7C86E075FC301A7D"
+			invisible: true
+			tasks: [{
+				id: "3AC081A25EE67FF8"
+				title: "d"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "6CEA2B10DC3744A6"
+			tasks: [{
+				id: "64EFCB75A7C490F9"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Utak Aluna"
+						display: {
+							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Cave Dweller\"}"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"runelic:runelic\",\"text\":\"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\n\\nBut his fate was cursed to tragedy.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\n\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
+						]
+						resolved: 1b
+						title: "Cave Dweller"
+					}
+				}
+				type: "item"
+			}]
+			title: "Receive the Story of the Cave Dweller"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14C6E4CDBD954F66"]
+			id: "281064B532F2240B"
+			tasks: [{
+				id: "364551A800A33C2F"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"cave_dweller:cave_dweller": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Cave Dweller"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "14C6E4CDBD954F66"
+			progression_mode: "linear"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-128379751
+								-873381404
+								-1438275779
+								105458153
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ3ZjAyZDE0Nzc1YmZiMGE2ZDk1OGViNGE0NGE1YWE4Y2Y2MmYxN2U3NDlhMmMxNjE1Y2RiN2E3M2ZkZmRkOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 95994\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Shadow Monster\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				id: "6CA9952926ABCFDF"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Cave Dweller"
+				to_observe: "cave_dweller:cave_dweller"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "44C3A1487558DE6C"
+			tasks: [{
+				id: "67E6E254C3B9DF48"
+				stage: "insightful"
+				type: "gamestage"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "1BA5321F5473DC64"
+			tasks: [{
+				id: "48104E3D934F4971"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"graveyard:nameless_hanged": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Nameless Hanged"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "62DEF424711114D5"
+			progression_mode: "linear"
+			tasks: [{
+				id: "6E7F86DC3E0BB4F7"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Nameless Hanged"
+				to_observe: "graveyard:nameless_hanged"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "1F8AEA41053112D0"
+			tasks: [{
+				id: "2DA5882A470C2BEE"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"aquamirae:captain_cornelia": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph Captain Cornelia"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "1288CD493430D87B"
+			progression_mode: "linear"
+			tasks: [{
+				id: "7251EEE89EE8ACBF"
+				observe_type: 5
+				timer: 100L
+				title: "Study Captain Cornelia"
+				to_observe: "aquamirae:captain_cornelia"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "346BD2AA2AE4D886"
+			tasks: [{
+				id: "18C1DB634584AD8D"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"sanitydim:rotting_stalker": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Rotting Stalker"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "488E57E50B7EEA13"
+			progression_mode: "linear"
+			tasks: [{
+				id: "0E968C31B11435B1"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Rotting Stalker"
+				to_observe: "sanitydim:rotting_stalker"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "3D9BBE18812FFC06"
+			tasks: [{
+				id: "032B598C8A7DC3FA"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"sanitydim:sneaking_terror": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Sneaking Terror"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "06A650977AD36E4F"
+			progression_mode: "linear"
+			tasks: [{
+				id: "1CD0F6A1A34C03F3"
+				observe_type: 5
+				timer: 100L
+				title: "Study the Sneaking Terror"
+				to_observe: "sanitydim:sneaking_terror"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44C3A1487558DE6C"]
+			id: "6079DE59B33AA9C6"
+			progression_mode: "linear"
+			tasks: [{
+				icon: "endofherobrine:herobrine_head"
+				id: "152261B8FB53F545"
+				observe_type: 6
+				timer: 100L
+				title: "Study the Posessed"
+				to_observe: "forge:posessed"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CEA2B10DC3744A6"]
+			id: "5A318BB8FF1D1CB2"
+			tasks: [
+				{
+					block: "minecraft:lectern"
+					block_type: 0
+					checkItem: true
+					id: "056C019AC48F3B54"
+					isItemInteraction: true
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Utak Aluna"
+							display: {
+								Name: "{\"font\":\"runelic:runelic\",\"text\":\"Cave Dweller\"}"
+							}
+							generation: 3
+							pages: [
+								"{\"font\":\"runelic:runelic\",\"text\":\"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\n\\nBut his fate was cursed to tragedy.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\n\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
+							]
+							resolved: 1b
+							title: "Cave Dweller"
+						}
+					}
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					id: "6F00D4355F01B3F1"
+					stage: "translation"
+					type: "gamestage"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A318BB8FF1D1CB2"]
+			id: "6BE79CC7B3D03F77"
+			progression_mode: "linear"
+			rewards: [{
+				auto: "enabled"
+				id: "027C8EFC5DDECA25"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Utak Aluna"
+						generation: 3
+						pages: [
+							"{\"text\":\"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\n\\nBut his fate was cursed to tragedy.\"}"
+							"{\"text\":\"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\n\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away.\"}"
+							"{\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
+							"{\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
+							"{\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
+							"{\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+							"{\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
+						]
+						title: "Cave Dweller"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Utak Aluna"
+						display: {
+							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Cave Dweller\"}"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"runelic:runelic\",\"text\":\"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\n\\nBut his fate was cursed to tragedy.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\n\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
+						]
+						resolved: 1b
+						title: "Cave Dweller"
+					}
+				}
+				id: "5EBFB18AD2533438"
+				observe_type: 0
+				timer: 800L
+				title: "Translate the Book"
+				to_observe: "minecraft:lectern"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "2E4B5074B02D5864"
+			tasks: [{
+				block: "minecraft:lectern"
+				block_type: 0
+				checkItem: true
+				id: "56507448B3ED49A2"
+				isItemInteraction: true
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Utak Aluna"
+						display: {
+							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Herobrine\"}"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"runelic:runelic\",\"text\":\"Legends say that Herobrine was once a man named Steve, but this is not entirely the truth. The being you call Herobrine is not of this realm at all, but instead hails from a distant plane, cold and lifeless, and always dark.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He came to this realm because of the sunshine. He wishes to be alive the way we are. To feel warmth, to enjoy the taste of fresh food and the gentleness of an embrace. But he lacks the ability. His reality is so far\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"removed from ours, that he can never understand what it means to live. He tries to get a semblance of our experience by possessing villagers, creatures, even monsters. There he can pretend he feels the sunshine or the rain.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"But he cannot. He cannot understand, and his impotence drives him mad. The lack of feeling permeates him in every cell. What he desires the most, he can never have.\"}"
+						]
+						resolved: 1b
+						title: "Herobrine"
+					}
+				}
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E4B5074B02D5864"]
+			id: "29F7E947E2EDA699"
+			progression_mode: "linear"
+			rewards: [{
+				auto: "enabled"
+				id: "2FE40273D26F4403"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Utak Aluna"
+						generation: 3
+						pages: [
+							"{\"text\":\"Legends say that Herobrine was once a man named Steve, but this is not entirely the truth. The being you call Herobrine is not of this realm at all, but instead hails from a distant plane, cold and lifeless, and always dark.\"}"
+							"{\"text\":\"He came to this realm because of the sunshine. He wishes to be alive the way we are. To feel warmth, to enjoy the taste of fresh food and the gentleness of an embrace. But he lacks the ability. His reality is so far\"}"
+							"{\"text\":\"removed from ours, that he can never understand what it means to live. He tries to get a semblance of our experience by possessing villagers, creatures, even monsters. There he can pretend he feels the sunshine or the rain.\"}"
+							"{\"text\":\"But he cannot. He cannot understand, and his impotence drives him mad. The lack of feeling permeates him in every cell. What he desires the most, he can never have.\"}"
+						]
+						title: "Herobrine"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B041E9CE032E9E"
+				observe_type: 0
+				timer: 800L
+				to_observe: "minecraft:lectern"
+				type: "observation"
+			}]
+			title: "Translate the Book"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "0876A6B6494AE2CA"
+			progression_mode: "linear"
+			tasks: [{
+				id: "7DE7B02E5B682F9B"
+				observe_type: 0
+				timer: 800L
+				to_observe: "minecraft:lectern"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+	]
 	title: "Chapter 3"
 }

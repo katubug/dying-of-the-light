@@ -480,6 +480,11 @@ ServerEvents.tags('item', event => {
     
 })
 
+ServerEvents.tags('block', event =>{
+
+
+})
+
 
 ServerEvents.tags('entity_type', event => {
 

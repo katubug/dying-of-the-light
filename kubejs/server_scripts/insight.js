@@ -2,19 +2,13 @@ PlayerEvents.tick(event => {
     let { player } = event
     if (!player.persistentData.insightCount) player.persistentData.insightCount = 0
     if (player.persistentData.insightCount < 10) return
-    if (player.persistentData.insightCount >=100 && !player.stages.has('insightful')) {
+    if (player.persistentData.insightCount >=50 && !player.stages.has('insightful')) {
         player.stages.add('insightful')
     }
+    if (player.persistentData.insightCount >=100 && !player.stages.has('translation')) {
+        player.stages.add('translation')
+    }
 })
-/*
-EntityEvents.death(event => {
-    if (!event.entity.isMonster()) return
-    if (!event.source.actual.isPlayer()) return
-        let player = event.source.getPlayer()
-        player.tell(event.level.side)
-        player.persistentData.insightCount++
-});
-*/
 
 PlayerEvents.advancement(event => {
     event.player.persistentData.insightCount++

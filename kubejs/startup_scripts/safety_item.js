@@ -10,21 +10,31 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingChangeTargetEv
 global.changetarget = event => {
     //since this is a global event you can run /kubejs reload startup_scripts to reload whatever is in here without
     //restarting the entire game!
+    /*
     let { newTarget } = event
-    let vtorch = 'minecraft:torch'
-    let vlantern = 'minecraft:lantern'
-    let ltorch = 'hardcore_torches:lit_torch'
-    let llantern = 'hardcore_torches:lit_lantern'
     if (newTarget == null) return
-    if (newTarget.mainHandItem.nbt && newTarget.mainHandItem.nbt.Film 
-        && newTarget.mainHandItem.nbt.Film.Count >= 1 && newTarget.mainHandItem.nbt.Active >= 1 && newTarget.mainHandItem.nbt.Film.tag.Frames[15] == null){
-       event.setNewTarget(null)
-     }
-    //if (newTarget.getHealth() < 10) return
-    /*if (newTarget.mainHandItem.id == vtorch 
-        || newTarget.mainHandItem.id == ltorch 
-        || newTarget.mainHandItem.id == vlantern 
-        || newTarget.mainHandItem.id == llantern) {
-        event.setNewTarget(null)
+    console.log(newTarget)
+    console.log(newTarget.mainHandItem)
+    if (newTarget.mainHandItem.getId() == 'exposure:camera') {
+        if (newTarget.mainHandItem.nbt 
+            && newTarget.mainHandItem.nbt.Film 
+            && newTarget.mainHandItem.nbt.Film.Count >= 1 
+            && newTarget.mainHandItem.nbt.Active >= 1 
+            && !newTarget.mainHandItem.nbt.Film.tag){
+                console.log('1 setting new target'+newTarget)
+                event.setNewTarget(null)
+        }
+        if (newTarget.mainHandItem.nbt
+            && newTarget.mainHandItem.nbt.Film 
+            && newTarget.mainHandItem.nbt.Film.Count >= 1 
+            && newTarget.mainHandItem.nbt.Active >= 1 
+            && newTarget.mainHandItem.nbt.Film.tag.Frames[15] == null){
+                console.log('2 setting new target'+newTarget)
+                event.setNewTarget(null)
+        }
+        else {
+            console.log('target is '+newTarget+' and is holding '+ newTarget.mainHandItem)
+        }
     }*/
 }
+    

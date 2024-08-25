@@ -17,6 +17,17 @@
         "predicate": {
           "type": "in_player_set",
           "player_sets": [
+            "camera"
+          ]
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "in_player_set",
+          "player_sets": [
             "insane",
             "low_health"
           ]

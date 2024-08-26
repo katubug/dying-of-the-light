@@ -117,6 +117,15 @@
             ""
           ]
         }
+      },
+      {
+        "type": "predicated",
+        "if_true": "allow",
+        "if_false": "pass",
+        "predicate": {
+          "type": "revenge_timer",
+          "timeout": 1200
+        }
       }
     ]
   }

@@ -18,6 +18,7 @@ ItemEvents.rightClicked('exposure:camera', event => {
     
     if (film < 1) return
     if (!item.nbt.Film.tag){
+        //console.log("Camera does not have frames")
         switch (filmType) {
             case 'exposure:black_and_white_film':
                 if (Active >= 1) {
@@ -110,8 +111,9 @@ ItemEvents.rightClicked('exposure:camera', event => {
         }
     }
 
-    if (item.nbt.Film.tag.Frames){
+    if (item.nbt.Film.tag && item.nbt.Film.tag.Frames){
     let finalFrame = item.nbt.Film.tag.Frames[15]
+    //console.log("Camera has frames.")
     
     if (finalFrame == null){
     switch (filmType) {

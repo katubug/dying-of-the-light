@@ -1,0 +1,106 @@
+{
+	icon: "minecraft:chest"
+	id: "0278F4B8139D0356"
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:cooked_beef"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:cooked_porkchop"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "crockpot:pepper_popper"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "crockpot:turkey_dinner"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:bread"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{ item: "crockpot:hot_cocoa" }
+		{
+			item: {
+				Count: 1
+				id: "crockpot:stuffed_eggplant"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{ item: "crockpot:tea" }
+		{ item: "crockpot:iced_tea" }
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:sea_stew"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "crockpot:california_roll"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+		{ item: "crockpot:candy" }
+		{
+			item: {
+				Count: 1
+				id: "crockpot:flower_salad"
+				tag: {
+					"spoiled:SpoilMaxTime": 40
+					"spoiled:SpoilTimer": 0
+				}
+			}
+		}
+	]
+	title: "Food"
+}

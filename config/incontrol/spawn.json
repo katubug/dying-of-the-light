@@ -10,5 +10,10 @@
         "gamestage":"low_insight",
         "result":"deny",
         "continue": true
+    },
+    {
+        "mob":"graveyard:nameless_hanged",
+        "mincount": 2,
+        "result": "deny"
     }
 ]

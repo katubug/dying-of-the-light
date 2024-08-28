@@ -1,0 +1,14 @@
+{
+    "name": "Captain Cornelia",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:entities",
+    "advancement": "dying_light:meet_dweller",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "text": "also real sad",
+            "entity": "aquamirae:captain_cornelia",
+            "name": "a hot babe"
+        }
+    ]
+}

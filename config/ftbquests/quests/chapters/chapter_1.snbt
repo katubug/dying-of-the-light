@@ -331,6 +331,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["128C0831D93CC414"]
 			description: [
 				"One of the most soothing ways to restore your sanity is to &ago fishing&r. The waters here are teeming with a wide variety of fish, found across multiple biomes and even in other dimensions."
 				""
@@ -394,15 +395,14 @@
 			description: ["I don't know if it's the air here, or what, but &asomething is spoiling food&r faster than normal. "]
 			id: "46302055705891EA"
 			tasks: [{
-				id: "577015539535953C"
+				id: "55F279694B2F8ED9"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "forge:picnic_baskets"
+						"ftbfiltersystem:filter": "or(item(muffins_picnic:white_picnic_basket)item(muffins_picnic:light_gray_picnic_basket)item(muffins_picnic:gray_picnic_basket)item(muffins_picnic:black_picnic_basket)item(muffins_picnic:brown_picnic_basket)item(muffins_picnic:red_picnic_basket)item(muffins_picnic:orange_picnic_basket)item(muffins_picnic:yellow_picnic_basket)item(muffins_picnic:lime_picnic_basket)item(muffins_picnic:green_picnic_basket)item(muffins_picnic:cyan_picnic_basket)item(muffins_picnic:light_blue_picnic_basket)item(muffins_picnic:blue_picnic_basket)item(muffins_picnic:magenta_picnic_basket)item(muffins_picnic:purple_picnic_basket)item(muffins_picnic:pink_picnic_basket))"
 					}
 				}
-				title: "Any #forge:picnic_baskets"
 				type: "item"
 			}]
 			title: "Preserving Food"
@@ -435,11 +435,11 @@
 		{
 			dependencies: ["128C0831D93CC414"]
 			description: [
-				"In this eerie world, a &aloyal companion&r can be the anchor that keeps your mind from drifting into darkness. Seek out a &ecat&r, &eparrot&r, or &edog&r to tame - let their presence soothe your troubled spirit."
+				"Having a loyal pet can be the thing that keeps you centered. Whether it’s a &ecat&r, &eparrot&r, or &edog&r, their company can really help calm your nerves."
 				""
-				"But remember, this bond is sacred. Your &apet will be a source of comfort&r, but if they perish, the &dpain of their loss will weigh heavily&r on your soul, driving you closer to the brink of madness."
+				"But don’t take that bond lightly. Your pet will bring you comfort, but &dlosing them can hit hard&r and push you closer to the edge."
 				""
-				"Care for them well, protect them from harm, and in turn, they will protect your sanity."
+				"So, take good care of them, keep them safe, and &athey’ll help you stay sane&r in return."
 			]
 			id: "708CDBBF3DE6402A"
 			rewards: [{
@@ -461,11 +461,11 @@
 		{
 			dependencies: ["619B225244EE9A1B"]
 			description: [
-				"This world whispers in the dark, testing the strength of your mind. Beware, for &ayour sanity is fragile&r, easily shattered by the unseen horrors lurking in the shadows."
+				"This place can really mess with your head if you're not careful. The dark's full of things you don't want to mess with, so it’s important to stay grounded."
 				""
-				"&6Avoid the darkness and the creatures that dwell within it&r, for they are harbingers of madness. &aSeek the comfort of light&r and engage in calming rituals—&6sip warm tea&r, &6sleep frequently&r, and &6rest your mind by the water’s edge&r."
+				"&aStick to the light&r, and don’t get too close to &ewhatever’s hiding in the shadows&r. Take a break when you need it—grab some &btea&r, get plenty of &asleep&r, or get a hobby - &agardening and fishing&r are good ideas."
 				""
-				"Protect your mind with care, for if you let the shadows creep in, madness will surely follow."
+				"Keep your sanity in check, because if you let the darkness in, things can get bad real quick."
 			]
 			id: "128C0831D93CC414"
 			rewards: [{
@@ -642,6 +642,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["128C0831D93CC414"]
 			description: [
 				"In a world shrouded by shadows, the simple act of &atending to life&r can bring peace to a troubled mind. Seek out &bflowers&r, symbols of beauty and tranquility, and &6pot them&r with care."
 				""
@@ -684,19 +685,24 @@
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
+			description: [
+				"It should come as no surprise that one way you can &aretain sanity&r is by &6listening to music&r."
+				""
+				"It's worth mentioning, though, that if you listen to &aweird or disturbing music&r, it can &dhave the opposite effect&r."
+			]
 			id: "45D6628870FD9B7E"
 			tasks: [{
-				id: "1E5894A7966EA55A"
+				id: "68DD872919117E88"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						value: "minecraft:music_discs"
+						"ftbfiltersystem:filter": "or(item_tag(minecraft:music_discs))"
 					}
 				}
-				title: "Any #minecraft:music_discs"
 				type: "item"
 			}]
+			title: "Listen to Music"
 			x: 13.5d
 			y: 2.0d
 		}
@@ -878,6 +884,34 @@
 			}]
 			x: 4.0d
 			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Alongside your &bSanity&r, you also have &bInsight&r. You can gain insight into the world around you by doing the following:"
+				""
+				"- Gaining advancements."
+				"- Capturing souls with the Camera Obscura."
+				"- Losing your mind."
+				"- "
+				""
+				"Take this &bCerebrometer&r, it will help you keep track of your &bInsight level&r. Simply &6hold it and right click&r."
+				""
+				"&dThis quest is repeatable&r."
+			]
+			id: "655C9260329EB86C"
+			rewards: [{
+				id: "4EF0E39B9EF20CDC"
+				item: "kubejs:sanity_checker"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6674E0F1EE92E92E"
+				title: "Insight"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.5d
 		}
 	]
 	title: "Chapter 1"

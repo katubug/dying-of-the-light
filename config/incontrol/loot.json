@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "mob": "minecraft:zombie",
+        "item": "kubejs:teddy",
+        "gamestage": "dweller_begun"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "remove": "kubejs:teddy",
+        "gamestage": "dweller_resolved"
+    }
+]

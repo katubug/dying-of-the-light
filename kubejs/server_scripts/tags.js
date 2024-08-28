@@ -198,41 +198,20 @@ ServerEvents.tags('item', event => {
         'crockpot:cooked_frog_legs', 
         'minecraft:cooked_rabbit', 
         'minecraft:cooked_chicken', 
-        'minecraft:cooked_mutton',
-        'midnight:cooked_stag_flank',
+        'minecraft:cooked_mutton'
     )
 
     //Which raw items spoil into Rotten Flesh (Faster)
     event.add(
         'forge:raw_to_rotten_flesh',
-        'minecraft:cooked_porkchop', 
-        'minecraft:cooked_beef', 
-        'crockpot:cooked_hoglin_nose', 
-        'crockpot:cooked_frog_legs', 
-        'minecraft:cooked_rabbit', 
-        'minecraft:cooked_chicken', 
-        'minecraft:cooked_mutton'
-    )
-    
-    //Picnic Baskets (FTB Quests)
-    event.add(
-        'forge:picnic_baskets',
-        'muffins_picnic:white_picnic_basket',
-        'muffins_picnic:light_gray_picnic_basket',
-        'muffins_picnic:gray_picnic_basket',
-        'muffins_picnic:black_picnic_basket',
-        'muffins_picnic:brown_picnic_basket',
-        'muffins_picnic:red_picnic_basket',
-        'muffins_picnic:orange_picnic_basket',
-        'muffins_picnic:yellow_picnic_basket',
-        'muffins_picnic:lime_picnic_basket',
-        'muffins_picnic:green_picnic_basket',
-        'muffins_picnic:cyan_picnic_basket',
-        'muffins_picnic:light_blue_picnic_basket',
-        'muffins_picnic:blue_picnic_basket',
-        'muffins_picnic:purple_picnic_basket',
-        'muffins_picnic:magenta_picnic_basket',
-        'muffins_picnic:pink_picnic_basket'
+        'minecraft:beef',
+        'minecraft:porkchop',
+        'minecraft:mutton',
+        'minecraft:chicken',
+        'minecraft:rabbit',
+        'crockpot:frog_legs',
+        'crockpot:hoglin_nose'
+
     )
 
     //Food items which can be salted

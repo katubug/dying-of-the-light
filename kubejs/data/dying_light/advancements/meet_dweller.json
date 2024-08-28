@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:deepslate"
+      },
+      "title": "Meet the Cave Dweller",
+      "description": "Get attacked by the Cave Dweller.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "entity": {
+            "type": "cave_dweller:cave_dweller"
+          }
+        }
+      }
+    }
+  }
+  

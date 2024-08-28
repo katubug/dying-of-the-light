@@ -1,0 +1,114 @@
+{
+	autofocus_id: "190EC1D66444E64E"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "fishing"
+	group: ""
+	id: "0D655B82241562CE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7541252E94451A93"]
+			id: "57304D5B080BA48D"
+			tasks: [{
+				id: "2571CBEAACF25797"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: 14
+							hook: 0
+							line: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "190EC1D66444E64E"
+			tasks: [{
+				id: "037F175D5CE0CE31"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "16538E097DFE166F"
+			tasks: [{
+				id: "33B5D3BF0897C4FF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:fishing_line)item(tide:braided_line)item(tide:reinforced_line)item(tide:fortune_line))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade Your Line"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "7B15A049B94A97F5"
+			tasks: [{
+				id: "6892CCF2742779AD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:fishing_hook)item(tide:iron_fishing_hook)item(tide:lavaproof_fishing_hook))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade Your Hook"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "41BDDB894AECA1D3"
+			tasks: [{
+				id: "61551B91ACF0A278"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:bait)item(tide:lucky_bait)item(tide:magnetic_bait)item(tide:magnetic_bait)item(tide:suspicious_bait)item(fishofthieves:earthworms)item(fishofthieves:grubs)item(fishofthieves:leeches))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Some Bait"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "7541252E94451A93"
+			tasks: [{
+				id: "60AAD0CA63B39362"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:iron_fishing_rod)item(tide:golden_fishing_rod)item(tide:crystal_fishing_rod)item(tide:diamond_fishing_rod))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade Your Rod"
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	title: "Fishing"
+}

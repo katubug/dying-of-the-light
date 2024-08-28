@@ -1,0 +1,19 @@
+{
+    "name": "Journal",
+    "landing_text": "crazy go nuts",
+    "version": 0,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true,
+    "book_texture": "patchouli:textures/gui/book_gray.png",
+    "book_model": "patchouli:textures/gui/book_gray",
+    "text_color": "5c3a20",
+    "header_color": "000000",
+    "nameplate_color": "ffffff",
+    "link_color": "FF0000",
+    "link_hover_color": "FFFFFF",
+    "progress_bar_color": "808080",
+    "progress_bar_background": "000000",
+    "use_blocky_font": true,
+    "text_overflow_mode": "resize",
+    "index_icon": "minecraft:lectern"
+}

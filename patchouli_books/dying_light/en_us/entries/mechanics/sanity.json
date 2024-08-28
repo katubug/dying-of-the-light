@@ -1,0 +1,17 @@
+{
+    "name": "Sanity",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This place can really mess with your head if you're not cautious. If you're careful and take good care of yourself, you might be okay, but you have to $(#00a800)watch your sanity$(). If you dip too low, $(d)monsters can sense it$(), and they'll attack you even if you're holding a lantern or camera."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Take a break when you need it—grab some $(#00a8a8)tea$(), get plenty of $(#00a800)sleep$(), or get a hobby - $(#00a800)gardening and fishing$() are good ideas.$(br2)Keep your sanity in check, because if you let the darkness in, things can get bad real quick."
+        }
+        
+    ]
+}
+

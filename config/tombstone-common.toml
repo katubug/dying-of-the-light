@@ -88,7 +88,7 @@
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
-	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
 	unhandled_harmful_effects = ["minecraft:nausea"]
@@ -196,6 +196,15 @@
 	#Maximum cooldown in seconds to have a chance to obtain Spectral Bite [30..60|default:30]
 	#Range: 30 ~ 60
 	max_cooldown_spectral_bite = 30
+	#Minimum cooldown in seconds to have a chance to spawn a Spectral Wolf [3..20|default:3]
+	#Range: 20 ~ 90
+	min_cooldown_spectral_conjurer = 60
+	#Maximum cooldown in seconds to have a chance to spawn a Spectral Wolf [30..60|default:30]
+	#Range: 120 ~ 600
+	max_cooldown_spectral_conjurer = 240
+	#Maximum duration of conjured Spectral Wolf [10..300|default:120]
+	#Range: 10 ~ 300
+	max_duration_spectral_conjurer = 60
 
 #Options related to the command recovery and auto-save of players
 [recovery]

@@ -3,7 +3,8 @@ ServerEvents.compostableRecipes(event=>{
 
     let toCompost = [
         'kubejs:rotted_residue',
-        'kubejs:putrid_ichor'
+        'kubejs:putrid_ichor',
+        'crockpot:wet_goop'
     ];
     
     for (const compost of toCompost) {

@@ -6,7 +6,13 @@ StartupEvents.registry('item', event => {
     event.create('eel_bait').displayName("Eel Bait")
     event.create('rotted_residue').displayName("Rotted Residue")
     event.create('putrid_ichor').displayName("Putrid Ichor")
-    event.create('summoning_powder').displayName("Summoning Powder")
+    event.create('sanity_checker').displayName("Cerebrometer")
+    event.create('teddy').displayName("Worn Teddy Bear")
+    event.create('cd_note').displayName("Note from Garrik")
+    event.create('cc_note').displayName("Note from Cornelia")
+    event.create('hb_note').displayName("Note from a Lonely Being")
+    event.create('nh_note').displayName("Note from a Nameless Man")
+
 
   })
   

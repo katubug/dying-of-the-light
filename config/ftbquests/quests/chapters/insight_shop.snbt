@@ -1,0 +1,564 @@
+{
+	autofocus_id: "7F588C2BBD868E89"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	filename: "insight_shop"
+	group: ""
+	id: "3ACF4D7E8C95C447"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F588C2BBD868E89"
+			shape: "embellish"
+			tasks: [{
+				id: "1BA41EDCFD4E4B07"
+				secret: true
+				stage: "insight_shop"
+				title: "Become Insightful"
+				type: "gamestage"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Accept this quest to &6spend 2 &bInsight&r to purchase &b1 Black and White Film&r."]
+			icon: "exposure:black_and_white_film"
+			id: "20DC1078F8E6444B"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "67EA7BE0F1245FC5"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "354CF419EB53165B"
+					ignore_reward_blocking: true
+					tags: ["two_insight"]
+					title: "Spent 2 Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "2C27946ACF6AB8DC"
+				title: "Buy Black and White Film"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Accept this quest to &6spend 5 &bInsight&r to purchase &b1 Color Film&r."]
+			icon: "exposure:color_film"
+			id: "1BF5D60391AF3337"
+			rewards: [
+				{
+					auto: "enabled"
+					exclude_from_claim_all: true
+					id: "5F9468F5D1DFFB69"
+					item: "exposure:color_film"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "7B4B415748A14BE7"
+					ignore_reward_blocking: true
+					title: "Spent 5 Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "52B8750349F0C24D"
+				title: "Buy Color Film"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "0CFFEF3D0D194F2D"
+			rewards: [
+				{
+					id: "75F7C162F2E6B5A6"
+					item: "minecraft:frog_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "68FFD6F81631F70E"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "48AD6300F1C7DE70"
+				title: "Buy a Frog Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "5C9FD19EB12BBA73"
+			rewards: [
+				{
+					id: "7ABD1A8A2B2D130B"
+					item: "minecraft:fox_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "6B3A763B0C05732C"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "701FA2D540085014"
+				title: "Buy a Fox Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "0F7BC46CA17A6645"
+			rewards: [
+				{
+					id: "0E449D8977739673"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "1389E8EA856ED539"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "6CA921A86D4ED332"
+				title: "Buy a Cow Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "3A763AF9E8B144FD"
+			rewards: [
+				{
+					id: "32D8C393C802C305"
+					item: "minecraft:allay_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "63FF41B089EDE4B0"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "08E40F2AC0D7A1D1"
+				title: "Buy an Allay Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &eCat&r egg for &b10 Insight&r."]
+			id: "5198E0CA9170B7EB"
+			rewards: [
+				{
+					id: "71D22BC9016F25EF"
+					item: "minecraft:cat_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "1771282FC9B8F11C"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "70FB3C199FAD22CE"
+				title: "Buy a Cat Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &eWolf&r egg for &b10 Insight&r."]
+			id: "728F373A62487950"
+			rewards: [
+				{
+					id: "61E9AAD8BD655217"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "2CB896707192F980"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "5B593D4F60E53B05"
+				title: "Buy a Wolf Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "7C7E610C4197D802"
+			rewards: [
+				{
+					id: "1CA2155CF0E73162"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "3E1DE682EC82B441"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "7D141B26A2095628"
+				title: "Buy a Sheep Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "6EDDE3360D74D3A0"
+			rewards: [
+				{
+					id: "101C031839411D11"
+					item: "minecraft:goat_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "3E4E1D27783C271F"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "5C33FD3D7AAE9DF1"
+				title: "Buy a Goat Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "3B5B1C54FA4E3E50"
+			rewards: [
+				{
+					id: "3AB4227278090271"
+					item: "minecraft:axolotl_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "6E853075022B4656"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "79E9025B00E8604B"
+				title: "Buy an Axolotl Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "2A28BC80D11A2FD1"
+			rewards: [
+				{
+					id: "785C0C8FD21E4CB3"
+					item: "minecraft:bee_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "33A845CCD636B204"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "299D303534F5ABB4"
+				title: "Buy a Bee Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &eParrot&r egg for &b10 Insight&r."]
+			id: "3DF3343F73DF6043"
+			rewards: [
+				{
+					id: "3ECAEDA9F62E9CBE"
+					item: "minecraft:parrot_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "7C5AF71554A0867E"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "188ADFF756296149"
+				title: "Buy a Parrot Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "062298A69092E3EA"
+			rewards: [
+				{
+					id: "0F89D6C8FD916D9B"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "505505B5A32B6DAA"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "220A1FC097D391DB"
+				title: "Buy a Chicken Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "5A6F12EE2315ACC5"
+			rewards: [
+				{
+					id: "0F7249649EA94290"
+					item: "minecraft:pig_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "2D3A7150C6454E58"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "7B5A5AA3D26F33E0"
+				title: "Buy a Pig Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "04492D6F87320A5A"
+			rewards: [
+				{
+					id: "67D73A9801C07BF4"
+					item: "minecraft:rabbit_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "506CC58613CFD3B5"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0D5A392A3D1A9E24"
+				title: "Buy a Rabbit Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "21205B8CFD794CF7"
+			rewards: [
+				{
+					id: "7260780CAD5AD47C"
+					item: "minecraft:turtle_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "619F2635AB57056C"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "4380B0E52949C9E1"
+				title: "Buy a Turtle Spawn Egg"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			id: "56D93F43807A2CDC"
+			rewards: [
+				{
+					id: "32027DE61B0F9724"
+					item: "minecraft:glow_squid_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "6BF5EF7A1B110458"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0F0131877BFB1918"
+				title: "Buy a Glow Squid Spawn Egg"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Receive a random assortment of &bfood&r for &b6 Insight&r."]
+			id: "1405EA56231F5AE0"
+			rewards: [
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "244EAB198E5E059E"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "491362AA427803C9"
+					table_id: 178161256721351510L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3338C53F7BC35610"
+				title: "Buy Some Food"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy some &bSalt&r at the cost of &b1 Insight&r."]
+			id: "75BF74250B2D3181"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 16
+					exclude_from_claim_all: true
+					id: "73725C1F6F6E7D0E"
+					ignore_reward_blocking: true
+					item: "salt:salt"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "0DF32BFB6729D13D"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "2A29E88307CD8396"
+				title: "Buy Some Salt"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+	]
+	title: "Insight Shop"
+}

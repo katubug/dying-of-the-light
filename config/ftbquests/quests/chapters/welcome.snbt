@@ -117,15 +117,7 @@
 		}
 		{
 			dependencies: ["58A436B93EC5625A"]
-			description: [
-				"In this pack, you'll have &aneeds to take care of&r, beyond what you'd expect in vanilla. These needs are as follows:"
-				""
-				"- Thirst"
-				"- Tiredness"
-				"- Locational Damage"
-				"- Temperature"
-				"- Food spoilage"
-			]
+			description: ["aboo"]
 			id: "619B225244EE9A1B"
 			shape: "gear"
 			tasks: [{
@@ -133,6 +125,7 @@
 				title: "Needs"
 				type: "checkmark"
 			}]
+			title: "lorrem ipusm"
 			x: 7.5d
 			y: 5.0d
 		}

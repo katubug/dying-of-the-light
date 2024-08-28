@@ -1,0 +1,16 @@
+{
+	id: "27BC73D1527E9F84"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "minecraft:gunpowder", weight: 10.0f }
+		{ count: 2, item: "minecraft:dried_kelp", weight: 10.0f }
+		{ count: 2, item: "minecraft:iron_ingot", weight: 10.0f }
+		{ count: 2, item: "minecraft:lapis_lazuli", weight: 10.0f }
+		{ count: 2, item: "minecraft:gold_ingot", weight: 10.0f }
+		{ count: 2, item: "minecraft:bone_meal", weight: 10.0f }
+		{ item: "exposure:black_and_white_film" }
+		{ item: "exposure:color_film", weight: 0.5f }
+	]
+	title: "Film Ingredients"
+}

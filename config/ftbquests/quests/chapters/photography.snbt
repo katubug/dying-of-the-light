@@ -61,11 +61,78 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["4EA36CD0281FC5AB"]
-			description: ["Take a photo of a &eCow&r, &eSheep&r, and &ePig&r simultaneously."]
-			id: "7B14E835053C360A"
+			id: "4B5DB40123A640D8"
+			invisible: true
 			tasks: [{
-				id: "0C61139919FB1B5F"
+				id: "5AA8E5769B388278"
+				title: "w"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "0F6F954DEEBC0383"
+			tasks: [{
+				id: "0E438C16F7F63F57"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Structures: ["graveyard:large_graveyard"]
+					}
+				}
+				match_nbt: true
+				title: "Photograph of a Large Graveyard"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "4553C41C2BDFDCAF"
+			tasks: [{
+				id: "49A52B362B873A24"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:warden": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of the Warden"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			id: "56946F952B94D169"
+			tasks: [{
+				id: "0C5949908636A278"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:pillager": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of a Pillager"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			id: "7FB3E5DA9D0A3C4E"
+			tasks: [{
+				id: "098680CDCADEC634"
 				item: {
 					Count: 1
 					id: "exposure:photograph"
@@ -76,43 +143,32 @@
 					}
 				}
 				match_nbt: true
+				title: "Photograph of A Cow, Pig, and Sheep"
 				type: "item"
 				weak_nbt_match: true
 			}]
 			title: "Take a Group Photo"
-			x: -7.5d
-			y: -2.5d
+			x: -5.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["4EA36CD0281FC5AB"]
-			id: "63F37F851074BFCF"
+			id: "5C6CE2A1F1F3741F"
 			tasks: [{
-				id: "09FF6ED981500277"
+				id: "289B98BFD49D10EB"
 				item: {
 					Count: 1
 					id: "exposure:photograph"
 					tag: {
-						"endofherobrine:lurker": 1b
+						"minecraft:ender_dragon": 1b
 					}
 				}
 				match_nbt: true
+				title: "Photograph of the Ender Dragon"
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Take a Photo of Herobrine"
-			x: -7.5d
-			y: -5.0d
-		}
-		{
-			id: "4B5DB40123A640D8"
-			invisible: true
-			tasks: [{
-				id: "5AA8E5769B388278"
-				title: "w"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -2.5d
+			x: -3.5d
+			y: -10.5d
 		}
 	]
 	title: "Photography"

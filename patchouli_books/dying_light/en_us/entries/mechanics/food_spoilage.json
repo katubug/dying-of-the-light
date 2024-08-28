@@ -1,0 +1,61 @@
+{
+    "name": "Spoiling Food",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Food doesn't last forever, here. Without taking action, most foods will spoil in about a day, so it's highly recommended that you prepare them to last.$(br2)There are two ways you can prepare your foods to last:"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "salt:salt",
+            "text": "If you salt your food, you can slow its rotting. You do this by crafting the food and salt together.$(br2)It is highly recommended to salt your food immediately! If it begins to spoil, $(d)the salt may have no effect$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "muffins_picnic:red_picnic_basket",
+            "text": "We aren't sure why, but food will spoil more slowly when it's in a $(#00a8a8)Picnic Basket$(). This could be a good option early on."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "minecraft:ender_chest",
+            "text": "The power of The End can keep food fresh indefinitely! Place it inside a $(#00a8a8)Shulker Box$() or $(#00a8a8)Ender Chest$() to prevent spoilage altogether."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "However, even if your food goes bad, that doesn't necessarily mean it's not useful anymore! On the following pages, you can read about what item results you can get."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "minecraft:rotten_flesh",
+            "text": "Most unprepared foods will spoil into Rotten Flesh. Raw foods spoil faster than cooked foods, so it's a good idea to cook things up if you don't have access to salt."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "kubejs:rotted_residue",
+            "text": "Most fruits and vegetables will rot into this. It can be composted, or if you leave the $(#00a8a8)Rotted Residue$() to spoil even longer, it will eventually get eaten by $(#00a8a8)Earthworms$(), which you can use as Fishing Bait."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "kubejs:putrid_ichor",
+            "text": "Most cooked meats will rot into this. It can be composted, or if you leave the $(#00a8a8)Rotted Residue$() to spoil even longer, it will eventually get eaten by $(#00a8a8)Grubs$(), which you can use as Fishing Bait."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "fishofthieves:fish_bone",
+            "text": "Dead fish will spoil into $(#00a8a8)Fish Bones$(), which can be crafted into $(#00a8a8)Bonemeal$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "crockpot:wet_goop",
+            "text": "Many foods will spoil into $(#00a8a8)Wet Goop$(), which can be composted."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "iguanatweaksreborn:rooted_potato",
+            "text": "If you allow a $(#00a8a8)Potato$() to grow roots, it will then be plantable, so you can grow more $(#00a8a8)Potatoes$()."
+        }
+        
+    ]
+}

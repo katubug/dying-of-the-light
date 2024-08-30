@@ -478,6 +478,7 @@ ServerEvents.tags('entity_type', event => {
         'graveyard:reaper',
         'graveyard:revenant',
         'graveyard:wraith',
+        'aquamirae:tortured_soul'
     )
 
     event.add(

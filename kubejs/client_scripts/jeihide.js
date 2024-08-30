@@ -16,6 +16,23 @@ JEIEvents.hideItems(event => {
         'legendarysurvivaloverhaul:seasonal_calendar',
         'crockpot:milkmade_hat',
         'crockpot:creative_milkmade_hat',
+        'itemfilters:always_true',
+        'itemfilters:always_false',
+        'itemfilters:or',
+        'itemfilters:and',
+        'itemfilters:not',
+        'itemfilters:xor',
+        'itemfilters:tag',
+        'itemfilters:mod',
+        'itemfilters:id_regex',
+        'itemfilters:damage',
+        'itemfilters:block',
+        'itemfilters:max_count',
+        'itemfilters:strong_nbt',
+        'itemfilters:weak_nbt',
+        'itemfilters:custom',
+        'tombstone:impregnated_diamond',
+        'tombstone:bone_needle'
 ];
     
 for (const hide of toHide) {

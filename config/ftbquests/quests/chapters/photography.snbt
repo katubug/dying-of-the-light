@@ -107,7 +107,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: -10.5d
 		}
 		{
@@ -126,7 +126,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -10.5d
 		}
 		{
@@ -148,7 +148,7 @@
 				weak_nbt_match: true
 			}]
 			title: "Take a Group Photo"
-			x: -5.0d
+			x: -4.5d
 			y: -10.5d
 		}
 		{
@@ -169,6 +169,307 @@
 			}]
 			x: -3.5d
 			y: -10.5d
+		}
+		{
+			id: "058D4C5FFC5107BE"
+			tasks: [{
+				id: "6953566AD535346B"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:player": 1b
+					}
+				}
+				match_nbt: true
+				title: "Black and White Selfie"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			id: "42ABEB59ECA84EBF"
+			tasks: [{
+				id: "15F95D6AFC549FFA"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:axolotl": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of an Axolotl in Lush Caves"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			id: "422E26D7878AE3DF"
+			rewards: [{
+				id: "118431EC847CCB16"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B9B98A0E8E341D6"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:wither": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Wither"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			id: "034FCF51039F0B29"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Biome: "minecraft:end_barrens"
+						DayTime: 13562
+						Dimension: "minecraft:the_end"
+						Entities: [
+							{
+								Distance: 2.3640444f
+								Id: "minecraft:wolf"
+								Pos: [
+									-70
+									58
+									-3197
+								]
+							}
+							{
+								Distance: 26.98722f
+								Id: "minecraft:enderman"
+								Pos: [
+									-75
+									56
+									-3221
+								]
+							}
+							{
+								Distance: 27.7614f
+								Id: "minecraft:enderman"
+								Pos: [
+									-75
+									56
+									-3222
+								]
+							}
+							{
+								Distance: 27.954622f
+								Id: "minecraft:enderman"
+								Pos: [
+									-82
+									56
+									-3219
+								]
+							}
+							{
+								Distance: 31.65254f
+								Id: "minecraft:enderman"
+								Pos: [
+									-78
+									56
+									-3225
+								]
+							}
+						]
+						FocalLength: 20
+						Id: "HeyKatu_148451"
+						LightLevel: 0
+						Photographer: "HeyKatu"
+						PhotographerId: [I;
+							-438126435
+							948191632
+							-1956014202
+							1052335046
+						]
+						Pos: [
+							-69
+							58
+							-3196
+						]
+						SunAngle: 0.0f
+						Timestamp: "2024-08-29_16.09.26"
+						Type: "color"
+						Weather: "Clear"
+						"minecraft:enderman": 1b
+						"minecraft:wolf": 1b
+					}
+				}
+				id: "1097889203B30A25"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item(exposure:photograph)and(nbt(fuzzy:{Dimension:\"minecraft:the_end\"})nbt(fuzzy:{\"minecraft:wolf\":1b}))"
+					}
+				}
+				title: "Photo of a Dog in the End"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "5E6139DE64BDA014"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Biome: "minecraft:small_end_islands"
+						DayTime: 12867
+						Dimension: "minecraft:the_end"
+						Entities: [
+							{
+								Distance: 3.9068036f
+								Id: "minecraft:enderman"
+								Pos: [
+									-82
+									56
+									-3218
+								]
+							}
+							{
+								Distance: 4.2638555f
+								Id: "minecraft:enderman"
+								Pos: [
+									-82
+									56
+									-3219
+								]
+							}
+						]
+						FocalLength: 20
+						Id: "HeyKatu_147756"
+						LightLevel: 0
+						Photographer: "HeyKatu"
+						PhotographerId: [I;
+							-438126435
+							948191632
+							-1956014202
+							1052335046
+						]
+						Pos: [
+							-79
+							56
+							-3219
+						]
+						SunAngle: 0.0f
+						Timestamp: "2024-08-29_16.08.51"
+						Type: "color"
+						Weather: "Clear"
+						"minecraft:enderman": 1b
+					}
+				}
+				id: "7B069324ED685687"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item(exposure:photograph)and(nbt(fuzzy:{Dimension:\"minecraft:the_end\"})nbt(fuzzy:{\"minecraft:enderman\":1b}))"
+					}
+				}
+				match_nbt: true
+				title: "Photo of Enderman in the End"
+				type: "item"
+			}]
+			title: "A Risky Proposition"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			id: "66A4E1ED8E67410D"
+			tasks: [{
+				id: "262740198CFE2533"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:cat": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of a Villager and a Cat"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			description: ["spawns to protect decorative graves"]
+			id: "763120AA95A4F152"
+			tasks: [{
+				id: "04727A1DE537B0A8"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"tombstone:grave_guardian": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of the Grave Guardian"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			id: "3F7FF3873505CF25"
+			tasks: [{
+				id: "2DFD3471206ED421"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Structures: ["minecraft:stronghold"]
+					}
+				}
+				match_nbt: true
+				title: "Photo in the Stronghold"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			id: "324CD818BDC8A56C"
+			tasks: [{
+				id: "6B8E9A4326157907"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:witch": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of a Witch in Bright Daylight"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 10.5d
+			y: -8.0d
 		}
 	]
 	title: "Photography"

@@ -17,8 +17,8 @@ EntityEvents.death(event => {
     console.log(source.actual)
     if (source.getType() == "spiritKill") {
         source.actual.persistentData.insightCount++
-        console.log(source.actual.persistentData.insightCount)
-    }
+        console.log("Player insight from this kill is now "+source.actual.persistentData.insightCount)
+        }
 })
 
 ServerEvents.tags("damage_type", event => {

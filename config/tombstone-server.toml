@@ -48,7 +48,7 @@
 	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
 	frostbite_combining_fire_aspect = false
 	#Enables the enchantment Spectral Conjurer [false/true|default:true]
-	enable_enchantment_spectral_conjurer = true
+	enable_enchantment_spectral_conjurer = false
 	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
 	spectral_conjurer_enchanting_table = false
 
@@ -60,7 +60,7 @@
 	#Range: 1 ~ 5
 	level_max_alchemist = 5
 	#Allows the perk Concentration [false/true|default:true]
-	allow_concentration = true
+	allow_concentration = false
 	#Defines the level max of the perk Concentration [1..3|default:3]
 	#Range: 1 ~ 3
 	level_max_concentration = 3
@@ -75,7 +75,7 @@
 	#Range: 1 ~ 5
 	level_max_memento_mori = 5
 	#Allows the perk Necromancer [false/true|default:true]
-	allow_necromancer = true
+	allow_necromancer = false
 	#Defines the level max of the perk Necromancer [1..5|default:5]
 	#Range: 1 ~ 5
 	level_max_necromancer = 5
@@ -143,7 +143,7 @@
 	#Voodoo Poppet [false/true|default:true]
 	allow_voodoo_poppet = true
 	#Familiar Receptacle [false/true|default:true]
-	allow_familiar_receptacle = true
+	allow_familiar_receptacle = false
 	#Book of Disenchantment [false/true|default:true]
 	allow_book_of_disenchantment = true
 	#Scroll of Preservation [false/true|default:true]
@@ -155,11 +155,11 @@
 	#Tablet of Recall [false/true|default:true]
 	allow_tablet_of_recall = true
 	#Tablet of Home [false/true|default:true]
-	allow_tablet_of_home = true
+	allow_tablet_of_home = false
 	#Tablet of Assistance [false/true|default:true]
 	allow_tablet_of_assistance = true
 	#Tablet of Guard [false/true|default:true]
-	allow_tablet_of_guard = true
+	allow_tablet_of_guard = false
 	#Tablet of Cupidity [false/true|default:true]
 	allow_tablet_of_cupidity = true
 	#Scroll of Unstable Intangibility [false/true|default:true]
@@ -189,29 +189,29 @@
 	#Enchanted Bundle [false/true|default:true]
 	allow_enchanted_bundle = true
 	#Book of Recycling [false/true|default:true]
-	allow_book_of_recycling = true
+	allow_book_of_recycling = false
 	#Book of Repairing [false/true|default:true]
 	allow_book_of_repairing = true
 	#Book of Magic Impregnation [false/true|default:true]
-	allow_book_of_magic_impregnation = true
+	allow_book_of_magic_impregnation = false
 	#Book of Scribe [false/true|default:true]
 	allow_book_of_scribe = true
 	#Smoke Ball [false/true|default:true]
 	allow_smoke_ball = true
 	#Seeker Rod [false/true|default:true]
-	allow_seeker_rod = true
+	allow_seeker_rod = false
 	#Christmas Hat [false/true|default:true]
-	allow_christmas_hat = true
+	allow_christmas_hat = false
 	#Bag of Seeds [false/true|default:true]
 	allow_bag_of_seeds = true
 	#Magic Scroll [false/true|default:true]
 	allow_magic_scroll = true
 	#Familiar Stone [false/true|default:true]
-	allow_familiar_stone = true
+	allow_familiar_stone = false
 	#Merchant Stone [false/true|default:true]
 	allow_merchant_stone = true
 	#Prayer Stone [false/true|default:true]
-	allow_prayer_stone = true
+	allow_prayer_stone = false
 	#Guardian Stone [false/true|default:true]
 	allow_guardian_stone = true
 

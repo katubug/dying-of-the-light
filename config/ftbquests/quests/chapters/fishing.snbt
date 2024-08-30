@@ -28,10 +28,11 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["156BD6E600E1C492"]
 			id: "190EC1D66444E64E"
 			tasks: [{
 				id: "037F175D5CE0CE31"
@@ -42,6 +43,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["156BD6E600E1C492"]
 			id: "16538E097DFE166F"
 			tasks: [{
 				id: "33B5D3BF0897C4FF"
@@ -55,10 +57,11 @@
 				type: "item"
 			}]
 			title: "Upgrade Your Line"
-			x: -6.0d
-			y: -3.5d
+			x: -6.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["156BD6E600E1C492"]
 			id: "7B15A049B94A97F5"
 			tasks: [{
 				id: "6892CCF2742779AD"
@@ -72,10 +75,11 @@
 				type: "item"
 			}]
 			title: "Upgrade Your Hook"
-			x: -8.0d
-			y: -3.5d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["156BD6E600E1C492"]
 			id: "41BDDB894AECA1D3"
 			tasks: [{
 				id: "61551B91ACF0A278"
@@ -89,10 +93,11 @@
 				type: "item"
 			}]
 			title: "Obtain Some Bait"
-			x: -10.0d
-			y: -3.5d
+			x: -7.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["156BD6E600E1C492"]
 			id: "7541252E94451A93"
 			tasks: [{
 				id: "60AAD0CA63B39362"
@@ -107,7 +112,553 @@
 			}]
 			title: "Upgrade Your Rod"
 			x: -2.5d
-			y: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["190EC1D66444E64E"]
+			id: "0730CFED1258B299"
+			tasks: [
+				{
+					id: "5E90C1F870F37DA5"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "0B0B0FFA4778A9B5"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "6750E12352E03F2C"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "2260999A854353F5"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Nice work. You not only restored some sanity there, but you also got yourself some food. Well, hopefully."
+				""
+				"Be careful though, &dfish spoil fast&r! Take this salt and &6preserve them&r while they're still fresh."
+			]
+			id: "156BD6E600E1C492"
+			rewards: [{
+				count: 4
+				id: "48738BCD9E8C9267"
+				item: "salt:salt"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "2A512DD096EBFD27"
+				title: "Catch a Fish"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "7300ACAC3911D424"
+			optional: true
+			tasks: [
+				{
+					id: "3FFC04D4F64305F3"
+					item: "tide:trout"
+					type: "item"
+				}
+				{
+					id: "650601933FBDD70B"
+					item: "tide:bass"
+					type: "item"
+				}
+				{
+					id: "53457B5E41BFB8A9"
+					item: "tide:yellow_perch"
+					type: "item"
+				}
+				{
+					id: "79BD0746E5EFB475"
+					item: "tide:bluegill"
+					type: "item"
+				}
+				{
+					id: "41EDA515B3B3BC26"
+					item: "tide:mint_carp"
+					type: "item"
+				}
+				{
+					id: "7B0DD4882D97E799"
+					item: "tide:pike"
+					type: "item"
+				}
+				{
+					id: "185570CB7A06A1E5"
+					item: "tide:guppy"
+					type: "item"
+				}
+				{
+					id: "56B1FE5EC12E284D"
+					item: "tide:catfish"
+					type: "item"
+				}
+				{
+					id: "7DEE58B0398FB397"
+					item: "tide:clayfish"
+					type: "item"
+				}
+			]
+			title: "Freshwater Fish"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "40A311AFF1311953"
+			optional: true
+			tasks: [
+				{
+					id: "7186799BFAA4CF45"
+					item: "tide:tuna"
+					type: "item"
+				}
+				{
+					id: "39C4A22F380029C8"
+					item: "tide:ocean_perch"
+					type: "item"
+				}
+				{
+					id: "7A42F18D1AF0CBA5"
+					item: "tide:mackerel"
+					type: "item"
+				}
+				{
+					id: "534F334558B33437"
+					item: "tide:angelfish"
+					type: "item"
+				}
+				{
+					id: "14E296F1B39FF84A"
+					item: "tide:barracuda"
+					type: "item"
+				}
+				{
+					id: "4BA1707324A7B8C2"
+					item: "tide:sailfish"
+					type: "item"
+				}
+			]
+			title: "Saltwater Fish"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "3DE06E66F45109C3"
+			optional: true
+			tasks: [
+				{
+					id: "0440604AE05DA1FA"
+					item: "tide:cave_eel"
+					type: "item"
+				}
+				{
+					id: "186520348BB649B6"
+					item: "tide:crystal_shrimp"
+					type: "item"
+				}
+				{
+					id: "2D9C8A6D8100642A"
+					item: "tide:iron_tetra"
+					type: "item"
+				}
+				{
+					id: "44A19C98F6C5F64F"
+					item: "tide:glowfish"
+					type: "item"
+				}
+				{
+					id: "5CB4B96682E528C0"
+					item: "tide:anglerfish"
+					type: "item"
+				}
+				{
+					id: "6F7897B6426F283A"
+					item: "tide:cave_crawler"
+					type: "item"
+				}
+				{
+					id: "4116140082503C30"
+					item: "tide:gilded_minnow"
+					type: "item"
+				}
+			]
+			title: "Underground Fish"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "31FBB2C511249AED"
+			optional: true
+			tasks: [
+				{
+					id: "6552DA00D538D55D"
+					item: "tide:deep_grouper"
+					type: "item"
+				}
+				{
+					id: "11824AA66A7780AF"
+					item: "tide:shadow_snapper"
+					type: "item"
+				}
+				{
+					id: "0F203F75304BD709"
+					item: "tide:abyss_angler"
+					type: "item"
+				}
+				{
+					id: "6DB844A1E8B7A32A"
+					item: "tide:lapis_lanternfish"
+					type: "item"
+				}
+				{
+					id: "28DD3BBC01ACECF8"
+					item: "tide:luminescent_jellyfish"
+					type: "item"
+				}
+				{
+					id: "1B8F2C38EB8E1B74"
+					item: "tide:crystalline_carp"
+					type: "item"
+				}
+				{
+					id: "2403B0C46BC4BCC6"
+					item: "tide:bedrock_tetra"
+					type: "item"
+				}
+			]
+			title: "Deep Fish"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"- prairie pike (plains?)"
+				"- sandskipper (desert)"
+				"- blossom bass (cherry grove)"
+				"- oakfish (forest)"
+				"- frostbite flounder (cold biomes)"
+				"- mirage catfish (hot overworld biomes)"
+				"- echofin snapper (deep dark)"
+				"- sunspike goby (savannah)"
+				"- birch trout (forest)"
+				"- stonefish (mountains)"
+				"- dripstone darter (caves)"
+				"- slimefin snapper (swamps)"
+				"- sporestalker (mushroom fields)"
+				"- leafback (jungle)"
+				"- fluttergill (lush caves)"
+				"- pine perch (forest)"
+			]
+			id: "09B276670C9D0E11"
+			optional: true
+			tasks: [
+				{
+					id: "5F8B5129BC38AE28"
+					item: "tide:prarie_pike"
+					type: "item"
+				}
+				{
+					id: "7CE63527DECAB21B"
+					item: "tide:sandskipper"
+					type: "item"
+				}
+				{
+					id: "5C2AFF40B75C625D"
+					item: "tide:blossom_bass"
+					type: "item"
+				}
+				{
+					id: "6D9EFF3DE2D917BF"
+					item: "tide:oakfish"
+					type: "item"
+				}
+				{
+					id: "2655C9C6F843CBCE"
+					item: "tide:frostbite_flounder"
+					type: "item"
+				}
+				{
+					id: "0FCA1031200F61EB"
+					item: "tide:mirage_catfish"
+					type: "item"
+				}
+				{
+					id: "6D24C4931F09B569"
+					item: "tide:echofin_snapper"
+					type: "item"
+				}
+				{
+					id: "77A8E496AAD06745"
+					item: "tide:sunspike_goby"
+					type: "item"
+				}
+				{
+					id: "6EBE8342D63D54DA"
+					item: "tide:birch_trout"
+					type: "item"
+				}
+				{
+					id: "7CEC296B6FBA11A2"
+					item: "tide:stonefish"
+					type: "item"
+				}
+				{
+					id: "0AFF154B06F70C8B"
+					item: "tide:dripstone_darter"
+					type: "item"
+				}
+				{
+					id: "51AB7EA48D06F927"
+					item: "tide:slimefin_snapper"
+					type: "item"
+				}
+				{
+					id: "486650EDDA87D3AB"
+					item: "tide:sporestalker"
+					type: "item"
+				}
+				{
+					id: "50B8DC98C812D3A3"
+					item: "tide:leafback"
+					type: "item"
+				}
+				{
+					id: "51F250B461E11E55"
+					item: "tide:fluttergill"
+					type: "item"
+				}
+				{
+					id: "1CF88CDE9AE1D9DE"
+					item: "tide:pine_perch"
+					type: "item"
+				}
+			]
+			title: "Biome-Specific Fish"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "6A46E1E8ACB6817A"
+			optional: true
+			tasks: [
+				{
+					id: "527271FB7A17D6E3"
+					item: "tide:ember_koi"
+					type: "item"
+				}
+				{
+					id: "76F17E27CAB03CEC"
+					item: "tide:inferno_guppy"
+					type: "item"
+				}
+				{
+					id: "6BE3A581720A4FAA"
+					item: "tide:obsidian_pike"
+					type: "item"
+				}
+				{
+					id: "41F5A5D379F79620"
+					item: "tide:volcano_tuna"
+					type: "item"
+				}
+			]
+			title: "Lava Fish"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "2928A5582A5DAC1E"
+			optional: true
+			tasks: [
+				{
+					id: "634351737DCAA7C0"
+					item: "tide:magma_mackerel"
+					type: "item"
+				}
+				{
+					id: "7E51F305BDAC1870"
+					item: "tide:ashen_perch"
+					type: "item"
+				}
+				{
+					id: "047897E23A5EBDC0"
+					item: "tide:soulscaler"
+					type: "item"
+				}
+				{
+					id: "627FB2D1CB18893C"
+					item: "tide:warped_guppy"
+					type: "item"
+				}
+				{
+					id: "2509F8E484F9DB51"
+					item: "tide:crimson_fangjaw"
+					type: "item"
+				}
+				{
+					id: "2B669949EEB6327F"
+					item: "tide:witherfin"
+					type: "item"
+				}
+				{
+					id: "6FECA97B49C0D171"
+					item: {
+						Count: 1
+						id: "tide:blazing_swordfish"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether Fish"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			description: ["- purpur pike (end city)"]
+			id: "3EFA13D7AC4B212C"
+			optional: true
+			tasks: [
+				{
+					id: "08B95A4983F2BD67"
+					item: "tide:endstone_perch"
+					type: "item"
+				}
+				{
+					id: "3B5DE0EA54605B2F"
+					item: "tide:enderfin"
+					type: "item"
+				}
+				{
+					id: "58144AF22C65802A"
+					item: "tide:endergazer"
+					type: "item"
+				}
+				{
+					id: "1FD0DB6D6CE6471E"
+					item: "tide:purpur_pike"
+					type: "item"
+				}
+				{
+					id: "3695CAB183181A15"
+					item: "tide:chorus_cod"
+					type: "item"
+				}
+				{
+					id: "51FB4371ACF0581E"
+					item: "tide:elytrout"
+					type: "item"
+				}
+			]
+			title: "End Fish"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "21036F37C4713D4C"
+			optional: true
+			tasks: [
+				{
+					id: "51011E1F1E54DABA"
+					item: "fishofthieves:splashtail"
+					type: "item"
+				}
+				{
+					id: "2E33F21A2B1FF314"
+					item: "fishofthieves:pondie"
+					type: "item"
+				}
+				{
+					id: "323C2D58AED52016"
+					item: "fishofthieves:islehopper"
+					type: "item"
+				}
+				{
+					id: "2DFAC356A318E227"
+					item: "fishofthieves:ancientscale"
+					type: "item"
+				}
+				{
+					id: "312BDB235FF13573"
+					item: "fishofthieves:plentifin"
+					type: "item"
+				}
+				{
+					id: "4396D53B9AA41EF2"
+					item: "fishofthieves:wildsplash"
+					type: "item"
+				}
+				{
+					id: "5AE912E372D4E120"
+					item: "fishofthieves:devilfish"
+					type: "item"
+				}
+				{
+					id: "275DAA0796E8008C"
+					item: "fishofthieves:battlegill"
+					type: "item"
+				}
+				{
+					id: "783E8141840DBACA"
+					item: "fishofthieves:wrecker"
+					type: "item"
+				}
+				{
+					id: "0B89E5FABE369629"
+					item: "fishofthieves:stormfish"
+					type: "item"
+				}
+			]
+			title: "Unique Fish"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"- midas fish"
+				"- voidseeker (found in The End, during specific moon phases)"
+				"- shooting starfish (only at night, under a full moon)"
+			]
+			id: "7586DE55A6539A94"
+			optional: true
+			tasks: [
+				{
+					id: "7321AEDEFA0FDEDA"
+					item: "tide:midas_fish"
+					type: "item"
+				}
+				{
+					id: "2DB889660E3D606D"
+					item: "tide:voidseeker"
+					type: "item"
+				}
+				{
+					id: "4C71744456DA943D"
+					item: "tide:shooting_starfish"
+					type: "item"
+				}
+			]
+			title: "Legendary Fish"
+			x: -9.5d
+			y: -1.5d
 		}
 	]
 	title: "Fishing"

@@ -1,14 +1,24 @@
 {
     "name": "Captain Cornelia",
-    "icon": "minecraft:writable_book",
+    "icon": "aquamirae:three_bolt_helmet",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
+            "type": "patchouli:text",
+            "text": "No one knows exactly what happened to $(#5454fc)Captain Cornelia$(). She and her crew were in search of something, an $(#00a8a8)artifact of great power$(), though no one seems to know what it was.$(br2)Perhaps you could $(6)find more information$() from her crew."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Assuming they're not all mad, now. This world steals your sanity, so they might attack you on sight.$(br2)They were last spotted in the $(c)Deep Frozen Ocean$(), and it's said they never left.$(br2)You could try searching for an $(c)Outpost$(), or a $(c)Ship$() perhaps. Maybe they've built a $(c)Shelter$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)It's also said that a strange ghoul resembling the $(#5454fc)Captain$() can be found wailing from the depths. I think there must be a way to $(6)summon her$(), but my research so far has proved fruitless."
+        },
+        {
             "type": "patchouli:entity",
-            "text": "also real sad",
             "entity": "aquamirae:captain_cornelia",
-            "name": "a hot babe"
+            "name": "Ghost of Captin Cornelia"
         }
     ]
 }

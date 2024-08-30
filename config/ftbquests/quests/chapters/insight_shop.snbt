@@ -11,7 +11,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: false
 			id: "7F588C2BBD868E89"
+			invisible: true
+			secret: true
 			shape: "embellish"
 			tasks: [{
 				id: "1BA41EDCFD4E4B07"
@@ -24,13 +27,14 @@
 			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Accept this quest to &6spend 2 &bInsight&r to purchase &b1 Black and White Film&r."]
 			icon: "exposure:black_and_white_film"
 			id: "20DC1078F8E6444B"
 			rewards: [
 				{
-					auto: "enabled"
+					auto: "disabled"
 					id: "67EA7BE0F1245FC5"
 					item: "exposure:black_and_white_film"
 					type: "item"
@@ -53,13 +57,14 @@
 			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Accept this quest to &6spend 5 &bInsight&r to purchase &b1 Color Film&r."]
 			icon: "exposure:color_film"
 			id: "1BF5D60391AF3337"
 			rewards: [
 				{
-					auto: "enabled"
+					auto: "disabled"
 					exclude_from_claim_all: true
 					id: "5F9468F5D1DFFB69"
 					item: "exposure:color_film"
@@ -86,6 +91,7 @@
 			id: "0CFFEF3D0D194F2D"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "75F7C162F2E6B5A6"
 					item: "minecraft:frog_spawn_egg"
 					type: "item"
@@ -112,6 +118,7 @@
 			id: "5C9FD19EB12BBA73"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "7ABD1A8A2B2D130B"
 					item: "minecraft:fox_spawn_egg"
 					type: "item"
@@ -138,6 +145,7 @@
 			id: "0F7BC46CA17A6645"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "0E449D8977739673"
 					item: "minecraft:cow_spawn_egg"
 					type: "item"
@@ -164,6 +172,7 @@
 			id: "3A763AF9E8B144FD"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "32D8C393C802C305"
 					item: "minecraft:allay_spawn_egg"
 					type: "item"
@@ -191,6 +200,7 @@
 			id: "5198E0CA9170B7EB"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "71D22BC9016F25EF"
 					item: "minecraft:cat_spawn_egg"
 					type: "item"
@@ -218,6 +228,7 @@
 			id: "728F373A62487950"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "61E9AAD8BD655217"
 					item: "minecraft:wolf_spawn_egg"
 					type: "item"
@@ -244,6 +255,7 @@
 			id: "7C7E610C4197D802"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "1CA2155CF0E73162"
 					item: "minecraft:sheep_spawn_egg"
 					type: "item"
@@ -270,6 +282,7 @@
 			id: "6EDDE3360D74D3A0"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "101C031839411D11"
 					item: "minecraft:goat_spawn_egg"
 					type: "item"
@@ -296,6 +309,7 @@
 			id: "3B5B1C54FA4E3E50"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "3AB4227278090271"
 					item: "minecraft:axolotl_spawn_egg"
 					type: "item"
@@ -322,6 +336,7 @@
 			id: "2A28BC80D11A2FD1"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "785C0C8FD21E4CB3"
 					item: "minecraft:bee_spawn_egg"
 					type: "item"
@@ -349,6 +364,7 @@
 			id: "3DF3343F73DF6043"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "3ECAEDA9F62E9CBE"
 					item: "minecraft:parrot_spawn_egg"
 					type: "item"
@@ -375,6 +391,7 @@
 			id: "062298A69092E3EA"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "0F89D6C8FD916D9B"
 					item: "minecraft:chicken_spawn_egg"
 					type: "item"
@@ -401,6 +418,7 @@
 			id: "5A6F12EE2315ACC5"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "0F7249649EA94290"
 					item: "minecraft:pig_spawn_egg"
 					type: "item"
@@ -427,6 +445,7 @@
 			id: "04492D6F87320A5A"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "67D73A9801C07BF4"
 					item: "minecraft:rabbit_spawn_egg"
 					type: "item"
@@ -453,6 +472,7 @@
 			id: "21205B8CFD794CF7"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "7260780CAD5AD47C"
 					item: "minecraft:turtle_spawn_egg"
 					type: "item"
@@ -479,6 +499,7 @@
 			id: "56D93F43807A2CDC"
 			rewards: [
 				{
+					auto: "disabled"
 					id: "32027DE61B0F9724"
 					item: "minecraft:glow_squid_spawn_egg"
 					type: "item"
@@ -514,6 +535,7 @@
 					type: "custom"
 				}
 				{
+					auto: "disabled"
 					exclude_from_claim_all: true
 					id: "491362AA427803C9"
 					table_id: 178161256721351510L
@@ -534,7 +556,7 @@
 			id: "75BF74250B2D3181"
 			rewards: [
 				{
-					auto: "enabled"
+					auto: "disabled"
 					count: 16
 					exclude_from_claim_all: true
 					id: "73725C1F6F6E7D0E"

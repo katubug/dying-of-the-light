@@ -966,7 +966,7 @@
 		#If true, vanilla looting, fortune and Luck of the Sea enchantments are replaced with a single one: Luck. To re-enable vanilla enchantments refer to `disabled_enchantments.json`.
 		"Replace looting, fortune and LotS enchantments" = false
 		#If true and shift it pressed, items will show enchantment info below the enchantments
-		"Enchantments info" = true
+		"Enchantments info" = false
 
 [Combat]
 	#Players be left with half a heart when too much damage that would kill them is dealt (only works for damage taken from mobs)

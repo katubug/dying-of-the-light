@@ -22,34 +22,42 @@ PlayerEvents.tick(event => {
 //Black and White Film
 FTBQuestsEvents.customReward('354CF419EB53165B', event =>{
     event.player.persistentData.insightCount-=2
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
 //Color Film
 FTBQuestsEvents.customReward('7B4B415748A14BE7', event =>{
     event.player.persistentData.insightCount-=5
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+    
 })
 
 //Salt
 FTBQuestsEvents.customReward('0DF32BFB6729D13D', event =>{
     event.player.persistentData.insightCount--
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
 //Food
 FTBQuestsEvents.customReward('244EAB198E5E059E', event =>{
     event.player.persistentData.insightCount-=10
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
 //Parrot
 FTBQuestsEvents.customReward('7C5AF71554A0867E', event =>{
     event.player.persistentData.insightCount-=10
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
 //Wolf
 FTBQuestsEvents.customReward('2CB896707192F980', event =>{
     event.player.persistentData.insightCount-=10
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
 //Cat
 FTBQuestsEvents.customReward('1771282FC9B8F11C', event =>{
     event.player.persistentData.insightCount-=10
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })

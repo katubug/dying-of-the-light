@@ -1,0 +1,11 @@
+{
+    "name": "Seasons",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

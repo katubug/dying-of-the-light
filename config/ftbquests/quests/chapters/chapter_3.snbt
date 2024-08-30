@@ -140,8 +140,8 @@
 				type: "gamestage"
 			}]
 			title: "Gain Insight"
-			x: -3.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["62DEF424711114D5"]
@@ -651,6 +651,8 @@
 		{
 			dependencies: ["76195CAF71CCF73B"]
 			id: "18561A07B84D2E7E"
+			progression_mode: "linear"
+			require_sequential_tasks: true
 			rewards: [{
 				auto: "enabled"
 				id: "54EFC5DE3200149D"
@@ -709,6 +711,7 @@
 		{
 			dependencies: ["346BD2AA2AE4D886"]
 			id: "5C56F3F30692FA73"
+			progression_mode: "linear"
 			tasks: [{
 				id: "01DF282F550BC756"
 				observe_type: 0
@@ -722,6 +725,7 @@
 		{
 			dependencies: ["3D9BBE18812FFC06"]
 			id: "646A94FB41D1FECA"
+			progression_mode: "linear"
 			tasks: [{
 				id: "02F7D43D70E047F2"
 				observe_type: 0

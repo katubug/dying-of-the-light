@@ -70,7 +70,7 @@
 	marker_type = "WING"
 	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
 	#Allowed Values: FANTASY, VANILLA
-	font_rule = "FANTASY"
+	font_rule = "VANILLA"
 	#Display the combinations in item tooltip [false/true|default:true]
 	show_tooltip_combine = true
 	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]

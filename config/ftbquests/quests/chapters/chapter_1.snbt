@@ -902,7 +902,7 @@
 			id: "655C9260329EB86C"
 			rewards: [{
 				id: "4EF0E39B9EF20CDC"
-				item: "kubejs:sanity_checker"
+				item: "kubejs:ancient_eye"
 				type: "item"
 			}]
 			tasks: [{

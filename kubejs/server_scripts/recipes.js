@@ -11,6 +11,18 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('2x tombstone:essence_of_undeath'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ], {
+            A: 'tombstone:grave_dust',
+            B: 'minecraft:rotten_flesh'
+        }
+    )
+
 
 
 

@@ -101,6 +101,27 @@
 		}
 		{
 			id: "5AA26848A391AF40"
+			rewards: [{
+				id: "225C5219C73D4EFF"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Entry #34\\n\\nThese beasts from the depths prowl for someone to devour… One of those critters has already eaten our midshipman… Swallowed him whole along with his crossbow.\"}"
+							"{\"text\":\"Entry #35\\n\\nWe are waiting in vain for rescue… No one will come to help us, we have to survive on our own. Today the construction of the fort from parts of the ship was completed. In any case, she could no longer plow the seas ever again.\"}"
+							"{\"extra\":[{\"text\":\"Entry #36\\n\\nWe are no longer able to heat the fort, resources are running out. \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Underground shelter\"},{\"text\":\"\\n   There are more structures\\n   underneath the ice... Looks\\n   like I have to go down to\\n   these terrible fish...\"}],\"text\":\"\"}},\"text\":\"[Part of the crew began to dig a shelter underground]\"},{\"text\":\". It is the only way we have a chance not to freeze to death.\"}],\"text\":\"\"}"
+							"{\"text\":\"Entry #37\\n\\nWe hid our supplies and valuable cargo underground. But Poseidon cursed us, and during the storm the lieutenant washed away into the sea… Along with master keys.\"}"
+							"{\"extra\":[{\"text\":\"The hope remains that we could possibly find \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Сargo keys\"},{\"text\":\"\\n   Without the keys, I will not\\n   be able to receive the\\n   most valuable cargo. I need\\n   to find other ships nearby.\"}],\"text\":\"\"}},\"text\":\"[similar keys on other ships of our fleet]\"},{\"text\":\", which have suffered the same fate as us.\"}],\"text\":\"\"}"
+						]
+						resolved: 1b
+						title: "Logbook"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AF8599533F6E3F4"
 				item: {
@@ -151,6 +172,94 @@
 			}]
 			x: 5.5d
 			y: 2.5d
+		}
+		{
+			id: "6A0914E091E048A1"
+			rewards: [{
+				id: "474FC7E334F1A054"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+							"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+						]
+						resolved: 1b
+						title: "Logbook"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "301A4A19C6BFDECE"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+							"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+						]
+						resolved: 1b
+						title: "Logbook"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "57BC5804BF3553F8"
+			rewards: [{
+				id: "09840AE16E1C6E0D"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						OBSData: { }
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
+							"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
+							"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
+							"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
+						]
+						resolved: 1b
+						title: "Logbook"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C83A88F9297512"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						OBSData: { }
+						author: "Unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
+							"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
+							"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
+							"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
+						]
+						resolved: 1b
+						title: "Logbook"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 	title: "WIP"

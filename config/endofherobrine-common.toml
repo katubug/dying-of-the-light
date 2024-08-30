@@ -17,7 +17,7 @@
 	#Range: > 0
 	remainPossessedTicks = 12000
 	#List of mobs that should not get possessed #Example: "husk, pig, villager"
-	blacklistPossession = ""
+	blacklistPossession = "skeleton, husk, zombie, drowned, stray"
 	#
 	### Herobrine Spawn###
 	#

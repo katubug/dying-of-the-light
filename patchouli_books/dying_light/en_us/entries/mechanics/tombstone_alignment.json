@@ -1,0 +1,22 @@
+{
+    "name": "Alignment",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Your alignment is affected by your actions: you gain purity by killing Illagers, and corruption by killing Villagers."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["dying_light:textures/quest_images/tombstone_alignment.png"],
+            "title": "Knowledge of Death",
+            "border": true,
+            "text": "Access this screen by pressing Y."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Each path can grant you perks, but be aware that if you choose a path of corruption, you are likely to lose your mind."
+        }
+    ]
+}

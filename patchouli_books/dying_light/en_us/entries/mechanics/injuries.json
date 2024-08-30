@@ -1,0 +1,42 @@
+{
+    "name": "Injuries",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "When taking damage, you'll notice an indicator to the right of your hotbar which shows your $(#00a800)bodily well-being$(). You can $(#fca800)press H to view$() this menu in detail, and choose which limbs to apply a $(#00a8a8)healing item$() to."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:plaster",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:healing_herbs",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:bandage",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:morphine",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:medikit",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:tonic",
+            "text": ""
+        }
+    ]
+}
+

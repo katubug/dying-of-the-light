@@ -261,6 +261,30 @@
 			x: 1.0d
 			y: 5.5d
 		}
+		{
+			description: [
+				"Sometimes you'll find you need &bSouls&r to accomplish things. There are hundreds of them here, unmoored, lacking any form of identity, little more than an amorphous collection of energy."
+				""
+				"You can attract them by building &bDecorative Graves&r. Once these are placed, they will &adraw those energies in&r, for you to capture and harness. Don't feel bad about it - these aren't people any longer. By giving them a purpose, you allow them to move on."
+				""
+				"You may also find that these graves spawn a &eGrave Guardian&r, which is a creature (technically undead), which feels compelled to protect the sacredness of the graveyard. If one spawns, consider yourself lucky."
+			]
+			id: "6FA0C04049DA9E98"
+			tasks: [{
+				id: "279534D3034B9BFC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Make a Decorative Grave"
+			x: 4.5d
+			y: 5.5d
+		}
 	]
 	title: "WIP"
 }

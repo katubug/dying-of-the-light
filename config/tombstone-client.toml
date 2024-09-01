@@ -67,7 +67,7 @@
 	auto_equip_rule = "ALWAYS"
 	#Defines the type of marker when holding in hand some items like the Grave's Key [WING/SPARK/NOTE/BOX|default:WING]
 	#Allowed Values: WING, SPARK, NOTE, BOX
-	marker_type = "WING"
+	marker_type = "BOX"
 	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
 	#Allowed Values: FANTASY, VANILLA
 	font_rule = "VANILLA"

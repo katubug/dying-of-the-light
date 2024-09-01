@@ -5,7 +5,12 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "One thing you'll need to rely on here is your &bInsight&r! Insight is what allows you to understand the world around you, and achieve things beyond the normal. You can gain insight by completing quests, achieving advancements, and by taking photos."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:ancient_eye",
+            "text": "This item, known as the Ancient Eye, allows you to check your Insight. Once you reach a certain amount, you can leverage that Insight to purchase items from the &aInsight Shop&r. Be aware that if you spend too much, it may take you longer to accomplish your goals."
         }
     ]
 }

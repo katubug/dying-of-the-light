@@ -6,7 +6,12 @@ PlayerEvents.tick(event => {
         console.log("Player can no longer access Insight Shop.")
         event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} reset 7F588C2BBD868E89`)
     }
-    if (player.persistentData.insightCount < 10) return
+    if (player.persistentData.insightCount < 10) {
+        player.stages.add('low_insight')
+    }
+    if (player.persistentData.insightCount >=11 && player.stages.has('low_insight')) {
+        player.stages.remove('low_insight')
+    }
     if (player.persistentData.insightCount >=20 && !player.stages.has('insight_shop')) {
         player.stages.add('insight_shop')
     }

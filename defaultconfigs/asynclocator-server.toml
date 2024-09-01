@@ -7,7 +7,7 @@
 asyncLocatorThreads = 1
 #When a merchant's treasure map offer ends up not finding a feature location,
 #whether the offer should be removed or marked as out of stock.
-removeMerchantInvalidMapOffer = false
+removeMerchantInvalidMapOffer = true
 
 ["Feature Toggles"]
 	#If true, enables asynchronous locating of structures for dolphin treasures.

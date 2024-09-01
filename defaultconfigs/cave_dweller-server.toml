@@ -76,7 +76,7 @@
 	#Whether the cave dweller can climb or not
 	can_climb = true
 	#Whether the cave dweller can break down doors or not
-	can_break_door = false
+	can_break_door = true
 	#Time (in seconds) it takes the Cave Dweller to break down a door
 	#Range: 1 ~ 60
 	break_door_time = 3

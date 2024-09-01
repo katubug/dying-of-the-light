@@ -23,7 +23,17 @@ ServerEvents.recipes(event => {
         }
     )
 
-
+    event.shaped(
+        Item.of('minecraft:lantern'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: 'minecraft:iron_nugget',
+            B: 'minecraft:glowstone_dust'
+        }
+    )
 
 
 

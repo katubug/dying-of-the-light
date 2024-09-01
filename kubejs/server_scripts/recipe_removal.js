@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
         {output:'crockpot:milkmade_hat'},
         {output:'crockpot:creative_milkmade_hat'},
         {output: 'tombstone:impregnated_diamond'},
-        {output: 'tombstone:bone_needle'}
+        {output: 'tombstone:bone_needle'},
+        {output: 'minecraft:lantern'}
         ];
     
 for (const remove of toRemove) {

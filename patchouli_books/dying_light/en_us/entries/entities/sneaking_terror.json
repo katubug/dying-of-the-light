@@ -1,8 +1,7 @@
 {
     "name": "Sneaking Terror",
-    "icon": "minecraft:writable_book",
+    "icon": "minecraft:nether_wart",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
             "type": "patchouli:text",

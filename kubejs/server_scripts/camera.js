@@ -54,6 +54,9 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     }
         
                     if (isWithinRange) {
+                        //Grant player Insight
+                        event.player.persistentData.insightCount++
+                        console.log("Player gained insight from using Camera, and now has"+event.player.persistentData.insightCount)
                         //If it's a regular spirit entity, do normal damage to it
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage")) 
                             target.entity.attack(damageSource, 7);
@@ -98,6 +101,9 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     }
         
                     if (isWithinRange) {
+                        //Grant player Insight
+                        event.player.persistentData.insightCount++
+                        console.log("Player gained insight from using Camera, and now has"+event.player.persistentData.insightCount)
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
                             target.entity.attack(damageSource, 7);
@@ -150,6 +156,9 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     }
         
                     if (isWithinRange) {
+                        //Grant player Insight
+                        event.player.persistentData.insightCount++
+                        console.log("Player gained insight from using Camera, and now has"+event.player.persistentData.insightCount)
                         //If it's a regular spirit entity, do normal damage to it
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
                             target.entity.attack(damageSource, 7);
@@ -194,6 +203,9 @@ ItemEvents.rightClicked('exposure:camera', event => {
                     }
         
                     if (isWithinRange) {
+                        //Grant player Insight
+                        event.player.persistentData.insightCount++
+                        console.log("Player gained insight from using Camera, and now has"+event.player.persistentData.insightCount)
                         //If it's a regular spirit entity, do normal damage
                         if (entity.entityType.tags.anyMatch(tag => tag.location() == "forge:spirit_damage"))
                             target.entity.attack(damageSource, 7);

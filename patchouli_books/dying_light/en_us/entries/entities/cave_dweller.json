@@ -1,6 +1,6 @@
 {
     "name": "Cave Dweller",
-    "icon": "minecraft:writable_book",
+    "icon": "thaumon:eldritch_lantern",
     "category": "patchouli:entities",
     "advancement": "dying_light:meet_dweller",
     "pages": [

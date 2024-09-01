@@ -5,7 +5,30 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "Certain items will, when $(#00a800)held in your main hand$(), $(d)drive back hostile creatures$(). However, this method is not completely foolproof. If your $(#00a800)sanity or health is low$(), the creatures won't be able to control their hunger, and will still come for you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Additionally, if $(o)you$() attack a creature, it and other nearby creatures $(#00a800)will fight back$(). And $(#5454fc)Endermen$() still don't like to be looked at.$(br2)Similarly, Elder creatures, such as the $(#5454fc)Ender Dragon$() or $(#5454fc)Wither$(), are too powerful to care for such trifling measures."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "hardcore_torches:lit_lantern",
+            "text": "The more accessible of these items is the $(#00a8a8)Lit Lantern$(). When you craft a $(#00a8a8)Lantern$(), it will not be lit by default, so you'll have to light it. You can $(6)refer to your quests$() for this."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:lantern",
+            "text": "The $(#00a8a8)Everlasting Lantern$() will also provide you protection from mobs. It is more difficult to craft, requiring $(#00a8a8)Glowstone$() to make."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "exposure:camera",
+            "text": "The $(#00a8a8)Camera Obscura$() can do the same thing, however, simply holding it is not enough. $(d)It will only protect you$() when you are $(6)looking through the viewfinder$(), and you $(#00a800)must have usable film$() with shots left!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "However, unlike the lanterns, it will protect you even if you have low health or sanity, making it an important addition to your repetoire of survival tools."
         }
     ]
 }

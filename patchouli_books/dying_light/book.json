@@ -1,6 +1,6 @@
 {
-    "name": "Journal",
-    "landing_text": "crazy go nuts",
+    "name": "Old Journal",
+    "landing_text": "A grimoire, of sorts, I guess. In which all my knowledge is written, for you to use.",
     "version": 0,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": true,
@@ -15,5 +15,6 @@
     "progress_bar_background": "000000",
     "use_blocky_font": true,
     "text_overflow_mode": "resize",
-    "index_icon": "minecraft:lectern"
+    "index_icon": "minecraft:lectern",
+    "show_progress": false
 }

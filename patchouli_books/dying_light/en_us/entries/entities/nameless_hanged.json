@@ -1,18 +1,17 @@
 {
     "name": "Nameless Hanged",
-    "icon": "minecraft:writable_book",
+    "icon": "graveyard:corruption",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "lorem ipsum"
+            "text": "A ghost found in $(c)Graveyards$() and other such places. He is not hostile, and in fact will barter with you if you $(6)approach him at night$()."
         },
         {
             "type": "patchouli:entity",
-            "text": "this guy's story is real sad :(",
+            "name": "Nameless Hanged",
             "entity": "graveyard:nameless_hanged",
-            "name": "a lost soul"
+            "text": "He looks frightening, but isn't."
         }
     ]
 }

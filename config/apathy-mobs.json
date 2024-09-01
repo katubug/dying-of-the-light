@@ -15,6 +15,15 @@
         "if_true": "allow",
         "if_false": "pass",
         "predicate": {
+          "type": "revenge_timer",
+          "timeout": 60
+        }
+      },
+      {
+        "type": "predicated",
+        "if_true": "deny",
+        "if_false": "pass",
+        "predicate": {
           "type": "in_player_set",
           "player_sets": [
             "camera"
@@ -31,15 +40,6 @@
             "insane",
             "low_health"
           ]
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "allow",
-        "if_false": "pass",
-        "predicate": {
-          "type": "revenge_timer",
-          "timeout": 1200
         }
       },
       {
@@ -80,15 +80,6 @@
         "if_true": "pass",
         "if_false": "pass",
         "predicate": {
-          "type": "attacker_tagged_with",
-          "tags": []
-        }
-      },
-      {
-        "type": "predicated",
-        "if_true": "pass",
-        "if_false": "pass",
-        "predicate": {
           "type": "effect",
           "effects": [
             "minecraft:invisibility"
@@ -109,22 +100,11 @@
       },
       {
         "type": "predicated",
-        "if_true": "pass",
-        "if_false": "pass",
-        "predicate": {
-          "type": "spawn_type",
-          "types": [
-            ""
-          ]
-        }
-      },
-      {
-        "type": "predicated",
         "if_true": "allow",
         "if_false": "pass",
         "predicate": {
           "type": "revenge_timer",
-          "timeout": 1200
+          "timeout": 60
         }
       }
     ]

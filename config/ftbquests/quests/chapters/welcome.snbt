@@ -49,31 +49,31 @@
 		{
 			dependencies: ["6C508F9592F24515"]
 			description: [
-				"This modpack adds a lot of &aclient-side mods&r which are &doptional&r, but may enhance your experience."
-				""
-				"If you find them frustrating or distracting, &6you can safely disable them&r!"
+				"This modpack adds a lot of &aclient-side mods&r which are &doptional&r, but may enhance your experience. If you find them frustrating or distracting, &6you can safely disable them&r!"
 				""
 				"These mods are:"
 				""
-				"- &l&2First Person Model&r: allows you to see your whole body in first person."
+				"- &l&1First Person Model&r: allows you to see your whole body in first person."
 				""
-				"- &l&2Ambient Sounds&r: By default, this sets sounds to be fairly quiet, but you can adjust them further, or remove the entirely if youo like."
+				"- &l&1Ambient Sounds&r: plays background noises based on location. Remove or adjust in config if wanted."
 				""
-				"-&l&2Advancements Tracker&r: This mod allows you to view and track your advancements by clicking &6ctrl+L&r. You can enable a widget on the side of your screen in the mod options, and toggle it on and off (disabled by default)."
+				"-&l&1Advancements Tracker&r: allows you to view and track advancements by clicking &6ctrl+L&r. You can enable a widget on the side of your screen in the mod options (disabled by default)."
 				""
-				"-&l&2No Hurt Animation&r: A mod which removes the screen-shake when you take damage. You can remove this mod to disable it."
+				"-&l&1No Hurt Animation&r: A mod which removes the screen-shake when you take damage. You can remove this mod to disable it."
 				""
-				"-&l&2Traveler's Titles&r: This mod gives you small pop-ups when you enter a new biome or dimension."
-				""
-				"-&l&2Structure Credits&r: This mod pops up the name of a structure and what mod it's from when you enter it."
+				"-&l&1Traveler's Titles&r: This mod gives you small pop-ups when you enter a new biome or dimension."
 				""
 				"I &dstrongly advise to keep these enabled&r for atmospheric purposes, but:"
 				""
-				"-&l&2Enhanced Visuals&r: Adds client-side effects to things like taking damage, freezing, overheating, or creeper explosions. Can be disabled piecemeal in the config."
+				"-&l&1Enhanced Visuals&r: Adds client-side effects to things like taking damage, freezing, overheating, or creeper explosions. Can be disabled piecemeal in the config."
 				""
-				"-&l&2Presence Footsteps&r: Makes your footfalls more immersive. Can be tweaked or removed."
+				"-&l&1Presence Footsteps&r: Makes your footfalls more immersive. Can be tweaked or removed."
 				""
-				"-&l&2Sound Physics Remastered&r: Makes caves more echoey, and also provides sound damping effects when there are solid blocks between you and the source. Super immersive, but can be disabled."
+				"-&l&1Sound Physics Remastered&r: Makes caves more echoey, and also provides sound damping effects when there are solid blocks between you and the source. Super immersive, but can be disabled."
+				""
+				"If you want the game to be &aeven spookier&r, you can enable:"
+				""
+				"-&l&1Eerie Music&r: This mod is included but is turned off by default, as it definitely tips the vibe from cozy to spooky, and thus is up to personal player preference."
 			]
 			hide: false
 			id: "3C0FDF1561619D43"
@@ -105,6 +105,11 @@
 				"{image:dying_light:textures/quest_images/resource_packs.png width:280 height:320 align:center}"
 			]
 			id: "5E5382368FA3021C"
+			rewards: [{
+				id: "2B2A9147680743B2"
+				item: "hardcore_torches:fire_starter"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "6FD4573BD150700C"
@@ -117,22 +122,35 @@
 		}
 		{
 			dependencies: ["58A436B93EC5625A"]
-			description: ["aboo"]
+			description: [
+				"This pack is designed to be played by &a1-2 people&r. It was designed with &aprimarily singleplayer in mind&r, and as such may not be a perfect multiplayer experience. That doesn't mean it won't work, it will simply mean that the balance is not tuned for lots of players."
+				""
+				"Things to consider if you plan on having multiple players:"
+				""
+				"- Be sure to &6create a Team&r via FTB Teams, so that you can share quest progress, as some mechanics will be unlocked teamwide."
+				""
+				"- Consider &6adding and configuring Simple Voice Chat&r for a more immersive communication experience."
+			]
 			id: "619B225244EE9A1B"
+			rewards: [{
+				id: "3779AE74F4EA7C9B"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "482B4B9616375EE8"
 				title: "Needs"
 				type: "checkmark"
 			}]
-			title: "lorrem ipusm"
+			title: "Multiplayer vs Singleplayer"
 			x: 7.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5E5382368FA3021C"]
 			description: [
-				"This modpack adds several &anew mechanics&r, which you'll need to contend with."
+				"This modpack adds several &anew mechanics&r, which you'll need to contend with. These will also be covered in the in-game &bJournal&r item."
 				""
 				"&cYou have sanity&r. This mechanic will be covered in depth in another quest, but for now just know that &aself-care is vital&r, even more so than usual."
 				""
@@ -151,6 +169,11 @@
 				"&cThe world has seasons&r. Not all crops will flourish in each season, and you'll encounter weather and temperature appropriate to the time of year."
 			]
 			id: "58A436B93EC5625A"
+			rewards: [{
+				id: "57704ED8BDB98876"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "1F6AAE56A157D361"

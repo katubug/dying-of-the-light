@@ -1,6 +1,6 @@
 {
     "name": "Rotting Stalker",
-    "icon": "minecraft:writable_book",
+    "icon": "minecraft:fermented_spider_eye",
     "category": "patchouli:entities",
     "advancement": "dying_light:meet_dweller",
     "pages": [

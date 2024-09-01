@@ -1,8 +1,7 @@
 {
     "name": "Maze Mother",
-    "icon": "minecraft:writable_book",
+    "icon": "aquamirae:abyssal_amethyst",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
             "type": "patchouli:text",

@@ -1,18 +1,21 @@
 {
     "name": "Herobrine",
-    "icon": "minecraft:writable_book",
+    "icon": "endofherobrine:herobrine_head",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "lorem ipsum"
+            "text": "The locals used to call this being '$(#5454fc)Herobrine$()'. Whether or not that's it's true name, it's all we have to go on. It is not hostile, at least for now - just mischievous. You may find it replaces your torches, builds strange structures near you, or just stares from afar."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Sometimes you'll see a regular creature with those glowing white eyes. When this happens, that creature will be $(#00a800)unnaturally strong$(), and you'll need to exercise caution around it. However, it's also the only way you can $(6)get close enough to study$() Herobrine, as in its usual form it'll simply disappear."
         },
         {
             "type": "patchouli:entity",
-            "text": "this guy's story is real sad :(",
+            "text": "I advise against angering it, if you can. Not much else is known about it.",
             "entity": "endofherobrine:herobrine",
-            "name": "a lost soul"
+            "name": "Herobrine"
         }
     ]
 }

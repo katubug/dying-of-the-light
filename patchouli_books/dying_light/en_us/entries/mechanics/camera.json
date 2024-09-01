@@ -1,0 +1,31 @@
+{
+    "name": "Camera Obscura",
+    "icon": "exposure:camera",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The $(#00a8a8)Camera Obscura$() is quite a powerful artifact. For one, it is considered a $(l:mechanics/safety_items)safety item$(), as it will protect you from receiving unwanted attention - so long as $(#00a800)you have shots left on your roll of film$(). And be warned, sometimes the $(#00a800)smell of blood$() will override a creature's fear of having its soul stolen."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The $(#00a8a8)Camera Obscura$() is also capable of $(6)harming spirit monsters$(). Creatures affected by the camera are:$(br)$(li) Cave Dweller$(li) Captain Cornelia $(li) Ghouls $(li) Ghoulings $(li) Nightmares $(li) Reapers $(li) Revenants $(li) Wraiths $(li) Tortured Souls"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe":  "exposure:camera",
+            "title": "Making a Camera",
+            "text": "Although they're challenging to make, it's a good idea to craft one right away.$(br2)You'll need it for gaining $(l:mechanics/insight)Insight$(), and for protection."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe":  "exposure:black_and_white_film",
+            "recipe2": "exposure:color_film",
+            "title": "Making Film"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(d)Film is crucial$() - the camera cannot protect you without usable film. You can craft $(#00a8a8)Film$(), or buy it with $(#00a8a8)Insight$().$(br2)If you defeat a creature with the camera's power, you gain $(#00a8a8)extra Insight$()."
+        }
+    ]
+}

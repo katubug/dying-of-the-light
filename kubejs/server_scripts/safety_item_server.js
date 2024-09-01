@@ -39,7 +39,6 @@ PlayerEvents.tick(event => {
 				player.stages.remove('camera')
 				event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
 			}
-
 		}
 	}
 	if (player.mainHandItem.id == 'exposure:camera' && player.mainHandItem.nbt.Active == 0) {
@@ -48,7 +47,6 @@ PlayerEvents.tick(event => {
 				player.stages.remove('camera')
 				event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
 			}
-
 		}
 	}
 

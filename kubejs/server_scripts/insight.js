@@ -20,11 +20,21 @@ PlayerEvents.tick(event => {
 })
 
 
+EntityEvents.death(event => {
+    const {entity, player} = event
+    if (!entity.isPlayer()) return
+    if (player.persistentData.insightCount > 0) {
+    player.persistentData.insightCount--
+    console.log(`Player ${event.player.name.string} lost insight when dying. Insight is now `+player.persistentData.insightCount+"."
+    )
+    }
+})
+
 
 PlayerEvents.advancement(event => {
     let {advancement} = event
     event.player.persistentData.insightCount++
-    console.log("Player insight from gaining advancement "+advancement+" is now "+event.player.persistentData.insightCount)
+    console.log("Player gained insight from advancement "+advancement+" and now has "+event.player.persistentData.insightCount+" insight.")
 })
 
 ItemEvents.rightClicked( event => {

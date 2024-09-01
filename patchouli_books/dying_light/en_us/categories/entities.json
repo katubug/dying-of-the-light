@@ -1,5 +1,5 @@
 {
     "name": "Creatures and Spirits",
-    "description": "Logs on the creatures which inhabit this world.",
-    "icon": "minecraft:writable_book"
+    "description": "Logs on the creatures which inhabit this world, the ones which I believe are trapped and need help.",
+    "icon": "minecraft:creeper_head"
 }

@@ -78,6 +78,10 @@ PlayerEvents.tick(event => {
     if (player.persistentData.insightCount >=100){
         server.runCommandSilent(`sanity add ${event.player.name.string} 1`)
     }
+    //Player sanity passively detriments when too high.
+    if (player.persistentData.insightCount >=150){
+        server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
+    }
 })
 
 

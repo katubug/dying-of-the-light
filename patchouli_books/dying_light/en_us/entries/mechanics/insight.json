@@ -5,12 +5,24 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "One thing you'll need to rely on here is your &bInsight&r! Insight is what allows you to understand the world around you, and achieve things beyond the normal. You can gain insight by completing quests, achieving advancements, and by taking photos."
+            "text": "$(#00a8a8)Insight$(), or 'eyes on the inside,' is what allows you to understand the world around you, and achieve things beyond that of the mundane. It is something only certain people are truly capable of, and part of why we need you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "You can gain insight by $(6)completing quests$(), $(6)achieving advancements$(), and by $(6)taking photos of creatures$().$(br2)If you $(6)defeat a spirit creature with the camera$(), you get bonus insight. They also say you gain insight when you $(6)lose your mind$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "You lose insight by dying, or by spending it. This phenomenon is $(#00a800)beneficial$() at some levels, allowing you to $(#00a800)unlock new quests$() and $(#00a800)see hidden entities$(), but eventually becomes $(c)harmful$(), and will $(#00a800)wear away at your sanity$() if it goes too high."
         },
         {
             "type": "patchouli:spotlight",
             "item": "kubejs:ancient_eye",
-            "text": "This item, known as the Ancient Eye, allows you to check your Insight. Once you reach a certain amount, you can leverage that Insight to purchase items from the &aInsight Shop&r. Be aware that if you spend too much, it may take you longer to accomplish your goals."
+            "text": "This item, known as the Ancient Eye, allows you to check your Insight level. Unique things will happen at levels $(#00a800)10$(), $(#00a800)50$(), $(#00a800)100$(), and at $(c)150$() you will begin to experience adverse effects."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Once you reach 10 or more, you can leverage that Insight to purchase items from the $(#00a800)Insight Shop$() (found in your quest book). Be aware that if you spend too much, it may take you longer to accomplish your goals."
         }
     ]
 }

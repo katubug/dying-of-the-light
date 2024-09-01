@@ -9,7 +9,7 @@
       "show_toast": true,
       "announce_to_chat": true
     },
-    "parent": "minecraft:adventure/root",
+    "parent": "dying_light:root",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:entity_hurt_player",

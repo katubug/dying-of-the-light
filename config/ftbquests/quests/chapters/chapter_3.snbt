@@ -32,12 +32,12 @@
 			dependencies: ["14C6E4CDBD954F66"]
 			id: "281064B532F2240B"
 			rewards: [{
-				id: "7B7E2F2764C9EAE4"
+				id: "12F21ADCFD129638"
 				item: {
 					Count: 1
 					id: "minecraft:written_book"
 					tag: {
-						author: "Utak Aluna"
+						author: "unknown"
 						display: {
 							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Cave Dweller\"}"
 						}
@@ -48,10 +48,9 @@
 							"{\"font\":\"runelic:runelic\",\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
 							"{\"font\":\"runelic:runelic\",\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
 							"{\"font\":\"runelic:runelic\",\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
-							"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed and writhed, and tore at his own flesh, refusing to eat or drink.\"}"
 							"{\"font\":\"runelic:runelic\",\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
 						]
-						resolved: 1b
 						title: "Cave Dweller"
 					}
 				}
@@ -342,7 +341,7 @@
 						Count: 1
 						id: "minecraft:written_book"
 						tag: {
-							author: "Utak Aluna"
+							author: "unknown"
 							display: {
 								Name: "{\"font\":\"runelic:runelic\",\"text\":\"Cave Dweller\"}"
 							}
@@ -353,10 +352,9 @@
 								"{\"font\":\"runelic:runelic\",\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
 								"{\"font\":\"runelic:runelic\",\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
 								"{\"font\":\"runelic:runelic\",\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
-								"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed and writhed, and tore at his own flesh, refusing to eat or drink.\"}"
 								"{\"font\":\"runelic:runelic\",\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
 							]
-							resolved: 1b
 							title: "Cave Dweller"
 						}
 					}
@@ -378,13 +376,29 @@
 			progression_mode: "linear"
 			rewards: [
 				{
+					auto: "invisible"
+					id: "02DD4B3C67588FE8"
+					ignore_reward_blocking: true
+					stage: "dweller_begun"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/advancement grant @p only dying_light:dweller_story"
+					elevate_perms: true
+					id: "421CA801BDF365E5"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
 					auto: "enabled"
-					id: "027C8EFC5DDECA25"
+					id: "063D42FB36888ADF"
 					item: {
 						Count: 1
 						id: "minecraft:written_book"
 						tag: {
-							author: "Utak Aluna"
+							author: "unknown"
 							generation: 3
 							pages: [
 								"{\"text\":\"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\n\\nBut his fate was cursed to tragedy.\"}"
@@ -392,20 +406,13 @@
 								"{\"text\":\"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\n\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too.\"}"
 								"{\"text\":\"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik's daughter - but at a desperate price.\\n\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals.\"}"
 								"{\"text\":\"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind.\"}"
-								"{\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed writhed, and tore at his own flesh, refusing to eat or drink.\"}"
+								"{\"text\":\"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\n\\nThere, he wailed and writhed, and tore at his own flesh, refusing to eat or drink.\"}"
 								"{\"text\":\"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\n\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night...\"}"
 							]
 							title: "Cave Dweller"
 						}
 					}
 					type: "item"
-				}
-				{
-					auto: "invisible"
-					id: "02DD4B3C67588FE8"
-					ignore_reward_blocking: true
-					stage: "dweller_begun"
-					type: "gamestage"
 				}
 			]
 			tasks: [{

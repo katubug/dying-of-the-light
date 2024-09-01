@@ -1,6 +1,6 @@
 {
     "name": "Temperature",
-    "icon": "minecraft:writable_book",
+    "icon": "legendarysurvivaloverhaul:thermometer",
     "category": "patchouli:mechanics",
     "pages": [
         {

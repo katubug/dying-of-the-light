@@ -1,6 +1,6 @@
 {
     "name": "Safety Items",
-    "icon": "minecraft:writable_book",
+    "icon": "minecraft:lantern",
     "category": "patchouli:mechanics",
     "pages": [
         {

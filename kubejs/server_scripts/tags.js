@@ -456,6 +456,28 @@ ServerEvents.tags('item', event => {
         'minecraft:animal_fat',
         'immersive_weathering:tallow'
     )
+
+    event.add(
+        'forge:dog_food',
+        'minecraft:rotten_flesh',
+        'minecraft:chicken',
+        'minecraft:mutton',
+        'minecraft:rabbit',
+        'minecraft:beef',
+        'minecraft:porkchop',
+        'minecraft:cooked_beef',
+        'minecraft:cooked_porkchop',
+        'minecraft:cooked_mutton',
+        'minecraft:cooked_chicken',
+        'minecraft:cooked_rabbit',
+        'minecraft:rabbit_stew'
+    )
+
+    event.add(
+        'forge:cat_food',
+        'minecraft:cod', 
+        'minecraft:salmon'
+    )
     
 })
 

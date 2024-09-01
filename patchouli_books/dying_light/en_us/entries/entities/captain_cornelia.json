@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Assuming they're not all mad, now. This world steals your sanity, so they might attack you on sight.$(br2)They were last spotted in the $(c)Deep Frozen Ocean$(), and it's said they never left.$(br2)You could try searching for an $(c)Outpost$(), or a $(c)Ship$() perhaps. Maybe they've built a $(c)Shelter$()"
+            "text": "Assuming they're not all mad, now. This world steals your sanity, so they might attack you on sight.$(br2)They were last spotted in the $(c)Deep Frozen Ocean$(), and it's said they never left.$(br2)You could try searching for an $(c)Outpost$(), or a $(c)Ship$() perhaps. Maybe they've built a $(c)Shelter$()."
         },
         {
             "type": "patchouli:text",

@@ -1,6 +1,6 @@
 {
     "name": "Insight",
-    "icon": "minecraft:writable_book",
+    "icon": "kubejs:ancient_eye",
     "category": "patchouli:mechanics",
     "pages": [
         {

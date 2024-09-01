@@ -1,11 +1,39 @@
 {
     "name": "Lunar Events",
-    "icon": "minecraft:writable_book",
+    "icon": "kubejs:lunar_gem",
     "category": "patchouli:mechanics",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "$(l)Bad Omen Moon$():$(br2)As the night unfolds, be prepared to face heightened dangers. The Bad Omen Moon fills the air with tension, granting you the ominous Bad Omen effect throughout the night."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Big Moon$():$(br2) Gaze upon the night sky to witness the moon's astonishing expansion. But beware, for the Big Moon brings alterations to gravity, testing your adaptability in a world with reduced gravity."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Blood Moon$():$(br2) When the Blood Moon rises, prepare for fierce battles. Mobs that emerge during this lunar event have an extra edge, making them formidable adversaries for even the most seasoned adventurers."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Hero Moon$():$(br2) Bask in the glory of the Hero Moon, where valor is rewarded. Throughout the night, you'll be bestowed with the prestigious Hero of the Village effect, enhancing your interactions with grateful villagers"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Miner Moon$():$(br2) Unleash your inner miner during the Miner Moon. The gift of Haste accompanies this event, allowing you to excavate resources with unmatched speed and efficiency."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Tiny Moon$():$(br2) Feel the gravitational pull intensify during the Tiny Moon. Navigate a world where gravity holds a stronger grip, challenging you to adapt and navigate the terrain like never before."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)White Moon$():$(br2) Embrace serenity beneath the White Moon. Venture out with confidence as the tranquil aura of the night encourages exploration and discovery."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Eclipse Moon$():$(br2) Behold the rare Eclipse Moon event, shrouding the world in darkness. Embrace the darkness effect that challenges your senses and strategy, offering a unique and immersive twist to the lunar cycle."
         }
     ]
 }

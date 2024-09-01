@@ -1,11 +1,18 @@
 {
     "name": "Earthquakes",
-    "icon": "minecraft:writable_book",
+    "icon": "spelunkers_charm:rock",
     "category": "patchouli:mechanics",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "When underground, you will need to $(#00a800)beware of unstable areas$(). Earthquakes are not uncommon, and neither are dangerous underground geysers - they can shoot $(#00a8a8)smoke$() or $(#00a8a8)lava$(), and cause serious damage if you're too close to them."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["dying_light:textures/quest_images/geyser.png"],
+            "title": "Underground Geysers",
+            "border": true,
+            "text": "Beware the eruptions!"
         }
     ]
 }

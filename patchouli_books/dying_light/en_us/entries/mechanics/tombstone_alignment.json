@@ -1,6 +1,6 @@
 {
     "name": "Alignment",
-    "icon": "minecraft:writable_book",
+    "icon": "tombstone:ankh_of_prayer",
     "category": "patchouli:mechanics",
     "pages": [
         {

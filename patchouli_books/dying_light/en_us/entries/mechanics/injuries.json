@@ -1,6 +1,6 @@
 {
     "name": "Injuries",
-    "icon": "minecraft:writable_book",
+    "icon": "legendarysurvivaloverhaul:plaster",
     "category": "patchouli:mechanics",
     "pages": [
         {
@@ -8,34 +8,39 @@
             "text": "When taking damage, you'll notice an indicator to the right of your hotbar which shows your $(#00a800)bodily well-being$(). You can $(#fca800)press H to view$() this menu in detail, and choose which limbs to apply a $(#00a8a8)healing item$() to."
         },
         {
-            "type": "patchouli:spotlight",
-            "item":  "legendarysurvivaloverhaul:plaster",
-            "text": ""
+            "type": "patchouli:image",
+            "images":  ["dying_light:textures/quest_images/locational_damage.png"],
+            "text": "The bodily health menu."
         },
         {
             "type": "patchouli:spotlight",
             "item":  "legendarysurvivaloverhaul:healing_herbs",
-            "text": ""
+            "text": "$(#00a8a8)Healing Herbs$() are an item which can heal up to one $(#00a800)limb$(), and also adds $(#00a800)Regeneration$() for a brief time."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:plaster",
+            "text": "The $(#00a8a8)Plaster$() is a healing item which grants $(#00a800)Regeneration$() for a short time, and can also be used to heal up to one $(#00a800)limb$()."
         },
         {
             "type": "patchouli:spotlight",
             "item":  "legendarysurvivaloverhaul:bandage",
-            "text": ""
+            "text": "The $(#00a8a8)Bandage$() is slightly more powerful, healing up to three $(#00a800)limbs$() and giving higher $(#00a8a8)Regeneration$()."
         },
         {
             "type": "patchouli:spotlight",
             "item":  "legendarysurvivaloverhaul:morphine",
-            "text": ""
-        },
-        {
-            "type": "patchouli:spotlight",
-            "item":  "legendarysurvivaloverhaul:medikit",
-            "text": ""
+            "text": "As you might expect, this $(#00a8a8)Morphine$() needle doesn't actually cure your ailments, but it will $(#00a800)make you temporarily immune to feeling injury$(), so it can be useful in a pinch."
         },
         {
             "type": "patchouli:spotlight",
             "item":  "legendarysurvivaloverhaul:tonic",
-            "text": ""
+            "text": "A $(#00a8a8)Tonic$() is capable of healing $(#00a800)all your limbs$(), and also grants $(#00a8a8)Regeneration$() for a decent amount of time."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item":  "legendarysurvivaloverhaul:medikit",
+            "text": "The ultimate healing item: a $(#00a8a8)Medikit$() will not only heal all your $(#00a800)limbs$(), but it will give you a high level of $(#00a8a8)Regeneration$() for a decent amount of time."
         }
     ]
 }

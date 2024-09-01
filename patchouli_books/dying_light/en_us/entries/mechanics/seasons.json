@@ -1,6 +1,6 @@
 {
     "name": "Seasons",
-    "icon": "minecraft:writable_book",
+    "icon": "sereneseasons:calendar",
     "category": "patchouli:mechanics",
     "pages": [
         {

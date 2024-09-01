@@ -1,6 +1,6 @@
 {
     "name": "Thirst",
-    "icon": "minecraft:writable_book",
+    "icon": "legendarysurvivaloverhaul:purified_water_bottle",
     "category": "patchouli:mechanics",
     "pages": [
         {

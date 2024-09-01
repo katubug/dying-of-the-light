@@ -1,6 +1,6 @@
 {
     "name": "Spoiling Food",
-    "icon": "minecraft:writable_book",
+    "icon": "minecraft:rotten_flesh",
     "category": "patchouli:mechanics",
     "pages": [
         {

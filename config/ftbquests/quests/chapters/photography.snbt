@@ -12,10 +12,10 @@
 	images: [
 		{
 			height: 15.0d
-			image: "dying_light:textures/ui_images/book_bg.png"
+			image: "dying_light:textures/ui_images/page_bg4.png"
 			rotation: 0.0d
-			width: 26.666666666666664d
-			x: -2.0d
+			width: 15.0d
+			x: -2.5d
 			y: -2.5d
 		}
 		{
@@ -23,8 +23,8 @@
 			image: "dying_light:textures/ui_images/photography_header.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -7.0d
-			y: -7.5d
+			x: -1.0d
+			y: 1.5d
 		}
 	]
 	order_index: 5
@@ -57,12 +57,13 @@
 				type: "checkmark"
 			}]
 			title: "Documenting Your Journey"
-			x: -10.0d
-			y: -5.0d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "4B5DB40123A640D8"
 			invisible: true
+			secret: true
 			tasks: [{
 				id: "5AA8E5769B388278"
 				title: "w"
@@ -88,10 +89,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -8.0d
-			y: -5.0d
+			x: -5.5d
+			y: -7.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "4553C41C2BDFDCAF"
 			tasks: [{
 				id: "49A52B362B873A24"
@@ -107,10 +109,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -6.5d
-			y: -10.5d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "56946F952B94D169"
 			tasks: [{
 				id: "0C5949908636A278"
@@ -126,10 +129,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: -2.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "7FB3E5DA9D0A3C4E"
 			tasks: [{
 				id: "098680CDCADEC634"
@@ -148,10 +152,11 @@
 				weak_nbt_match: true
 			}]
 			title: "Take a Group Photo"
-			x: -4.5d
-			y: -10.5d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "5C6CE2A1F1F3741F"
 			tasks: [{
 				id: "289B98BFD49D10EB"
@@ -167,10 +172,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -3.5d
-			y: -10.5d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "058D4C5FFC5107BE"
 			tasks: [{
 				id: "6953566AD535346B"
@@ -186,10 +192,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.5d
-			y: -10.5d
+			x: -8.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "42ABEB59ECA84EBF"
 			tasks: [{
 				id: "15F95D6AFC549FFA"
@@ -197,6 +204,7 @@
 					Count: 1
 					id: "exposure:photograph"
 					tag: {
+						Biome: "minecraft:lush_caves"
 						"minecraft:axolotl": 1b
 					}
 				}
@@ -205,10 +213,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 10.5d
-			y: -5.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "422E26D7878AE3DF"
 			rewards: [{
 				id: "118431EC847CCB16"
@@ -229,172 +238,55 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Wither"
-			x: -0.5d
-			y: -10.5d
-		}
-		{
-			id: "034FCF51039F0B29"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "exposure:photograph"
-					tag: {
-						Biome: "minecraft:end_barrens"
-						DayTime: 13562
-						Dimension: "minecraft:the_end"
-						Entities: [
-							{
-								Distance: 2.3640444f
-								Id: "minecraft:wolf"
-								Pos: [
-									-70
-									58
-									-3197
-								]
-							}
-							{
-								Distance: 26.98722f
-								Id: "minecraft:enderman"
-								Pos: [
-									-75
-									56
-									-3221
-								]
-							}
-							{
-								Distance: 27.7614f
-								Id: "minecraft:enderman"
-								Pos: [
-									-75
-									56
-									-3222
-								]
-							}
-							{
-								Distance: 27.954622f
-								Id: "minecraft:enderman"
-								Pos: [
-									-82
-									56
-									-3219
-								]
-							}
-							{
-								Distance: 31.65254f
-								Id: "minecraft:enderman"
-								Pos: [
-									-78
-									56
-									-3225
-								]
-							}
-						]
-						FocalLength: 20
-						Id: "HeyKatu_148451"
-						LightLevel: 0
-						Photographer: "HeyKatu"
-						PhotographerId: [I;
-							-438126435
-							948191632
-							-1956014202
-							1052335046
-						]
-						Pos: [
-							-69
-							58
-							-3196
-						]
-						SunAngle: 0.0f
-						Timestamp: "2024-08-29_16.09.26"
-						Type: "color"
-						Weather: "Clear"
-						"minecraft:enderman": 1b
-						"minecraft:wolf": 1b
-					}
-				}
-				id: "1097889203B30A25"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "item(exposure:photograph)and(nbt(fuzzy:{Dimension:\"minecraft:the_end\"})nbt(fuzzy:{\"minecraft:wolf\":1b}))"
-					}
-				}
-				title: "Photo of a Dog in the End"
-				type: "item"
-			}]
-			x: 10.5d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
-			id: "5E6139DE64BDA014"
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "034FCF51039F0B29"
 			tasks: [{
-				icon: {
+				id: "18FAC0CE15F60CD2"
+				item: {
 					Count: 1
 					id: "exposure:photograph"
 					tag: {
-						Biome: "minecraft:small_end_islands"
-						DayTime: 12867
 						Dimension: "minecraft:the_end"
-						Entities: [
-							{
-								Distance: 3.9068036f
-								Id: "minecraft:enderman"
-								Pos: [
-									-82
-									56
-									-3218
-								]
-							}
-							{
-								Distance: 4.2638555f
-								Id: "minecraft:enderman"
-								Pos: [
-									-82
-									56
-									-3219
-								]
-							}
-						]
-						FocalLength: 20
-						Id: "HeyKatu_147756"
-						LightLevel: 0
-						Photographer: "HeyKatu"
-						PhotographerId: [I;
-							-438126435
-							948191632
-							-1956014202
-							1052335046
-						]
-						Pos: [
-							-79
-							56
-							-3219
-						]
-						SunAngle: 0.0f
-						Timestamp: "2024-08-29_16.08.51"
-						Type: "color"
-						Weather: "Clear"
-						"minecraft:enderman": 1b
+						"minecraft:wolf": 1b
 					}
 				}
-				id: "7B069324ED685687"
+				match_nbt: true
+				title: "Photo of a Dog in the End"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Man's Best FriEND"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "5E6139DE64BDA014"
+			tasks: [{
+				id: "196172C23FAB8DFD"
 				item: {
 					Count: 1
-					id: "ftbfiltersystem:smart_filter"
+					id: "exposure:photograph"
 					tag: {
-						"ftbfiltersystem:filter": "item(exposure:photograph)and(nbt(fuzzy:{Dimension:\"minecraft:the_end\"})nbt(fuzzy:{\"minecraft:enderman\":1b}))"
+						Dimension: "minecraft:the_end"
+						"minecraft:enderman": 1b
 					}
 				}
 				match_nbt: true
 				title: "Photo of Enderman in the End"
 				type: "item"
+				weak_nbt_match: true
 			}]
 			title: "A Risky Proposition"
-			x: 10.5d
-			y: -3.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "66A4E1ED8E67410D"
 			tasks: [{
 				id: "262740198CFE2533"
@@ -403,6 +295,7 @@
 					id: "exposure:photograph"
 					tag: {
 						"minecraft:cat": 1b
+						"minecraft:villager": 1b
 					}
 				}
 				match_nbt: true
@@ -410,10 +303,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 10.5d
-			y: -7.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			description: ["spawns to protect decorative graves"]
 			id: "763120AA95A4F152"
 			tasks: [{
@@ -430,10 +324,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.5d
-			y: -10.5d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "3F7FF3873505CF25"
 			tasks: [{
 				id: "2DFD3471206ED421"
@@ -449,10 +344,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.5d
-			y: -10.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			id: "324CD818BDC8A56C"
 			tasks: [{
 				id: "6B8E9A4326157907"
@@ -460,6 +356,7 @@
 					Count: 1
 					id: "exposure:photograph"
 					tag: {
+						LightLevel: 15
 						"minecraft:witch": 1b
 					}
 				}
@@ -468,8 +365,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 10.5d
-			y: -8.0d
+			x: -4.0d
+			y: -2.5d
 		}
 	]
 	title: "Photography"

@@ -9,20 +9,29 @@
 	id: "4F626A36D04F7CA6"
 	images: [
 		{
-			height: 15.0d
-			image: "dying_light:textures/ui_images/book_bg.png"
-			rotation: 0.0d
-			width: 26.666666666666664d
-			x: 1.0d
-			y: 0.0d
-		}
-		{
 			height: 3.0d
 			image: "dying_light:textures/ui_images/village_header.png"
+			order: 1
 			rotation: 0.0d
 			width: 9.0d
 			x: -4.0d
-			y: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "dying_light:textures/ui_images/page_bg7.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "dying_light:textures/ui_images/page_bg8.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.5d
+			y: -2.5d
 		}
 	]
 	order_index: 3
@@ -32,14 +41,15 @@
 			dependencies: ["2A2CAE3F8A8D5B06"]
 			id: "3C7F896A612AB817"
 			shape: "spstar"
+			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:story/cure_zombie_villager"
 				criterion: ""
 				id: "4C2A702A8EAF204F"
 				type: "advancement"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C7F896A612AB817"]
@@ -55,8 +65,8 @@
 				type: "questsadditions:interaction"
 				value: 50L
 			}]
-			x: -7.0d
-			y: -1.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			id: "6E02CA4CA4C9DAC8"

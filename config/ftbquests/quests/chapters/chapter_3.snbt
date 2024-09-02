@@ -8,18 +8,21 @@
 	id: "6CB81FBA5AE33505"
 	images: [{
 		height: 15.0d
-		image: "dying_light:textures/ui_images/book_bg.png"
+		image: "dying_light:textures/ui_images/page_bg6.png"
 		rotation: 0.0d
-		width: 26.666666666666664d
-		x: 1.0d
+		width: 15.0d
+		x: 0.5d
 		y: 0.0d
 	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			hide_details_until_startable: true
+			hide_text_until_complete: true
 			id: "7C86E075FC301A7D"
 			invisible: true
+			secret: true
 			tasks: [{
 				id: "3AC081A25EE67FF8"
 				title: "d"
@@ -71,8 +74,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Cave Dweller"
-			x: -6.5d
-			y: -1.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -112,8 +115,8 @@
 				to_observe: "cave_dweller:cave_dweller"
 				type: "observation"
 			}]
-			x: -6.5d
-			y: -2.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -126,6 +129,8 @@
 				"Let's begin."
 			]
 			id: "44C3A1487558DE6C"
+			shape: "spstar"
+			size: 2.0d
 			tasks: [{
 				icon: {
 					Count: 1
@@ -139,8 +144,8 @@
 				type: "gamestage"
 			}]
 			title: "Gain Insight"
-			x: -3.0d
-			y: -4.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["62DEF424711114D5"]
@@ -185,8 +190,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Nameless Hanged"
-			x: -5.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -200,8 +205,8 @@
 				to_observe: "graveyard:nameless_hanged"
 				type: "observation"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1288CD493430D87B"]
@@ -221,8 +226,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph Captain Cornelia"
-			x: -3.5d
-			y: -1.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -236,7 +241,7 @@
 				to_observe: "aquamirae:captain_cornelia"
 				type: "observation"
 			}]
-			x: -3.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -257,8 +262,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Rotting Stalker"
-			x: -2.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -272,8 +277,8 @@
 				to_observe: "sanitydim:rotting_stalker"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06A650977AD36E4F"]
@@ -293,8 +298,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Sneaking Terror"
-			x: -0.5d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -308,8 +313,8 @@
 				to_observe: "sanitydim:sneaking_terror"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
@@ -324,8 +329,8 @@
 				to_observe: "forge:posessed"
 				type: "observation"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["281064B532F2240B"]
@@ -367,8 +372,8 @@
 					type: "gamestage"
 				}
 			]
-			x: -6.5d
-			y: 2.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A318BB8FF1D1CB2"]
@@ -445,8 +450,8 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1B7AF70862C5DF64"]
@@ -486,8 +491,8 @@
 					type: "gamestage"
 				}
 			]
-			x: 1.0d
-			y: 2.5d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2E4B5074B02D5864"]
@@ -521,8 +526,8 @@
 				type: "observation"
 			}]
 			title: "Translate the Book"
-			x: 1.0d
-			y: 3.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F8AEA41053112D0"]
@@ -535,8 +540,8 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6079DE59B33AA9C6"]
@@ -579,8 +584,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph Herobrine"
-			x: 1.0d
-			y: -1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6BE79CC7B3D03F77"]
@@ -590,8 +595,8 @@
 				item: "kubejs:teddy"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["25F63F9940D7563C"]
@@ -609,8 +614,8 @@
 				type: "custom"
 			}]
 			title: "Bring Him Peace"
-			x: -6.5d
-			y: 5.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1BA5321F5473DC64"]
@@ -652,8 +657,8 @@
 					type: "gamestage"
 				}
 			]
-			x: -5.0d
-			y: 2.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["76195CAF71CCF73B"]
@@ -689,8 +694,8 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18561A07B84D2E7E"]
@@ -700,8 +705,8 @@
 				item: "minecraft:name_tag"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["05F023CB8156D1C9"]
@@ -712,8 +717,8 @@
 				type: "custom"
 			}]
 			title: "Give Him a Name"
-			x: -5.0d
-			y: 5.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["346BD2AA2AE4D886"]
@@ -726,8 +731,8 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D9BBE18812FFC06"]
@@ -740,8 +745,8 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "Chapter 3"

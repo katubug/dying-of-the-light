@@ -1,16 +1,43 @@
 {
-	autofocus_id: "190EC1D66444E64E"
+	autofocus_id: "2631B754B593D2FA"
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "fishing"
 	group: ""
 	id: "0D655B82241562CE"
+	images: [
+		{
+			height: 15.0d
+			image: "dying_light:textures/ui_images/page_bg1.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/fishing_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			height: 7.936507936507937d
+			image: "dying_light:textures/ui_images/fishsketch.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: 2.0d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7541252E94451A93"]
+			description: ["Go big or go home, that's what I always say. If you're going to be a fisher, you might as well do it in style with a &bNetherite Rod&r."]
 			id: "57304D5B080BA48D"
 			tasks: [{
 				id: "2571CBEAACF25797"
@@ -28,22 +55,12 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.0d
+			title: "Obtain the Ultimate Rod"
+			x: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["156BD6E600E1C492"]
-			id: "190EC1D66444E64E"
-			tasks: [{
-				id: "037F175D5CE0CE31"
-				item: "tide:fishing_journal"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["156BD6E600E1C492"]
+			dependencies: ["286CA5891064B321"]
 			id: "16538E097DFE166F"
 			tasks: [{
 				id: "33B5D3BF0897C4FF"
@@ -57,11 +74,11 @@
 				type: "item"
 			}]
 			title: "Upgrade Your Line"
-			x: -6.5d
-			y: -5.0d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["156BD6E600E1C492"]
+			dependencies: ["286CA5891064B321"]
 			id: "7B15A049B94A97F5"
 			tasks: [{
 				id: "6892CCF2742779AD"
@@ -75,11 +92,11 @@
 				type: "item"
 			}]
 			title: "Upgrade Your Hook"
-			x: -7.5d
-			y: -5.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["156BD6E600E1C492"]
+			dependencies: ["286CA5891064B321"]
 			id: "41BDDB894AECA1D3"
 			tasks: [{
 				id: "61551B91ACF0A278"
@@ -93,11 +110,12 @@
 				type: "item"
 			}]
 			title: "Obtain Some Bait"
-			x: -7.5d
-			y: -6.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["156BD6E600E1C492"]
+			dependencies: ["286CA5891064B321"]
+			description: ["A basic &bFishing Rod&r is one thing, but did you know there are better options? Why not make one out of &bIron&r, or even &bDiamond&r?"]
 			id: "7541252E94451A93"
 			tasks: [{
 				id: "60AAD0CA63B39362"
@@ -111,11 +129,11 @@
 				type: "item"
 			}]
 			title: "Upgrade Your Rod"
-			x: -2.5d
-			y: -5.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["190EC1D66444E64E"]
+			dependencies: ["286CA5891064B321"]
 			id: "0730CFED1258B299"
 			tasks: [
 				{
@@ -139,10 +157,12 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.5d
+			title: "All Vanilla Fish"
+			x: 0.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
 			description: [
 				"Nice work. You not only restored some sanity there, but you also got yourself some food. Well, hopefully."
 				""
@@ -155,6 +175,7 @@
 				item: "salt:salt"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				advancement: "minecraft:husbandry/fishy_business"
 				criterion: ""
@@ -162,10 +183,12 @@
 				title: "Catch a Fish"
 				type: "advancement"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "7300ACAC3911D424"
 			optional: true
 			tasks: [
@@ -216,10 +239,12 @@
 				}
 			]
 			title: "Freshwater Fish"
-			x: -7.5d
-			y: -2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "40A311AFF1311953"
 			optional: true
 			tasks: [
@@ -255,10 +280,12 @@
 				}
 			]
 			title: "Saltwater Fish"
-			x: -6.5d
-			y: -2.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "3DE06E66F45109C3"
 			optional: true
 			tasks: [
@@ -299,10 +326,12 @@
 				}
 			]
 			title: "Underground Fish"
-			x: -5.5d
-			y: -2.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "31FBB2C511249AED"
 			optional: true
 			tasks: [
@@ -343,10 +372,11 @@
 				}
 			]
 			title: "Deep Fish"
-			x: -7.5d
-			y: -1.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
 			description: [
 				"- prairie pike (plains?)"
 				"- sandskipper (desert)"
@@ -365,6 +395,7 @@
 				"- fluttergill (lush caves)"
 				"- pine perch (forest)"
 			]
+			hide_dependency_lines: true
 			id: "09B276670C9D0E11"
 			optional: true
 			tasks: [
@@ -450,10 +481,12 @@
 				}
 			]
 			title: "Biome-Specific Fish"
-			x: -6.5d
-			y: -1.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "6A46E1E8ACB6817A"
 			optional: true
 			tasks: [
@@ -479,10 +512,12 @@
 				}
 			]
 			title: "Lava Fish"
-			x: -5.5d
-			y: -1.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "2928A5582A5DAC1E"
 			optional: true
 			tasks: [
@@ -529,11 +564,13 @@
 				}
 			]
 			title: "Nether Fish"
-			x: -8.5d
-			y: -2.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
 			description: ["- purpur pike (end city)"]
+			hide_dependency_lines: true
 			id: "3EFA13D7AC4B212C"
 			optional: true
 			tasks: [
@@ -569,10 +606,12 @@
 				}
 			]
 			title: "End Fish"
-			x: -8.5d
-			y: -1.5d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
 			id: "21036F37C4713D4C"
 			optional: true
 			tasks: [
@@ -628,15 +667,17 @@
 				}
 			]
 			title: "Unique Fish"
-			x: -9.5d
-			y: -2.5d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["286CA5891064B321"]
 			description: [
 				"- midas fish"
 				"- voidseeker (found in The End, during specific moon phases)"
 				"- shooting starfish (only at night, under a full moon)"
 			]
+			hide_dependency_lines: true
 			id: "7586DE55A6539A94"
 			optional: true
 			tasks: [
@@ -657,8 +698,47 @@
 				}
 			]
 			title: "Legendary Fish"
-			x: -9.5d
-			y: -1.5d
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "2631B754B593D2FA"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "1BA42E837ACC6358"
+				title: "d"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["085671CEEECD2D16"]
+			description: [
+				"Fishing isn't quite as mindless here as it usually is. Once you hook a fish, you need to &acarefully time your right click&r in order to catch the fish properly!"
+				""
+				"Try to &6click when the moving bar is in the green&r."
+				""
+				"{image:dying_light:textures/quest_images/tide_fishing_game.png width:100 height:70 align:center fit:true}"
+			]
+			id: "286CA5891064B321"
+			rewards: [{
+				count: 2
+				id: "1F93FA6A589818FA"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			shape: "spstar"
+			size: 2.0d
+			tasks: [{
+				id: "180B1261C8AE195F"
+				title: "Fishing Minigame"
+				type: "checkmark"
+			}]
+			title: "How to Fish"
+			x: -4.5d
+			y: -4.5d
 		}
 	]
 	title: "Fishing"

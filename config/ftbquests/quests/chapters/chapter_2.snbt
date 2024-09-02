@@ -195,6 +195,16 @@
 			x: 2.0d
 			y: -5.5d
 		}
+		{
+			id: "1035722C6FC71A91"
+			tasks: [{
+				id: "7B1FB7FD4BFD3D32"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
 	]
 	title: "Chapter 2"
 }

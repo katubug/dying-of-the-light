@@ -125,3 +125,75 @@ FTBQuestsEvents.customReward('1771282FC9B8F11C', event =>{
     event.player.persistentData.insightCount-=10
     console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
+
+//Turtle
+FTBQuestsEvents.customReward('619F2635AB57056C', event =>{
+    event.player.persistentData.insightCount-=20
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Fox
+FTBQuestsEvents.customReward('6B3A763B0C05732C', event =>{
+    event.player.persistentData.insightCount-=20
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Rabbit
+FTBQuestsEvents.customReward('506CC58613CFD3B5', event =>{
+    event.player.persistentData.insightCount-=20
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Axolotl
+FTBQuestsEvents.customReward('6E853075022B4656', event =>{
+    event.player.persistentData.insightCount-=20
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Frog
+FTBQuestsEvents.customReward('68FFD6F81631F70E', event =>{
+    event.player.persistentData.insightCount-=20
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Goat
+FTBQuestsEvents.customReward('3E4E1D27783C271F', event =>{
+    event.player.persistentData.insightCount-=5
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Bee
+FTBQuestsEvents.customReward('33A845CCD636B204', event =>{
+    event.player.persistentData.insightCount-=5
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Glow Squid
+FTBQuestsEvents.customReward('6BF5EF7A1B110458', event =>{
+    event.player.persistentData.insightCount-=5
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Pig
+FTBQuestsEvents.customReward('2D3A7150C6454E58', event =>{
+    event.player.persistentData.insightCount-=3
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Cow
+FTBQuestsEvents.customReward('1389E8EA856ED539', event =>{
+    event.player.persistentData.insightCount-=3
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Sheep
+FTBQuestsEvents.customReward('3E1DE682EC82B441', event =>{
+    event.player.persistentData.insightCount-=3
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Chicken
+FTBQuestsEvents.customReward('505505B5A32B6DAA', event =>{
+    event.player.persistentData.insightCount-=3
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})

@@ -117,6 +117,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b20 Insight&r."]
 			icon: "minecraft:frog_spawn_egg"
 			id: "0CFFEF3D0D194F2D"
 			rewards: [
@@ -145,6 +146,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b20 Insight&r."]
 			icon: "minecraft:fox_spawn_egg"
 			id: "5C9FD19EB12BBA73"
 			rewards: [
@@ -173,6 +175,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b3 Insight&r."]
 			icon: "minecraft:cow_spawn_egg"
 			id: "0F7BC46CA17A6645"
 			rewards: [
@@ -259,6 +262,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b3 Insight&r."]
 			icon: "minecraft:sheep_spawn_egg"
 			id: "7C7E610C4197D802"
 			rewards: [
@@ -287,6 +291,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b5 Insight&r."]
 			icon: "minecraft:goat_spawn_egg"
 			id: "6EDDE3360D74D3A0"
 			rewards: [
@@ -315,6 +320,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b20 Insight&r."]
 			icon: "minecraft:axolotl_spawn_egg"
 			id: "3B5B1C54FA4E3E50"
 			rewards: [
@@ -343,6 +349,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b5 Insight&r."]
 			icon: "minecraft:bee_spawn_egg"
 			id: "2A28BC80D11A2FD1"
 			rewards: [
@@ -400,6 +407,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b3 Insight&r."]
 			icon: "minecraft:chicken_spawn_egg"
 			id: "062298A69092E3EA"
 			rewards: [
@@ -428,6 +436,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b3 Insight&r."]
 			icon: "minecraft:pig_spawn_egg"
 			id: "5A6F12EE2315ACC5"
 			rewards: [
@@ -456,6 +465,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b20 Insight&r."]
 			icon: "minecraft:rabbit_spawn_egg"
 			id: "04492D6F87320A5A"
 			rewards: [
@@ -484,6 +494,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b20 Insight&r."]
 			icon: "minecraft:turtle_egg"
 			id: "21205B8CFD794CF7"
 			rewards: [
@@ -512,6 +523,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bSpawn Egg&r at the cost of &b5 Insight&r."]
 			icon: "minecraft:glow_squid_spawn_egg"
 			id: "56D93F43807A2CDC"
 			rewards: [

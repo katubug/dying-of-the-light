@@ -11,12 +11,8 @@
         "extra_enchantments:undead_curse",
         "extra_enchantments:nausea_curse",
         "cursery:curse_laddering",
-        "naturesaura:aura_mending",
         "cursery:curse_explosive",
         "cursery:curse_loose",
-        "glowroot:glowrooted",
-        "glowroot:red_light",
-        "glowroot:yellow_light",
         "cursery:curse_anvil",
         "improved_damage:durable"
     ]

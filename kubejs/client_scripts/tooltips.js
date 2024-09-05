@@ -7,12 +7,8 @@ ItemEvents.tooltip(event => {
         'Cannot be planted directly. Store until it becomes Rooted Potato to plant.'
     )
 
-    event.add('echochest:echo_chest',
-        'Also prevents food spoilage.'
-    )
-
-    event.add('thaumon:mutagen',
-        'Click onto Oak Wood Logs to summon the Earth Spirit.'
+    event.add('kubejs:lunar_gem',
+        'Right click while holding to find the current moon phase.'
     )
 
     //Drink Tooltips

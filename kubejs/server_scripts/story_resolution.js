@@ -17,7 +17,7 @@ ItemEvents.entityInteracted('kubejs:teddy', (event) => {
         server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
         event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 2C1356F21BE19F33`)
         const itemEntity = level.createEntity('item');
-        itemEntity.item = Item.of('kubejs:cd_note')
+        itemEntity.item = Item.of('kubejs:cave_dweller_note')
         itemEntity.setPos(x + 1, y, z);
         itemEntity.spawn();
     });
@@ -41,7 +41,7 @@ ItemEvents.entityInteracted('minecraft:nametag', (event) => {
         server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
         event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 74A1E604A452A534`)
         const itemEntity = level.createEntity('item');
-        itemEntity.item = Item.of('kubejs:nh_note')
+        itemEntity.item = Item.of('kubejs:nameless_hanged_note')
         itemEntity.setPos(x + 1, y, z);
         itemEntity.spawn();
     });
@@ -64,7 +64,7 @@ ItemEvents.entityInteracted('void_tome:void_tome', (event) => {
         target.discard()
         server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
         const itemEntity = level.createEntity('item');
-        itemEntity.item = Item.of('kubejs:cc_note')
+        itemEntity.item = Item.of('kubejs:captain_cornelia_note')
         itemEntity.setPos(x + 1, y, z);
         itemEntity.spawn();
     });
@@ -87,7 +87,7 @@ ItemEvents.entityInteracted('minecraft:nametag', (event) => {
         target.discard()
         server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
         const itemEntity = level.createEntity('item');
-        itemEntity.item = Item.of('kubejs:hb_note')
+        itemEntity.item = Item.of('kubejs:herobrine_note')
         itemEntity.setPos(x + 1, y, z);
         itemEntity.spawn();
     });

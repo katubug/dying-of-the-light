@@ -256,13 +256,13 @@
 
 [Movement]
 	#Player's slowed down when walking backwards.
-	"Enable Backwards slowdown" = true
+	"Enable Backwards slowdown" = false
 	#Player's slowed down for a brief moment when hit.
 	"Enable Tagging" = false
 	#Prevents the player from placing blocks below him when in mid air.
 	"Enable No Pillaring" = false
 	#Slowdown based off the terrain entities walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
-	"Enable Terrain Slowdown" = true
+	"Enable Terrain Slowdown" = false
 	#Player's slides down climbable blocks faster and stands still when opening an interface. This is disabled if quark is enabled
 	"Enable Better Climbable" = true
 	"Enable Boats" = true

@@ -11,6 +11,20 @@
         "conditions":{
             "dimension": "minecraft:overworld"
         }
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "attempts": 10,
+        "persecond": 1,
+        "weights": [5],
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions":{
+            "dimension": "minecraft:overworld",
+            "inwater": true
+        }
     }
 
 ]

@@ -19,7 +19,7 @@
 	mods = ["sanitydim"]
 	#Allows specific mods' mobs to burn just by specifying their full id for example modid:mobname.  Comma separated and quoted list
 	#Default: "minecraft:zombie","minecraft:skeleton"
-	mobs = ["minecraft:villager", "sanitydim:rotting_stalker", "sanitydim:sneaking_terror"]
+	mobs = ["sanitydim:rotting_stalker", "sanitydim:sneaking_terror"]
 	#Allows specific mods' blocks to be ignored while checking if you are able to see the sky by specifying their full id for example modid:blockname.  Comma separated and quoted list
 	#Example: "minecraft:black_stained_glass"
 	ignoredBlocks = []

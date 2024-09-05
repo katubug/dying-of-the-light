@@ -13,7 +13,44 @@
     },
     {
         "mob":"graveyard:nameless_hanged",
-        "mincount": 2,
-        "result": "deny"
+        "gamestage":"nh_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"graveyard:nameless_hanged",
+        "mincount": 1,
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "gamestage":"mother_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "structure": "aquamirae:ice_maze/common",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "structure": "aquamirae:ice_maze/arch",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "structure": "aquamirae:ice_maze/spiral",
+        "result": "allow",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "mincount": 1,
+        "result": "deny",
+        "continue": true
     }
 ]

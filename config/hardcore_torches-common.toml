@@ -11,6 +11,8 @@
 	#How many experience points are used in a single right click.
 	#Range: > 1
 	expIncrement = 1
+	#If true, you can light torches and lanterns within the crafting inventory.
+	craftLight = true
 
 #Oil Can Settings
 [oil_can]

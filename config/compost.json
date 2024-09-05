@@ -16,6 +16,57 @@
           "max": 1
         }
       ]
+    },
+    {
+      "name": "JEI",
+      "produce": [
+        {
+          "item": "minecraft:dirt",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "name": "Texture Testworld",
+      "produce": [
+        {
+          "item": "minecraft:dirt",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "name": "New World",
+      "produce": [
+        {
+          "item": "minecraft:dirt",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
     }
   ]
 }

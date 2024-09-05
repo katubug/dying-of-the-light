@@ -26,6 +26,14 @@
 			x: -1.0d
 			y: 1.5d
 		}
+		{
+			height: 3.858333333333333d
+			image: "dying_light:textures/ui_images/camerasketch.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -213,8 +221,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]

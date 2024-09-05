@@ -117,6 +117,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:frog_spawn_egg"
 			id: "0CFFEF3D0D194F2D"
 			rewards: [
 				{
@@ -144,6 +145,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:fox_spawn_egg"
 			id: "5C9FD19EB12BBA73"
 			rewards: [
 				{
@@ -171,6 +173,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:cow_spawn_egg"
 			id: "0F7BC46CA17A6645"
 			rewards: [
 				{
@@ -198,34 +201,8 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
-			id: "3A763AF9E8B144FD"
-			rewards: [
-				{
-					auto: "disabled"
-					id: "32D8C393C802C305"
-					item: "minecraft:allay_spawn_egg"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					exclude_from_claim_all: true
-					id: "63FF41B089EDE4B0"
-					ignore_reward_blocking: true
-					title: "Spent Insight"
-					type: "custom"
-				}
-			]
-			tasks: [{
-				id: "08E40F2AC0D7A1D1"
-				title: "Buy an Allay Spawn Egg"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy a &eCat&r egg for &b10 Insight&r."]
+			icon: "minecraft:cat_spawn_egg"
 			id: "5198E0CA9170B7EB"
 			rewards: [
 				{
@@ -254,6 +231,7 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy a &eWolf&r egg for &b10 Insight&r."]
+			icon: "minecraft:wolf_spawn_egg"
 			id: "728F373A62487950"
 			rewards: [
 				{
@@ -281,6 +259,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:sheep_spawn_egg"
 			id: "7C7E610C4197D802"
 			rewards: [
 				{
@@ -308,6 +287,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:goat_spawn_egg"
 			id: "6EDDE3360D74D3A0"
 			rewards: [
 				{
@@ -335,6 +315,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:axolotl_spawn_egg"
 			id: "3B5B1C54FA4E3E50"
 			rewards: [
 				{
@@ -362,6 +343,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:bee_spawn_egg"
 			id: "2A28BC80D11A2FD1"
 			rewards: [
 				{
@@ -390,6 +372,7 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy a &eParrot&r egg for &b10 Insight&r."]
+			icon: "minecraft:parrot_spawn_egg"
 			id: "3DF3343F73DF6043"
 			rewards: [
 				{
@@ -417,6 +400,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:chicken_spawn_egg"
 			id: "062298A69092E3EA"
 			rewards: [
 				{
@@ -444,6 +428,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:pig_spawn_egg"
 			id: "5A6F12EE2315ACC5"
 			rewards: [
 				{
@@ -471,6 +456,7 @@
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:rabbit_spawn_egg"
 			id: "04492D6F87320A5A"
 			rewards: [
 				{
@@ -493,11 +479,12 @@
 				title: "Buy a Rabbit Spawn Egg"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:turtle_egg"
 			id: "21205B8CFD794CF7"
 			rewards: [
 				{
@@ -520,11 +507,12 @@
 				title: "Buy a Turtle Spawn Egg"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["7F588C2BBD868E89"]
+			icon: "minecraft:glow_squid_spawn_egg"
 			id: "56D93F43807A2CDC"
 			rewards: [
 				{
@@ -553,6 +541,7 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Receive a random assortment of &bfood&r for &b6 Insight&r."]
+			icon: "minecraft:cooked_beef"
 			id: "1405EA56231F5AE0"
 			rewards: [
 				{
@@ -582,6 +571,7 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy some &bSalt&r at the cost of &b1 Insight&r."]
+			icon: "salt:salt"
 			id: "75BF74250B2D3181"
 			rewards: [
 				{
@@ -609,6 +599,144 @@
 			}]
 			x: -3.5d
 			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Accept this quest to &6spend 6 &bInsight&r to purchase &b1 each of Thick, Mundane, and Awkward potionsr."]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:awkward"
+				}
+			}
+			id: "2C0764725E86CB96"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "15FC502EDB664303"
+					ignore_reward_blocking: true
+					title: "Spent 5 Insight"
+					type: "custom"
+				}
+				{
+					id: "1C5858C8C0202B41"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:thick"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08EF421C07D6E13C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:awkward"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58625DC450E0D76B"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78C4E7A34ECD1C55"
+				title: "Buy Color Film"
+				type: "checkmark"
+			}]
+			title: "Buy Developing Solution (color)"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy some &bIce and Sun Ferns&r at the cost of &b2 Insight&r."]
+			icon: "legendarysurvivaloverhaul:ice_fern"
+			id: "0CDFF2B833E4653D"
+			rewards: [
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "14E9C39DEA20DF5B"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+				{
+					count: 2
+					id: "45E4266362789DA8"
+					item: "legendarysurvivaloverhaul:sun_fern"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "354D475AC4196262"
+					item: "legendarysurvivaloverhaul:ice_fern"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02D085871647F33E"
+				title: "Buy Some Ferns"
+				type: "checkmark"
+			}]
+			title: "Buy Temperature Resistant Plants"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy some &bPotion Ingredients&r at the cost of &b2 Insight&r."]
+			icon: "legendarysurvivaloverhaul:ice_fern"
+			id: "01BF9B7EE7784968"
+			rewards: [
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "0AFF61B8CD24E091"
+					ignore_reward_blocking: true
+					title: "Spent Insight"
+					type: "custom"
+				}
+				{
+					id: "0A8E51CD25A8EB0B"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					id: "205E7FB1FDFD519A"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A2698440E998DB1"
+				title: "Buy Some Potion Ingredients"
+				type: "checkmark"
+			}]
+			title: "Buy Some Potion Ingredients"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "7818332DFF316882"
+			x: -11.5d
+			y: 4.0d
 		}
 	]
 	title: "Insight Shop"

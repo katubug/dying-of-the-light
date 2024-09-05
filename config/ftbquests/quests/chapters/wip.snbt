@@ -18,88 +18,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "66919E816F79F444"
-			tasks: [{
-				id: "046B41B65CE552C6"
-				item: "starmetal:star_metal"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.0d
-		}
-		{
-			description: ["If you put this in the stonecutter, you can get Mutagen, which lets you craft stuff from the Thaumon mod."]
-			id: "36DBDF14913F681D"
-			tasks: [{
-				id: "1DE03308E76C8173"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 4.0d
-		}
-		{
-			description: [
-				"search food in jei"
-				""
-				"pay attention to numerical values listed, don't just go by the number of items (ie it's like mystic alchemy)"
-				""
-				"portable crock pot can make some recipes that basic can't (such as asparagazpacho)"
-			]
-			id: "434B44E6A1A72B01"
-			tasks: [{
-				id: "336C93FDCC383098"
-				item: "crockpot:crock_pot"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 4.0d
-		}
-		{
-			id: "18B331087284BB4F"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "139B391DD98DD361"
-				type: "dimension"
-			}]
-			x: 4.5d
-			y: 8.0d
-		}
-		{
-			id: "0B71388F1AD7E536"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "26F4F9D8A36745CF"
-				type: "dimension"
-			}]
-			x: 4.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["434B44E6A1A72B01"]
-			description: ["lures animals"]
-			id: "7D11B24C28EC52D3"
-			tasks: [{
-				id: "527382BEA75CDB60"
-				item: "crockpot:pow_cake"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 5.5d
-		}
-		{
-			id: "4B6BB4CC7EF0165F"
-			tasks: [{
-				icon: "sculksickness:sculk_blossom"
-				id: "1C1D0FD87D3FA513"
-				title: "Get Sculk Sickness"
-				type: "custom"
-			}]
-			title: "Contract Sculk Illness"
-			x: 2.5d
-			y: 4.5d
-		}
-		{
 			id: "5AA26848A391AF40"
 			rewards: [{
 				id: "225C5219C73D4EFF"
@@ -170,8 +88,8 @@
 				title: "ss"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			id: "6A0914E091E048A1"
@@ -259,30 +177,6 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
-		}
-		{
-			description: [
-				"Sometimes you'll find you need &bSouls&r to accomplish things. There are hundreds of them here, unmoored, lacking any form of identity, little more than an amorphous collection of energy."
-				""
-				"You can attract them by building &bDecorative Graves&r. Once these are placed, they will &adraw those energies in&r, for you to capture and harness. Don't feel bad about it - these aren't people any longer. By giving them a purpose, you allow them to move on."
-				""
-				"You may also find that these graves spawn a &eGrave Guardian&r, which is a creature (technically undead), which feels compelled to protect the sacredness of the graveyard. If one spawns, consider yourself lucky."
-			]
-			id: "6FA0C04049DA9E98"
-			tasks: [{
-				id: "279534D3034B9BFC"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple))"
-					}
-				}
-				type: "item"
-			}]
-			title: "Make a Decorative Grave"
-			x: 4.5d
 			y: 5.5d
 		}
 	]

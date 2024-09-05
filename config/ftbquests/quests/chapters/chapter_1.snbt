@@ -67,6 +67,22 @@
 			x: 9.0d
 			y: 2.5d
 		}
+		{
+			height: 2.6466666666666665d
+			image: "dying_light:textures/ui_images/brainsketch.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			height: 2.58d
+			image: "dying_light:textures/ui_images/notebooksketch.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 9.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -106,7 +122,7 @@
 			}]
 			title: "Awakening"
 			x: -4.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -135,7 +151,7 @@
 				type: "gamestage"
 			}]
 			title: "It Burns"
-			x: -4.5d
+			x: -5.0d
 			y: 6.5d
 		}
 		{
@@ -255,7 +271,7 @@
 				value: 100
 			}]
 			title: "Locational Damage"
-			x: -4.5d
+			x: -5.0d
 			y: 8.0d
 		}
 		{
@@ -289,8 +305,8 @@
 				}
 			]
 			title: "Healing Items"
-			x: -4.5d
-			y: 10.0d
+			x: -5.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1B394C3591A983C6"]
@@ -325,11 +341,18 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0AC26D0E563DF0EF"]
+			description: ["Better than &bWater Bottles&r is a &bCanteen&r, which you can fill with water and then purify. It holds &amultiple drinks of water&r and is reusable."]
 			id: "242E4F47A762D4FB"
+			rewards: [{
+				count: 2
+				id: "7CA406C8BD0C56E8"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18ECF8716F54E0EB"
 				item: "legendarysurvivaloverhaul:canteen"
@@ -434,7 +457,7 @@
 			}]
 			title: "Salting Your Food"
 			x: 0.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -542,7 +565,11 @@
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
-			description: ["boiling water to purity"]
+			description: [
+				"You can drink any water you find by &6right clicking with an empty hand&r, but not all water sources are clean enough to satisfy your thirst."
+				""
+				"It's recommended that you &bbottle&r or &bCanteen&r your water, then &asmelt it&r to purify."
+			]
 			id: "0AC26D0E563DF0EF"
 			rewards: [{
 				id: "060417F4A34A6DDD"
@@ -561,7 +588,7 @@
 				title: "Thirsty?"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -642,16 +669,12 @@
 				title: "The Watching Ones"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
-			description: [
-				"In a world shrouded by shadows, the simple act of &atending to life&r can bring peace to a troubled mind. Seek out &bflowers&r, symbols of beauty and tranquility, and &6pot them&r with care."
-				""
-				"Let your garden become a sanctuary, a place where your sanity can take root and flourish. With each flower you plant, you &areclaim a piece of yourself&r from the encroaching night."
-			]
+			description: ["&aGardening&r is a great way to help yourself feel better. Why not try &6potting some plants&r to &aregain sanity&r?"]
 			id: "357596FCEB3837DE"
 			rewards: [{
 				id: "28D746BE361B6108"
@@ -781,33 +804,64 @@
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"You can &aequip a &bSpyglass&r as a Curio! When attached, you can &6press Z to zoom&r."
+				""
+				"&dActually, due to a bug, you can just use it by pressing Z&r. No spyglass required."
+			]
 			id: "5F90C57572D6F1B1"
+			rewards: [{
+				id: "05E0C272C736B371"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4327D857C5E12429"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
+			title: "Spyglass Changes"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"A skill you'll definitely need is &bBrewing&r. Potions can provide you with &aresistance to the elements&r, including heat, cold, and &bThe Sun&r."
+				""
+				"You'll also need &bThick&r, &bMundane&r, and &bAwkward&r potions to develop your film."
+			]
 			id: "55811766CF3E4D38"
+			rewards: [
+				{
+					count: 2
+					id: "2C595AFE8880E072"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7390210E8A20FBDE"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
 			shape: "epstar"
 			tasks: [{
 				id: "31DFA8747AF0A28C"
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
+			title: "Learning to Brew"
 			x: 2.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["708CDBBF3DE6402A"]
 			description: [
-				"The loss of your companion weighs heavily on your heart, pulling your mind toward the abyss. But all is not lost - there is a way to &rrestore what has been taken&r."
+				"The loss of your companion is a horrible time. But all is not lost - there is a way to &ryour pet to life&r... of a sort."
 				""
-				"Venture into the &cNether&r, a realm where the boundaries between life and death are thin. Seek out a &bRespawn Anchor&r, a relic of ancient power. &6Fill it with &bGlowstone&r to charge its energy, then offer your pet’s &bCollar&r to the Anchor."
+				"Venture into the &cNether&r. Seek out a &bRespawn Anchor&r, a relic of ancient power. &6Fill it with &bGlowstone&r to charge its energy, then offer your pet’s &bCollar&r to the Anchor."
 				""
 				"With this ritual, the bond between you and your companion can be reforged, and they will return to your side. But beware - the magic is imperfect. To truly bring your companion back to life, you will need a &bWeakness Potion&r and &bGolden Apple&r."
 			]
@@ -903,6 +957,12 @@
 				"You can &aregain sanity by trading with villagers&r."
 			]
 			id: "7DAE9062575584B7"
+			rewards: [{
+				count: 3
+				id: "197FF5D00F0C4955"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:emerald"
 				id: "0B86AAAD8FCD9EBD"
@@ -917,6 +977,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["128C0831D93CC414"]
 			description: [
 				"Alongside your &bSanity&r, you also have &bInsight&r. You can gain insight into the world around you by doing the following:"
 				""
@@ -943,6 +1004,58 @@
 			}]
 			x: 10.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"If you &6hold shift while placing a book&r onto a &bLectern&r, you can browse it page by page!"
+				""
+				"To remove the book, &6shift left click with an empty hand&r."
+				"{image:dying_light:textures/quest_images/lectern_datapack.png width:300 height:350 align:center}"
+			]
+			id: "610DD45E02B6112C"
+			rewards: [{
+				id: "744ECF936126574C"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D12260A8F7373A7"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			title: "Lectern Changes"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"search food in jei"
+				""
+				"pay attention to numerical values listed, don't just go by the number of items (ie it's like mystic alchemy)"
+				""
+				"portable crock pot can make some recipes that basic can't (such as asparagazpacho)"
+			]
+			id: "434B44E6A1A72B01"
+			tasks: [{
+				id: "336C93FDCC383098"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["434B44E6A1A72B01"]
+			description: ["lures animals"]
+			id: "7D11B24C28EC52D3"
+			tasks: [{
+				id: "527382BEA75CDB60"
+				item: "crockpot:pow_cake"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
 		}
 	]
 	title: "Chapter 1"

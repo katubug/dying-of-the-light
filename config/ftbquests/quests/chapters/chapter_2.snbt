@@ -9,15 +9,6 @@
 	id: "4F626A36D04F7CA6"
 	images: [
 		{
-			height: 3.0d
-			image: "dying_light:textures/ui_images/village_header.png"
-			order: 1
-			rotation: 0.0d
-			width: 9.0d
-			x: -4.0d
-			y: -2.5d
-		}
-		{
 			height: 10.0d
 			image: "dying_light:textures/ui_images/page_bg7.png"
 			rotation: 0.0d
@@ -32,6 +23,14 @@
 			width: 10.0d
 			x: 4.5d
 			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "dying_light:textures/ui_images/handsketch.png"
+			rotation: 0.0d
+			width: 2.6666666666666665d
+			x: 5.5d
+			y: -4.0d
 		}
 	]
 	order_index: 3
@@ -179,12 +178,27 @@
 				to_observe: "graveyard:nameless_hanged"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
-			description: ["First things first, you'll want to &afind a &cDeep Frozen Ocean&r."]
+			description: [
+				"First things first, you'll want to &afind a &cDeep Frozen Ocean&r."
+				""
+				"Beware, for the &dwater is freezing cold&r! Take this scroll, it will allow you to &aswim for a time&r."
+			]
 			id: "5E5E7C12C295D7ED"
+			rewards: [{
+				id: "5C0E81B5E35F7A49"
+				item: {
+					Count: 1
+					id: "tombstone:scroll_of_frost_resistance"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				biome: "minecraft:deep_frozen_ocean"
 				icon: "minecraft:blue_ice"
@@ -204,6 +218,83 @@
 			}]
 			x: 3.5d
 			y: -2.5d
+		}
+		{
+			description: [
+				"Sometimes you'll find you need &bSouls&r to accomplish things. There are hundreds of them here, unmoored, lacking any form of identity, little more than an amorphous collection of energy."
+				""
+				"You can attract them by building &bDecorative Graves&r. Once these are placed, they will &adraw those energies in&r, for you to capture and harness. Don't feel bad about it - these aren't people any longer. By giving them a purpose, you allow them to move on."
+				""
+				"You may also find that these graves spawn a &eGrave Guardian&r, which is a creature (technically undead), which feels compelled to protect the sacredness of the graveyard. If one spawns, consider yourself lucky."
+			]
+			id: "6FA0C04049DA9E98"
+			tasks: [{
+				id: "279534D3034B9BFC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Make a Decorative Grave"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["If you put this in the stonecutter, you can get Mutagen, which lets you craft stuff from the Thaumon mod."]
+			id: "36DBDF14913F681D"
+			tasks: [{
+				id: "1DE03308E76C8173"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "66919E816F79F444"
+			tasks: [{
+				id: "046B41B65CE552C6"
+				item: "starmetal:star_metal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "4B6BB4CC7EF0165F"
+			tasks: [{
+				icon: "sculksickness:sculk_blossom"
+				id: "1C1D0FD87D3FA513"
+				title: "Get Sculk Sickness"
+				type: "custom"
+			}]
+			title: "Contract Sculk Illness"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "18B331087284BB4F"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "139B391DD98DD361"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "0B71388F1AD7E536"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "26F4F9D8A36745CF"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Chapter 2"

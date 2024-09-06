@@ -1,0 +1,17 @@
+{
+    "name": "Herobrine",
+    "icon": "endofherobrine:herobrine_head",
+    "category": "patchouli:stories",
+    "advancement": "dying_light:herobrine_story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(o)lorem ipsum"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tombstone:soul_receptacle",
+            "text": "$(7)Perhaps .$()"
+        }
+    ]
+}

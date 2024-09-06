@@ -1,0 +1,49 @@
+{
+    "name": "Captain Cornelia",
+    "icon": "aquamirae:three_bolt_helmet",
+    "category": "patchouli:stories",
+    "advancement": "dying_light:cornelia_story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(o)Cornelia had loved the sea since childhood. Little wonder, then, that she followed in her father's footsteps and became a ship's captain. She may not always have been on the right side of the law, but she was fair and just, and treated her crew with respect."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The crown did not care about her virtues. She was caught, betrayed by her own bosun, and sentenced to execution - except she was offered a chance at redemption. If she would take her men to the far north, to seek out the Ice Rune, she would be spared."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)And so she went to where the wind steals your breath and replaces it with icy daggers. And soon she understood that she had not been spared at all - this expedition was just as like a death sentence."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The cold claimed first the ship, then many of the crew. Supplies dwindled, frost seeped in like seawater in a sinking ship. Hope died like an ember in the ice.$(br2)Only desperation kept the Captain going."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)'The Rune! - she thought. 'Perhaps it has the power to save us.' After all, if it was so desired, it must be very strong. Could it force this godforsaken chill out of her bones?$(br2)She took the crew's diving suit and left for the sea bed."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)She sensed she was close - she felt almost called to it. To the bottom of the sea, buried beneath the remains of untold dead things and sand.$(br2)She ought to have listened to the warning in her heart, but she did not. She began digging."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)Looking out through her helmet's glass visor, she watched her gloved hands delve into the ocean's bed for the final time, and pulled forth the rune.$(br2)For a moment, all was quiet. And then she screamed."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The Rune sent icy tendrils through her veins, claiming every part of her, tearing and corrupting as it went. Long tentacles sprouted forth from the skin beneath her helmet.$(br2)In moments, gone was the little girl who had so loved the sea."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. The Rune consumed her entirely, leaving behind nothing but vestiges."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "aquamirae:rune_of_the_storm",
+            "text": "$(7)Could you return the rune to its rightful resting place, freeing Cornelia?$()"
+        }
+    ]
+}

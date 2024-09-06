@@ -61,6 +61,7 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["It's also important to &aupgrade your &bFishing Line&r, which "]
 			id: "16538E097DFE166F"
 			tasks: [{
 				id: "33B5D3BF0897C4FF"
@@ -71,6 +72,7 @@
 						"ftbfiltersystem:filter": "or(item(tide:fishing_line)item(tide:braided_line)item(tide:reinforced_line)item(tide:fortune_line))"
 					}
 				}
+				title: "Any Fishing Line"
 				type: "item"
 			}]
 			title: "Upgrade Your Line"
@@ -79,7 +81,13 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["If you'd like a chance at a &abetter catch&r, you can attach a &bHook&r to your rod. Different hooks have &adifferent effects&r, hover over each to find out more."]
 			id: "7B15A049B94A97F5"
+			rewards: [{
+				id: "76C933E3E09B032E"
+				item: "fishofthieves:earthworms"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6892CCF2742779AD"
 				item: {
@@ -89,6 +97,7 @@
 						"ftbfiltersystem:filter": "or(item(tide:fishing_hook)item(tide:iron_fishing_hook)item(tide:lavaproof_fishing_hook))"
 					}
 				}
+				title: "Any Fishing Hook"
 				type: "item"
 			}]
 			title: "Upgrade Your Hook"

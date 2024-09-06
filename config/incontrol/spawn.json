@@ -13,7 +13,7 @@
     },
     {
         "mob":"graveyard:nameless_hanged",
-        "gamestage":"nh_resolved",
+        "gamestage":"nameless_resolved",
         "result": "deny",
         "continue": true
     },
@@ -52,5 +52,108 @@
         "mincount": 1,
         "result": "deny",
         "continue": true
+    },
+    {
+        "mob":"endofherobrine:armor_stand",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:armor_stand",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:lurker",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:builder",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:herobrine",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:cow",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:chicken",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:husk",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:pig",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:pigman",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:rabbit",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:sheep",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:silverfish",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:skeleton",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:stray",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:villager",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"endofherobrine:zombie_villager",
+        "gamestage": "herobrine_resolved",
+        "result": "deny",
+        "continue": true
     }
 ]
+

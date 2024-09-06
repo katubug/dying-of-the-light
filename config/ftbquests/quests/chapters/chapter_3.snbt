@@ -422,6 +422,11 @@
 				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
 			]
 			id: "5A318BB8FF1D1CB2"
+			rewards: [{
+				id: "4BBDB83A531554E9"
+				title: "Gain Insight"
+				type: "custom"
+			}]
 			tasks: [
 				{
 					block: "minecraft:lectern"
@@ -465,6 +470,7 @@
 		}
 		{
 			dependencies: ["5A318BB8FF1D1CB2"]
+			description: ["It may take a little time, but &6observe the book&r and eventually, the translation will come to you. You can do this."]
 			id: "6BE79CC7B3D03F77"
 			progression_mode: "linear"
 			rewards: [
@@ -477,7 +483,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/advancement grant @p only dying_light:dweller_story"
+					command: "/advancement grant @s only dying_light:dweller_story"
 					elevate_perms: true
 					id: "421CA801BDF365E5"
 					silent: true
@@ -621,7 +627,7 @@
 			id: "0876A6B6494AE2CA"
 			progression_mode: "linear"
 			rewards: [{
-				id: "76B36B3FD986392A"
+				id: "3DC6DA16E532352F"
 				item: {
 					Count: 1
 					id: "minecraft:written_book"
@@ -637,7 +643,7 @@
 							"{\"text\":\"She sensed she was close - she felt almost called to it. To the bottom of the sea, buried beneath the remains of untold dead things and sand.\\n\\nShe ought to have listened to the warning in her heart, but she did not. She began digging.\"}"
 							"{\"text\":\"Looking out through her helmet's glass visor, she watched her gloved hands delve into the ocean's bed for the final time, and pulled forth the rune.\\n\\nFor a moment, all was quiet. And then she screamed.\"}"
 							"{\"text\":\"The Rune sent icy tendrils through her veins, claiming every part of her, tearing and corrupting as it went. Long tentacles sprouted forth from the skin beneath her helmet.\\n\\nIn moments, gone was the little girl who had so loved the sea.\"}"
-							"{\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. A malevolent being who would hunt any who sought to take the Rune from her.\"}"
+							"{\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. The Rune consumed her entirely, leaving behind nothing but vestiges.\"}"
 						]
 						title: "Captain Cornelia"
 					}
@@ -691,6 +697,7 @@
 		}
 		{
 			dependencies: ["6BE79CC7B3D03F77"]
+			description: ["A &eZombie&r dropped this strange toy... could it be related to the &eCave Dweller&r?"]
 			id: "25F63F9940D7563C"
 			tasks: [{
 				id: "21E43E427C0495E5"
@@ -702,6 +709,7 @@
 		}
 		{
 			dependencies: ["25F63F9940D7563C"]
+			description: ["Deliver the &bWorn Teddy&r to the &eCave Dweller&r to help him move on."]
 			id: "4E1E94854D89D78C"
 			rewards: [{
 				auto: "invisible"
@@ -813,6 +821,13 @@
 		{
 			dependencies: ["05F023CB8156D1C9"]
 			id: "60EB099B66664AB0"
+			rewards: [{
+				auto: "invisible"
+				id: "00B927CA09ACC889"
+				ignore_reward_blocking: true
+				stage: "nameless_resolved"
+				type: "gamestage"
+			}]
 			tasks: [{
 				id: "74A1E604A452A534"
 				title: "Give Him a Name"
@@ -1011,7 +1026,7 @@
 								"{\"font\":\"runelic:runelic\",\"text\":\"She sensed she was close - she felt almost called to it. To the bottom of the sea, buried beneath the remains of untold dead things and sand.\\n\\nShe ought to have listened to the warning in her heart, but she did not. She began digging.\"}"
 								"{\"font\":\"runelic:runelic\",\"text\":\"Looking out through her helmet's glass visor, she watched her gloved hands delve into the ocean's bed for the final time, and pulled forth the rune.\\n\\nFor a moment, all was quiet. And then she screamed.\"}"
 								"{\"font\":\"runelic:runelic\",\"text\":\"The Rune sent icy tendrils through her veins, claiming every part of her, tearing and corrupting as it went. Long tentacles sprouted forth from the skin beneath her helmet.\\n\\nIn moments, gone was the little girl who had so loved the sea.\"}"
-								"{\"font\":\"runelic:runelic\",\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. A malevolent being who would hunt any who sought to take the Rune from her.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. The Rune consumed her entirely, leaving behind nothing but vestiges.\"}"
 							]
 							title: "Captain Cornelia"
 						}
@@ -1032,7 +1047,7 @@
 			dependencies: ["1F8AEA41053112D0"]
 			id: "33E3B5595E078DB8"
 			tasks: [{
-				id: "59B0E3628F3E6622"
+				id: "1BD815EC4931355F"
 				item: {
 					Count: 1
 					id: "minecraft:written_book"
@@ -1051,7 +1066,7 @@
 							"{\"font\":\"runelic:runelic\",\"text\":\"She sensed she was close - she felt almost called to it. To the bottom of the sea, buried beneath the remains of untold dead things and sand.\\n\\nShe ought to have listened to the warning in her heart, but she did not. She began digging.\"}"
 							"{\"font\":\"runelic:runelic\",\"text\":\"Looking out through her helmet's glass visor, she watched her gloved hands delve into the ocean's bed for the final time, and pulled forth the rune.\\n\\nFor a moment, all was quiet. And then she screamed.\"}"
 							"{\"font\":\"runelic:runelic\",\"text\":\"The Rune sent icy tendrils through her veins, claiming every part of her, tearing and corrupting as it went. Long tentacles sprouted forth from the skin beneath her helmet.\\n\\nIn moments, gone was the little girl who had so loved the sea.\"}"
-							"{\"font\":\"runelic:runelic\",\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. A malevolent being who would hunt any who sought to take the Rune from her.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"In her place was a shadow, a monster, whose stopped heart would never again feel the joy of the sea. The Rune consumed her entirely, leaving behind nothing but vestiges.\"}"
 						]
 						title: "Captain Cornelia"
 					}
@@ -1166,6 +1181,71 @@
 			}]
 			x: -2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0514046B7A7658F3"]
+			id: "0C456408BC2FA85E"
+			tasks: [{
+				id: "10060AA17B9ACF94"
+				item: {
+					Count: 1
+					id: "tombstone:scroll_of_purification"
+					tag: {
+						ancient: 1b
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C456408BC2FA85E"]
+			id: "42FCF194A16D7C61"
+			rewards: [{
+				auto: "invisible"
+				id: "6C7C9A2DDCA1ED8B"
+				ignore_reward_blocking: true
+				stage: "mother_resolved"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "44EDF70AA4AEB3E0"
+				title: "Purify Her"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29F7E947E2EDA699"]
+			id: "55CF9C7DF241EB18"
+			tasks: [{
+				id: "2CE7D5CF7359555F"
+				item: "tombstone:soul_receptacle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55CF9C7DF241EB18"]
+			id: "6362E71906F370EC"
+			rewards: [{
+				auto: "invisible"
+				id: "3417567B63178E0D"
+				ignore_reward_blocking: true
+				stage: "herobrine_resolved"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "15D9F62B048663D5"
+				title: "Give Him a Soul"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 5.0d
 		}
 	]
 	title: "Chapter 3"

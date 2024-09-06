@@ -61,6 +61,12 @@ FTBQuestsEvents.customReward('3BFEA5393CFB2BF5', event =>{
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
 
+//"Prepare Study" Cave Dweller
+FTBQuestsEvents.customReward('4BBDB83A531554E9', event =>{
+    event.player.persistentData.insightCount+=1
+    console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
+})
+
 
 //Shop Scripts   
 

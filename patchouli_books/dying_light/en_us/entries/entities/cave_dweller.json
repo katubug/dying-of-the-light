@@ -2,17 +2,20 @@
     "name": "Cave Dweller",
     "icon": "thaumon:eldritch_lantern",
     "category": "patchouli:entities",
-    "advancement": "dying_light:meet_dweller",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This beast"
+            "text": "You can encounter the $(#5454fc)Cave Dweller$() in the depths of the overworld. He is hostile due to madness, but easily outrun.$(br2)If you $(#00a800)flee$(), he will eventually leave you be. I recommend this course of action, unless you intend to $(6)study him$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(br2)He is $(#00a800)afraid of the $(#00a8a8)Camera Obscura$(), as it can $(#00a800)harm him when used$(). Hide behind it to stay safe while you observe him.$(br2)Once you have $(#00a800)thoroughly assessed$() him, perhaps you can find out why he is here."
         },
         {
             "type": "patchouli:entity",
-            "text": "this guy's story is real sad :(",
+            "text": "Whoever he was, he is lost to madness.",
             "entity": "cave_dweller:cave_dweller",
-            "name": "a lost soul"
+            "name": "Cave Dweller"
         }
     ]
 }

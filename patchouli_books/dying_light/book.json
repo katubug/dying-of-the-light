@@ -1,6 +1,6 @@
 {
     "name": "Old Journal",
-    "landing_text": "A grimoire, of sorts, I guess. In which all my knowledge is written, for you to use.",
+    "landing_text": "A grimoire, of sorts, I guess. In which all my knowledge is written, to be used by whoever finds their way to it.$(br2)May it help you heal this place, and yourself.",
     "version": 0,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": true,
@@ -16,5 +16,6 @@
     "use_blocky_font": true,
     "text_overflow_mode": "resize",
     "index_icon": "minecraft:lectern",
-    "show_progress": false
+    "show_progress": false,
+    "filler_texture": "dying_light:textures/ui_images/brainsketch.png"
 }

@@ -38,7 +38,22 @@
 	quests: [
 		{
 			dependencies: ["2A2CAE3F8A8D5B06"]
+			description: [
+				"You did it! You &acured a &eVillager&r! That's incredible."
+				""
+				"I want you to do something as a favor to me. I want you to &acure as many zombie villagers as you can&r. I would do it myself, if I still existed in the way you do."
+				""
+				"Why? Oh, it's a long and sad story. Maybe I'll tell you someday."
+			]
 			id: "3C7F896A612AB817"
+			rewards: [{
+				command: "/tbalignment @s increase 10"
+				elevate_perms: true
+				id: "2F9ABE7E53F358D6"
+				silent: true
+				title: "Gain 10 Positive Alignment"
+				type: "command"
+			}]
 			shape: "spstar"
 			size: 2.0d
 			tasks: [{
@@ -52,7 +67,21 @@
 		}
 		{
 			dependencies: ["3C7F896A612AB817"]
+			description: [
+				"Wow, you really did it. In a world of tragedy, you're a hero. Thank you for helping all these people."
+				""
+				"You see, they were cursed because of me. This whole realm was. I broke the rules, and I brought this nightmare into being. &aYou're my hope of fixing things&r."
+			]
 			id: "2D18F2CD7E7075D4"
+			rewards: [{
+				auto: "disabled"
+				command: "/tbalignment @s increase 1000"
+				elevate_perms: true
+				id: "7DA499DA27D0EDA4"
+				silent: true
+				title: "Gain 1000 Positive Alignment"
+				type: "command"
+			}]
 			tasks: [{
 				checkItem: true
 				entity: "minecraft:zombie_villager"
@@ -228,6 +257,11 @@
 				"You may also find that these graves spawn a &eGrave Guardian&r, which is a creature (technically undead), which feels compelled to protect the sacredness of the graveyard. If one spawns, consider yourself lucky."
 			]
 			id: "6FA0C04049DA9E98"
+			rewards: [{
+				id: "7FE87DFBBC4F8B9B"
+				item: "tombstone:soul_receptacle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "279534D3034B9BFC"
 				item: {
@@ -240,19 +274,29 @@
 				type: "item"
 			}]
 			title: "Make a Decorative Grave"
-			x: -3.0d
-			y: 0.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
-			description: ["If you put this in the stonecutter, you can get Mutagen, which lets you craft stuff from the Thaumon mod."]
+			description: [
+				"&bAmethyst&r has interesting properties. One of its aspects is &achaos&r, which is why it's not surprising that you can &agrind it into powder&r to transform things."
+				""
+				"If you put this in the &bStonecutter&r, you can get &bMutagen&r, which lets you craft stuff from the &lThaumon&r mod."
+			]
 			id: "36DBDF14913F681D"
+			rewards: [{
+				id: "4554C3FA27530492"
+				item: "thaumon:mutagen"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DE03308E76C8173"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			title: "A Useful Gem"
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			id: "66919E816F79F444"

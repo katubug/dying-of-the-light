@@ -1,0 +1,37 @@
+{
+    "name": "Sneaking Terror",
+    "icon": "minecraft:nether_wart",
+    "category": "patchouli:stories",
+    "advancement": "dying_light:benjamin_story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(o)Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.$(br2)And it hardly mattered what they wanted, because they would die before Benjamin had turned six years old."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He spent his childhood trundled from one place to another, as adults could find a place for him. Yet nowhere ever felt like home. He felt an emptiness, a yawning void in his chest, but never knew why. After all, this was all he'd known."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)When he was nearly ten, he fell and injured his knee. It was not an unusual injury for a boy his age, and it wasn't particularly severe, but it hurt, and no one cared. No one even noticed. And that day, something within Benjamin died."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. Benjamin was gray, he was nothing. He felt nothing."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)And then one day, quite without circumstance, he died. Without ever having a friend, without ever knowing what it was like to be embraced.$(br2)An entire life lived alone - and when he was gone, there was no one to cry for him."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)Benjamin was gray.$(br2)He was nothing.$(br2)He felt nothing."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:dirt",
+            "text": "$(7)Perhaps .$()"
+        }
+    ]
+}

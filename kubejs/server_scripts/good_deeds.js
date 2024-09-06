@@ -1,5 +1,5 @@
-/*
-//Feeding Pets gives positive alignment and sanity
+
+//Feeding Cats gives positive alignment
 ItemEvents.entityInteracted( (event) => {
     const { 
         player, 
@@ -7,17 +7,52 @@ ItemEvents.entityInteracted( (event) => {
         item, 
         target
     } = event;
-    let playerAlignment = player.nbt.ForgeCaps['tombstone:cap_tombstone']['alignment']
-    let displayNbt = player.nbt
 
     if (target.type != 'minecraft:cat' ) return
     if (item.hasTag('forge:cat_food')){
         player.swing(hand, true);
-        let newAlignment = playerAlignment+2
-        displayNbt.put('tombstone:cap_tombstone', {alignment:[NBT.f(newAlignment)]})
-        player.setNbt(displayNbt)
-        //player.mergeNbt({ForgeCaps:{'tombstone:cap_tombstone':{'alignment':newAlignment}}})
-        console.log(playerAlignment)
+        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
         }
     });
-    */
+
+//Feeding Parrots gives positive alignment
+ItemEvents.entityInteracted( (event) => {
+    const { 
+        player, 
+        hand, 
+        item, 
+        target
+    } = event;
+
+    if (target.type != 'minecraft:parrot' ) return
+    if (item.hasTag('forge:seeds')){
+        player.swing(hand, true);
+        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+        }
+    });
+
+//Feeding Dogs gives positive alignment
+ItemEvents.entityInteracted( (event) => {
+    const { 
+        player, 
+        hand, 
+        item, 
+        target
+    } = event;
+
+    if (target.type != 'minecraft:wolf' ) return
+    if (item.hasTag('forge:dog_food')){
+        player.swing(hand, true);
+        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+        }
+    });
+    
+//Bone Mealing Crops
+BlockEvents.rightClicked( event => {
+    const { item, level, player, target, block } = event 
+    const { x, y, z } = player
+    if (!block.hasTag('minecraft:crops')) return
+    if (item.getId() == 'minecraft:bone_meal') {
+        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+    }
+})

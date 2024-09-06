@@ -23,7 +23,7 @@ dark_theme = false
 texture_darkness = 0.5
 #The minimum brightness value of font while dark mode is enabled.
 #Range: 0.0 ~ 1.0
-font_brightness = 0.75
+font_brightness = 0.4788732394366197
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
 darkening_algorithm = "GRAYSCALE_AND_HSP"

@@ -10,7 +10,7 @@
         {
             "type": "patchouli:spotlight",
             "item":  "salt:salt",
-            "text": "If you salt your food, you can slow its rotting. You do this by crafting the food and salt together.$(br2)It is highly recommended to salt your food immediately! If it begins to spoil, $(d)the salt may have no effect$()."
+            "text": "If you salt your food, you can slow its rotting. You do this by crafting the food and salt together.$(br2)It is highly recommended to salt your food immediately, before it begins to spoil."
         },
         {
             "type": "patchouli:spotlight",

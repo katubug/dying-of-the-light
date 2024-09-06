@@ -1,0 +1,41 @@
+{
+    "name": "Maze Mother",
+    "icon": "aquamirae:abyssal_amethyst",
+    "category": "patchouli:stories",
+    "advancement": "dying_light:mother_story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(o)In the depths of the frozen ocean are ancient beings. Cetaceans, Mylobatiae, and creatures too old to be named.$(br2)One of them, once, was the Mother. She was so called for her gentle shepherding of the sea life."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)She once upon a time would glide silently through the dark waters, as if in flight. A fitting thought, for her wide fins looked very much like wings.$(br2)She ruled the ocean, a peaceful, loving being. But all good things must come to an end."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)For humans had arrived in that isolated place. Bearing the stink of dead whales and rotting fish, they bore down upon the frozen ocean and were soon consumed by the ice. The Mother did not know of man, and so maintained her distance."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)But her solitude would soon be broken, as one of their ilk descended into the depths. The being had a round, metal head and a vicious spear. It drew up from the depths an item which the Mother did not understand, but which burned into her mind once unearthed."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)It was poison, fell magic seeping from its shell. Powerful, indeed, but with a corruption that no living thing could resist.$(br2)The metal being seemed similarly affected, for it warped and mutated, growing tentacles and writhing in apparent agony."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The item, glowing with malice, reached out to the Mother and drew her in, as well. Her sleek black visage became studded with glowing crystals, and her eyes turned dead and sallow. Her behavior was matronly no more: now she was hungry. Desperately so."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)In the end, the gentle manta which once watched over the isolated waters became a hollow force; haunting the sound, devouring all in her path."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tombstone:scroll_of_purification",
+            "text": "$(7)I wonder if it's possible to purify the corrupted soul of this being?$()"
+        }
+    ]
+}

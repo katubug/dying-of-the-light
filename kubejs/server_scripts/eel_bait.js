@@ -1,4 +1,4 @@
-BlockEvents.rightClicked('block.right_click', event => {
+BlockEvents.rightClicked( event => {
     const { item, level, player, target } = event 
     const { x, y, z } = player
     if (item.getId() == 'kubejs:eel_bait') {

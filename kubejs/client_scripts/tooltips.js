@@ -11,6 +11,10 @@ ItemEvents.tooltip(event => {
         'Right click while holding to find the current moon phase.'
     )
 
+    event.add('void_tome:void_tome',
+        'This book makes you feel uneasy. Your sanity drains while you hold it in your hand.'
+    )
+
     //Drink Tooltips
     event.add([
         'abyssal_decor:cinnamon_tea',

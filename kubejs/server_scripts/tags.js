@@ -440,7 +440,15 @@ ServerEvents.tags('item', event => {
 
     event.add(
         'forge:sanity_drain_item',
-        'void_tome:void_tome'
+        'void_tome:void_tome',
+        'aquamirae:terrible_sword',
+        'aquamirae:fin_cutter',
+        'aquamirae:divider',
+        'aquamirae:whisper_of_the_abyss',
+        'aquamirae:remnants_saber',
+        'aquamirae:poisoned_blade',
+        'aquamirae:coral_lance',
+        'aquamirae:dagger_of_greed'
     )
 
     event.add(

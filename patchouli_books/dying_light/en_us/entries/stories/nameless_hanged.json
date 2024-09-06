@@ -6,12 +6,32 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(o)lorem ipsum"
+            "text": "$(o)It was a cold and wicked winter when the stranger arrived. He was blind, dressed in tattered monk robes, and was peddling wares from all corners of the land. Buying and selling was his trade, and he never stayed in one place for very long."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)No one knew why he wandered, or where he'd come from. Most didn't ask, but those that did were met with a smile and a shrug.$(br2)What was oddest about him, though, was that it seemed, for all intents and purposes, as if he had preternatural sight."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He walked without a cane, and easily appraised items he was presented. The children would often try to test him by holding up fingers, but he guessed unerringly, every time. So perhaps it was inevitable that mistrust would one day get the better of him."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The night that he arrived in the village, there was a cruel blizzard. It tore through, freezing livestock and anyone unfortunate enough to venture out. By morning, the bodies were stiff as ice. But not the stranger."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He was not only alright, but he was smiling. Perhaps that's why they killed him. The people hounded him down and slipped a noose around his neck.$(br2)With his last breath, he tried to choke out a plea, but to no avail."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)His body was left hanging from the old oak for the rest of the winter, but it never seemed to freeze.$(br2)In the end, no one remembered what he was called. And now, his name is lost forever, even to himself."
         },
         {
             "type": "patchouli:spotlight",
             "item": "minecraft:name_tag",
-            "text": "$(7)Perhaps .$()"
+            "text": "$(7)I think you know what you have to do.$()"
         }
     ]
 }

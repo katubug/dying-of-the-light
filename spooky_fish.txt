@@ -1,0 +1,13 @@
+Leechtooth Tuna:
+give @a tide:tuna{display:{Name:'["",{"text":"Leechtooth Tuna","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Gaping wounds in the fish’s mouth","italic":false}]','["",{"text":"reveal long, writhing leeches","italic":false}]','["",{"text":"where its teeth should be.","italic":false}]','["",{"text":"They latch onto prey for","italic":false}]','["",{"text":"sustenance, leaving the tuna as","italic":false}]','["",{"text":"merely a vessel for their hunger.","italic":false}]']},Enchantments:[{}]}
+
+
+Twinscale Bass:
+give @a tide:bass{display:{Name:'["",{"text":"Twinscale Bass","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Two heads, fused at the spine,","italic":false}]','["",{"text":"struggle for control. One side is","italic":false}]','["",{"text":"vibrant and alive, the other,","italic":false}]','["",{"text":"rotting and festering—both eyes","italic":false}]','["",{"text":"seeing, neither agreeing.","italic":false}]']},Enchantments:[{}]}
+
+Blistered Mackerel:
+give @a tide:magma_mackerel{display:{Name:'["",{"text":"Blistered Mackerel","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Bulging blisters coat its scales,","italic":false}]','["",{"text":"each filled with a swirling, dark","italic":false}]','["",{"text":"liquid. Puncture one, and the fish","italic":false}]','["",{"text":"leaks a thick, tar-like substance","italic":false}]','["",{"text":"that moves of its own accord.","italic":false}]']},Enchantments:[{}]}
+
+
+Veilfin Angler:
+give @a tide:abyss_angler{display:{Name:'["",{"text":"Veilfin Angler","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Its translucent skin reveals","italic":false}]','["",{"text":"twitching veins beneath,","italic":false}]','["",{"text":"pulsing with an eerie light.","italic":false}]','["",{"text":"A single oversized fin drapes","italic":false}]','["",{"text":"like a torn veil, its lure","italic":false}]','["",{"text":"swaying, drawing in more than","italic":false}]','["",{"text":"prey.","italic":false}]']},Enchantments:[{}]}

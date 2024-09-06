@@ -43,13 +43,7 @@ FTBQuestsEvents.customReward('3A87EC0F8B883A7F', event =>{
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
 
-//Study Rotting Stalker
-FTBQuestsEvents.customReward('613151BD44B1508D', event =>{
-    event.player.persistentData.insightCount+=1
-    console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
-})
-
-//Study Sneaking Terror
+//Study HideBehind
 FTBQuestsEvents.customReward('53161CF8D76544C4', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)

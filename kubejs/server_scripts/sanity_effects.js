@@ -82,6 +82,10 @@ PlayerEvents.tick(event => {
     if (player.persistentData.insightCount >=150){
         server.runCommandSilent(`sanity add ${event.player.name.string} -1`)
     }
+    //Sanity passively drains while holding Void Tome.
+    if (player.mainHandItem.id == 'void_tome:void_tome'){
+        server.runCommandSilent(`sanity add ${event.player.name.string} -2`)
+    }
 })
 
 

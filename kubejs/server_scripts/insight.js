@@ -21,7 +21,6 @@ PlayerEvents.tick(event => {
     if (player.persistentData.insightCount >=100 && !player.stages.has('translation')) {
         player.stages.add('translation')
     }
-    
 })
 
 
@@ -31,7 +30,7 @@ EntityEvents.death(event => {
     if (player.persistentData.insightCount > 0) {
     player.persistentData.insightCount--
     console.log(`Player ${event.player.name.string} lost insight when dying. Insight is now `+player.persistentData.insightCount+"."
-    )
+        )
     }
 })
 

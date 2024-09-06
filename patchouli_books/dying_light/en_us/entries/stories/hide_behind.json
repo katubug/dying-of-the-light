@@ -1,8 +1,8 @@
 {
-    "name": "Sneaking Terror",
+    "name": "The Hide-Behind",
     "icon": "minecraft:nether_wart",
     "category": "patchouli:stories",
-    "advancement": "dying_light:benjamin_story",
+    "advancement": "dying_light:hidebehind_story",
     "pages": [
         {
             "type": "patchouli:text",

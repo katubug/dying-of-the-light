@@ -6,12 +6,36 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(o)lorem ipsum"
+            "text": "$(o)Legends say that Herobrine was once a man named Steve, but this is not quite so.$(br2)The being you call Herobrine is not of this realm at all, but instead hails from a distant plane, cold and lifeless, and always dark. A plane of dust and nothingness."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He is not a true creature, but one of diaphanous thought. No brain, no heart, no soul. A hollow, pale existence.$(br2)He was drawn to this realm by the sunshine, leaking in through a crack in reality. He passed through, and was enraptured."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)There he met a human - perhaps one named Steve - and became obsessed with his vigor.$(br2)Herobrine tried to mimic his appearance, but it brought him no revelations. Still, he lingers, copying Steve's actions like an echo."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He wishes to be alive the way we are. To feel the heat of blood pulsing through your veins; to enjoy the taste of fresh, wholesome food; to succumb to the gentleness of an embrace."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)The stark oblivion of his home is so far removed from our vibrant lush world, that he simply cannot comprehend our experience. He fundamentally lacks the tools we use to interpret our lives."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He tries to get a semblance of life by possessing villagers, creatures, even monsters. In those bodies, he can pretend he feels the brilliant sunshine or the comforting rain."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(o)He cannot truly feel, and his inability drives him mad. The lack of soulfulness permeates him in every cell of his borrowed body. What he desires the most, he can never have.$(br2)So he haunts this world, appearing in the form of a man in blue."
         },
         {
             "type": "patchouli:spotlight",
             "item": "tombstone:soul_receptacle",
-            "text": "$(7)Perhaps .$()"
+            "text": "$(7)The thing he lacks is a soul...$()"
         }
     ]
 }

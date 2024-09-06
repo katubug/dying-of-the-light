@@ -92,7 +92,7 @@ FTBQuestsEvents.customReward('0DF32BFB6729D13D', event =>{
 
 //Food
 FTBQuestsEvents.customReward('244EAB198E5E059E', event =>{
-    event.player.persistentData.insightCount-=10
+    event.player.persistentData.insightCount-=6
     console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 

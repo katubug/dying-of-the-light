@@ -1,0 +1,23 @@
+{
+	id: "4D5F1E09BFDFA623"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "tide:reinforced_line" }
+		{ item: "tide:iron_fishing_hook" }
+		{ item: "minecraft:iron_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+	]
+	title: "Fishing Upgrades"
+}

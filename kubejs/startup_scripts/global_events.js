@@ -3,6 +3,33 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingChangeTargetEv
     global.changetarget(event)
 })
 
+ForgeEvents.onEvent("net.minecraftforge.event.entity.player.ItemFishedEvent", (event) => {
+    global.fishing(event)
+})
+
+global.fishing = event => {
+    let player = event.entity;
+    let world = player.getLevel();  // get the world the player is in
+    let server = world.getServer(); // get the server from the world
+    let drop = event.getDrops()[0];
+
+    /*
+    player.tell(`You caught ${drop.id}`);
+    
+    if (drop.nbt) {
+        console.log(drop.nbt.Tags); // Safely log the NBT data if it exists
+    } else {
+        console.log("No NBT data found for the dropped item.");
+    }
+    */
+
+    if (drop.nbt && drop.nbt.Tags == 'aberrant_fish') {
+        server.runCommandSilent(`playsound kubejs:spooky_fish neutral ${player.getName().getString()} ~ ~ ~ 50 1 1`);
+        player.persistentData.insightCount++
+    }
+}
+
+
 /**
  * 
  * @param {Internal.LivingChangeTargetEvent} event 

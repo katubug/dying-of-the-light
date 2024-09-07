@@ -1,0 +1,7 @@
+{
+  "spooky_fish": {
+      "category": "neutral",
+      "subtitle": "You catch something unnatural",
+      "sounds": ["kubejs:spooky_fish"]
+  }
+}

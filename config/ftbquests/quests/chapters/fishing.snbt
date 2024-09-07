@@ -749,6 +749,66 @@
 			x: -4.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["7FFE132D465B3198"]
+			description: [
+				"If you're interested, I will trade you &bEmeralds&r for those &bAberrant Fish&r you've been catching."
+				""
+				"Just turn them in here and &aclaim your reward&r."
+			]
+			id: "1CF64B2D0B102B72"
+			rewards: [{
+				count: 2
+				id: "0DEC2BAF8CCC2B00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				icon: "tide:sailfish"
+				id: "7EF6D3B0374754C5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(nbt(fuzzy:{Tags:\"aberrant_fish\"}))"
+					}
+				}
+				title: "Any Aberrant Fish"
+				type: "item"
+			}]
+			title: "Sell Aberrant Fish"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["Something about this place has been &awarping the fish&r into bizarre and unnerving creatures called &bAberrations&r. You can catch them anywhere you could catch a normal fish, but they're &amore uncommon&r."]
+			id: "7FFE132D465B3198"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E26A751915AB508"
+				table_id: 5575207890930607651L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: "minecraft:cod"
+				id: "0CA906E9FF882A9E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(nbt(fuzzy:{Tags:\"aberrant_fish\"}))"
+					}
+				}
+				title: "Catch an Aberrant Fish"
+				type: "item"
+			}]
+			title: "Catch an Aberrant Fish"
+			x: -0.5d
+			y: -3.5d
+		}
 	]
 	title: "Fishing"
 }

@@ -19,6 +19,8 @@ StartupEvents.registry('item', event => {
     event.create('captain_cornelia_note').displayName("Note from Cornelia")
     event.create('herobrine_note').displayName("Note from a Lonely Being")
     event.create('nameless_hanged_note').displayName("Note from a Nameless Man")
+    event.create('lunatics_tome').displayName("Lunatic's Tome")
+    event.create('great_ones_tome').displayName("Great One's Tome")
 
 
   })

@@ -15,6 +15,14 @@ ItemEvents.tooltip(event => {
         'This book makes you feel uneasy. Your sanity drains while you hold it in your hand.'
     )
 
+    event.add('kubejs:lunatics_tome',
+        'Right click to gain a small amount of Insight.'
+    )
+
+    event.add('kubejs:great_ones_tome',
+        'Right click to gain a large amount of Insight.'
+    )
+
     //Drink Tooltips
     event.add([
         'abyssal_decor:cinnamon_tea',

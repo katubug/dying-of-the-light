@@ -38,7 +38,7 @@ PlayerEvents.tick(event => {
         }
         //and hide the eye
         event.player.paint({insight_eye: {color: '#25544A', visible:false}})
-        console.log("Player has low insight, eye should be hidden.")
+        //console.log("Player has low insight, eye should be hidden.")
     }
     //If player has 11+ insight...
     //if player has the low insight stage, remove it
@@ -48,7 +48,7 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {color: '#56B098', visible:true}})
-        console.log("Player has low insight, but eye should be visible.")
+        //console.log("Player has low insight, but eye should be visible.")
     }
     //20 Insight/Insight Shop
     //If player has 20+ Insight and does not have the insight_shop stage, add it
@@ -58,12 +58,12 @@ PlayerEvents.tick(event => {
         }
         //and display the eye
         event.player.paint({insight_eye: {color: '#84F1F9', visible:true}})
-        console.log("player has 20+ insight")
+        //console.log("player has 20+ insight")
     }
     //If player drops below 20 Insight, remove Insightful stage from them
     if (player.persistentData.insightCount <20 && player.stages.has('insight_shop')) {
             player.stages.remove('insight_shop')
-            console.log("player has 20- insight")        
+            //console.log("player has 20- insight")        
     }
     //50 Insight/Insightful
     //If player has 50+ Insight and does not have the insightful stage, add it
@@ -73,12 +73,12 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {color: '#E0A16E', visible:true}})
-        console.log("player has 50+ insight")
+        //console.log("player has 50+ insight")
     }
     //If player drops below 50 Insight, remove Insightful stage from them
     if (player.persistentData.insightCount <50 && player.stages.has('insightful')) {
         player.stages.remove('insightful')
-        console.log("player has 50- insight")
+        //console.log("player has 50- insight")
     }
     //100 Insight/Translation
     //If player has 100+ Insight and does not have the Translation stage, add it
@@ -88,12 +88,12 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {color: '#FAC716', visible:true}})
-        console.log("player has 100+ insight")
+        //console.log("player has 100+ insight")
     }
     //If player drops below 100 Insight, remove Translation stage from them
     if (player.persistentData.insightCount <100 && player.stages.has('translation')) {
         player.stages.remove('translation')
-        console.log("player has 100- insight")
+        //console.log("player has 100- insight")
     }
     //150 Insight/Madness
     //If player has 150+ Insight and does not have the Madness stage, add it
@@ -103,15 +103,24 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {color: '#FF0000', visible:true}})
-        console.log("player has 150+ insight")
+        //console.log("player has 150+ insight")
     }
     //If player drops below 150 Insight, remove Madness stage from them
     if (player.persistentData.insightCount <150 && player.stages.has('madness')) {
         player.stages.remove('madness')
-        console.log("player has 150- insight")
+        //console.log("player has 150- insight")
     }
 })
 
+PlayerEvents.tick(event => {
+    let { player } = event
+    if (player.age % 200 != 0) return
+        //If Player is overtired, drain Insight
+        if (player.persistentData.insightCount <=0) return
+        if (player.hasEffect('iguanatweaksreborn:tired')) {
+            player.persistentData.insightCount--
+        }
+})
 
 EntityEvents.death(event => {
     const {entity, player} = event
@@ -137,4 +146,16 @@ ItemEvents.rightClicked( event => {
         player.tell(`Your insight level is ${event.player.persistentData.insightCount}`)
         //console.log("Katu is cheating for tests, and her insight is now "+event.player.persistentData.insightCount)
     }
+})
+
+ItemEvents.rightClicked('kubejs:lunatics_tome', event => {
+    event.item.count--
+    event.player.persistentData.insightCount+=5
+    event.player.tell(`You gain 5 Insight. Your insight is now ${event.player.persistentData.insightCount}`)
+})
+
+ItemEvents.rightClicked('kubejs:great_ones_tome', event => {
+    event.item.count--
+    event.player.persistentData.insightCount+=10
+    event.player.tell(`You gain 10 Insight. Your insight is now ${event.player.persistentData.insightCount}`)
 })

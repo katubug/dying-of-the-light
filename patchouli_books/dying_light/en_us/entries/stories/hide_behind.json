@@ -14,7 +14,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(o)When he was nearly ten, he fell and injured his knee. It was not an unusual injury for a boy his age, and it wasn't particularly severe, but it hurt, and no one cared. No one even noticed. And that day, something within Benjamin died."
+            "text": "$(o)When he was nearly ten, he fell and injured his knee. It was not an unusual injury for a boy his age, and it wasn't particularly severe, but it hurt, and no one cared. No one even noticed. And that day, something within Benjamin died."
         },
         {
             "type": "patchouli:text",
@@ -30,8 +30,8 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "minecraft:dirt",
-            "text": "$(7)Perhaps .$()"
+            "item": "legendarysurvivaloverhaul:plaster",
+            "text": "$(7)Maybe...maybe all he needs is for someone to comfort that 10 year old boy inside him...$()"
         }
     ]
 }

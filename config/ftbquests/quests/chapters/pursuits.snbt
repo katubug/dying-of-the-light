@@ -1,0 +1,1752 @@
+{
+	autofocus_id: "5563626619763B14"
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "pursuits"
+	group: ""
+	icon: "exposure:camera"
+	id: "6A7A8E71B9BF04AB"
+	images: [
+		{
+			height: 15.0d
+			image: "dying_light:textures/ui_images/page_bg1.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/fishing_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			height: 7.936507936507937d
+			image: "dying_light:textures/ui_images/fishsketch.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "dying_light:textures/ui_images/page_bg4.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/photography_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			height: 3.858333333333333d
+			image: "dying_light:textures/ui_images/camerasketch.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			height: 15.0d
+			image: "dying_light:textures/ui_images/page_bg3.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.0d
+			y: 10.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5EA10E46D2F902AB"
+			tasks: [{
+				icon: "whisperwoods:bottled_moth"
+				id: "554CC44D3F7EAD19"
+				title: "Catch a Large Moth"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			id: "61CECD673926204F"
+			tasks: [{
+				icon: "whisperwoods:bottled_moth"
+				id: "6F15D36413BEFD14"
+				title: "Catch a Tiny Moth"
+				type: "custom"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "53D551AA67540FE6"
+			tasks: [
+				{
+					id: "4C16F158689E3A30"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_orange_deaths_head"
+							SizeTag: 0.42000002f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5C1625A62CE92C7A"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "dappled_wood"
+							SizeTag: 0.21000001f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "62C3A0FE54C49099"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "black_witch"
+							SizeTag: 0.22f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16AF4C091A4BB684"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_grey_deaths_head"
+							SizeTag: 0.21000001f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4AB6A0C5301E93D6"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "owl"
+							SizeTag: 0.19f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "746EAB2DABD32991"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brahmin"
+							SizeTag: 0.38f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3500FF50F8A6A4C8"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "luna"
+							SizeTag: 0.27f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3E08EF1C56A038C0"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "black_white_deaths_head"
+							SizeTag: 0.3f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "78A3192DAB5829D0"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_spotted_hawk"
+							SizeTag: 0.33f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "5563626619763B14"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "52320E2BD9695F3C"
+				title: "center"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: [
+				"- midas fish"
+				"- voidseeker (found in The End, during specific moon phases)"
+				"- shooting starfish (only at night, under a full moon)"
+			]
+			hide_dependency_lines: true
+			id: "7586DE55A6539A94"
+			optional: true
+			tasks: [
+				{
+					id: "7321AEDEFA0FDEDA"
+					item: "tide:midas_fish"
+					type: "item"
+				}
+				{
+					id: "2DB889660E3D606D"
+					item: "tide:voidseeker"
+					type: "item"
+				}
+				{
+					id: "4C71744456DA943D"
+					item: "tide:shooting_starfish"
+					type: "item"
+				}
+			]
+			title: "Legendary Fish"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "2928A5582A5DAC1E"
+			optional: true
+			tasks: [
+				{
+					id: "634351737DCAA7C0"
+					item: "tide:magma_mackerel"
+					type: "item"
+				}
+				{
+					id: "7E51F305BDAC1870"
+					item: "tide:ashen_perch"
+					type: "item"
+				}
+				{
+					id: "047897E23A5EBDC0"
+					item: "tide:soulscaler"
+					type: "item"
+				}
+				{
+					id: "627FB2D1CB18893C"
+					item: "tide:warped_guppy"
+					type: "item"
+				}
+				{
+					id: "2509F8E484F9DB51"
+					item: "tide:crimson_fangjaw"
+					type: "item"
+				}
+				{
+					id: "2B669949EEB6327F"
+					item: "tide:witherfin"
+					type: "item"
+				}
+				{
+					id: "6FECA97B49C0D171"
+					item: {
+						Count: 1
+						id: "tide:blazing_swordfish"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether Fish"
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["- purpur pike (end city)"]
+			hide_dependency_lines: true
+			id: "3EFA13D7AC4B212C"
+			optional: true
+			tasks: [
+				{
+					id: "08B95A4983F2BD67"
+					item: "tide:endstone_perch"
+					type: "item"
+				}
+				{
+					id: "3B5DE0EA54605B2F"
+					item: "tide:enderfin"
+					type: "item"
+				}
+				{
+					id: "58144AF22C65802A"
+					item: "tide:endergazer"
+					type: "item"
+				}
+				{
+					id: "1FD0DB6D6CE6471E"
+					item: "tide:purpur_pike"
+					type: "item"
+				}
+				{
+					id: "3695CAB183181A15"
+					item: "tide:chorus_cod"
+					type: "item"
+				}
+				{
+					id: "51FB4371ACF0581E"
+					item: "tide:elytrout"
+					type: "item"
+				}
+			]
+			title: "End Fish"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "21036F37C4713D4C"
+			optional: true
+			tasks: [
+				{
+					id: "51011E1F1E54DABA"
+					item: "fishofthieves:splashtail"
+					type: "item"
+				}
+				{
+					id: "2E33F21A2B1FF314"
+					item: "fishofthieves:pondie"
+					type: "item"
+				}
+				{
+					id: "323C2D58AED52016"
+					item: "fishofthieves:islehopper"
+					type: "item"
+				}
+				{
+					id: "2DFAC356A318E227"
+					item: "fishofthieves:ancientscale"
+					type: "item"
+				}
+				{
+					id: "312BDB235FF13573"
+					item: "fishofthieves:plentifin"
+					type: "item"
+				}
+				{
+					id: "4396D53B9AA41EF2"
+					item: "fishofthieves:wildsplash"
+					type: "item"
+				}
+				{
+					id: "5AE912E372D4E120"
+					item: "fishofthieves:devilfish"
+					type: "item"
+				}
+				{
+					id: "275DAA0796E8008C"
+					item: "fishofthieves:battlegill"
+					type: "item"
+				}
+				{
+					id: "783E8141840DBACA"
+					item: "fishofthieves:wrecker"
+					type: "item"
+				}
+				{
+					id: "0B89E5FABE369629"
+					item: "fishofthieves:stormfish"
+					type: "item"
+				}
+			]
+			title: "Unique Fish"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "31FBB2C511249AED"
+			optional: true
+			tasks: [
+				{
+					id: "6552DA00D538D55D"
+					item: "tide:deep_grouper"
+					type: "item"
+				}
+				{
+					id: "11824AA66A7780AF"
+					item: "tide:shadow_snapper"
+					type: "item"
+				}
+				{
+					id: "0F203F75304BD709"
+					item: "tide:abyss_angler"
+					type: "item"
+				}
+				{
+					id: "6DB844A1E8B7A32A"
+					item: "tide:lapis_lanternfish"
+					type: "item"
+				}
+				{
+					id: "28DD3BBC01ACECF8"
+					item: "tide:luminescent_jellyfish"
+					type: "item"
+				}
+				{
+					id: "1B8F2C38EB8E1B74"
+					item: "tide:crystalline_carp"
+					type: "item"
+				}
+				{
+					id: "2403B0C46BC4BCC6"
+					item: "tide:bedrock_tetra"
+					type: "item"
+				}
+			]
+			title: "Deep Fish"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "7300ACAC3911D424"
+			optional: true
+			tasks: [
+				{
+					id: "3FFC04D4F64305F3"
+					item: "tide:trout"
+					type: "item"
+				}
+				{
+					id: "650601933FBDD70B"
+					item: "tide:bass"
+					type: "item"
+				}
+				{
+					id: "53457B5E41BFB8A9"
+					item: "tide:yellow_perch"
+					type: "item"
+				}
+				{
+					id: "79BD0746E5EFB475"
+					item: "tide:bluegill"
+					type: "item"
+				}
+				{
+					id: "41EDA515B3B3BC26"
+					item: "tide:mint_carp"
+					type: "item"
+				}
+				{
+					id: "7B0DD4882D97E799"
+					item: "tide:pike"
+					type: "item"
+				}
+				{
+					id: "185570CB7A06A1E5"
+					item: "tide:guppy"
+					type: "item"
+				}
+				{
+					id: "56B1FE5EC12E284D"
+					item: "tide:catfish"
+					type: "item"
+				}
+				{
+					id: "7DEE58B0398FB397"
+					item: "tide:clayfish"
+					type: "item"
+				}
+			]
+			title: "Freshwater Fish"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: [
+				"- prairie pike (plains?)"
+				"- sandskipper (desert)"
+				"- blossom bass (cherry grove)"
+				"- oakfish (forest)"
+				"- frostbite flounder (cold biomes)"
+				"- mirage catfish (hot overworld biomes)"
+				"- echofin snapper (deep dark)"
+				"- sunspike goby (savannah)"
+				"- birch trout (forest)"
+				"- stonefish (mountains)"
+				"- dripstone darter (caves)"
+				"- slimefin snapper (swamps)"
+				"- sporestalker (mushroom fields)"
+				"- leafback (jungle)"
+				"- fluttergill (lush caves)"
+				"- pine perch (forest)"
+			]
+			hide_dependency_lines: true
+			id: "09B276670C9D0E11"
+			optional: true
+			tasks: [
+				{
+					id: "5F8B5129BC38AE28"
+					item: "tide:prarie_pike"
+					type: "item"
+				}
+				{
+					id: "7CE63527DECAB21B"
+					item: "tide:sandskipper"
+					type: "item"
+				}
+				{
+					id: "5C2AFF40B75C625D"
+					item: "tide:blossom_bass"
+					type: "item"
+				}
+				{
+					id: "6D9EFF3DE2D917BF"
+					item: "tide:oakfish"
+					type: "item"
+				}
+				{
+					id: "2655C9C6F843CBCE"
+					item: "tide:frostbite_flounder"
+					type: "item"
+				}
+				{
+					id: "0FCA1031200F61EB"
+					item: "tide:mirage_catfish"
+					type: "item"
+				}
+				{
+					id: "6D24C4931F09B569"
+					item: "tide:echofin_snapper"
+					type: "item"
+				}
+				{
+					id: "77A8E496AAD06745"
+					item: "tide:sunspike_goby"
+					type: "item"
+				}
+				{
+					id: "6EBE8342D63D54DA"
+					item: "tide:birch_trout"
+					type: "item"
+				}
+				{
+					id: "7CEC296B6FBA11A2"
+					item: "tide:stonefish"
+					type: "item"
+				}
+				{
+					id: "0AFF154B06F70C8B"
+					item: "tide:dripstone_darter"
+					type: "item"
+				}
+				{
+					id: "51AB7EA48D06F927"
+					item: "tide:slimefin_snapper"
+					type: "item"
+				}
+				{
+					id: "486650EDDA87D3AB"
+					item: "tide:sporestalker"
+					type: "item"
+				}
+				{
+					id: "50B8DC98C812D3A3"
+					item: "tide:leafback"
+					type: "item"
+				}
+				{
+					id: "51F250B461E11E55"
+					item: "tide:fluttergill"
+					type: "item"
+				}
+				{
+					id: "1CF88CDE9AE1D9DE"
+					item: "tide:pine_perch"
+					type: "item"
+				}
+			]
+			title: "Biome-Specific Fish"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "40A311AFF1311953"
+			optional: true
+			tasks: [
+				{
+					id: "7186799BFAA4CF45"
+					item: "tide:tuna"
+					type: "item"
+				}
+				{
+					id: "39C4A22F380029C8"
+					item: "tide:ocean_perch"
+					type: "item"
+				}
+				{
+					id: "7A42F18D1AF0CBA5"
+					item: "tide:mackerel"
+					type: "item"
+				}
+				{
+					id: "534F334558B33437"
+					item: "tide:angelfish"
+					type: "item"
+				}
+				{
+					id: "14E296F1B39FF84A"
+					item: "tide:barracuda"
+					type: "item"
+				}
+				{
+					id: "4BA1707324A7B8C2"
+					item: "tide:sailfish"
+					type: "item"
+				}
+			]
+			title: "Saltwater Fish"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "6A46E1E8ACB6817A"
+			optional: true
+			tasks: [
+				{
+					id: "527271FB7A17D6E3"
+					item: "tide:ember_koi"
+					type: "item"
+				}
+				{
+					id: "76F17E27CAB03CEC"
+					item: "tide:inferno_guppy"
+					type: "item"
+				}
+				{
+					id: "6BE3A581720A4FAA"
+					item: "tide:obsidian_pike"
+					type: "item"
+				}
+				{
+					id: "41F5A5D379F79620"
+					item: "tide:volcano_tuna"
+					type: "item"
+				}
+			]
+			title: "Lava Fish"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			hide_dependency_lines: true
+			id: "3DE06E66F45109C3"
+			optional: true
+			tasks: [
+				{
+					id: "0440604AE05DA1FA"
+					item: "tide:cave_eel"
+					type: "item"
+				}
+				{
+					id: "186520348BB649B6"
+					item: "tide:crystal_shrimp"
+					type: "item"
+				}
+				{
+					id: "2D9C8A6D8100642A"
+					item: "tide:iron_tetra"
+					type: "item"
+				}
+				{
+					id: "44A19C98F6C5F64F"
+					item: "tide:glowfish"
+					type: "item"
+				}
+				{
+					id: "5CB4B96682E528C0"
+					item: "tide:anglerfish"
+					type: "item"
+				}
+				{
+					id: "6F7897B6426F283A"
+					item: "tide:cave_crawler"
+					type: "item"
+				}
+				{
+					id: "4116140082503C30"
+					item: "tide:gilded_minnow"
+					type: "item"
+				}
+			]
+			title: "Underground Fish"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["It's also important to &aupgrade your &bFishing Line&r, which "]
+			id: "16538E097DFE166F"
+			tasks: [{
+				id: "33B5D3BF0897C4FF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:fishing_line)item(tide:braided_line)item(tide:reinforced_line)item(tide:fortune_line))"
+					}
+				}
+				title: "Any Fishing Line"
+				type: "item"
+			}]
+			title: "Upgrade Your Line"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["If you'd like a chance at a &abetter catch&r, you can attach a &bHook&r to your rod. Different hooks have &adifferent effects&r, hover over each to find out more."]
+			id: "7B15A049B94A97F5"
+			rewards: [{
+				id: "76C933E3E09B032E"
+				item: "fishofthieves:earthworms"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6892CCF2742779AD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:fishing_hook)item(tide:iron_fishing_hook)item(tide:lavaproof_fishing_hook))"
+					}
+				}
+				title: "Any Fishing Hook"
+				type: "item"
+			}]
+			title: "Upgrade Your Hook"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["085671CEEECD2D16"]
+			description: [
+				"Fishing isn't quite as mindless here as it usually is. Hold &6right click&r to charge your cast, and then wait for the bite, and begin the catch as normal."
+				""
+				"Once you hook a fish, you need to &acarefully time your right click&r in order to catch the fish properly!"
+				""
+				"Try to &6click when the moving bar is in the green&r."
+				""
+				"{image:dying_light:textures/quest_images/tide_fishing_game.png width:100 height:70 align:center fit:true}"
+			]
+			id: "286CA5891064B321"
+			rewards: [{
+				count: 2
+				id: "1F93FA6A589818FA"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			shape: "spstar"
+			size: 2.0d
+			tasks: [{
+				id: "180B1261C8AE195F"
+				title: "Fishing Minigame"
+				type: "checkmark"
+			}]
+			title: "How to Fish"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			id: "41BDDB894AECA1D3"
+			tasks: [{
+				id: "61551B91ACF0A278"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:bait)item(tide:lucky_bait)item(tide:magnetic_bait)item(tide:magnetic_bait)item(tide:suspicious_bait)item(fishofthieves:earthworms)item(fishofthieves:grubs)item(fishofthieves:leeches))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain Some Bait"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["A basic &bFishing Rod&r is one thing, but did you know there are better options? Why not make one out of &bIron&r, or even &bDiamond&r?"]
+			id: "7541252E94451A93"
+			tasks: [{
+				id: "60AAD0CA63B39362"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tide:iron_fishing_rod)item(tide:golden_fishing_rod)item(tide:crystal_fishing_rod)item(tide:diamond_fishing_rod))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade Your Rod"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: [
+				"Nice work. You not only restored some sanity there, but you also got yourself some food. Well, hopefully."
+				""
+				"Be careful though, &dfish spoil fast&r! Take this salt and &6preserve them&r while they're still fresh."
+			]
+			id: "156BD6E600E1C492"
+			rewards: [{
+				count: 4
+				id: "48738BCD9E8C9267"
+				item: "salt:salt"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "2A512DD096EBFD27"
+				title: "Catch a Fish"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			id: "0730CFED1258B299"
+			tasks: [
+				{
+					id: "5E90C1F870F37DA5"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "0B0B0FFA4778A9B5"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "6750E12352E03F2C"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "2260999A854353F5"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "All Vanilla Fish"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: ["Something about this place has been &awarping the fish&r into bizarre and unnerving creatures called &bAberrations&r. You can catch them anywhere you could catch a normal fish, but they're &amore uncommon&r."]
+			id: "7FFE132D465B3198"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E26A751915AB508"
+				table_id: 5575207890930607651L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: "minecraft:cod"
+				id: "0CA906E9FF882A9E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(nbt(fuzzy:{Tags:\"aberrant_fish\"}))"
+					}
+				}
+				title: "Catch an Aberrant Fish"
+				type: "item"
+			}]
+			title: "Catch an Aberrant Fish"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7541252E94451A93"]
+			description: ["Go big or go home, that's what I always say. If you're going to be a fisher, you might as well do it in style with a &bNetherite Rod&r."]
+			id: "57304D5B080BA48D"
+			tasks: [{
+				id: "2571CBEAACF25797"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: 14
+							hook: 0
+							line: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain the Ultimate Rod"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7FFE132D465B3198"]
+			description: [
+				"If you're interested, I will trade you &bEmeralds&r for those &bAberrant Fish&r you've been catching."
+				""
+				"Just turn them in here and &aclaim your reward&r."
+			]
+			id: "1CF64B2D0B102B72"
+			rewards: [{
+				count: 2
+				id: "0DEC2BAF8CCC2B00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				icon: "tide:sailfish"
+				id: "7EF6D3B0374754C5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(nbt(fuzzy:{Tags:\"aberrant_fish\"}))"
+					}
+				}
+				title: "Any Aberrant Fish"
+				type: "item"
+			}]
+			title: "Sell Aberrant Fish"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "034FCF51039F0B29"
+			tasks: [{
+				id: "18FAC0CE15F60CD2"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Dimension: "minecraft:the_end"
+						"minecraft:wolf": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of a Dog in the End"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Man's Best FriEND"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "5E6139DE64BDA014"
+			tasks: [{
+				id: "196172C23FAB8DFD"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Dimension: "minecraft:the_end"
+						"minecraft:enderman": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of Enderman in the End"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "A Risky Proposition"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "324CD818BDC8A56C"
+			tasks: [{
+				id: "6B8E9A4326157907"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						LightLevel: 15
+						"minecraft:witch": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of a Witch in Bright Daylight"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "3F7FF3873505CF25"
+			tasks: [{
+				id: "2DFD3471206ED421"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Structures: ["minecraft:stronghold"]
+					}
+				}
+				match_nbt: true
+				title: "Photo in the Stronghold"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "7FB3E5DA9D0A3C4E"
+			tasks: [{
+				id: "098680CDCADEC634"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:cow": 1b
+						"minecraft:pig": 1b
+						"minecraft:sheep": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of A Cow, Pig, and Sheep"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Take a Group Photo"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "058D4C5FFC5107BE"
+			tasks: [{
+				id: "6953566AD535346B"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:player": 1b
+					}
+				}
+				match_nbt: true
+				title: "Black and White Selfie"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["619B225244EE9A1B"]
+			description: ["It is said that &aphotographing someone steals their soul&r. Perhaps the creatures here know that, because if you &6point your camera at them, they'll stay away&r."]
+			id: "4EA36CD0281FC5AB"
+			rewards: [{
+				id: "387E0C600AD7234D"
+				item: {
+					Count: 1
+					id: "exposure:camera"
+					tag: {
+						Active: 0b
+						Enchantments: [{
+							id: "tombstone:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "spstar"
+			size: 2.0d
+			tasks: [{
+				id: "3ED3006EBD0171A6"
+				title: "Taking Photos"
+				type: "checkmark"
+			}]
+			title: "Documenting Your Journey"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "0F6F954DEEBC0383"
+			tasks: [{
+				id: "0E438C16F7F63F57"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Structures: ["graveyard:large_graveyard"]
+					}
+				}
+				match_nbt: true
+				title: "Photograph of a Large Graveyard"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "4553C41C2BDFDCAF"
+			tasks: [{
+				id: "49A52B362B873A24"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:warden": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of the Warden"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "5C6CE2A1F1F3741F"
+			tasks: [{
+				id: "289B98BFD49D10EB"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:ender_dragon": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of the Ender Dragon"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["spawns to protect decorative graves"]
+			id: "763120AA95A4F152"
+			tasks: [{
+				id: "04727A1DE537B0A8"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"tombstone:grave_guardian": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of the Grave Guardian"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "422E26D7878AE3DF"
+			rewards: [{
+				id: "118431EC847CCB16"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B9B98A0E8E341D6"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:wither": 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Photograph the Wither"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "56946F952B94D169"
+			tasks: [{
+				id: "0C5949908636A278"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:pillager": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photograph of a Pillager"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "66A4E1ED8E67410D"
+			tasks: [{
+				id: "262740198CFE2533"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						"minecraft:cat": 1b
+						"minecraft:villager": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of a Villager and a Cat"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			id: "42ABEB59ECA84EBF"
+			tasks: [{
+				id: "15F95D6AFC549FFA"
+				item: {
+					Count: 1
+					id: "exposure:photograph"
+					tag: {
+						Biome: "minecraft:lush_caves"
+						"minecraft:axolotl": 1b
+					}
+				}
+				match_nbt: true
+				title: "Photo of an Axolotl in Lush Caves"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FFE132D465B3198"]
+			id: "5B5B50901326E87E"
+			optional: true
+			tasks: [
+				{
+					id: "159A84C01D6DFE45"
+					item: {
+						Count: 1
+						id: "tide:shadow_snapper"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its massive jaws are lined with\",\"italic\":false}]"
+									"[\"\",{\"text\":\"rows of teeth, but within its\",\"italic\":false}]"
+									"[\"\",{\"text\":\"mouth rests a smaller, living\",\"italic\":false}]"
+									"[\"\",{\"text\":\"replica of itself—each snap\",\"italic\":false}]"
+									"[\"\",{\"text\":\"echoes from both mouths in\",\"italic\":false}]"
+									"[\"\",{\"text\":\"perfect synchronization.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Cradle Snapper\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2F03241FB15BD878"
+					item: {
+						Count: 1
+						id: "tide:catfish"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"The thick whiskers have fused\",\"italic\":false}]"
+									"[\"\",{\"text\":\"into fleshy tendrils, digging\",\"italic\":false}]"
+									"[\"\",{\"text\":\"into its own body. Its bloated\",\"italic\":false}]"
+									"[\"\",{\"text\":\"form is scarred and torn, with\",\"italic\":false}]"
+									"[\"\",{\"text\":\"pieces of its flesh hanging\",\"italic\":false}]"
+									"[\"\",{\"text\":\"loosely, barely clinging to\",\"italic\":false}]"
+									"[\"\",{\"text\":\"the exposed bones.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Fleshrift Catfish\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3BAFE807581B72EF"
+					item: {
+						Count: 1
+						id: "tide:pike"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Jagged spines protrude from its\",\"italic\":false}]"
+									"[\"\",{\"text\":\"elongated body, curving outward\",\"italic\":false}]"
+									"[\"\",{\"text\":\"like hooks. The pike’s mouth\",\"italic\":false}]"
+									"[\"\",{\"text\":\"hangs open in a permanent snarl,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"rows of sharp teeth mismatched\",\"italic\":false}]"
+									"[\"\",{\"text\":\"and crooked as though forcibly\",\"italic\":false}]"
+									"[\"\",{\"text\":\"rearranged.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Barbed Pike\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "291269C4F5D28A05"
+					item: {
+						Count: 1
+						id: "tide:yellow_perch"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"The belly is grotesquely swollen,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"almost translucent, revealing\",\"italic\":false}]"
+									"[\"\",{\"text\":\"something writhing inside. A\",\"italic\":false}]"
+									"[\"\",{\"text\":\"sickening glow pulses from\",\"italic\":false}]"
+									"[\"\",{\"text\":\"within, hinting at the parasitic\",\"italic\":false}]"
+									"[\"\",{\"text\":\"mass using the perch as a living\",\"italic\":false}]"
+									"[\"\",{\"text\":\"incubator.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Host Perch\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "71725CAF07A64685"
+					item: {
+						Count: 1
+						id: "tide:guppy"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"This tiny fish has multiplied in\",\"italic\":false}]"
+									"[\"\",{\"text\":\"a chaotic fashion, with limbs and\",\"italic\":false}]"
+									"[\"\",{\"text\":\"fins repeating infinitely down\",\"italic\":false}]"
+									"[\"\",{\"text\":\"its spine. It moves in erratic\",\"italic\":false}]"
+									"[\"\",{\"text\":\"bursts, as though each part tries\",\"italic\":false}]"
+									"[\"\",{\"text\":\"to swim in a different direction.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Fractal Guppy\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "46D8C0D76E274F98"
+					item: {
+						Count: 1
+						id: "tide:bluegill"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its eyes have melted down the\",\"italic\":false}]"
+									"[\"\",{\"text\":\"sides of its face, leaving dark,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"empty sockets. A constant trickle\",\"italic\":false}]"
+									"[\"\",{\"text\":\"of thick, black liquid drips from\",\"italic\":false}]"
+									"[\"\",{\"text\":\"the sockets, staining its once\",\"italic\":false}]"
+									"[\"\",{\"text\":\"vibrant scales.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Weeping Bluegill\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "03CD9712F2ECB44F"
+					item: {
+						Count: 1
+						id: "tide:deep_grouper"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its massive mouth is split beyond\",\"italic\":false}]"
+									"[\"\",{\"text\":\"its normal range, extending past\",\"italic\":false}]"
+									"[\"\",{\"text\":\"its gills and folding back like\",\"italic\":false}]"
+									"[\"\",{\"text\":\"jagged petals. Inside, multiple\",\"italic\":false}]"
+									"[\"\",{\"text\":\"rows of smaller, snapping mouths\",\"italic\":false}]"
+									"[\"\",{\"text\":\"continuously feed on anything caught\",\"italic\":false}]"
+									"[\"\",{\"text\":\"in the grotesque bloom.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Mawbreach Grouper\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2888BB860EF9800D"
+					item: {
+						Count: 1
+						id: "minecraft:salmon"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its once sleek body is marred with\",\"italic\":false}]"
+									"[\"\",{\"text\":\"patches of raw, pink flesh. Boils\",\"italic\":false}]"
+									"[\"\",{\"text\":\"hiss and pop along its spine,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"releasing plumes of steam that\",\"italic\":false}]"
+									"[\"\",{\"text\":\"twist and rise as if alive.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Scalded Salmon\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3AC87EF2C474024D"
+					item: {
+						Count: 1
+						id: "tide:abyss_angler"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its translucent skin reveals\",\"italic\":false}]"
+									"[\"\",{\"text\":\"twitching veins beneath,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"pulsing with an eerie light.\",\"italic\":false}]"
+									"[\"\",{\"text\":\"A single oversized fin drapes\",\"italic\":false}]"
+									"[\"\",{\"text\":\"like a torn veil, its lure\",\"italic\":false}]"
+									"[\"\",{\"text\":\"swaying, drawing in more than\",\"italic\":false}]"
+									"[\"\",{\"text\":\"prey.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Veilfin Angler\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3D1CD248637DE201"
+					item: {
+						Count: 1
+						id: "tide:bass"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Two heads, fused at the spine,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"struggle for control. One side is\",\"italic\":false}]"
+									"[\"\",{\"text\":\"vibrant and alive, the other,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"rotting and festering—both eyes\",\"italic\":false}]"
+									"[\"\",{\"text\":\"seeing, neither agreeing.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Twinscale Bass\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3BAB3B48CC8EFD46"
+					item: {
+						Count: 1
+						id: "tide:magma_mackerel"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Bulging blisters coat its scales,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"each filled with a swirling, dark\",\"italic\":false}]"
+									"[\"\",{\"text\":\"liquid. Puncture one, and the fish\",\"italic\":false}]"
+									"[\"\",{\"text\":\"leaks a thick, tar-like substance\",\"italic\":false}]"
+									"[\"\",{\"text\":\"that moves of its own accord.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Blistered Mackerel\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7F9268D3E1277E1D"
+					item: {
+						Count: 1
+						id: "tide:cave_eel"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its body has twisted unnaturally,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"folding and knotting over itself\",\"italic\":false}]"
+									"[\"\",{\"text\":\"like a coiled rope. Segments of\",\"italic\":false}]"
+									"[\"\",{\"text\":\"its flesh have been stripped\",\"italic\":false}]"
+									"[\"\",{\"text\":\"away, leaving exposed bone, which\",\"italic\":false}]"
+									"[\"\",{\"text\":\"cracks and shifts as it slithers\",\"italic\":false}]"
+									"[\"\",{\"text\":\"through the water.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Bonecoil Eel\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0DD52FE3AECAE6D2"
+					item: {
+						Count: 1
+						id: "tide:sailfish"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Its once-majestic dorsal fin now\",\"italic\":false}]"
+									"[\"\",{\"text\":\"unravels into long, sinewy\",\"italic\":false}]"
+									"[\"\",{\"text\":\"tendrils that trail behind it.\",\"italic\":false}]"
+									"[\"\",{\"text\":\"The threads pulse with life,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"wrapping around anything they\",\"italic\":false}]"
+									"[\"\",{\"text\":\"brush, drawing it into the deep.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Threaded Sailfish\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4523F96FCC45BCB8"
+					item: {
+						Count: 1
+						id: "tide:tuna"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Gaping wounds in the fish’s mouth\",\"italic\":false}]"
+									"[\"\",{\"text\":\"reveal long, writhing leeches\",\"italic\":false}]"
+									"[\"\",{\"text\":\"where its teeth should be.\",\"italic\":false}]"
+									"[\"\",{\"text\":\"They latch onto prey for\",\"italic\":false}]"
+									"[\"\",{\"text\":\"sustenance, leaving the tuna as\",\"italic\":false}]"
+									"[\"\",{\"text\":\"merely a vessel for their hunger.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Leechtooth Tuna\",\"italic\":false,\"color\":\"yellow\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2E78D959D394F265"
+					item: {
+						Count: 1
+						id: "minecraft:cod"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"The body remains whole, but the\",\"italic\":false}]"
+									"[\"\",{\"text\":\"insides have hollowed out\",\"italic\":false}]"
+									"[\"\",{\"text\":\"entirely. Peering into its mouth\",\"italic\":false}]"
+									"[\"\",{\"text\":\"reveals an empty cavity,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"echoing with a distant, ghostly\",\"italic\":false}]"
+									"[\"\",{\"text\":\"hum.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Hollow Cod\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "60779FBA4CB1C501"
+					item: {
+						Count: 1
+						id: "tide:trout"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Scales gleam unnaturally, shifting\",\"italic\":false}]"
+									"[\"\",{\"text\":\"in color like oil on water. Each\",\"italic\":false}]"
+									"[\"\",{\"text\":\"glint hypnotizes onlookers, but\",\"italic\":false}]"
+									"[\"\",{\"text\":\"those who stare too long find\",\"italic\":false}]"
+									"[\"\",{\"text\":\"the colors never leave their\",\"italic\":false}]"
+									"[\"\",{\"text\":\"vision.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Shimmergill Trout\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "38364D5364D45C1D"
+					item: {
+						Count: 1
+						id: "tide:barracuda"
+						tag: {
+							Enchantments: [{ }]
+							Tags: "aberrant_fish"
+							display: {
+								Lore: [
+									"[\"\",{\"text\":\"Cracks run jagged across its body,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"each fissure leaking a faint,\",\"italic\":false}]"
+									"[\"\",{\"text\":\"pale light. The fish twitches in\",\"italic\":false}]"
+									"[\"\",{\"text\":\"sharp, erratic movements as if\",\"italic\":false}]"
+									"[\"\",{\"text\":\"it's being pulled apart from the\",\"italic\":false}]"
+									"[\"\",{\"text\":\"inside.\",\"italic\":false}]"
+								]
+								Name: "[\"\",{\"text\":\"Splintered Barracuda\",\"italic\":false,\"color\":\"gold\"}]"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Collect All Aberrant Fish"
+			x: -2.0d
+			y: -6.5d
+		}
+	]
+	title: "Pursuits"
+}

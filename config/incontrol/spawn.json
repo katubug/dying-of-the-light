@@ -154,6 +154,18 @@
         "gamestage": "herobrine_resolved",
         "result": "deny",
         "continue": true
+    },
+    {
+        "mob":"aquamirae:captain_cornelia",
+        "gamestage": "cornelia_resolved",
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"whisperwoods:hidebehind",
+        "gamestage": "hidebehind_resolved",
+        "result": "deny",
+        "continue": true
     }
 ]
 

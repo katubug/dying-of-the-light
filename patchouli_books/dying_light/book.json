@@ -17,5 +17,5 @@
     "text_overflow_mode": "resize",
     "index_icon": "minecraft:lectern",
     "show_progress": false,
-    "filler_texture": "dying_light:textures/ui_images/brainsketch.png"
+    "filler_texture": "dying_light:textures/ui_images/filler.png"
 }

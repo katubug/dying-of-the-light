@@ -9,25 +9,11 @@ ItemEvents.entityInteracted( (event) => {
     } = event;
 
     if (target.type != 'minecraft:cat' ) return
-    if (item.hasTag('forge:cat_food')){
-        player.swing(hand, true);
-        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
-        }
-    });
-
-//Feeding Parrots gives positive alignment
-ItemEvents.entityInteracted( (event) => {
-    const { 
-        player, 
-        hand, 
-        item, 
-        target
-    } = event;
-
-    if (target.type != 'minecraft:parrot' ) return
-    if (item.hasTag('forge:seeds')){
-        player.swing(hand, true);
-        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+    if (target.nbt.Health < 10){
+        if (item.hasTag('forge:cat_food')){
+            player.swing(hand, true);
+            event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+            }
         }
     });
 
@@ -41,9 +27,11 @@ ItemEvents.entityInteracted( (event) => {
     } = event;
 
     if (target.type != 'minecraft:wolf' ) return
-    if (item.hasTag('forge:dog_food')){
-        player.swing(hand, true);
-        event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+    if (target.nbt.Health < 20){
+        if (item.hasTag('forge:dog_food')){
+            player.swing(hand, true);
+            event.server.runCommandSilent(`/tbalignment ${event.player.name.string} increase 10`)
+            }
         }
     });
     

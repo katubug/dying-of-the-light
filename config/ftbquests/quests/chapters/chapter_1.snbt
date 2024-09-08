@@ -1029,6 +1029,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["0A981F6115A5041A"]
 			description: [
 				"search food in jei"
 				""
@@ -1044,18 +1045,6 @@
 			}]
 			x: 3.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["434B44E6A1A72B01"]
-			description: ["lures animals"]
-			id: "7D11B24C28EC52D3"
-			tasks: [{
-				id: "527382BEA75CDB60"
-				item: "crockpot:pow_cake"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.5d
 		}
 	]
 	title: "Chapter 1"

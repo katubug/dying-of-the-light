@@ -65,9 +65,9 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(corneliaBook)
         .input('kubejs:captain_cornelia_poppet')
-        .input('aquamirae:abyssal_amethyst')
-        .input('aquamirae:ship_graveyard_echo')
-        .input(Item.of('minecraft:potion', '{Potion:"minecraft:water_breathing"}'))
+        .input('minecraft:iron_bars')
+        .input('4x aquamirae:ship_graveyard_echo')
+        .input('2x minecraft:pufferfish')
         .blockBelow('minecraft:packed_ice')
         .recipeTime(200)
 
@@ -76,8 +76,9 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(motherBook)
         .input('kubejs:maze_mother_poppet')
-        .input('minecraft:dirt')
-        .input('minecraft:dirt')
+        .input('aquamirae:abyssal_amethyst')
+        .input('4x minecraft:ink_sac')
+        .input('2x minecraft:glow_ink_sac')
         .blockBelow('minecraft:blue_ice')
         .recipeTime(200)
 
@@ -86,23 +87,19 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(namelessBook)
         .input('kubejs:nameless_hanged_poppet')
-        .input('minecraft:dirt')
-        .input('minecraft:dirt')
-        .blockBelow('minecraft:dirt')
+        .input('legendarysurvivaloverhaul:cold_string')
+        .input('5x minecraft:emerald')
+        .input('3x graveyard:corruption')
+        .blockBelow('minecraft:snow_block')
         .recipeTime(200)
 
-        //Sneaking Terror
+        //HideBehind
+        let hidebehindBook = Item.of('minecraft:written_book', '{author:"unknown",display:{Name:\'{"font":"runelic:runelic","text":"Benjamin"}\'},generation:3,pages:[\'{"font":"runelic:runelic","text":"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\\\n\\\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old."}\',\'{"font":"runelic:runelic","text":"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten."}\',\'{"font":"runelic:runelic","text":"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\\\n\\\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read."}\',\'{"font":"runelic:runelic","text":"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he\\\'d known.\\\\n\\\\nThen, one day when he was not quite ten years old, he fell and injured his knee."}\',\'{"extra":[{"text":"Now, this was not an unusual injury for a boy his age, and it wasn\\\'t particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It "},{"italic":true,"text":"hurt!"},{"text":" And no one cared. No one even "},{"italic":true,"text":"noticed"},{"text":"."}],"text":""}\',\'{"font":"runelic:runelic","text":"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn\\\'t anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him."}\',\'{"font":"runelic:runelic","text":"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn\\\'t even ask him where he\\\'d been.\\\\n\\\\nBut he could fall no lower into despair. He had become gray inside."}\',\'{"font":"runelic:runelic","text":"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn\\\'t seem to see him."}\',\'{"font":"runelic:runelic","text":"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\\\n\\\\nAn entire life lived alone - and when he was gone, there was no one to cry for him."}\'],resolved:1b,title:"Benjamin"}')
         event.recipes.summoningrituals.altar("minecraft:book")
-        .itemOutput('minecraft:dirt')
-        .input('kubejs:sneaking_terror_poppet')
+        .itemOutput(hidebehindBook)
+        .input('kubejs:hidebhehind_poppet')
         .input('minecraft:dirt')
-        .blockBelow('minecraft:dirt')
-        .recipeTime(200)
-
-        //Rotting Stalker
-        event.recipes.summoningrituals.altar("minecraft:book")
-        .itemOutput('minecraft:dirt')
-        .input('kubejs:rotting_stalker_poppet')
+        .input('minecraft:dirt')
         .input('minecraft:dirt')
         .blockBelow('minecraft:dirt')
         .recipeTime(200)
@@ -113,34 +110,33 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(herobrineBook)
         .input('kubejs:herobrine_poppet')
-        .input('minecraft:dirt')
-        .blockBelow('minecraft:dirt')
+        .input('4x minecraft:redstone_torch')
+        .input('endofherobrine:cursed_head')
+        .input('minecraft:torch')
+        .blockBelow('minecraft:gold_block')
         .recipeTime(200)
 
-    /*
-    //Lantern Filling/Lighting
+        //Frozen Key
+        event.recipes.summoningrituals.altar('tide:deep_aqua_crystal')
+        .itemOutput('aquamirae:frozen_key')
+        .input('minecraft:blue_ice')
+        .input('aquamirae:fin')
+        .input('minecraft:iron_ingot')
+        .blockBelow('minecraft:packed_ice')
+        .recipeTime(100)
 
-    let oilCan = Ingredient.of('hardcore_torches:oil_can').withNBT(Fuel >=144000);
-    let unlitLantern = 'hardcore_torches:unlit_lantern';
-
-    event.shapeless(
-        Item.of('hardcore_torches:unlit_lantern', '{Fuel:144000}'),
-        [
-            unlitLantern,
-            oilCan
-        ]
-    )
-        
-
-    event.shapeless(
-        Item.of('hardcore_torches:lit_torch'),
-        [
-            'minecraft:flint_and_steel', 
-            '#hardcore_torches:torches'
-        ]
-    ).replaceIngredient('minecraft:flint_and_steel', 'minecraft:flint_and_steel')
-    */
-
+        //Hirschgeist Skull
+        event.recipes.summoningrituals.altar('tide:deep_aqua_crystal')
+        .itemOutput('whisperwoods:hirschgeist_skull')
+        .input('graveyard:bone_dagger')
+        .input('minecraft:skeleton_skull')
+        .input('minecraft:oak_sapling')
+        .input('minecraft:dark_oak_sapling')
+        .input('tombstone:essence_of_undeath')
+        .blockBelow('minecraft:grass_block')
+        .recipeTime(100)
+        .dayTime('night')
+        .weather('thunder')
 })
 
 

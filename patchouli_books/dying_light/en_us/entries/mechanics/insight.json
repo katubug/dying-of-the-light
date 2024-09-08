@@ -9,11 +9,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "You can gain insight by $(6)completing quests$(), $(6)achieving advancements$(), and by $(6)taking photos of creatures$().$(br2)If you $(6)defeat a spirit creature with the camera$(), you get bonus insight. They also say you gain insight when you $(6)lose your mind$()."
+            "text": "You can gain insight by $(6)completing quests$(), $(6)achieving advancements$(), by $(6)catching unusual fish&r, and by $(6)taking photos of creatures$().$(br2)If you $(6)defeat a spirit creature with the camera$(), you get bonus insight. They also say you gain insight when you $(6)lose your mind$()."
         },
         {
             "type": "patchouli:text",
-            "text": "You lose insight by dying, or by spending it. This phenomenon is $(#00a800)beneficial$() at some levels, allowing you to $(#00a800)unlock new quests$() and $(#00a800)see hidden entities$(), but eventually becomes $(c)harmful$(), and will $(#00a800)wear away at your sanity$() if it goes too high."
+            "text": "You lose insight by dying, while being $(#00a800)extremely tired$(), or by spending it. This phenomenon is $(#00a800)beneficial$() at some levels, allowing you to $(#00a800)unlock new quests$() and $(#00a800)see hidden entities$(), but eventually becomes $(c)harmful$(), and will $(#00a800)wear away at your sanity$() if it goes too high."
         },
         {
             "type": "patchouli:spotlight",

@@ -5,13 +5,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "lorem ipsum"
+            "text": "A mutated beast which lurks beneath the $(c)Deep Frozen Ocean$() waves. She is extremely aggressive, and will $(#00a800)even break the ice to get at you$() when you are on land. Be very wary. You will most likely need to $(6)fight back$(), slaying her temporary form before she can reappear."
         },
         {
             "type": "patchouli:entity",
-            "text": "this guy's story is real sad :(",
+            "text": "Turgid black skin studded with crystals adorns this creature.",
             "entity": "aquamirae:maze_mother",
-            "name": "a lost soul"
+            "name": "Mother of the Maze"
         }
     ]
 }

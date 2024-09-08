@@ -1,0 +1,17 @@
+{
+    "name": "HideBehind",
+    "icon": "minecraft:nether_wart",
+    "category": "patchouli:entities",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "An enormous but reticent creature which lives in $(c)Forests$(). It can be found $(#00a800)hiding behind trees$(). It will avoid any form of $(#00a800)light$(), but will $(#00a800)attack in the darkness$(), and can be quite powerful."
+        },
+        {
+            "type": "patchouli:entity",
+            "text": "Not much is known about it due to its isolation.",
+            "entity": "whisperwoods:hidebehind",
+            "name": "The Hidebehind"
+        }
+    ]
+}

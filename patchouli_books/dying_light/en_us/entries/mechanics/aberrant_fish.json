@@ -1,0 +1,11 @@
+{
+    "name": "Aberrant Fish",
+    "icon": "fishofthieves:wrecker",
+    "category": "patchouli:mechanics",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

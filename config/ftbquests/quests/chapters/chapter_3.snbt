@@ -5,6 +5,7 @@
 	default_quest_shape: ""
 	filename: "chapter_3"
 	group: ""
+	icon: "kubejs:cave_dweller_poppet"
 	id: "6CB81FBA5AE33505"
 	images: [
 		{
@@ -825,7 +826,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3D9BBE18812FFC06"]
+			dependencies: ["005931DFA0F55E64"]
 			description: [
 				"It may take a little time, but &6observe the book&r and eventually, the translation will come to you. You can do this."
 				""
@@ -1253,6 +1254,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["0876A6B6494AE2CA"]
 			id: "3907AD77F0963F1D"
 			tasks: [{
 				id: "024FFFC8DCF466B9"
@@ -1263,6 +1265,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["646A94FB41D1FECA"]
 			id: "07CE7E8EA468192B"
 			tasks: [{
 				id: "54A86CA2EA90829E"
@@ -1271,6 +1274,111 @@
 			}]
 			x: -1.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["3907AD77F0963F1D"]
+			id: "4B182572C6CC69D4"
+			rewards: [{
+				auto: "invisible"
+				id: "4E122BE953219A8F"
+				ignore_reward_blocking: true
+				stage: "cornelia_resolved"
+				type: "gamestage"
+			}]
+			tasks: [{
+				icon: "aquamirae:rune_of_the_storm"
+				id: "3A9AAEE3F10F9971"
+				title: "Return the Rune"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07CE7E8EA468192B"]
+			id: "2F5A3770228081FD"
+			rewards: [{
+				auto: "invisible"
+				id: "305208A6E0FB18FD"
+				ignore_reward_blocking: true
+				stage: "hidebehind_resolved"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "650C20D606079560"
+				title: "Comfort Him"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "005931DFA0F55E64"
+			rewards: [{
+				id: "184E4ABD87C55A83"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "unknown"
+						generation: 3
+						pages: [
+							"{\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
+							"{\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
+							"{\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
+							"{\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
+							"{\"extra\":[{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"italic\":true,\"text\":\"hurt!\"},{\"text\":\" And no one cared. No one even \"},{\"italic\":true,\"text\":\"noticed\"},{\"text\":\".\"}],\"text\":\"\"}"
+							"{\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
+							"{\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
+							"{\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
+							"{\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
+						]
+						resolved: 1b
+						title: "Benjamin"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F8219E5FC5F49A6"
+				stage: "translation"
+				type: "gamestage"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "453B122AD1E1259A"
+			tasks: [{
+				id: "1089075401104A99"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "unknown"
+						display: {
+							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Benjamin\"}"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
+							"{\"extra\":[{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"italic\":true,\"text\":\"hurt!\"},{\"text\":\" And no one cared. No one even \"},{\"italic\":true,\"text\":\"noticed\"},{\"text\":\".\"}],\"text\":\"\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
+						]
+						resolved: 1b
+						title: "Benjamin"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "Chapter 3"

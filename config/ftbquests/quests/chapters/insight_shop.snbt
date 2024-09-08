@@ -6,6 +6,7 @@
 	default_repeatable_quest: true
 	filename: "insight_shop"
 	group: ""
+	icon: "kubejs:ancient_eye"
 	id: "3ACF4D7E8C95C447"
 	images: [
 		{
@@ -33,7 +34,7 @@
 			y: -8.5d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -744,11 +745,6 @@
 			title: "Buy Some Potion Ingredients"
 			x: -4.5d
 			y: 2.0d
-		}
-		{
-			id: "7818332DFF316882"
-			x: -11.5d
-			y: 4.0d
 		}
 	]
 	title: "Insight Shop"

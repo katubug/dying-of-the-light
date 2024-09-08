@@ -5,7 +5,12 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "You'll need to make sure to $(#00a800)stay hydrated$() if you want to remain healthy. Your body's natural ability to recover is $(d)impeded when you're too thirsty$(). You can make any number of different beverages - $(#00a8a8)tea$(), $(#00a8a8)juice$(), $(#00a8a8)cocoa$(), but the obvious go-to is $(#00a8a8)water$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "legendarysurvivaloverhaul:purified_water_bottle",
+            "text": "You can drink any water you find, but if you want to be safe about it, you'll need to $(6)purify it first$(). You can $(6)boil water$() in a $(#00a8a8)Furnace$(), for example. Unpurified water can cause you to $(d)be even thirstier$()."
         }
     ]
 }

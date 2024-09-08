@@ -25,6 +25,7 @@
 			y: -7.5d
 		}
 		{
+			dependency: "085671CEEECD2D16"
 			height: 7.936507936507937d
 			image: "dying_light:textures/ui_images/fishsketch.png"
 			rotation: 0.0d

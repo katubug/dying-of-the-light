@@ -27,8 +27,6 @@
 
 # Options related to the temperature system
 [temperature]
-	# If enabled, players will take damage from the effects of temperature.
-	"Dangerous Temperature Effects" = true
 	# How much of an effect being on fire has on a player's temperature.
 	#Range: -1000.0 ~ 1000.0
 	"Player On Fire Modifier" = 12.5
@@ -39,6 +37,10 @@
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
 	"Altitude Modifier" = -3.0
+	# If enabled, players will take damage from the effects of high temperature.
+	"Dangerous Heat Temperature Effects" = true
+	# If enabled, players will take damage from the effects of low temperature.
+	"Dangerous Cold Temperature Effects" = true
 
 	[temperature.on-death]
 		# If enabled, players will be immune to temperature effects after death.
@@ -48,9 +50,6 @@
 		"Temperature Resistance Time" = 1800
 
 	[temperature.secondary_effects]
-		# If enabled, players will also receive other effects from their current temperature state.
-		# If the player is too hot, hydration will deplete faster. If the player is too cold, hunger will deplete faster.
-		"Secondary Temperature Effects" = true
 		# How much thirst exhaustion will be added every 50 ticks with no amplification effect.
 		#Range: 0.0 ~ 1000.0
 		"Heat Thirst Effect Modifier" = 0.1
@@ -58,6 +57,12 @@
 		# As reference, the hunger effect add 0.025 food exhaustion every 50 ticks.
 		#Range: 0.0 ~ 1000.0
 		"Cold Hunger Modifier" = 0.05
+		# If enabled, players will also receive other effects from their current temperature state.
+		# If the player is too hot, hydration will deplete faster.
+		"Heat Temperature Secondary Effects" = true
+		# If enabled, players will also receive other effects from their current temperature state.
+		# If the player is too cold, hunger will deplete faster.
+		"Cold Temperature Secondary Effects" = true
 
 	[temperature.wetness]
 		# How a player's "wetness" is determined. Accepted values are as follows:
@@ -184,7 +189,7 @@
 			#Range: > 5
 			"Temperature Tick Time" = 20
 			# Maximum amount of temperature the player's temperature can be modified at each temperature tick time.
-			# Correspond to the amount of temperature given when temperature difference is maximum.
+			# Correspond to the amount of temperature given when temperature difference is maximum, meaning 40.
 			#Range: 0.1 ~ 2.147483647E9
 			"Maximum Temperature Modification" = 1.0
 			# Minimum amount of temperature the player's temperature can be modified at each temperature tick time.

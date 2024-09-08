@@ -5,7 +5,32 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "You'll notice you're $(#00a800)sensitive to temperature, now$(). You'll need to keep a close eye on your body temps if you want to survive here.$(br2)When you're too warm, your $(#00a800)thirst will increase$(), so be sure to $(#00a800)stay hydrated$(), especially in hot areas."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "When you're too cold, your body will start burning energy, $(#00a800)increasing your hunger$(). So you'll always want to keep some food on you.$(br2)There are other ways of dealing with the elements, too. Clothes. Different types of food. Jumping into water."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "legendarysurvivaloverhaul:snow_helmet",
+            "text": "Firstly, you can make $(#00a8a8)Clothing$() out of $(#00a8a8)Wool$() or $(#00a8a8)Leather$(), depending on whether you're living somewhere cold or hot. This is good for $(#00a800)avoiding exposure$(), but isn't great if you've got to $(6)face monsters$(), so you might want to upgrade to..."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe":  "legendarysurvivaloverhaul:cooling_coat_1",
+            "title": "Cooling/Thermal Coats",
+            "text": "$(#00a8a8)Coats$() are linings which you can $(6)sew into existing armor$() to make it $(#00a800)adapt to the heat or cold$().$(br)There are 3 levels of rarity, which provide $(#00a800)better bonuses$() the higher you go."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "crockpot:pepper_popper",
+            "text": "There's also $(#00a8a8)Food and Drinks$() which grant resistance to either $(#00a800)heat or cold$() for varying amounts, and varying lengths of time. Check your $(#00a800)known recipes$() for more information."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "legendarysurvivaloverhaul:ice_fern",
+            "text": "Finally, you can brew $(#00a8a8)Potions$() of both $(#00a800)heat and cold resistance$(), which are helpful so long as you have a $(#00a8a8)Brewing$() setup. Which, arguably, you really should."
         }
     ]
 }

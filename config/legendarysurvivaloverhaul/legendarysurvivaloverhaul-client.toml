@@ -27,6 +27,10 @@
 		"Cold Breath Temperature Threshold" = 10.0
 		# If enabled, the food saturation will be rendered on the Food Bar while the player suffers Cold Hunger Effect (secondary temperature effect).
 		"Show Food Saturation Bar" = true
+		# If enabled, player will see a foggy effect when the heat is high.
+		"Heat Temperature Overlay" = true
+		# If enabled, player will see a frost effect when the cold is low.
+		"Cold Temperature Overlay" = true
 
 		[hud.temperature.wetness]
 			# The X and Y offset of the wetness indicator. Set both to 0 for no offset.

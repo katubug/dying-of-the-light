@@ -20,7 +20,7 @@
 	quests: [
 		{
 			description: [
-				"Welcome to &9Dying of the Light&r, a cozy horror modpack designed by HeyKatu (it's me, hi)."
+				"Welcome to &cDying of the Light&r, a cozy horror modpack designed by HeyKatu (it's me, hi)."
 				""
 				"This pack is designed to emulate the &aeerie-but-comfortable&r vibes of games such as &nDredge&r and &nStrange Horticulture&r. It attempts to &aavoid jumpscares whenever possible&r, instead focusing on a sense of unease."
 				""
@@ -130,6 +130,8 @@
 				"- Be sure to &6create a Team&r via FTB Teams, so that you can share quest progress, as some mechanics will be unlocked teamwide."
 				""
 				"- Consider &6adding and configuring Simple Voice Chat&r for a more immersive communication experience."
+				""
+				"&dCompleting this quest will unlock the rest of the quest book&r."
 			]
 			id: "619B225244EE9A1B"
 			rewards: [{

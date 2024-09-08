@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:entity",
-            "text": "Not much is known about it due to its isolation.",
+            "text": "Additionally, it is only visible at night.",
             "entity": "whisperwoods:hidebehind",
             "name": "The Hidebehind"
         }

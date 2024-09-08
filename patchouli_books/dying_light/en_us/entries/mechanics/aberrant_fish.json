@@ -5,7 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": ""
+            "text": "Fishing is $(#00a800)alleviating to your sanity$(), but another incentive to do it is the existence of $(#00a8a8)Aberrant Fish$(). These unusual creatures have mutations which make them disturbing - but also $(#00a800)valuable$(). Through your quest menu, you can sell $(#00a8a8)Aberrant Fish$() for profit."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Additionally, each time you catch one, $(#00a800)your insight will go up by one$().$(br2)"
         }
     ]
 }

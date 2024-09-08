@@ -5,7 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Your alignment is affected by your actions: you gain purity by killing Illagers, and corruption by killing Villagers."
+            "text": "Your alignment is affected by your actions:$(br2)You gain $(#00a8a8)purity$() by$(li) Killing Illagers.$(li) Healing Pets.$(li) Bonemealing Plants.$(br2)You gain $(#00a8a8)corruption$() by$(li) Killing Villagers.$(li) Hurting babies.$(li) Hurting pets."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Each path can grant you perks, but be aware that if you choose a path of corruption, you are likely to $(d)lose your mind$().$(br2)Having positive alignment, conversely, can $(#00a800)soothe you and help your mental health$(). Only you can decide what to prioritize."
         },
         {
             "type": "patchouli:image",
@@ -16,7 +20,8 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Each path can grant you perks, but be aware that if you choose a path of corruption, you are likely to lose your mind."
+            "text": "You can check your $(#00a8a8)Alignment$(), as well as choose perks and view your powers, by accessing your $(#00a8a8)Knowledge of Death.$() You can earn more knowledge by $(6)dying or killing undead$(), and as you gain levels, you obtain points which can unlock special abilities."
         }
+        
     ]
 }

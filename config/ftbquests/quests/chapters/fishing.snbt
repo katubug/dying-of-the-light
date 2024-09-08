@@ -725,7 +725,9 @@
 		{
 			dependencies: ["085671CEEECD2D16"]
 			description: [
-				"Fishing isn't quite as mindless here as it usually is. Once you hook a fish, you need to &acarefully time your right click&r in order to catch the fish properly!"
+				"Fishing isn't quite as mindless here as it usually is. Hold &6right click&r to charge your cast, and then wait for the bite, and begin the catch as normal."
+				""
+				"Once you hook a fish, you need to &acarefully time your right click&r in order to catch the fish properly!"
 				""
 				"Try to &6click when the moving bar is in the green&r."
 				""

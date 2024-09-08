@@ -179,6 +179,161 @@
 			x: 1.0d
 			y: 5.5d
 		}
+		{
+			id: "5EA10E46D2F902AB"
+			tasks: [{
+				icon: "whisperwoods:bottled_moth"
+				id: "554CC44D3F7EAD19"
+				title: "Catch a Large Moth"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "61CECD673926204F"
+			tasks: [{
+				icon: "whisperwoods:bottled_moth"
+				id: "6F15D36413BEFD14"
+				title: "Catch a Tiny Moth"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "53D551AA67540FE6"
+			tasks: [
+				{
+					id: "4C16F158689E3A30"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_orange_deaths_head"
+							SizeTag: 0.42000002f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5C1625A62CE92C7A"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "dappled_wood"
+							SizeTag: 0.21000001f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "62C3A0FE54C49099"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "black_witch"
+							SizeTag: 0.22f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16AF4C091A4BB684"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_grey_deaths_head"
+							SizeTag: 0.21000001f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4AB6A0C5301E93D6"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "owl"
+							SizeTag: 0.19f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "746EAB2DABD32991"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brahmin"
+							SizeTag: 0.38f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3500FF50F8A6A4C8"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "luna"
+							SizeTag: 0.27f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3E08EF1C56A038C0"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "black_white_deaths_head"
+							SizeTag: 0.3f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "78A3192DAB5829D0"
+					item: {
+						Count: 1
+						id: "whisperwoods:bottled_moth"
+						tag: {
+							BucketVariantTag: "brown_spotted_hawk"
+							SizeTag: 0.33f
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
 	]
 	title: "WIP"
 }

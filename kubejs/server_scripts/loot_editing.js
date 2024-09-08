@@ -6,8 +6,48 @@ LootJS.modifiers((event) => {
 
     //Add tomes to chests
     event.addLootTableModifier("minecraft:chests/ancient_city")
-        .randomChance(0.2)
-        .addLoot('kubejs:great_ones_tome')
+    .randomChance(0.2)
+    .addLoot('kubejs:great_ones_tome')
+
+    event.addLootTableModifier("minecraft:chests/ancient_city")
+    .randomChance(0.2)
+    .addLoot('kubejs:great_ones_tome')
+
+    event.addLootTableModifier("minecraft:chests/buried_treasure")
+    .randomChance(0.2)
+    .addLoot('kubejs:great_ones_tome')
+
+    event.addLootTableModifier("minecraft:chests/stronghold/library")
+    .randomChance(0.2)
+    .addLoot('kubejs:great_ones_tome')
+
+    event.addLootTableModifier("minecraft:chests/pillager_outpost")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("minecraft:chests/desert_pyramid")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("minecraft:chests/jungle_temple")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("graveyard:chests/crypt_loot")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("underground_jungle:chests/temple_treasure")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("aquamirae:chests/ship_1")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
+
+    event.addLootTableModifier("aquamirae:chests/maze_camp_chest")
+    .randomChance(0.2)
+    .addLoot('kubejs:lunatics_tome')
 
     //Abberrant Fish
     let hollowCod = Item.of('minecraft:cod', '{Tags:"aberrant_fish",display:{Lore:[\'["",{"text":"The body remains whole, but the","italic":false}]\',\'["",{"text":"insides have hollowed out","italic":false}]\',\'["",{"text":"entirely. Peering into its mouth","italic":false}]\',\'["",{"text":"reveals an empty cavity,","italic":false}]\',\'["",{"text":"echoing with a distant, ghostly","italic":false}]\',\'["",{"text":"hum.","italic":false}]\'],Name:\'["",{"text":"Hollow Cod","italic":false,"color":"gold"}]\'}}').enchant('cursery:curse_hungry', 0)
@@ -66,7 +106,7 @@ LootJS.modifiers((event) => {
 
     for (const fish of aberrantFish) {
         event.addLootTableModifier("minecraft:gameplay/fishing")
-        //.hasAnyStage("insightful")
+        //.hasAnyStage("madness")
         .randomChance(0.01)
         .removeLoot(Ingredient.all)
         .addLoot(fish)

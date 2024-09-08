@@ -157,5 +157,124 @@
       "temperatureLevel": 2,
       "duration": 2400
     }
+  ],
+  "bitter_brews:cup_of_hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_green_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_crimson_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_warped_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_coffee": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_dark_coffee": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_espresso": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_mango_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_kelp_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_jasmine_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_azalea_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_black_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_honey_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_glow_berry_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_sweet_berry_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "bitter_brews:cup_of_iced_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
   ]
 }

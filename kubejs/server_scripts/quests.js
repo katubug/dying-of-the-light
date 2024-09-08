@@ -197,3 +197,18 @@ FTBQuestsEvents.customReward('505505B5A32B6DAA', event =>{
     event.player.persistentData.insightCount-=3
     console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
+
+PlayerEvents.inventoryChanged(event=>{
+    //console.log(event.item)
+    if (event.item.id == 'whisperwoods:bottled_moth'){
+        //Catch a Small Moth
+        if (event.item.nbt.SizeTag <=0.25){
+            event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 6F15D36413BEFD14`)
+        }
+        //Catch a Large Moth
+        if (event.item.nbt.SizeTag >=0.4){
+            event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 554CC44D3F7EAD19`)
+        }
+    }
+})
+

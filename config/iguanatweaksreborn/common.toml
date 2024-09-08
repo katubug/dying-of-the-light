@@ -976,6 +976,8 @@
 		"Replace looting, fortune and LotS enchantments" = false
 		#If true and shift it pressed, items will show enchantment info below the enchantments
 		"Enchantments info" = false
+		#If true, the formula for bonus damage for arrows is changed from `'Power Enchantment Damage' + 'Power Enchantment Damage' * lvl` to `base_damage * 'Power Enchantment Damage' * lvl`.
+		"Power Enchantment Multiplier" = true
 
 [Combat]
 	#Players be left with half a heart when too much damage that would kill them is dealt (only works for damage taken from mobs)

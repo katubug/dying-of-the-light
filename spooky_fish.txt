@@ -1,13 +1,53 @@
+Mawbreach Grouper:
+give @a tide:deep_grouper{display:{Name:'["",{"text":"Mawbreach Grouper","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its massive mouth is split beyond","italic":false}]','["",{"text":"its normal range, extending past","italic":false}]','["",{"text":"its gills and folding back like","italic":false}]','["",{"text":"jagged petals. Inside, multiple","italic":false}]','["",{"text":"rows of smaller, snapping mouths","italic":false}]','["",{"text":"continuously feed on anything caught","italic":false}]','["",{"text":"in the grotesque bloom.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Bonecoil Eel:
+give @a tide:cave_eel{display:{Name:'["",{"text":"Bonecoil Eel","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its body has twisted unnaturally,","italic":false}]','["",{"text":"folding and knotting over itself","italic":false}]','["",{"text":"like a coiled rope. Segments of","italic":false}]','["",{"text":"its flesh have been stripped","italic":false}]','["",{"text":"away, leaving exposed bone, which","italic":false}]','["",{"text":"cracks and shifts as it slithers","italic":false}]','["",{"text":"through the water.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Weeping Bluegill:
+give @a tide:bluegill{display:{Name:'["",{"text":"Weeping Bluegill","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its eyes have melted down the","italic":false}]','["",{"text":"sides of its face, leaving dark,","italic":false}]','["",{"text":"empty sockets. A constant trickle","italic":false}]','["",{"text":"of thick, black liquid drips from","italic":false}]','["",{"text":"the sockets, staining its once","italic":false}]','["",{"text":"vibrant scales.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Fractal Guppy:
+give @a tide:guppy{display:{Name:'["",{"text":"Fractal Guppy","italic":false,"color":"gold"}]',Lore:['["",{"text":"This tiny fish has multiplied in","italic":false}]','["",{"text":"a chaotic fashion, with limbs and","italic":false}]','["",{"text":"fins repeating infinitely down","italic":false}]','["",{"text":"its spine. It moves in erratic","italic":false}]','["",{"text":"bursts, as though each part tries","italic":false}]','["",{"text":"to swim in a different direction.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Bloated Perch:
+give @a tide:yellow_perch{display:{Name:'["",{"text":"Host Perch","italic":false,"color":"gold"}]',Lore:['["",{"text":"The belly is grotesquely swollen,","italic":false}]','["",{"text":"almost translucent, revealing","italic":false}]','["",{"text":"something writhing inside. A","italic":false}]','["",{"text":"sickening glow pulses from","italic":false}]','["",{"text":"within, hinting at the parasitic","italic":false}]','["",{"text":"mass using the perch as a living","italic":false}]','["",{"text":"incubator.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Barbed Pike:
+give @a tide:pike{display:{Name:'["",{"text":"Barbed Pike","italic":false,"color":"gold"}]',Lore:['["",{"text":"Jagged spines protrude from its","italic":false}]','["",{"text":"elongated body, curving outward","italic":false}]','["",{"text":"like hooks. The pike’s mouth","italic":false}]','["",{"text":"hangs open in a permanent snarl,","italic":false}]','["",{"text":"rows of sharp teeth mismatched","italic":false}]','["",{"text":"and crooked as though forcibly","italic":false}]','["",{"text":"rearranged.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Fleshrift Catfish:
+give @a tide:catfish{display:{Name:'["",{"text":"Fleshrift Catfish","italic":false,"color":"gold"}]',Lore:['["",{"text":"The thick whiskers have fused","italic":false}]','["",{"text":"into fleshy tendrils, digging","italic":false}]','["",{"text":"into its own body. Its bloated","italic":false}]','["",{"text":"form is scarred and torn, with","italic":false}]','["",{"text":"pieces of its flesh hanging","italic":false}]','["",{"text":"loosely, barely clinging to","italic":false}]','["",{"text":"the exposed bones.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Threaded Sailfish:
+give @a tide:sailfish{display:{Name:'["",{"text":"Threaded Sailfish","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its once-majestic dorsal fin now","italic":false}]','["",{"text":"unravels into long, sinewy","italic":false}]','["",{"text":"tendrils that trail behind it.","italic":false}]','["",{"text":"The threads pulse with life,","italic":false}]','["",{"text":"wrapping around anything they","italic":false}]','["",{"text":"brush, drawing it into the deep.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Cradle Snapper:
+give @a tide:shadow_snapper{display:{Name:'["",{"text":"Cradle Snapper","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its massive jaws are lined with","italic":false}]','["",{"text":"rows of teeth, but within its","italic":false}]','["",{"text":"mouth rests a smaller, living","italic":false}]','["",{"text":"replica of itself—each snap","italic":false}]','["",{"text":"echoes from both mouths in","italic":false}]','["",{"text":"perfect synchronization.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Splintered Barracuda:
+give @a tide:barracuda{display:{Name:'["",{"text":"Splintered Barracuda","italic":false,"color":"gold"}]',Lore:['["",{"text":"Cracks run jagged across its body,","italic":false}]','["",{"text":"each fissure leaking a faint,","italic":false}]','["",{"text":"pale light. The fish twitches in","italic":false}]','["",{"text":"sharp, erratic movements as if","italic":false}]','["",{"text":"it\'s being pulled apart from the","italic":false}]','["",{"text":"inside.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Shimmergill Trout:
+give @a tide:trout{display:{Name:'["",{"text":"Shimmergill Trout","italic":false,"color":"gold"}]',Lore:['["",{"text":"Scales gleam unnaturally, shifting","italic":false}]','["",{"text":"in color like oil on water. Each","italic":false}]','["",{"text":"glint hypnotizes onlookers, but","italic":false}]','["",{"text":"those who stare too long find","italic":false}]','["",{"text":"the colors never leave their","italic":false}]','["",{"text":"vision.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+
+Hollow Cod:
+give @a minecraft:cod{display:{Name:'["",{"text":"Hollow Cod","italic":false,"color":"gold"}]',Lore:['["",{"text":"The body remains whole, but the","italic":false}]','["",{"text":"insides have hollowed out","italic":false}]','["",{"text":"entirely. Peering into its mouth","italic":false}]','["",{"text":"reveals an empty cavity,","italic":false}]','["",{"text":"echoing with a distant, ghostly","italic":false}]','["",{"text":"hum.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
+Scalded Salmon:
+give @a minecraft:salmon{display:{Name:'["",{"text":"Scalded Salmon","italic":false,"color":"gold"}]',Lore:['["",{"text":"Its once sleek body is marred with","italic":false}]','["",{"text":"patches of raw, pink flesh. Boils","italic":false}]','["",{"text":"hiss and pop along its spine,","italic":false}]','["",{"text":"releasing plumes of steam that","italic":false}]','["",{"text":"twist and rise as if alive.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
+
 Leechtooth Tuna:
-give @a tide:tuna{display:{Name:'["",{"text":"Leechtooth Tuna","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Gaping wounds in the fish’s mouth","italic":false}]','["",{"text":"reveal long, writhing leeches","italic":false}]','["",{"text":"where its teeth should be.","italic":false}]','["",{"text":"They latch onto prey for","italic":false}]','["",{"text":"sustenance, leaving the tuna as","italic":false}]','["",{"text":"merely a vessel for their hunger.","italic":false}]']},Enchantments:[{}]}
+give @a tide:tuna{display:{Name:'["",{"text":"Leechtooth Tuna","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Gaping wounds in the fish’s mouth","italic":false}]','["",{"text":"reveal long, writhing leeches","italic":false}]','["",{"text":"where its teeth should be.","italic":false}]','["",{"text":"They latch onto prey for","italic":false}]','["",{"text":"sustenance, leaving the tuna as","italic":false}]','["",{"text":"merely a vessel for their hunger.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
 
 
 Twinscale Bass:
-give @a tide:bass{display:{Name:'["",{"text":"Twinscale Bass","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Two heads, fused at the spine,","italic":false}]','["",{"text":"struggle for control. One side is","italic":false}]','["",{"text":"vibrant and alive, the other,","italic":false}]','["",{"text":"rotting and festering—both eyes","italic":false}]','["",{"text":"seeing, neither agreeing.","italic":false}]']},Enchantments:[{}]}
+give @a tide:bass{display:{Name:'["",{"text":"Twinscale Bass","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Two heads, fused at the spine,","italic":false}]','["",{"text":"struggle for control. One side is","italic":false}]','["",{"text":"vibrant and alive, the other,","italic":false}]','["",{"text":"rotting and festering—both eyes","italic":false}]','["",{"text":"seeing, neither agreeing.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
 
 Blistered Mackerel:
-give @a tide:magma_mackerel{display:{Name:'["",{"text":"Blistered Mackerel","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Bulging blisters coat its scales,","italic":false}]','["",{"text":"each filled with a swirling, dark","italic":false}]','["",{"text":"liquid. Puncture one, and the fish","italic":false}]','["",{"text":"leaks a thick, tar-like substance","italic":false}]','["",{"text":"that moves of its own accord.","italic":false}]']},Enchantments:[{}]}
+give @a tide:magma_mackerel{display:{Name:'["",{"text":"Blistered Mackerel","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Bulging blisters coat its scales,","italic":false}]','["",{"text":"each filled with a swirling, dark","italic":false}]','["",{"text":"liquid. Puncture one, and the fish","italic":false}]','["",{"text":"leaks a thick, tar-like substance","italic":false}]','["",{"text":"that moves of its own accord.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}
 
 
 Veilfin Angler:
-give @a tide:abyss_angler{display:{Name:'["",{"text":"Veilfin Angler","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Its translucent skin reveals","italic":false}]','["",{"text":"twitching veins beneath,","italic":false}]','["",{"text":"pulsing with an eerie light.","italic":false}]','["",{"text":"A single oversized fin drapes","italic":false}]','["",{"text":"like a torn veil, its lure","italic":false}]','["",{"text":"swaying, drawing in more than","italic":false}]','["",{"text":"prey.","italic":false}]']},Enchantments:[{}]}
+give @a tide:abyss_angler{display:{Name:'["",{"text":"Veilfin Angler","italic":false,"color":"yellow"}]',Lore:['["",{"text":"Its translucent skin reveals","italic":false}]','["",{"text":"twitching veins beneath,","italic":false}]','["",{"text":"pulsing with an eerie light.","italic":false}]','["",{"text":"A single oversized fin drapes","italic":false}]','["",{"text":"like a torn veil, its lure","italic":false}]','["",{"text":"swaying, drawing in more than","italic":false}]','["",{"text":"prey.","italic":false}]']},Enchantments:[{}],Tags:aberrant_fish}

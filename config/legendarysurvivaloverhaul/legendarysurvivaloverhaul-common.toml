@@ -36,7 +36,7 @@
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
-	"Altitude Modifier" = -3.0
+	"Altitude Modifier" = 0
 	# If enabled, players will take damage from the effects of high temperature.
 	"Dangerous Heat Temperature Effects" = true
 	# If enabled, players will take damage from the effects of low temperature.
@@ -92,7 +92,7 @@
 		#Range: -1000.0 ~ 1000.0
 		"Default Nether Modifier" = 28.0
 		#Range: -1000.0 ~ 1000.0
-		"Default The End Modifier" = -15.0
+		"Default The End Modifier" = -10.0
 
 	[temperature.huddling]
 		# How much nearby players increase the ambient temperature by.

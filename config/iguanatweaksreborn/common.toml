@@ -86,12 +86,17 @@
 		"Requires axe" = false
 
 	[World.Nether]
-		#Makes the nether 128 blocks high instead of 256, effectively disabling the "Nether Roof" and removes the 8 block ratio between nether and end.
-		"Disable Nether Roof and 8 block ratio" = true
 		#If true, lava pockets in the nether are removed. If quark is installed, this is disabled
 		"Remove Lava Pockets" = true
 		#The portal requires Crying Obsidian in the corners to turn it on (in the overworld). The block tag 'iguanatweaksreborn:portal_corners' can be used to change the required blocks for the corners
 		"Portal requires Crying Obsidian" = false
+		#Makes the nether 128 blocks high instead of 256, effectively disabling the "Nether Roof" and reduces the 8 block ratio between nether and other dimensions to 4.
+		"Disable Nether Roof and reduce block ratio" = true
+		#If true you cannot lit nether portals
+		"Disable Nether" = false
+		#How much time inside the portal to pass it. Vanilla is 80 ticks
+		#Range: > -2147483648
+		"Portal wait time" = 50
 
 	#Makes leaves decay faster
 	[World.Leaves]
@@ -371,6 +376,8 @@
 		#Max durability of items dropped by mobs. This also fixes https://bugs.mojang.com/browse/MC-136374. Setting to 0 will disable this feature.
 		#Range: 0.0 ~ 1.0
 		"Max durability" = 0.6
+		#All drops from mobs will be disenchanted.
+		"Disenchant equipment" = false
 
 	#Add a brand new Echo Torch and some changes to mob spawn
 	[Mobs.Spawning]
@@ -559,6 +566,17 @@
 		#Multiplier applied to the hardness of blocks. E.g. with this set to 2.0 blocks will take 2 times longer to break.
 		#Range: 0.0 ~ 128.0
 		"Hardness Multiplier" = 1.0
+
+	#Changes Gold tools to have an innate Fortune/Looting I and changes the harvest level to be like stone tools
+	[Mining.Gold]
+		#Set the harvest level of gold tools. Vanilla is minecraft:gold (same as minecraft:wood), the there's stone, iron, diamond, netherite. Please note that an invalid resource location or harvest level here might crash the game.
+		"Harvest Level" = "minecraft:stone"
+		#Set the innate looting level of gold tools.
+		#Range: 0 ~ 255
+		"Looting Level" = 1
+		#Set the innate fortune level of gold tools.
+		#Range: 0 ~ 255
+		"Fortune Level" = 1
 
 [Items]
 	#Make food, items and blocks less stackable. Items and Blocks are disabled by default. Changing stuff might require a Minecraft restart.
@@ -914,6 +932,8 @@
 		#If true, anvils don't wear down when only used for renaming
 		"No break on renaming" = true
 		"Fix anvils with Iron Blocks" = true
+		#If true you can merge items in the anvil and get a repair bonus
+		"Allow Merging Items" = true
 
 		[Experience.Anvils."Enchantments cost by rarity"]
 			#Vanilla: 1

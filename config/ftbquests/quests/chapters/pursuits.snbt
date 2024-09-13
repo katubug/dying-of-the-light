@@ -4,11 +4,12 @@
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "pursuits"
-	group: ""
+	group: "725A765315FCAF74"
 	icon: "exposure:camera"
 	id: "6A7A8E71B9BF04AB"
 	images: [
 		{
+			color: 14528651
 			height: 15.0d
 			image: "dying_light:textures/ui_images/page_bg1.png"
 			rotation: 0.0d
@@ -25,6 +26,7 @@
 			y: -7.5d
 		}
 		{
+			color: 263172
 			dependency: "085671CEEECD2D16"
 			height: 7.936507936507937d
 			image: "dying_light:textures/ui_images/fishsketch.png"
@@ -34,6 +36,7 @@
 			y: -0.5d
 		}
 		{
+			color: 11373165
 			height: 15.0d
 			image: "dying_light:textures/ui_images/page_bg4.png"
 			rotation: 0.0d
@@ -58,6 +61,7 @@
 			y: 1.0d
 		}
 		{
+			color: 10058336
 			height: 15.0d
 			image: "dying_light:textures/ui_images/page_bg3.png"
 			rotation: 0.0d
@@ -66,33 +70,53 @@
 			y: 10.0d
 		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "5EA10E46D2F902AB"
+			rewards: [{
+				id: "14E14426B7F178FE"
+				item: "aquamirae:golden_moth_in_a_jar"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "whisperwoods:bottled_moth"
 				id: "554CC44D3F7EAD19"
 				title: "Catch a Large Moth"
 				type: "custom"
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			id: "61CECD673926204F"
+			rewards: [{
+				id: "3718B763DA9C127A"
+				item: "aquamirae:golden_moth_in_a_jar"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "whisperwoods:bottled_moth"
 				id: "6F15D36413BEFD14"
 				title: "Catch a Tiny Moth"
 				type: "custom"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
+			description: [
+				"The &eMoths&r of this world are truly beautiful. Did you know you can &6capture them in &bBottles&r? It sounds cruel, but if you don't, they can &abreak your torches&r, so I wouldn't feel too bad."
+				""
+				"If you can catch one of each type, I'll give you a &breward&r."
+			]
 			id: "53D551AA67540FE6"
+			rewards: [{
+				id: "1C7E00FA493C4FC5"
+				item: "abyssal_decor:bottomless_bag_of_dirt"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C16F158689E3A30"
@@ -221,8 +245,9 @@
 					weak_nbt_match: true
 				}
 			]
-			x: -4.0d
-			y: 7.0d
+			title: "Catch All Moth Types"
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			id: "5563626619763B14"
@@ -1747,6 +1772,129 @@
 			title: "Collect All Aberrant Fish"
 			x: -2.0d
 			y: -6.5d
+		}
+		{
+			description: [
+				"Sometimes you'll find you need &bSouls&r to accomplish things. There are hundreds of them here, unmoored, lacking any form of identity, little more than an amorphous collection of energy."
+				""
+				"You can attract them by building &bDecorative Graves&r. Once these are placed, they will &adraw those energies in&r, for you to capture and harness. Don't feel bad about it - these aren't people any longer. By giving them a purpose, you allow them to move on."
+				""
+				"You may also find that these graves spawn a &eGrave Guardian&r, which is a creature (technically undead), which feels compelled to protect the sacredness of the graveyard. If one spawns, consider yourself lucky."
+			]
+			id: "6FA0C04049DA9E98"
+			rewards: [{
+				id: "7FE87DFBBC4F8B9B"
+				item: "tombstone:soul_receptacle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "279534D3034B9BFC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple)item(tombstone:decorative_grave_simple))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Make a Decorative Grave"
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&bAmethyst&r has interesting properties. One of its aspects is &achaos&r, which is why it's not surprising that you can &agrind it into powder&r to transform things."
+				""
+				"If you put this in the &bStonecutter&r, you can get &bMutagen&r, which lets you craft stuff from the &lThaumon&r mod."
+			]
+			id: "36DBDF14913F681D"
+			rewards: [{
+				id: "4554C3FA27530492"
+				item: "thaumon:mutagen"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DE03308E76C8173"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "A Useful Gem"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Did you hear that boom? I think it was a &bFalling Star&r. They happen here, occasionally. If you can &6find where it landed&r, you should be able to collect some &bStarmetal&r."
+				""
+				"Starmetal is a rare and wondrous material which grants &bMending&r to your tools and gear. You won't be able to obtain that from any &eLibrarians&r around here, so it's worth it to go &aseek out that explosion&r!"
+			]
+			id: "66919E816F79F444"
+			rewards: [{
+				id: "6103B319CCD635C6"
+				item: "starmetal:star_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "starmetal:advancements/adventure/chase_a_falling_star"
+				criterion: ""
+				id: "1852EE5489E3915B"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Ah, you've caught &bSculk Sickness&r. It's... unpleasant. Back when I had a body, I got it once, and I was never quite the same. You're healthier than I was though. You should be okay."
+				""
+				"The disease has &aseveral stages&r, and it &dgets worse the more it progresses&r. You want to try to &aremedy it&r, if you can - for that, you'll need to make an &bAmbrosial Herb&r. You can check JEI for the recipe, and here's something to get you started."
+				""
+				"If I were you, I'd &ahurry up&r and collect those ingredients..."
+			]
+			id: "4B6BB4CC7EF0165F"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6B453C0C35FCF7F3"
+				item: "sculksickness:axolotl_leg"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				icon: "sculksickness:sculk_blossom"
+				id: "1C1D0FD87D3FA513"
+				title: "Get Sculk Sickness"
+				type: "custom"
+			}]
+			title: "Contract Sculk Illness"
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			description: [
+				"villagers in basement"
+				"free wither skeleton skull"
+			]
+			id: "0F5408B81C13D32D"
+			tasks: [{
+				id: "25C7B6A5F9043830"
+				structure: "graveyard:haunted_house"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			description: ["underground structure, full of acolytes and cool stuff"]
+			id: "61E700BDC5DB7857"
+			tasks: [{
+				id: "03F6665FD6D34DD4"
+				structure: "graveyard:crypt"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 9.0d
 		}
 	]
 	title: "Pursuits"

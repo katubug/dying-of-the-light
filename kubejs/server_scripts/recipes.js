@@ -47,6 +47,24 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of('summoningrituals:altar'),
+        [
+            'ECD',
+            'BAB',
+            'AAA'
+        ], {
+            A: 'minecraft:dark_oak_planks', 
+            B: 'minecraft:gold_ingot', 
+            C: 'minecraft:red_wool', 
+            D: 'minecraft:wither_skeleton_skull', 
+            E: 'minecraft:candle'
+        }
+    )
+
+
+    //[, ]
+
     //Summoning Ritual for Lore Books
     //Cave Dweller
     let dwellerBook = Item.of('minecraft:written_book', '{author:"unknown",display:{Name:\'{"font":"runelic:runelic","text":"Cave Dweller"}\'},generation:3,pages:[\'{"font":"runelic:runelic","text":"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\\\n\\\\nBut his fate was cursed to tragedy."}\',\'{"font":"runelic:runelic","text":"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\\\n\\\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away."}\',\'{"font":"runelic:runelic","text":"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\\\n\\\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too."}\',\'{"font":"runelic:runelic","text":"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik\\\'s daughter - but at a desperate price.\\\\n\\\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals."}\',\'{"font":"runelic:runelic","text":"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind."}\',\'{"font":"runelic:runelic","text":"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\\\n\\\\nThere, he wailed and writhed, and tore at his own flesh, refusing to eat or drink."}\',\'{"font":"runelic:runelic","text":"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\\\n\\\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night..."}\'],title:"Cave Dweller"}')
@@ -97,7 +115,7 @@ ServerEvents.recipes(event => {
         let hidebehindBook = Item.of('minecraft:written_book', '{author:"unknown",display:{Name:\'{"font":"runelic:runelic","text":"Benjamin"}\'},generation:3,pages:[\'{"font":"runelic:runelic","text":"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\\\n\\\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old."}\',\'{"font":"runelic:runelic","text":"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten."}\',\'{"font":"runelic:runelic","text":"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\\\n\\\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read."}\',\'{"font":"runelic:runelic","text":"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he\\\'d known.\\\\n\\\\nThen, one day when he was not quite ten years old, he fell and injured his knee."}\',\'{"extra":[{"text":"Now, this was not an unusual injury for a boy his age, and it wasn\\\'t particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It "},{"italic":true,"text":"hurt!"},{"text":" And no one cared. No one even "},{"italic":true,"text":"noticed"},{"text":"."}],"text":""}\',\'{"font":"runelic:runelic","text":"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn\\\'t anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him."}\',\'{"font":"runelic:runelic","text":"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn\\\'t even ask him where he\\\'d been.\\\\n\\\\nBut he could fall no lower into despair. He had become gray inside."}\',\'{"font":"runelic:runelic","text":"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn\\\'t seem to see him."}\',\'{"font":"runelic:runelic","text":"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\\\n\\\\nAn entire life lived alone - and when he was gone, there was no one to cry for him."}\'],resolved:1b,title:"Benjamin"}')
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(hidebehindBook)
-        .input('kubejs:hidebhehind_poppet')
+        .input('kubejs:hidebehind_poppet')
         .input('minecraft:dirt')
         .input('minecraft:dirt')
         .input('minecraft:dirt')

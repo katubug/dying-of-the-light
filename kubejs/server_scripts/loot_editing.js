@@ -1,8 +1,34 @@
 LootJS.modifiers((event) => {
 
+    //event.enableLogging();
+
+
     //Make Corruption easier to come by
     event.addEntityLootModifier("minecraft:zombie_villager")
     .addLoot("graveyard:corruption")
+
+    //testing
+    event.addEntityLootModifier("minecraft:zombie")
+    .hasAnyStage(['test'])
+    .addLoot("graveyard:corruption")
+
+    //Tortured Souls drop Rune Echo Stones when Cornelia quest is active
+    event.addEntityLootModifier("aquamirae:tortured_soul")
+    .hasAnyStage(['cornelia_begun'])
+    .addLoot('kubejs:rune_echo_stone')
+
+    //Fish up Cornelia's Frozen Heart
+    event.addLootTableModifier("minecraft:gameplay/fishing")
+        .logName("cornelia_heart")
+        //.hasAnyStage(['cornelia_begun'])
+        .weatherCheck({
+            raining: true,
+            thundering: true
+        })
+        .biome("minecraft:deep_frozen_ocean")
+        .randomChance(0.05)
+        .removeLoot(Ingredient.all)
+        .addLoot('kubejs:icy_heart_fragment');
 
     //Add tomes to chests
     event.addLootTableModifier("minecraft:chests/ancient_city")
@@ -106,7 +132,8 @@ LootJS.modifiers((event) => {
 
     for (const fish of aberrantFish) {
         event.addLootTableModifier("minecraft:gameplay/fishing")
-        //.hasAnyStage("madness")
+        .logName("aberrant_fish")
+        //.hasAnyStage(['insight_shop'])
         .randomChance(0.01)
         .removeLoot(Ingredient.all)
         .addLoot(fish)

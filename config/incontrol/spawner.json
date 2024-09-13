@@ -25,6 +25,21 @@
             "dimension": "minecraft:overworld",
             "inwater": true
         }
+    },
+    {
+        "mob":"cave_dweller:cave_dweller",
+        "attempts": 10,
+        "persecond": 1,
+        "weights": [5],
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions":{
+            "dimension": "minecraft:overworld",
+            "minheight": -256,
+            "maxheight": -20
+        }
     }
 
 ]

@@ -2,6 +2,7 @@
     "name": "HideBehind",
     "icon": "minecraft:nether_wart",
     "category": "patchouli:entities",
+    "advancement": "dying_light:hidebehind_unlock",
     "pages": [
         {
             "type": "patchouli:text",

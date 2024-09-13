@@ -2,6 +2,7 @@
     "name": "Herobrine",
     "icon": "endofherobrine:herobrine_head",
     "category": "patchouli:entities",
+    "advancement": "dying_light:herobrine_unlock",
     "pages": [
         {
             "type": "patchouli:text",

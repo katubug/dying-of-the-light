@@ -198,6 +198,24 @@ FTBQuestsEvents.customReward('505505B5A32B6DAA', event =>{
     console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
 })
 
+//Bandage
+FTBQuestsEvents.customReward('70D41D478BA1A77A', event =>{
+    event.player.persistentData.insightCount-=7
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Medikit
+FTBQuestsEvents.customReward('456BEDDA420CC26C', event =>{
+    event.player.persistentData.insightCount-=15
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
+//Plaster
+FTBQuestsEvents.customReward('3524D88D51FA6583', event =>{
+    event.player.persistentData.insightCount-=3
+    console.log("Player insight after spending is now "+event.player.persistentData.insightCount)
+})
+
 PlayerEvents.inventoryChanged(event=>{
     //console.log(event.item)
     if (event.item.id == 'whisperwoods:bottled_moth'){

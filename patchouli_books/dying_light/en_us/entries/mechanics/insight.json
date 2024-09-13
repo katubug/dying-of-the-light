@@ -2,6 +2,7 @@
     "name": "Insight",
     "icon": "kubejs:ancient_eye",
     "category": "patchouli:mechanics",
+    "advancement": "dying_light:insight_introduction",
     "pages": [
         {
             "type": "patchouli:text",
@@ -9,20 +10,25 @@
         },
         {
             "type": "patchouli:text",
-            "text": "You can gain insight by $(6)completing quests$(), $(6)achieving advancements$(), by $(6)catching unusual fish&r, and by $(6)taking photos of creatures$().$(br2)If you $(6)defeat a spirit creature with the camera$(), you get bonus insight. They also say you gain insight when you $(6)lose your mind$()."
+            "text": "You can gain insight by $(6)completing quests$(), $(6)achieving advancements$(), by $(6)catching unusual fish$(), and by $(6)taking photos of creatures$().$(br2)If you $(6)defeat a spirit creature with the camera$(), you get bonus insight. They also say you gain insight when you $(6)lose your mind$()."
         },
         {
             "type": "patchouli:text",
             "text": "You lose insight by dying, while being $(#00a800)extremely tired$(), or by spending it. This phenomenon is $(#00a800)beneficial$() at some levels, allowing you to $(#00a800)unlock new quests$() and $(#00a800)see hidden entities$(), but eventually becomes $(c)harmful$(), and will $(#00a800)wear away at your sanity$() if it goes too high."
         },
         {
-            "type": "patchouli:spotlight",
-            "item": "kubejs:ancient_eye",
-            "text": "This item, known as the Ancient Eye, allows you to check your Insight level. Unique things will happen at levels $(#00a800)10$(), $(#00a800)50$(), $(#00a800)100$(), and at $(c)150$() you will begin to experience adverse effects."
+            "type": "patchouli:text",
+            "text": "Once you reach 10 or more Insight, you can leverage it to purchase items from the $(#00a800)Insight Shop$() (found in your quest book). Be aware that if you spend too much, it may take you longer to accomplish your goals."
         },
         {
             "type": "patchouli:text",
-            "text": "Once you reach 10 or more, you can leverage that Insight to purchase items from the $(#00a800)Insight Shop$() (found in your quest book). Be aware that if you spend too much, it may take you longer to accomplish your goals."
+            "text": "Unique things will happen at levels $(#00a800)10$(), $(#00a800)20$(), $(#00a800)50$(), $(#00a800)100$(), and at $(c)150$() you will begin to experience adverse effects. Your insight will be shown on your screen, as you can see in the image to the right.$(br2)Keep an eye on it! (get it?)"
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["dying_light:textures/quest_images/insight_meter.png"],
+            "title": "Your Insight Meter",
+            "border": true
         }
     ]
 }

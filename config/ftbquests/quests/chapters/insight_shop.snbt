@@ -5,11 +5,12 @@
 	default_quest_shape: "rsquare"
 	default_repeatable_quest: true
 	filename: "insight_shop"
-	group: ""
+	group: "725A765315FCAF74"
 	icon: "kubejs:ancient_eye"
 	id: "3ACF4D7E8C95C447"
 	images: [
 		{
+			color: 11373165
 			height: 20.0d
 			image: "dying_light:textures/ui_images/page_bg5.png"
 			rotation: 0.0d
@@ -34,7 +35,7 @@
 			y: -8.5d
 		}
 	]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -745,6 +746,87 @@
 			title: "Buy Some Potion Ingredients"
 			x: -4.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bPlaster&r at the cost of &b3 Insight&r."]
+			icon: "legendarysurvivaloverhaul:plaster"
+			id: "71057B4E156EC823"
+			rewards: [
+				{
+					id: "4D3011E1F6B5F198"
+					item: "legendarysurvivaloverhaul:plaster"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					icon: "kubejs:ancient_eye"
+					id: "3524D88D51FA6583"
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "528B283A2901D41A"
+				title: "Buy a Plaster"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy a &bMedikit&r at the cost of &b15 Insight&r."]
+			icon: "legendarysurvivaloverhaul:medikit"
+			id: "560ECBB5395D6D33"
+			rewards: [
+				{
+					id: "7EB472400D406E98"
+					item: "legendarysurvivaloverhaul:medikit"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					icon: "kubejs:ancient_eye"
+					id: "456BEDDA420CC26C"
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "017787AAFFFA960E"
+				title: "Buy a Medikit"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F588C2BBD868E89"]
+			description: ["Buy &bBandages&r at the cost of &b7 Insight&r."]
+			icon: "legendarysurvivaloverhaul:bandage"
+			id: "7A214C89F4F8EFA8"
+			rewards: [
+				{
+					id: "706A4F387B249CF0"
+					item: "legendarysurvivaloverhaul:bandage"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					icon: "kubejs:ancient_eye"
+					id: "70D41D478BA1A77A"
+					title: "Spent Insight"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "680483CEF8DD357A"
+				title: "Buy Bandages"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.0d
 		}
 	]
 	title: "Insight Shop"

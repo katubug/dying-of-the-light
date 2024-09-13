@@ -494,6 +494,16 @@ ServerEvents.tags('block', event =>{
 
 })
 
+ServerEvents.tags('structure_type', event =>{
+    event.add('forge:graveyards',
+            'graveyard:large_graveyard',
+            'graveyard:medium_graveyard',
+            'graveyard:small_graveyard'
+    )
+
+
+})
+
 
 ServerEvents.tags('entity_type', event => {
 

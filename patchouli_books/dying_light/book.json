@@ -1,6 +1,6 @@
 {
     "name": "Old Journal",
-    "landing_text": "A grimoire, of sorts, I guess. In which all my knowledge is written, to be used by whoever finds their way to it.$(br2)May it help you heal this place, and yourself.",
+    "landing_text": "A grimoire of sorts, filled with helpful information about this world, its mechanics, and its inhabitants.",
     "version": 0,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": true,

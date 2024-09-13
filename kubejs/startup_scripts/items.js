@@ -8,20 +8,47 @@ StartupEvents.registry('item', event => {
     event.create('putrid_ichor').displayName("Putrid Ichor")
     event.create('ancient_eye').displayName("Ancient Eye")
     event.create('lunar_gem').displayName("Lunar Gem")
-    event.create('teddy').displayName("Worn Teddy Bear")
-    event.create('cave_dweller_poppet').texture('kubejs:item/poppet').displayName("Cave Dweller Poppet")
-    event.create('captain_cornelia_poppet').texture('kubejs:item/poppet').displayName("Captain Cornelia Poppet")
-    event.create('nameless_hanged_poppet').texture('kubejs:item/poppet').displayName("Nameless Hanged Poppet")
-    event.create('hidebehind_poppet').texture('kubejs:item/poppet').displayName("HideBehind Poppet")
-    event.create('maze_mother_poppet').texture('kubejs:item/poppet').displayName("Maze Mother Poppet")
-    event.create('herobrine_poppet').texture('kubejs:item/poppet').displayName("Herobrine Poppet")
-    event.create('cave_dweller_note').displayName("Note from Garrik")
-    event.create('captain_cornelia_note').displayName("Note from Cornelia")
-    event.create('herobrine_note').displayName("Note from a Lonely Being")
-    event.create('nameless_hanged_note').displayName("Note from a Nameless Man")
     event.create('lunatics_tome').displayName("Lunatic's Tome")
     event.create('great_ones_tome').displayName("Great One's Tome")
-
+    //Herobrine Items
+    event.create('herobrine_poppet').texture('kubejs:item/poppet').displayName("Herobrine Poppet")
+    event.create('herobrine_note').displayName("Note from a Lonely Being")
+    event.create('oblivion_dust').displayName('Dust of Oblivion')           //dust from his origin plane
+    event.create('strange_tool').displayName('Strange Tool')                //a tool he made without understanding
+    event.create('possessed_journal').displayName('Journal of a Possessed') //a journal written by a villager he possessed
+    //Cave Dweller Items
+    event.create('cave_dweller_poppet').texture('kubejs:item/poppet').displayName("Cave Dweller Poppet")
+    event.create('cave_dweller_note').displayName("Note from Garrik")
+    event.create('teddy').displayName("Worn Teddy Bear")
+    event.create('polished_coal').displayName('Polished Coal')              //some coal he polished to a shine, anthracite
+    event.create('womans_locket').displayName('Woman\'s Locket')            //his wife's locket
+    event.create('necromantic_contract').displayName('Necromantic Contract')//his contract with the necromancer
+    //Maze Mother Items
+    event.create('maze_mother_poppet').texture('kubejs:item/poppet').displayName("Maze Mother Poppet")
+    event.create('maze_mother_note').displayName("Maze Mother's Appreciation")
+    event.create('manta_ray_idol').displayName('Manta Ray Idol')            //An artifact made by the polar natives, worshipping the mother
+    event.create('tainted_pearl').displayName('Rune-Tainted Pearl')         //a pearl from a clam near where the run was dug up
+    event.create('whalebone_harpoon').displayName('Whalebone Harpoon')      //a harpoon from the locals who needed to defend themselves from her
+    //Captain Cornelia Items
+    event.create('captain_cornelia_poppet').texture('kubejs:item/poppet').displayName("Captain Cornelia Poppet")
+    event.create('captain_cornelia_note').displayName("Note from Cornelia")
+    event.create('rune_echo_stone').displayName('Rune Echo Stone')          //a stone with the shape of the rune roughly carved into it. not as powerful but still evil
+    event.create('icy_heart_fragment').displayName('Icy Heart Fragment')    //a piece of her frozen heart
+    event.create('ships_log').displayName('Ship\'s Log')                    //a log from her time as captain
+    //Nameless Hanged Items
+    event.create('nameless_hanged_poppet').texture('kubejs:item/poppet').displayName("Nameless Hanged Poppet")
+    event.create('nameless_hanged_note').displayName("Note from a Nameless Man")
+    event.create('ragged_rope').displayName('Ragged Rope')                //The rope he was hanged with
+    event.create('blindfold').displayName('Tattered Blindfold')           //His blindfold
+    event.create('trade_goods').displayName('Trade Goods')                //a box of trade goods
+    //Hidebehind Items
+    event.create('hidebehind_poppet').texture('kubejs:item/poppet').displayName("HideBehind Poppet")
+    event.create('hidebehind_note').displayName("Note from Benjamin")
+    event.create('broken_toy').displayName('Broken Toy')                  //one of his few toys
+    event.create('autumn_leaves').displayName('Autumn Leaves')            //the leaves of his favorite tree
+    event.create('carved_whistle').displayName('Carved Whistle')          //a whistle he made as part of his job
+    
+    event.create('insight_eye_anim').displayName('Insight Eye Animated')
 
   })
   

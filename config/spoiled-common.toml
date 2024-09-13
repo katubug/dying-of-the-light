@@ -29,4 +29,6 @@
 [Compatibility]
 	#When enabled foods that are salted by The Salted mod will not spoil [default: false]
 	saltCompat = true
+	#Defines a list of nbt tags that stop the item from spoiling
+	spoilTagBlacklist = []
 

@@ -4,7 +4,7 @@
 	default_min_width: 350
 	default_quest_shape: ""
 	filename: "welcome"
-	group: ""
+	group: "1C5854C2652D1117"
 	icon: "minecraft:writable_book"
 	id: "014A3391F19F78EC"
 	images: [{
@@ -15,7 +15,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

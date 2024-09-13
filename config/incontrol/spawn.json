@@ -6,7 +6,19 @@
         "continue": true
     },
     {
+        "mob":["cave_dweller:cave_dweller"],
+        "mincount": 1,
+        "result":"deny",
+        "continue": true
+    },
+    {
         "mob":["eyesinthedarkness:eyes"],
+        "gamestage":"low_insight",
+        "result":"deny",
+        "continue": true
+    },
+    {
+        "mob":["minecraft:sheep"],
         "gamestage":"low_insight",
         "result":"deny",
         "continue": true
@@ -15,6 +27,16 @@
         "mob":"graveyard:nameless_hanged",
         "gamestage":"nameless_resolved",
         "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"graveyard:nameless_hanged",
+        "structure": [
+                "graveyard:large_graveyard",
+                "graveyard:medium_graveyard",
+                "graveyard:small_graveyard"
+            ],
+        "result": "allow",
         "continue": true
     },
     {
@@ -31,25 +53,23 @@
     },
     {
         "mob":"aquamirae:maze_mother",
-        "structure": "aquamirae:ice_maze/common",
-        "result": "allow",
-        "continue": true
-    },
-    {
-        "mob":"aquamirae:maze_mother",
-        "structure": "aquamirae:ice_maze/arch",
-        "result": "allow",
-        "continue": true
-    },
-    {
-        "mob":"aquamirae:maze_mother",
-        "structure": "aquamirae:ice_maze/spiral",
+        "biome": "minecraft:deep_frozen_ocean",
+        "structure": [
+                "aquamirae:ice_maze/common",
+                "aquamirae:ice_maze/arch",
+                "aquamirae:ice_maze/spiral"
+            ],
         "result": "allow",
         "continue": true
     },
     {
         "mob":"aquamirae:maze_mother",
         "mincount": 1,
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "mob":"aquamirae:maze_mother",
         "result": "deny",
         "continue": true
     },

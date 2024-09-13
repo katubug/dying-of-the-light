@@ -2,22 +2,23 @@
     "name": "An Introduction",
     "icon": "minecraft:poppy",
     "category": "patchouli:entities",
+    "advancement": "dying_light:entity_introduction",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The beings in this text will be hostile to you. They have undergone tragedy the likes of which most can't fathom, and that is what traps them here. I take pity on them, and I hope you do, as well."
+            "text": "My guide said: $(o)'The beings in this world will be hostile to you. They have undergone tragedy the likes of which most can't fathom, and that is what traps them here. I take pity on them, and I hope you do, as well.'"
         },
         {
             "type": "patchouli:text",
-            "text": "Of course, you must take care of yourself. $(6)Run away, or fight back$().$(br2)They $(#00a800)cannot be killed in a traditional sense$(); their spirits remain in this world and will continue to appear unless they are freed. I am sure they would not begrudge you for defending yourself."
+            "text": "$(o)Of course, you must take care of yourself. $(6)Run away, or fight back$()$(o).$(br2)They $(#00a800)cannot be killed in a traditional sense$()$(o); their spirits remain in this world and will continue to appear unless they are freed. I am sure they would not begrudge you for defending yourself."
         },
         {
             "type": "patchouli:text",
-            "text": "In order for you to resolve their trauma and $(#00a800)give their souls peace$(), you must $(6)study them thoroughly$(). Once you discover what each spirit has undergone, it should lead you to the method to $(6)heal them$().$(br2)Once they can move on, they will $(#00a800)no longer appear in this world$()."
+            "text": "$(o)In order for you to resolve their trauma and $(#00a800)give their souls peace$(), you must $(6)study them thoroughly$()$(o). Once you discover what each spirit has undergone, it should lead you to the method to $(6)heal them$()$(o).$(br2)Once they can move on, they will $(#00a800)no longer appear in this world$()."
         },
         {
             "type": "patchouli:text",
-            "text": "I will help you as much as I can. $(6)Follow the quests I've set for you$(), and together we can work together to save these souls - and perhaps yours, as well."
+            "text": "$(o)I will help you as much as I can. $(6)Follow the quests I've set for you$()$(o), and together we can work together to save these souls - and perhaps yours, as well.'"
         }
     ]
 }

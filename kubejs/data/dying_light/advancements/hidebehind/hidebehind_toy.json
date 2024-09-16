@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "kubejs:rune_echo_stone"
+        "item": "kubejs:broken_toy"
       },
-      "title": "Found a Rune Echo Stone",
-      "description": "You found a carved copy of the Rune of the Storm."
+      "title": "Found a Broken Toy",
+      "description": "This toy used to depict an angel, but is broken."
     },
     "parent": "dying_light:hidebehind/hidebehind_unlock",
     "criteria": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "kubejs:rune_echo_stone"
+                "kubejs:broken_toy"
               ]
             }
           ]

@@ -1,0 +1,13 @@
+{
+    "name": "Trade Goods",
+    "icon": "kubejs:trade_goods",
+    "category": "patchouli:nameless",
+    "advancement": "dying_light:nameless_hanged/nameless_rope",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:trade_goods",
+            "text": "A box filled with trinkets both rare and mundane, each wrapped carefully in paper to keep it in saleable condition. Whoever this belonged to must have been a peddler of some kind."
+        }
+    ]
+}

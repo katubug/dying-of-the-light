@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:oak_log"
+        "item": "kubejs:carved_whistle"
       },
-      "title": "Found a Placeholder",
-      "description": "You found a bug in the modpack!"
+      "title": "Found a Carved Whistle",
+      "description": "You found a whistle carved from wood."
     },
     "parent": "dying_light:hidebehind/hidebehind_unlock",
     "criteria": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "minecraft:oak_log"
+                "kubejs:carved_whistle"
               ]
             }
           ]

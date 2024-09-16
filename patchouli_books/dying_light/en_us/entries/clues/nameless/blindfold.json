@@ -1,0 +1,13 @@
+{
+    "name": "Tattered Blindfold",
+    "icon": "kubejs:blindfold",
+    "category": "patchouli:nameless",
+    "advancement": "dying_light:nameless_hanged/nameless_rope",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:blindfold",
+            "text": "A blindfold, like the type that blind folks used to wear. It is aged and fraying at the edges. On a whim, you try it on and find that you can see right through it."
+        }
+    ]
+}

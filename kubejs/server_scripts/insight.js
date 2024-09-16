@@ -135,7 +135,7 @@ PlayerEvents.tick(event => {
     //If player drops below 150 Insight, remove Madness stage from them
     if (player.persistentData.insightCount <150 && player.stages.has('madness')) {
         player.stages.remove('madness')
-        //event.player.paint({insight_eye_anim: {visible:false}})
+        event.player.paint({insight_eye_anim: {visible:false}})
     }
 })
 
@@ -169,9 +169,9 @@ PlayerEvents.advancement(event => {
 ItemEvents.rightClicked( event => {
     const { item, server, player } = event
     if (player.mainHandItem.id == 'kubejs:ancient_eye') {
-        event.player.persistentData.insightCount++ // KATU TODO COMMENT THIS OUT WHEN NOT TESTING
+        //event.player.persistentData.insightCount++ // KATU TODO CMMENT THIS OUT WHEN NOT TESTING
         player.tell(`Your insight level is ${event.player.persistentData.insightCount}`)
-        console.log("Katu is cheating for tests, and her insight is now "+event.player.persistentData.insightCount)
+        //console.log("Katu is cheating for tests, and her insight is now "+event.player.persistentData.insightCount)
     }
 })
 

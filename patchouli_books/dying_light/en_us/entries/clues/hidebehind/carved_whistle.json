@@ -1,0 +1,13 @@
+{
+    "name": "Carved Whistle",
+    "icon": "kubejs:carved_whistle",
+    "category": "patchouli:hidebehind",
+    "advancement": "dying_light:hidebehind/hidebehind_whistle",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:carved_whistle",
+            "text": "A whistle carved by adept hands. Despite its fine craftsmanship, it feels as if it was made with no passion. It is terribly plain, almost perfunctory. Whoever made this did so out of obligation, not love."
+        }
+    ]
+}

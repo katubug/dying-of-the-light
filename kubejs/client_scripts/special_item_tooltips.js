@@ -3,8 +3,8 @@ ItemEvents.tooltip(event => {
     event.add('kubejs:carved_whistle',
         "Found in village chests. Seems to be related to the Hidebehind."
     )
-    event.add('kubejs:autumn_leaves',
-        "Collected from birch leaves in Old Growth Forests. Seems to be related to the Hidebehind."
+    event.add('kubejs:unsent_letter',
+        "Found in village chests. Seems to be related to the HideBehind."
     )
     event.add('kubejs:ships_log',
         "Found in ships in Deep Frozen Oceans. Seems to be related to Captain Cornelia."

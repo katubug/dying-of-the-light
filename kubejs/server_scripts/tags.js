@@ -1,5 +1,13 @@
 ServerEvents.tags('item', event => {
 
+    //Which Pearls can be Purified
+    event.add(
+        'forge:pearls_for_purification',
+        'abyssal_decor:black_pearl',
+        'kubejs:tainted_pearl',
+        'minecraft:ender_pearl'
+    )
+    
     //Which Fish items spoil into Fish Bones
     event.add(
         'forge:spoilable_fish',

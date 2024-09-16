@@ -1,0 +1,13 @@
+{
+    "name": "Broken Toy",
+    "icon": "kubejs:broken_toy",
+    "category": "patchouli:hidebehind",
+    "advancement": "dying_light:hidebehind/hidebehind_toy",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:broken_toy",
+            "text": "This toy had seen better days even decades ago, and now is almost unrecognizable as an angel. It is unclear whether it was well-loved, or simply neglected."
+        }
+    ]
+}

@@ -411,10 +411,28 @@
       "effects": [],
       "nbt": {}
     }
+  ],
+  "bitter_brews:cup_of_water": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "bitter_brews:cup_of_milk": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],"bitter_brews:cup_of_chocolate_milk": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
   ]
 }
-
-
-
-
-

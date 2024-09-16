@@ -7,11 +7,11 @@
         {
             "type": "patchouli:spotlight",
             "item": "kubejs:strange_tool",
-            "text": "This is clearly meant to be an implement of some kind, but its purpose isn't clear. It seems to have been made by someone who had a vague idea of what a tool was, but was not certain of the details."
+            "text": "This is clearly meant to be an implement of some kind, but its purpose isn't clear. It seems to have been made by something which had a vague idea of what a tool was, but was not certain of the details."
         },
         {
             "type": "patchouli:text",
-            "text": "The craftsmanship is also chaotic, as if the maker was bizarrely uncoordinated."
+            "text": "The craftsmanship is also chaotic, as if the maker was oddly uncoordinated."
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Unsent Letter",
+    "icon": "kubejs:unsent_letter",
+    "category": "patchouli:hidebehind",
+    "advancement": "dying_light:hidebehind/hidebehind_letter",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:unsent_letter",
+            "text": "A letter in the unshaky hand of a very young boy named Benjamin. The letter is addressed to 'Mom and Dad,' but the contents make it clear that his parents are deceased. The paper has been folded and seems to have been kept that way for a long time."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It is stained with tears."
+        }
+    ]
+}

@@ -4,7 +4,7 @@
         "item": "kubejs:strange_tool"
       },
       "title": "Found a Strange Tool",
-      "description": "You found a tool which looks like it was made by someone alien to our world."
+      "description": "You found a tool which looks like it was made by something alien to our world."
     },
     "parent": "dying_light:herobrine/herobrine_unlock",
     "criteria": {

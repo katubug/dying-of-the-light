@@ -1,0 +1,13 @@
+{
+    "name": "Rune-Tainted Pearl",
+    "icon": "kubejs:tainted_pearl",
+    "category": "patchouli:mother",
+    "advancement": "dying_light:maze_mother/mother_pearl",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:tainted_pearl",
+            "text": "This pearl is a glossy black, and emits a faint aura of utter darkness, occasionally crackling with electricity. It must have been formed within a tainted creature, for its very existence makes you uncomfortable."
+        }
+    ]
+}

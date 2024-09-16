@@ -1,0 +1,13 @@
+{
+    "name": "Manta Idol",
+    "icon": "kubejs:manta_ray_idol",
+    "category": "patchouli:mother",
+    "advancement": "dying_light:maze_mother/mother_idol",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:manta_ray_idol",
+            "text": "This small icon is a carved and painted sculpture of a manta ray. Although it is in miniature, it gives the impression of greatness, both in size and demeanor. Perhaps whoever created this worshipped the manta it depicts."
+        }
+    ]
+}

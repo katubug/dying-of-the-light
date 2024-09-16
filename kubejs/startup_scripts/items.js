@@ -45,7 +45,7 @@ StartupEvents.registry('item', event => {
     event.create('hidebehind_poppet').texture('kubejs:item/poppet').displayName("HideBehind Poppet")
     event.create('hidebehind_note').displayName("Note from Benjamin")
     event.create('broken_toy').displayName('Broken Toy')                  //one of his few toys
-    event.create('autumn_leaves').displayName('Autumn Leaves')            //the leaves of his favorite tree
+    event.create('unsent_letter').displayName('Unsent Letter')            //a letter from benjamin to his parents
     event.create('carved_whistle').displayName('Carved Whistle')          //a whistle he made as part of his job
     
     event.create('insight_eye_anim').displayName('Insight Eye Animated')

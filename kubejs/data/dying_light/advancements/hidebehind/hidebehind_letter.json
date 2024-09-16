@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:oak_log"
+        "item": "kubejs:unsent_letter"
       },
-      "title": "Found a Placeholder",
-      "description": "You found a bug in the modpack!"
+      "title": "Found an Unsent Letter",
+      "description": "You discover a letter without an envelope."
     },
     "parent": "dying_light:hidebehind/hidebehind_unlock",
     "criteria": {
@@ -14,7 +14,7 @@
           "items": [
             {
               "items": [
-                "minecraft:oak_log"
+                "kubejs:unsent_letter"
               ]
             }
           ]

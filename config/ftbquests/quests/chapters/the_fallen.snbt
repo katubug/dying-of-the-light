@@ -1803,6 +1803,13 @@
 		}
 		{
 			dependencies: ["32F5932093E919BD"]
+			description: [
+				"You’ve probably noticed it by now - &eHerobrine&r, or at least that's what I call him. Scruffy guy, blue shirt, eyes that don't seem of this world. It’s been following you, hasn’t it? Always just out of reach, never quite close enough for you to confront. That’s its way, it did the same to me. It &adoesn’t harm you outright&r, but it doesn't feel like it has your best interests in mind, that's for sure."
+				""
+				"I don’t know exactly what it wants, but I do know one thing: you need to &6learn more about it&r. And since you can’t get close to it directly, you’ll need to find something that &oit has gotten close to&r. &eCreatures possessed by Herobrine&r. They’re out there - you can identify them by their &aglowing eyes&r. If you can find one and observe it, maybe we can start to piece together what it's after."
+				""
+				"Be careful, though. Whatever’s possessed won’t behave like normal. There’s something… off about them. But it’s the only way to get a glimpse into his mind."
+			]
 			id: "2B3FA4EB128B72F2"
 			rewards: [
 				{
@@ -1899,6 +1906,15 @@
 		}
 		{
 			dependencies: ["650100693BC8C6C9"]
+			description: [
+				"Okay, nice job spotting him. Now, let's get down to business. I think the &eCave Dweller&r has a backstory, too, and I think we might be able to track it down. Here's a list of items which I think might tell us more."
+				""
+				"&bWoman's Locket&r - This item can most likely be found in &cMedium Graveyards&r, probably in the &alarger graves&r."
+				""
+				"&bAnthracite Coal&r - You'll have to delve into some &cMineshafts&r and check the &achests&r there to find this artifact and learn more about it."
+				""
+				"&bNecromantic Contract&r - Well, if I had to guess, I'd assume this is being kept by &ea Witch&r."
+			]
 			id: "521D49D9C72B3462"
 			tasks: [
 				{
@@ -1917,6 +1933,7 @@
 					type: "item"
 				}
 			]
+			title: "Cave Dweller Evidence"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -1945,6 +1962,15 @@
 		}
 		{
 			dependencies: ["2B3FA4EB128B72F2"]
+			description: [
+				"Your observations have been good so far, but we need to find out more about &eHerobrine&r. I've thrown together a list of items which seem to have to do with it, try to find them. Maybe we can use them to &alearn its story&r."
+				""
+				"&bJournal of a Possessed&r - Maybe you can find some evidence of people it's possessed in the past (who have survived, at least). I would look in village chests, maybe a &eWeaponsmith&r? I don't know why I think that, call it a hunch."
+				""
+				"&bOblivion Dust&r - This shouldn't be too hard to get, because it surrounds all the &ecreatures it possesses&r, and should drop when they die. Just be careful, &athe possessed are stronger than normal&r. And try not to kill any &ePossessed Villagers&r, they're only people."
+				""
+				"&bStrange Tool&r - I've seen a few weird objects that might be related to &eHerobrine&r, usually in &aToolsmith&r chests."
+			]
 			id: "4BC13C6B899FAD45"
 			tasks: [
 				{
@@ -1963,6 +1989,7 @@
 					type: "item"
 				}
 			]
+			title: "Herobrine Evidence"
 			x: -1.0d
 			y: -4.5d
 		}
@@ -2019,6 +2046,11 @@
 		}
 		{
 			dependencies: ["32F5932093E919BD"]
+			description: [
+				"There’s something out there in the dark forests - folks call it the &eHidebehind&r. You won’t spot it during the day, and it’s smart enough to &astay away from any light&r you bring. But once night falls, or if you end up in the shadows... it’s out there, watching. Keep your eyes peeled."
+				""
+				"The trick is to get close enough to it &awithout ending up dead&r. You’ll want to stay sharp, keep a lantern or a camera handy. The light will keep it at a distance, at least for a little while. But don’t let your guard down - it’s fast when it’s dark, and you don’t want to lose track of it. Stay alert, and whatever you do, don’t let the darkness swallow you whole."
+			]
 			id: "2EBB26DF883E8071"
 			rewards: [
 				{
@@ -2049,18 +2081,23 @@
 					type: "observation"
 				}
 			]
+			title: "Meet the Hidebehind"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2EBB26DF883E8071"]
+			description: [
+				"Good job with your observations so far. Now, I have a feeling that the Hidebehind is no mere beast. I am not sure what his story is, but I &asense that there is more to him&r than is immediately noticeable. I've got a list of items which I think might help us learn his story."
+				""
+				"&bUnsent Letter&r - A folded and stained note, it might be in a &clibrary&r somewhere..."
+				""
+				"&bBroken Toy&r - I think a &cPlains village&r might hold this ratty old artifact."
+				""
+				"&bCarved Whistle&r - This is most likely found where &ePillagers&r convene, maybe in their &cMansion&r."
+			]
 			id: "33AE28E8F4A21032"
 			tasks: [
-				{
-					id: "248379A015C5CE91"
-					item: "kubejs:autumn_leaves"
-					type: "item"
-				}
 				{
 					id: "3D56E72337FEEA4F"
 					item: "kubejs:carved_whistle"
@@ -2071,7 +2108,13 @@
 					item: "kubejs:broken_toy"
 					type: "item"
 				}
+				{
+					id: "35BBDB2C7D0A9C7C"
+					item: "kubejs:unsent_letter"
+					type: "item"
+				}
 			]
+			title: "Hidebehind Evidence"
 			x: -1.0d
 			y: -2.5d
 		}

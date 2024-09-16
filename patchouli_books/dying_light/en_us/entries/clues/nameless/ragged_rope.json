@@ -1,0 +1,13 @@
+{
+    "name": "Ragged Rope",
+    "icon": "kubejs:ragged_rope",
+    "category": "patchouli:nameless",
+    "advancement": "dying_light:nameless_hanged/nameless_rope",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:ragged_rope",
+            "text": "An ancient bit of rope, tied into a noose. It has some dark maroon tinges around the loop, which you fear to speculate about. It seems someone met an unfortunate fate."
+        }
+    ]
+}

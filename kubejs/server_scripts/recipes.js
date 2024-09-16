@@ -11,6 +11,14 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+        Item.of('abyssal_decor:white_pearl'),
+        [
+            'tombstone:scroll_of_purification',
+            '#forge:pearls_for_purification'
+        ]
+    )
+
     event.shaped(
         Item.of('2x tombstone:essence_of_undeath'),
         [
@@ -62,8 +70,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-
-    //[, ]
 
     //Summoning Ritual for Lore Books
     //Cave Dweller

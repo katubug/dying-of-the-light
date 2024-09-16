@@ -1,0 +1,13 @@
+{
+    "name": "Whalebone Harpoon",
+    "icon": "kubejs:whalebone_harpoon",
+    "category": "patchouli:mother",
+    "advancement": "dying_light:maze_mother/mother_harpoon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:whalebone_harpoon",
+            "text": "This jagged weapon is carved from whalebone, and is so sharp that it can slice through paper without issue. It looks like the handiwork of villagers who make their home by the sea, and must have been made to fend off something fearsome."
+        }
+    ]
+}

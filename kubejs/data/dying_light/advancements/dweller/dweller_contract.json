@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:necromantic_contract"
+      },
+      "title": "Found a Necromantic Contract",
+      "description": "You found a contract between a necromancer and a man called 'Garrik'."
+    },
+    "parent": "dying_light:dweller/dweller_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:necromantic_contract"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

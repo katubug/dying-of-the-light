@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "endofherobrine:herobrine_head"
+    },
+    "title": "Learn About Herobrine",
+    "description": "You began your study of Herobrine."
+  },
+  "parent": "dying_light:entity_introduction",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

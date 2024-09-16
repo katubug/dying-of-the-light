@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_log"
+      },
+      "title": "Found a Placeholder",
+      "description": "You found a bug in the modpack!"
+    },
+    "parent": "dying_light:hidebehind/hidebehind_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:oak_log"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

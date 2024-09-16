@@ -2,33 +2,15 @@ LootJS.modifiers((event) => {
 
     //event.enableLogging();
 
+    //Remove all Chalk from Chests
+    event.removeGlobalModifier('@chalk')
+
+    //Remove all Photographs from Chests
+    event.removeGlobalModifier('@exposure')
 
     //Make Corruption easier to come by
     event.addEntityLootModifier("minecraft:zombie_villager")
     .addLoot("graveyard:corruption")
-
-    //testing
-    event.addEntityLootModifier("minecraft:zombie")
-    .hasAnyStage(['test'])
-    .addLoot("graveyard:corruption")
-
-    //Tortured Souls drop Rune Echo Stones when Cornelia quest is active
-    event.addEntityLootModifier("aquamirae:tortured_soul")
-    .hasAnyStage(['cornelia_begun'])
-    .addLoot('kubejs:rune_echo_stone')
-
-    //Fish up Cornelia's Frozen Heart
-    event.addLootTableModifier("minecraft:gameplay/fishing")
-        .logName("cornelia_heart")
-        //.hasAnyStage(['cornelia_begun'])
-        .weatherCheck({
-            raining: true,
-            thundering: true
-        })
-        .biome("minecraft:deep_frozen_ocean")
-        .randomChance(0.05)
-        .removeLoot(Ingredient.all)
-        .addLoot('kubejs:icy_heart_fragment');
 
     //Add tomes to chests
     event.addLootTableModifier("minecraft:chests/ancient_city")
@@ -40,7 +22,7 @@ LootJS.modifiers((event) => {
     .addLoot('kubejs:great_ones_tome')
 
     event.addLootTableModifier("minecraft:chests/buried_treasure")
-    .randomChance(0.2)
+    .randomChance(0.5)
     .addLoot('kubejs:great_ones_tome')
 
     event.addLootTableModifier("minecraft:chests/stronghold/library")
@@ -68,11 +50,11 @@ LootJS.modifiers((event) => {
     .addLoot('kubejs:lunatics_tome')
 
     event.addLootTableModifier("aquamirae:chests/ship_1")
-    .randomChance(0.2)
+    .randomChance(0.05)
     .addLoot('kubejs:lunatics_tome')
 
     event.addLootTableModifier("aquamirae:chests/maze_camp_chest")
-    .randomChance(0.2)
+    .randomChance(0.05)
     .addLoot('kubejs:lunatics_tome')
 
     //Abberrant Fish

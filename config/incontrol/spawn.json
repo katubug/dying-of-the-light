@@ -18,6 +18,19 @@
         "continue": true
     },
     {
+        "mob":["eyesinthedarkness:eyes", "distantfriends:friend"],
+        "gamestage":"insanity",
+        "maxcount":20,
+        "result":"allow",
+        "continue": true
+    },
+    {
+        "mob":["eyesinthedarkness:eyes", "distantfriends:friend"],
+        "mincount":5,
+        "result":"deny",
+        "continue": true
+    },
+    {
         "mob":["minecraft:sheep"],
         "gamestage":"low_insight",
         "result":"deny",
@@ -59,7 +72,7 @@
                 "aquamirae:ice_maze/arch",
                 "aquamirae:ice_maze/spiral"
             ],
-        "result": "allow",
+        "result": "default",
         "continue": true
     },
     {

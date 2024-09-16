@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:oblivion_dust"
+      },
+      "title": "Found some Dust from Oblivion",
+      "description": "You found some strange dust from another plane of existence."
+    },
+    "parent": "dying_light:herobrine/herobrine_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:oblivion_dust"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

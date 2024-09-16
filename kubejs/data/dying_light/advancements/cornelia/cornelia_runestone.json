@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:rune_echo_stone"
+      },
+      "title": "Found a Rune Echo Stone",
+      "description": "You found a carved copy of the Rune of the Storm.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "dying_light:cornelia/cornelia_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:rune_echo_stone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

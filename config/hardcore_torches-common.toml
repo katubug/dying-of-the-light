@@ -35,7 +35,7 @@
 
 #Torch Settings
 [torch]
-	#How long a torch lasts when crafted. There are 20 ticks per second so 48000 ticks = 20 minutes.
+	#How long a torch lasts when crafted. There are 20 ticks per second so 48000 ticks = 40 minutes.
 	#Range: > 1
 	defaultTorchFuel = 48000
 	#Torches will become unlit when broken.
@@ -62,6 +62,9 @@
 	#2: When in rain, torches in inventory will be extinguished or smolder
 	#Range: 0 ~ 2
 	invExtinguishInRain = 1
+	#How many torches are crafted.
+	#Range: > 1
+	torchCraftAmount = 1
 
 #Lantern Settings
 [lantern]

@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:womans_locket"
+      },
+      "title": "Found a Woman's Locket",
+      "description": "You discovered an old, tarnished locket with a photo of a married couple inside."
+    },
+    "parent": "dying_light:dweller/dweller_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:womans_locket"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

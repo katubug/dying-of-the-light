@@ -4,12 +4,9 @@
       "item": "minecraft:stone"
     },
     "title": "Learn About The Hidebehind",
-    "description": "",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": true
+    "description": "You began your study of the Hidebehind."
   },
-  "parent": "dying_light:root",
+  "parent": "dying_light:entity_introduction",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

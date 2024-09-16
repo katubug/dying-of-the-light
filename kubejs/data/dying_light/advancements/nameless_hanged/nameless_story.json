@@ -1,15 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "item": "minecraft:emerald"
       },
-      "title": "Learn the HideBehind's Story",
-      "description": "",
+      "title": "Learn the Nameless Hanged's Story",
+      "description": "You learned the truth about the Nameless Hanged.",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:nameless_hanged/nameless_unlock",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

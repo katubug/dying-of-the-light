@@ -1,0 +1,6 @@
+{
+    "name": "Cave Dweller",
+    "description": "Notes on discoveries about the spirit known as the Cave Dweller.",
+    "parent": "patchouli:clues",
+    "icon": "minecraft:writable_book"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Ship's Log",
+    "icon": "kubejs:ships_log",
+    "category": "patchouli:cornelia",
+    "advancement": "dying_light:cornelia/cornelia_log",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item":  "kubejs:ships_log",
+            "text": "A log in an even, feminine hand. It largely details normal seafaring logistics, but now and again is punctuated by small notes about dolphin pods, the beauty of the waves, and other such passages which show a person infatuated with the sea."
+        }
+    ]
+}

@@ -12,6 +12,8 @@
 	"Localized Body Damage Enabled" = true
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
 	"Hide Info From Debug" = true
+	# If enabled, the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
+	"Natural Regeneration Enabled" = false
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -85,15 +87,6 @@
 		#Range: 0 ~ 1000
 		"Wetness In Fluid Increase" = 10
 
-	# Default temperature added to the player, based on the dimension.
-	[temperature.dimension-default]
-		#Range: -1000.0 ~ 1000.0
-		"Default Overworld Modifier" = 20.0
-		#Range: -1000.0 ~ 1000.0
-		"Default Nether Modifier" = 28.0
-		#Range: -1000.0 ~ 1000.0
-		"Default The End Modifier" = -10.0
-
 	[temperature.huddling]
 		# How much nearby players increase the ambient temperature by.
 		# Note that this value stacks!
@@ -105,7 +98,7 @@
 
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
-		#Range: 0.0 ~ Infinity
+		#Range: 0.0 ~ 1000.0
 		"Biome Temperature Multiplier" = 16.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
@@ -169,15 +162,15 @@
 			"Thermal Coat III" = 4.0
 
 	[temperature.advanced]
-		# Maximum distance, in blocks, where thermal sources will have an effect on temperature.
+		# Maximum influence distance, in blocks, where thermal sources will have an effect on temperature.
 		#Range: 1 ~ 40
 		"Temperature Influence Maximum Distance" = 20
-		# How strongly distance above the player is reduced where thermal sources will have an effect on temperature.
+		# How strongly influence distance above the player is reduced for thermal sources to have an effect on temperature.
 		# Example max dist is 10, up mult is 0.75 -> max distance is 10 * 0.75 = 7.5 blocks above the player.
-		# Logic is as the heat goes up, the strength of the heat source above the player is decreased faster with distance.
+		# Logic is that heat goes up, the strength of the heat source above the player is decreased faster with distance.
 		#Range: 0.0 ~ 1.0
 		"Temperature Influence Up Distance Multiplier" = 0.75
-		# How strongly distance outside a structure is reduced where thermal sources will have an effect on temperature.
+		# How strongly influence distance outside a structure is reduced for thermal sources to have an effect on temperature.
 		# The outside maximum distance is defined as the maximum distance * this value
 		#Range: 0.0 ~ 1.0
 		"Temperature Influence Outside Distance Multiplier" = 0.5
@@ -273,6 +266,21 @@
 					#Range: -1000.0 ~ 1000.0
 					"Late Dry Season Modifier" = 3.0
 
+	# The underground effect starts apply at Start Distance to the world surface.
+	# The underground effect will linearly apply a multiplier on the biome temperature, and averages the time and season temperature effects.
+	[temperature.underground]
+		# How much a biomes temperature effects are multiplied when player is underground
+		#Range: 0.0 ~ 1000.0
+		"Underground Biome Temperature Multiplier" = 0.8
+		# Distance to the World Surface where underground effect will start to be applied.
+		# Smaller distance, no underground effect are applied.
+		#Range: 0 ~ 400
+		"Start Distance To World Surface For Underground Effect" = 10
+		# Distance to the World Surface where underground effect will be maximal.
+		# Bigger distance, the underground effect is maximal. Between the Start and End Distance, the increase of underground effect is linear.
+		#Range: 0 ~ 400
+		"End Distance To World Surface For Underground Effect" = 16
+
 # Options related to thirst
 [thirst]
 	# If enabled, players will take damage from the complete dehydration.
@@ -312,76 +320,6 @@
 		# Allow override of purified water stored in canteen with normal water.
 		"Allow Override Purified Water" = true
 
-	[thirst.rain]
-		# Whether players can drink from rain or not.
-		"Drink From Rain" = true
-		# Amount of hydration recovered when drinking from the rain.
-		#Range: 0 ~ 20
-		Hydration = 1
-		# Amount of saturation recovered when drinking from the rain.
-		#Range: 0.0 ~ 20.0
-		Saturation = 0.0
-		# Chance of getting an effect while drinking from the rain.
-		#Range: 0.0 ~ 1.0
-		"Effect Chance" = 0.0
-		# Possible effect given while drinking from the rain.
-		Effect = ""
-		# Duration in ticks of the possible effect given while drinking from the rain.
-		#Range: 0 ~ 100000
-		"Effect Duration" = 0
-
-	[thirst.water]
-		# Whether players can drink from water (or flowing water) block or not.
-		"Drink From Water" = true
-		# Amount of hydration recovered while drinking water.
-		#Range: 0 ~ 20
-		Hydration = 3
-		# Amount of saturation recovered while drinking water.
-		#Range: 0.0 ~ 20.0
-		Saturation = 0.0
-		# Chance of getting an effect while drinking water.
-		#Range: 0.0 ~ 1.0
-		"Effect Chance" = 0.75
-		# Possible effect given while drinking water.
-		Effect = "legendarysurvivaloverhaul:thirst"
-		# Duration in ticks of the possible effect given while drinking water.
-		#Range: 0 ~ 100000
-		"Effect Duration" = 600
-
-	# Amount recovered by potions with effects
-	[thirst.potion]
-		# Amount of hydration recovered while drinking a potion.
-		#Range: 0 ~ 20
-		Hydration = 3
-		# Amount of saturation recovered while drinking a potion.
-		#Range: 0.0 ~ 20.0
-		Saturation = 0.3
-		# Chance of getting an effect while drinking a potion.
-		#Range: 0.0 ~ 1.0
-		"Effect Chance" = 0.0
-		# Possible effect given while drinking a potion.
-		Effect = ""
-		# Duration in ticks of the possible effect given while drinking a potion.
-		#Range: 0 ~ 100000
-		"Effect Duration" = 0
-
-	# Default value for purified water
-	[thirst.purified-water]
-		# Amount of hydration recovered while drinking purified water.
-		#Range: 0 ~ 20
-		Hydration = 6
-		# Amount of saturation recovered while drinking purified water.
-		#Range: 0.0 ~ 20.0
-		Saturation = 1.5
-		# Chance of getting an effect while drinking purified water.
-		#Range: 0.0 ~ 1.0
-		"Effect Chance" = 0.0
-		# Possible effect given while drinking purified water.
-		Effect = ""
-		# Duration in ticks of the possible effect given while drinking purified water.
-		#Range: 0 ~ 100000
-		"Effect Duration" = 0
-
 	[thirst.juices]
 		# Whether the player retrieves a glass bottle after drinking a juice.
 		"Glass Bottle Loot After Drinking A Juice" = true
@@ -392,6 +330,15 @@
 			# If Vampirism is installed and if thirst enabled while being a vampire, keep the thirst system in addition to the vampiric one.
 			# If disabled, the thirst system will be disabled for vampires.
 			"Thirst Enabled If Vampire" = false
+
+	# Allows drinking from lava. Can be used as bauble.
+	[thirst.nether_chalice]
+		# Amount of hydration recovered when drinking from lava.
+		#Range: 0 ~ 20
+		Hydration = 6
+		# Amount of saturation recovered when drinking from lava.
+		#Range: 0.0 ~ 20.0
+		Saturation = 4.0
 
 # Options related to heart fruits
 [heart-fruits]

@@ -1,0 +1,6 @@
+{
+    "name": "Maze Mother",
+    "description": "Notes on discoveries about the spirit of the Maze Mother.",
+    "parent": "patchouli:clues",
+    "icon": "minecraft:writable_book"
+}

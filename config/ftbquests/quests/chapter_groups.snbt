@@ -2,7 +2,5 @@
 	chapter_groups: [
 		{ id: "1C5854C2652D1117", title: "Chapter 1" }
 		{ id: "725A765315FCAF74", title: "Misc" }
-		{ id: "661FF093308E42D9", title: "Chapter 2" }
-		{ id: "2B33AB6B169067A5", title: "Chapter 3" }
 	]
 }

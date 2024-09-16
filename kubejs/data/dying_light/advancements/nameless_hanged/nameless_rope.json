@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:ragged_rope"
+      },
+      "title": "Found a Ragged Rope",
+      "description": "You found a rope which looks shockingly like a noose..."
+    },
+    "parent": "dying_light:nameless_hanged/nameless_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:ragged_rope"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

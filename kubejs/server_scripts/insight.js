@@ -5,9 +5,9 @@ PlayerEvents.loggedIn(event => {
             alignx:'left',
             aligny:'top',
             x: 10,
-            y: 20,
-            h:64,
-            w:64,
+            y: 10,
+            h: 48,
+            w: 48,
             texture: 'dying_light:textures/ui_images/10_insight_eye.png',
             color: '#ffffff',
             draw: 'ingame',
@@ -18,14 +18,14 @@ PlayerEvents.loggedIn(event => {
             alignx:'left',
             aligny:'top',
             x: 10,
-            y: 20,
-            h:64,
-            w:64,
+            y: 10,
+            h: 48,
+            w: 48,
             texture: 'kubejs:item/insight_eye_anim',
             color: '#ffffff',
             draw:  'ingame',
             visible: false
-        },
+        }/*,
       insight_count_display: {
         alignx:'left',
         aligny:'top',
@@ -37,7 +37,7 @@ PlayerEvents.loggedIn(event => {
         y: 80,
         draw: 'ingame',
         visible: false
-      }
+      }*/
     })
   })
 
@@ -67,8 +67,8 @@ PlayerEvents.tick(event => {
         }
         //and hide the eye
         event.player.paint({insight_eye: {visible:false}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:false}})
-        //console.log("Player has low insight, eye should be hidden.")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:false}})
+        
     }
     //If player has 11+ insight...
     //if player has the low insight stage, remove it
@@ -78,8 +78,7 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {texture: 'dying_light:textures/ui_images/10_insight_eye.png', visible:true}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
-        //console.log("Player has low insight, but eye should be visible.")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
     //20 Insight/Insight Shop
     //If player has 20+ Insight and does not have the insight_shop stage, add it
@@ -89,13 +88,11 @@ PlayerEvents.tick(event => {
         }
         //and display the eye
         event.player.paint({insight_eye: {texture: 'dying_light:textures/ui_images/20_insight_eye.png', visible:true}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
-        //console.log("player has 20+ insight")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
     //If player drops below 20 Insight, remove Insightful stage from them
     if (player.persistentData.insightCount <20 && player.stages.has('insight_shop')) {
-            player.stages.remove('insight_shop')
-            //console.log("player has 20- insight")        
+            player.stages.remove('insight_shop')       
     }
     //50 Insight/Insightful
     //If player has 50+ Insight and does not have the insightful stage, add it
@@ -105,14 +102,11 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {texture: 'dying_light:textures/ui_images/50_insight_eye.png', visible:true}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
-
-        //console.log("player has 50+ insight")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
     //If player drops below 50 Insight, remove Insightful stage from them
     if (player.persistentData.insightCount <50 && player.stages.has('insightful')) {
         player.stages.remove('insightful')
-        //console.log("player has 50- insight")
     }
     //100 Insight/Translation
     //If player has 100+ Insight and does not have the Translation stage, add it
@@ -122,14 +116,11 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye: {texture: 'dying_light:textures/ui_images/100_insight_eye.png', visible:true}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
-
-        //console.log("player has 100+ insight")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
     //If player drops below 100 Insight, remove Translation stage from them
     if (player.persistentData.insightCount <100 && player.stages.has('translation')) {
         player.stages.remove('translation')
-        //console.log("player has 100- insight")
     }
     //150 Insight/Madness
     //If player has 150+ Insight and does not have the Madness stage, add it
@@ -139,16 +130,12 @@ PlayerEvents.tick(event => {
         }
         //and show the eye
         event.player.paint({insight_eye_anim: {visible:true}})
-        event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
-
-        //console.log("player has 150+ insight")
+        //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
     //If player drops below 150 Insight, remove Madness stage from them
     if (player.persistentData.insightCount <150 && player.stages.has('madness')) {
         player.stages.remove('madness')
-        event.player.paint({insight_eye_anim: {visible:false}})
-
-        //console.log("player has 150- insight")
+        //event.player.paint({insight_eye_anim: {visible:false}})
     }
 })
 

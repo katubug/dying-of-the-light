@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "aquamirae:abyssal_amethyst"
+      },
+      "title": "Learn About the Maze Mother",
+      "description": "You began your study of the Maze Mother."
+    },
+    "parent": "dying_light:entity_introduction",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

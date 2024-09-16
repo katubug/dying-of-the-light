@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:blindfold"
+      },
+      "title": "Found a Tattered Blindfold",
+      "description": "You found an old blindfold, which reminds you of the Nameless Hanged."
+    },
+    "parent": "dying_light:nameless_hanged/nameless_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:blindfold"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

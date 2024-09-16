@@ -1,0 +1,17 @@
+{
+    "name": "Necromantic Contract",
+    "icon": "kubejs:necromantic_contract",
+    "category": "patchouli:dweller",
+    "advancement": "dying_light:dweller/dweller_contract",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:necromantic_contract",
+            "text": "This document appears to be a contract. It is written in an arcane script which you can't exactly read, but somehow you're able to understand its meaning. The wording is somewhat vague, though..."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "It's between a man named 'Garrik' and an unnamed necromancer, promising to restore something precious in exchange for something of equal value. It is signed with an X."
+        }
+    ]
+}

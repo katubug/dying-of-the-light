@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:ships_log"
+      },
+      "title": "Found a Ship's Log",
+      "description": "You found an old Log of Cornelia's in a pillager ship.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "dying_light:cornelia/cornelia_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:ships_log"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

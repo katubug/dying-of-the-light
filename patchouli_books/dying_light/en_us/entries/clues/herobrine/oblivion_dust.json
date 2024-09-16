@@ -1,0 +1,13 @@
+{
+    "name": "Dust of Oblivion",
+    "icon": "kubejs:oblivion_dust",
+    "category": "patchouli:herobrine",
+    "advancement": "dying_light:herobrine/herobrine_dust",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:oblivion_dust",
+            "text": ""
+        }
+    ]
+}

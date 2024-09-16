@@ -1,0 +1,13 @@
+{
+    "name": "Rune Echo Stone",
+    "icon": "kubejs:rune_echo_stone",
+    "category": "patchouli:cornelia",
+    "advancement": "dying_light:cornelia/cornelia_runestone",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:rune_echo_stone",
+            "text": "A crude copy of some sort of arcane rune, carved into a piece of limestone. The rune itself is too cold to touch."
+        }
+    ]
+}

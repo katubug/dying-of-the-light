@@ -859,7 +859,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "or(item(tide:bait)item(tide:lucky_bait)item(tide:magnetic_bait)item(tide:magnetic_bait)item(tide:suspicious_bait)item(fishofthieves:earthworms)item(fishofthieves:grubs)item(fishofthieves:leeches))"
+						"ftbfiltersystem:filter": "or(item(tide:bait)item(tide:lucky_bait)item(tide:magnetic_bait)item(tide:magnetic_bait)item(fishofthieves:earthworms)item(fishofthieves:grubs)item(fishofthieves:leeches))"
 					}
 				}
 				type: "item"

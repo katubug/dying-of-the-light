@@ -1,15 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "item": "endofherobrine:netherrack_totem"
       },
-      "title": "Learn About the Maze Mother",
-      "description": "",
+      "title": "Learn Herobrine's Story",
+      "description": "You learned the truth about Herobrine.",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:herobrine/herobrine_unlock",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

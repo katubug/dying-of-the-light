@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:tainted_pearl"
+      },
+      "title": "Found a Rune-Tainted Pearl",
+      "description": "You fished up a dark pearl, it feels as if it's made of corruption."
+    },
+    "parent": "dying_light:maze_mother/mother_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:tainted_pearl"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

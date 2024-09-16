@@ -1,0 +1,6 @@
+{
+    "name": "Herobrine",
+    "description": "Notes on discoveries about the spirit called Herobrine.",
+    "parent": "patchouli:clues",
+    "icon": "minecraft:writable_book"
+}

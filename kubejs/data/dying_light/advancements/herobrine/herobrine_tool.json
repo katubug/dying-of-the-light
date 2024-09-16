@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:strange_tool"
+      },
+      "title": "Found a Strange Tool",
+      "description": "You found a tool which looks like it was made by someone alien to our world."
+    },
+    "parent": "dying_light:herobrine/herobrine_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:strange_tool"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,26 @@
+  {
+    "display": {
+      "icon": {
+        "item": "kubejs:manta_ray_idol"
+      },
+      "title": "Found a Manta Idol",
+      "description": "You found an idol, formed in the likeness of a giant Manta Ray."
+    },
+    "parent": "dying_light:maze_mother/mother_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:manta_ray_idol"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -4,10 +4,12 @@
 [hud]
 
 	[hud.general]
+		# If enabled, the food saturation will be rendered on the Food Bar while the player suffers Cold Hunger Effect (secondary temperature effect).
+		"Show Food Saturation Bar" = true
 		# Whether the vanilla animation of the Food bar and Hydration bar is rendered. The bar shakes more the lower they are.
 		# This mod render a new food bar as a secondary effect of a cold temperature.
 		# Disable this animation if the temperature secondary effect is enabled to allow a compatibility with other mods rendering the food bar (by example Appleskin).
-		"Show Vanilla Animation Overlay" = true
+		"Show Vanilla Bar Animation Overlay" = true
 
 	[hud.temperature]
 		# How temperature is displayed. Accepted values are as follows:
@@ -25,12 +27,18 @@
 		# Temperature threshold below which a cold breath effect is rendered by the player. -1000 disable the feature.
 		#Range: -1000.0 ~ 1000.0
 		"Cold Breath Temperature Threshold" = 10.0
-		# If enabled, the food saturation will be rendered on the Food Bar while the player suffers Cold Hunger Effect (secondary temperature effect).
-		"Show Food Saturation Bar" = true
 		# If enabled, player will see a foggy effect when the heat is high.
 		"Heat Temperature Overlay" = true
 		# If enabled, player will see a frost effect when the cold is low.
 		"Cold Temperature Overlay" = true
+		# The X and Y offset of the body temperature, shown when thermometer is equipped as a bauble (needs the curios mod).
+		# Set both to 0 for no offset.
+		#Range: -10000 ~ 10000
+		"Body Temperature Display X Offset" = 0
+		#Range: -10000 ~ 10000
+		"Body Temperature Display Y Offset" = 0
+		# If enabled, render the temperature values in Fahrenheit.
+		"Temperature In Fahrenheit" = true
 
 		[hud.temperature.wetness]
 			# The X and Y offset of the wetness indicator. Set both to 0 for no offset.
@@ -51,12 +59,6 @@
 	"Body Damage indicator Always Rendered" = false
 
 [season-cards]
-	# The X and Y offset of the season cards. Set both to 0 for no offset.
-	# By default, render first top quarter vertically and centered horizontally.
-	#Range: -10000 ~ 10000
-	"Season Cards X Offset" = 0
-	#Range: -10000 ~ 10000
-	"Season Cards Y Offset" = 0
 	# The delay before rendering the season card at first player spawn or player dimension change.
 	#Range: > 0
 	"Season Cards Delay In Ticks" = 80
@@ -69,6 +71,12 @@
 	# The fade out time in ticks that the season card will disappear.
 	#Range: > 0
 	"Season Cards Fade Out In Ticks" = 20
+	# The X and Y offset of the season cards. Set both to 0 for no offset.
+	# By default, render first top quarter vertically and centered horizontally.
+	#Range: -10000 ~ 10000
+	"Season Cards Display X Offset" = 0
+	#Range: -10000 ~ 10000
+	"Season Cards Display Y Offset" = 0
 
 [thirst]
 	# If enabled, show the hydration values in the item tooltip.

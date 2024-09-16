@@ -1,15 +1,12 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "item": "aquamirae:shell_horn"
       },
       "title": "Learn About Cornelia",
-      "description": "",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": true
+      "description": "Begin your study of the spirit of Captain Cornelia."
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:entity_introduction",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

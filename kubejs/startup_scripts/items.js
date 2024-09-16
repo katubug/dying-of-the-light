@@ -20,7 +20,7 @@ StartupEvents.registry('item', event => {
     event.create('cave_dweller_poppet').texture('kubejs:item/poppet').displayName("Cave Dweller Poppet")
     event.create('cave_dweller_note').displayName("Note from Garrik")
     event.create('teddy').displayName("Worn Teddy Bear")
-    event.create('polished_coal').displayName('Polished Coal')              //some coal he polished to a shine, anthracite
+    event.create('polished_coal').displayName('Anthracite Coal')              //some coal he polished to a shine, anthracite
     event.create('womans_locket').displayName('Woman\'s Locket')            //his wife's locket
     event.create('necromantic_contract').displayName('Necromantic Contract')//his contract with the necromancer
     //Maze Mother Items
@@ -34,7 +34,7 @@ StartupEvents.registry('item', event => {
     event.create('captain_cornelia_note').displayName("Note from Cornelia")
     event.create('rune_echo_stone').displayName('Rune Echo Stone')          //a stone with the shape of the rune roughly carved into it. not as powerful but still evil
     event.create('icy_heart_fragment').displayName('Icy Heart Fragment')    //a piece of her frozen heart
-    event.create('ships_log').displayName('Ship\'s Log')                    //a log from her time as captain
+    event.create('ships_log').displayName('Ship\'s Log Entry')                    //a log from her time as captain
     //Nameless Hanged Items
     event.create('nameless_hanged_poppet').texture('kubejs:item/poppet').displayName("Nameless Hanged Poppet")
     event.create('nameless_hanged_note').displayName("Note from a Nameless Man")

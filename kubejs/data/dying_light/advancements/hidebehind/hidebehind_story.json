@@ -3,13 +3,13 @@
       "icon": {
         "item": "minecraft:stone"
       },
-      "title": "Learn About the Cave Dweller",
-      "description": "",
+      "title": "Learn the HideBehind's Story",
+      "description": "You learned the truth of the Hidebehind.",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:hidebehind/hidebehind_unlock",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

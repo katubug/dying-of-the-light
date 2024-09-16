@@ -134,11 +134,19 @@
 				"&dCompleting this quest will unlock the rest of the quest book&r."
 			]
 			id: "619B225244EE9A1B"
-			rewards: [{
-				id: "3779AE74F4EA7C9B"
-				item: "minecraft:dark_oak_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3779AE74F4EA7C9B"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					advancement: "dying_light:root"
+					criterion: ""
+					id: "2E86BBC171DF5259"
+					type: "advancement"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "482B4B9616375EE8"

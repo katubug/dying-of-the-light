@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:deepslate"
+      },
+      "title": "Learn About the Cave Dweller",
+      "description": "You began your study of the Cave Dweller."
+    },
+    "parent": "dying_light:entity_introduction",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

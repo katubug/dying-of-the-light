@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:rune_echo_stone"
+      },
+      "title": "Found a Rune Echo Stone",
+      "description": "You found a carved copy of the Rune of the Storm."
+    },
+    "parent": "dying_light:hidebehind/hidebehind_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:rune_echo_stone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

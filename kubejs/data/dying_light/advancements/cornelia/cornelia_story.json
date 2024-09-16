@@ -1,15 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "item": "aquamirae:three_bolt_helmet"
       },
-      "title": "Learn About Nameless Hanged",
-      "description": "",
+      "title": "Learn Cornelias's Story",
+      "description": "Learn what brought her spirit to this world, and what keeps it here.",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:cornelia/cornelia_unlock",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:polished_coal"
+    },
+    "title": "Found some Anthracite Coal",
+    "description": "You found some highly polished coal, it looks like a keepsake."
+  },
+  "parent": "dying_light:dweller/dweller_unlock",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:polished_coal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

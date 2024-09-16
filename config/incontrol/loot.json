@@ -2,7 +2,7 @@
     {
         "mob": "minecraft:zombie",
         "item": "kubejs:teddy",
-        "gamestage": "dweller_begun"
+        "gamestage": "dweller_teddy"
     },
     {
         "mob": "minecraft:zombie",

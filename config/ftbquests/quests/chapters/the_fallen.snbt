@@ -111,18 +111,17 @@
 					type: "item"
 				}
 				{
-					advancement: "dying_light:cornelia_unlock"
-					auto: "invisible"
-					criterion: ""
-					id: "210DFB1F99566E5C"
-					type: "advancement"
-				}
-				{
 					auto: "invisible"
 					id: "2CCB4FAEB4F23E1C"
 					ignore_reward_blocking: true
 					stage: "cornelia_begun"
 					type: "gamestage"
+				}
+				{
+					advancement: "dying_light:cornelia/cornelia_unlock"
+					criterion: ""
+					id: "76A71BACF6DBDEDA"
+					type: "advancement"
 				}
 			]
 			tasks: [
@@ -191,8 +190,8 @@
 				}
 			]
 			title: "Discover the Fate of Cornelia"
-			x: -5.0d
-			y: 1.0d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["32F5932093E919BD"]
@@ -220,8 +219,8 @@
 				type: "biome"
 			}]
 			title: "Find a Deep Frozen Ocean"
-			x: -5.0d
-			y: -1.5d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["32F5932093E919BD"]
@@ -233,12 +232,21 @@
 				"&6Learn what you can from it&r and we will come back to it later."
 			]
 			id: "650100693BC8C6C9"
-			rewards: [{
-				advancement: "dying_light:dweller_unlock"
-				criterion: ""
-				id: "2BA6619BE29E538D"
-				type: "advancement"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "154A60BB9E8B2139"
+					ignore_reward_blocking: true
+					stage: "dweller_begun"
+					type: "gamestage"
+				}
+				{
+					advancement: "dying_light:dweller/dweller_unlock"
+					criterion: ""
+					id: "5AAE3DE465A5FA36"
+					type: "advancement"
+				}
+			]
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
@@ -271,31 +279,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["32F5932093E919BD"]
-			description: [
-				"I call him the &eNameless Hanged&r. A little unimaginative, I know, but naming things isn't my strong suit. Although he looks frightening, he isn't."
-				""
-				"He's a ghost, and can be most commonly found in &cGraveyards&r and other such places. He is not hostile, and in fact will barter with you if you &6approach him at night&r."
-			]
-			id: "44FC1A2479E27F51"
-			rewards: [{
-				advancement: "dying_light:nameless_unlock"
-				criterion: ""
-				id: "40954F9BC0D8AC1E"
-				type: "advancement"
-			}]
-			tasks: [{
-				id: "4355AE83A264172A"
-				observe_type: 5
-				timer: 0L
-				to_observe: "graveyard:nameless_hanged"
-				type: "observation"
-			}]
-			title: "Meet the Nameless Hanged"
-			x: -3.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["727BB3B57AD220A1"]
 			id: "1F72239234712C48"
 			tasks: [
@@ -311,8 +294,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 4.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["18B331087284BB4F"]
@@ -355,8 +338,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.5d
-			y: 2.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -396,7 +379,7 @@
 			]
 			title: "Getting Blaze Rods"
 			x: -1.5d
-			y: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18B331087284BB4F"]
@@ -424,7 +407,7 @@
 			}]
 			title: "Communing with the Gods"
 			x: 0.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2A2CAE3F8A8D5B06"]
@@ -452,8 +435,8 @@
 				id: "4C2A702A8EAF204F"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3C7F896A612AB817"]
@@ -483,8 +466,8 @@
 				type: "questsadditions:interaction"
 				value: 50L
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 8.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["25F63F9940D7563C"]
@@ -532,17 +515,8 @@
 					auto: "invisible"
 					id: "02DD4B3C67588FE8"
 					ignore_reward_blocking: true
-					stage: "dweller_begun"
+					stage: "dweller_teddy"
 					type: "gamestage"
-				}
-				{
-					auto: "invisible"
-					command: "/advancement grant @s only dying_light:dweller_story"
-					elevate_perms: true
-					id: "421CA801BDF365E5"
-					silent: true
-					team_reward: true
-					type: "command"
 				}
 				{
 					auto: "enabled"
@@ -566,6 +540,12 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					advancement: "dying_light:dweller_story"
+					criterion: ""
+					id: "2E93F3B582D65260"
+					type: "advancement"
 				}
 			]
 			tasks: [{
@@ -1824,6 +1804,21 @@
 		{
 			dependencies: ["32F5932093E919BD"]
 			id: "2B3FA4EB128B72F2"
+			rewards: [
+				{
+					advancement: "dying_light:herobrine/herobrine_unlock"
+					criterion: ""
+					id: "58DC0520423576EB"
+					type: "advancement"
+				}
+				{
+					auto: "invisible"
+					id: "5926695D23C0668F"
+					ignore_reward_blocking: true
+					stage: "herobrine_begun"
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				icon: "endofherobrine:herobrine_head"
 				id: "43FDA4C5AAF66D11"
@@ -1836,6 +1831,249 @@
 			title: "Meet the Possessed"
 			x: -3.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["32F5932093E919BD"]
+			description: [
+				"I call him the &eNameless Hanged&r. A little unimaginative, I know, but naming things isn't my strong suit. Although he looks frightening, he isn't."
+				""
+				"He's a ghost, and can be most commonly found in &cGraveyards&r and other such places. He is not hostile, and in fact will barter with you if you &6approach him at night&r."
+			]
+			id: "00B9BF0E7586DEC0"
+			rewards: [
+				{
+					advancement: "dying_light:nameless_hanged/nameless_unlock"
+					criterion: ""
+					id: "663FDE03AA619857"
+					type: "advancement"
+				}
+				{
+					auto: "invisible"
+					id: "4A72876849BACCB6"
+					ignore_reward_blocking: true
+					stage: "nameless_begun"
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					id: "3B310143757AC253"
+					structure: "graveyard:large_graveyard"
+					type: "structure"
+				}
+				{
+					id: "59FC2AAB613DFC59"
+					observe_type: 5
+					timer: 0L
+					to_observe: "graveyard:nameless_hanged"
+					type: "observation"
+				}
+			]
+			title: "Encounter the Nameless Hanged"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00B9BF0E7586DEC0"]
+			id: "67F47BCDF815B78B"
+			tasks: [
+				{
+					id: "330FB2FE4098AB73"
+					item: "kubejs:ragged_rope"
+					type: "item"
+				}
+				{
+					id: "7BB2228F1509F196"
+					item: "kubejs:blindfold"
+					type: "item"
+				}
+				{
+					id: "7E0471F4203BDAB6"
+					item: "kubejs:trade_goods"
+					type: "item"
+				}
+			]
+			title: "Collect Effects"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["650100693BC8C6C9"]
+			id: "521D49D9C72B3462"
+			tasks: [
+				{
+					id: "199E469FC247B836"
+					item: "kubejs:polished_coal"
+					type: "item"
+				}
+				{
+					id: "0A68D7BCF508453E"
+					item: "kubejs:womans_locket"
+					type: "item"
+				}
+				{
+					id: "04BA098CC552E217"
+					item: "kubejs:necromantic_contract"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["474F61F94EB65E2B"]
+			id: "727582CDDD8D4D8A"
+			tasks: [
+				{
+					id: "45930A118A7D36E2"
+					item: "kubejs:icy_heart_fragment"
+					type: "item"
+				}
+				{
+					id: "27957987CF3C46C4"
+					item: "kubejs:ships_log"
+					type: "item"
+				}
+				{
+					id: "5B548C44B464C296"
+					item: "kubejs:rune_echo_stone"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B3FA4EB128B72F2"]
+			id: "4BC13C6B899FAD45"
+			tasks: [
+				{
+					id: "26AE798A343E6A56"
+					item: "kubejs:oblivion_dust"
+					type: "item"
+				}
+				{
+					id: "058AF6C75513A458"
+					item: "kubejs:strange_tool"
+					type: "item"
+				}
+				{
+					id: "0C09BEAC64887FCA"
+					item: "kubejs:possessed_journal"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E5E7C12C295D7ED"]
+			id: "152E69E65BB93169"
+			rewards: [
+				{
+					advancement: "dying_light:maze_mother/mother_unlock"
+					criterion: ""
+					id: "7D9DEB73AB250D41"
+					type: "advancement"
+				}
+				{
+					auto: "invisible"
+					id: "36D20570416A842B"
+					ignore_reward_blocking: true
+					stage: "mother_begun"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "501E8871CC1A1D37"
+				observe_type: 5
+				timer: 0L
+				to_observe: "aquamirae:maze_mother"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["152E69E65BB93169"]
+			id: "2DA2218998158790"
+			tasks: [
+				{
+					id: "017D4BBD32233879"
+					item: "kubejs:tainted_pearl"
+					type: "item"
+				}
+				{
+					id: "27CAFBB4013F13FD"
+					item: "kubejs:manta_ray_idol"
+					type: "item"
+				}
+				{
+					id: "1768C780656151C6"
+					item: "kubejs:whalebone_harpoon"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32F5932093E919BD"]
+			id: "2EBB26DF883E8071"
+			rewards: [
+				{
+					advancement: "dying_light:hidebehind/hidebehind_unlock"
+					criterion: ""
+					id: "3033B6A70CDEE4C5"
+					type: "advancement"
+				}
+				{
+					auto: "invisible"
+					id: "7738D0B3C4FC155F"
+					ignore_reward_blocking: true
+					stage: "hidebehind_begun"
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					biome: "nyctophobia:deep_dark_forest"
+					id: "563BA1179C8CA48D"
+					type: "biome"
+				}
+				{
+					id: "7B561FF37D9FCB97"
+					observe_type: 5
+					timer: 0L
+					to_observe: "whisperwoods:hidebehind"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EBB26DF883E8071"]
+			id: "33AE28E8F4A21032"
+			tasks: [
+				{
+					id: "248379A015C5CE91"
+					item: "kubejs:autumn_leaves"
+					type: "item"
+				}
+				{
+					id: "3D56E72337FEEA4F"
+					item: "kubejs:carved_whistle"
+					type: "item"
+				}
+				{
+					id: "51B9C4E40F0D8D76"
+					item: "kubejs:broken_toy"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	title: "The Fallen"

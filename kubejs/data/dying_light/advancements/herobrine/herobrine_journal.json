@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:possessed_journal"
+      },
+      "title": "Found a Possessed's Journal",
+      "description": "You found a journal written by someone who had been possessed."
+    },
+    "parent": "dying_light:herobrine/herobrine_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:possessed_journal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

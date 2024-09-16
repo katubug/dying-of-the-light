@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone"
+      "item": "minecraft:stone_pickaxe"
     },
-    "title": "Learn About Herobrine",
-    "description": "",
+    "title": "Learn the Dweller's Story",
+    "description": "You learned the truth about the Cave Dweller.",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "dying_light:root",
+  "parent": "dying_light:dweller/dweller_unlock",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

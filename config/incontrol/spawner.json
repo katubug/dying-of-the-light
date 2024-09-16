@@ -40,6 +40,26 @@
             "minheight": -256,
             "maxheight": -20
         }
+    },
+    {
+        "mob":"distantfriends:friend",
+        "attempts": 20,
+        "persecond": 1,
+        "weights": [20],
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        }
+    },
+    {
+        "mob":"eyesinthedarkness:eyes",
+        "attempts": 20,
+        "persecond": 1,
+        "weights": [20],
+        "amount": {
+            "minimum": 2,
+            "maximum": 5
+        }
     }
 
 ]

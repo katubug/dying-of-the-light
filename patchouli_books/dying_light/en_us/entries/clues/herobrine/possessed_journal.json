@@ -1,0 +1,17 @@
+{
+    "name": "Journal of a Possessed",
+    "icon": "kubejs:possessed_journal",
+    "category": "patchouli:herobrine",
+    "advancement": "dying_light:herobrine/herobrine_journal",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:possessed_journal",
+            "text": "This journal begins quite plainly, describing rural life in the village. However, partway through, the entries become completely illegible. You aren't even sure if they are actual writing. After a few pages, however, it becomes coherent again."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The author describes feeling like they were possessed by a force outside themselves, and trying to communicate in the ways they normally would. They recall seeing the faces of their loved ones look on in confusion while they were not in control of their actions. They hope that it never happens again."
+        }
+    ]
+}

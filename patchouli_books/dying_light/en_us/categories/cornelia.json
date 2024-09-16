@@ -1,0 +1,6 @@
+{
+    "name": "Captain Cornelia",
+    "description": "Notes on discoveries about the spirit of Captain Cornelia.",
+    "parent": "patchouli:clues",
+    "icon": "minecraft:writable_book"
+}

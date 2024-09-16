@@ -1,0 +1,13 @@
+{
+    "name": "Icy Heart Fragment",
+    "icon": "kubejs:icy_heart_fragment",
+    "category": "patchouli:cornelia",
+    "advancement": "dying_light:cornelia/cornelia_fragment",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:icy_heart_fragment",
+            "text": "A shattered piece of unmelting ice which looks like it was once a part of a human heart. Some kind of fell magic must have had its effect on this, as even this small fragment makes you uneasy."
+        }
+    ]
+}

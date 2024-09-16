@@ -4,8 +4,9 @@
         "item": "minecraft:lantern"
       },
       "title": "Dying of the Light",
-      "description": "",
+      "description": "Researching and helping the spirits trapped in this world.",
       "frame": "goal",
+      "background": "abyssal_decor:textures/block/wallpapergreen.png",
       "show_toast": false,
       "announce_to_chat": false
     },

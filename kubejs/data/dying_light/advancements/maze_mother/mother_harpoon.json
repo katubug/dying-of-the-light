@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:whalebone_harpoon"
+      },
+      "title": "Found a Whalebone Harpoon",
+      "description": "You looted an old harpoon, it looks like it was made by a seafaring people."
+    },
+    "parent": "dying_light:maze_mother/mother_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:whalebone_harpoon"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

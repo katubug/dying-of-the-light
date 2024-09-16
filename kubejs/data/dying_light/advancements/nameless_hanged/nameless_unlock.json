@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "graveyard:corruption"
+      },
+      "title": "Learn About Nameless Hanged",
+      "description": "You began your study of the Nameless Hanged."
+    },
+    "parent": "dying_light:entity_introduction",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

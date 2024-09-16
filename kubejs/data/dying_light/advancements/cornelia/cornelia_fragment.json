@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:icy_heart_fragment"
+      },
+      "title": "Found an Icy Heart Fragment",
+      "description": "You fished up a piece of Cornelia's Heart.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "dying_light:cornelia/cornelia_unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "kubejs:icy_heart_fragment"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

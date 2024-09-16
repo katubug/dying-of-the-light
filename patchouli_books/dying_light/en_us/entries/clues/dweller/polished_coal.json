@@ -1,0 +1,13 @@
+{
+    "name": "Anthracite Coal",
+    "icon": "kubejs:polished_coal",
+    "category": "patchouli:dweller",
+    "advancement": "dying_light:dweller/dweller_coal",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:polished_coal",
+            "text": "A piece of dense anthracite coal, polished to a shine. It looks like it was used to draw with, rather than burn. The sticky residue on it makes it seem like a child was handling it."
+        }
+    ]
+}

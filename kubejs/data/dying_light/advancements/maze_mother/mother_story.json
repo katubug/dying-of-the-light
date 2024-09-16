@@ -1,15 +1,15 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:stone"
+        "item": "abyssal_decor:white_pearl"
       },
-      "title": "Learn the Nameless Hanged's Story",
-      "description": "",
+      "title": "Learn the Mother's Story",
+      "description": "You learned the truth about the Maze Mother.",
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": true
     },
-    "parent": "dying_light:root",
+    "parent": "dying_light:maze_mother/mother_unlock",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

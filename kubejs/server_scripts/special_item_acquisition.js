@@ -1,6 +1,6 @@
 LootJS.modifiers((event) => {
 
-    event.enableLogging();
+    //event.enableLogging();
 
 //Cornelia Drops
     //Tortured Souls drop Rune Echo Stones when Cornelia quest is active
@@ -127,7 +127,7 @@ LootJS.modifiers((event) => {
     .randomChance(0.15)
     .addLoot("kubejs:ragged_rope")
 
-    //Trade Goods from Wandering Trader or rarely in village chests
+    //Trade Goods rarely in cold village chests
     event.addLootTableModifier("minecraft:chests/village/village_taiga_house")
     .logName("nameless_taiga")
     .hasAnyStage(["nameless_begun"])

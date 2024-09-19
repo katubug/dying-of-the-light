@@ -28,5 +28,5 @@
 	#Range: 0 ~ 100
 	spawnChance = 10
 	#Should spawn herobrine builder?
-	spawnBuilder = true
+	spawnBuilder = false
 

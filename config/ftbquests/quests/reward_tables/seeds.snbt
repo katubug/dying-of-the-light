@@ -1,0 +1,24 @@
+{
+	id: "39BA363BDC7806FB"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 2, item: "legendarysurvivaloverhaul:water_plant_seeds" }
+		{ count: 2, item: "legendarysurvivaloverhaul:ice_fern_seeds" }
+		{ count: 2, item: "legendarysurvivaloverhaul:sun_fern_seeds" }
+		{ count: 5, item: "iguanatweaksreborn:carrot_seeds" }
+		{ count: 3, item: "crockpot:tomato_seeds" }
+		{ count: 3, item: "crockpot:pepper_seeds" }
+		{ count: 3, item: "bitter_brews:pepper_seeds" }
+		{ count: 3, item: "crockpot:onion_seeds" }
+		{ count: 3, item: "crockpot:garlic_seeds" }
+		{ count: 3, item: "crockpot:corn_seeds" }
+		{ count: 3, item: "crockpot:asparagus_seeds" }
+		{ count: 5, item: "minecraft:wheat_seeds" }
+		{ count: 3, item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ count: 5, item: "minecraft:beetroot_seeds" }
+		{ count: 3, item: "crockpot:eggplant_seeds" }
+	]
+	title: "Seeds"
+}

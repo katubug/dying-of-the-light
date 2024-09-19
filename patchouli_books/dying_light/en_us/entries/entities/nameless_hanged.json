@@ -2,7 +2,7 @@
     "name": "Nameless Hanged",
     "icon": "graveyard:corruption",
     "category": "patchouli:entities",
-    "advancement": "dying_light:nameless_unlock",
+    "advancement": "dying_light:nameless_hanged/nameless_unlock",
     "pages": [
         {
             "type": "patchouli:text",

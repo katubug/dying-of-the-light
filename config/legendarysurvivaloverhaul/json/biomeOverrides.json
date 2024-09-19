@@ -18,5 +18,13 @@
   "minecraft:basalt_deltas": {
     "temperature": 1.45,
     "isDry": false
+  },
+  "minecraft:deep_frozen_ocean": {
+    "temperature": -0.5,
+    "isDry": false
+  },
+  "minecraft:frozen_ocean": {
+    "temperature": -0.5,
+    "isDry": false
   }
 }

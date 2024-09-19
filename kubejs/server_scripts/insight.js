@@ -99,6 +99,8 @@ PlayerEvents.tick(event => {
     if (player.persistentData.insightCount >=50){
         if(!player.stages.has('insightful')) {
             player.stages.add('insightful')
+            event.server.runCommandSilent(`/advancement grant ${event.player.name.string} only dying_light:insightful`)
+
         }
         //and show the eye
         event.player.paint({insight_eye: {texture: 'dying_light:textures/ui_images/50_insight_eye.png', visible:true}})

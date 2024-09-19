@@ -20,7 +20,7 @@ PlayerEvents.tick(event => {
 //Insight Rewards
 
 //Study Cave Dweller
-FTBQuestsEvents.customReward('2705B493FC2A0145', event =>{
+FTBQuestsEvents.customReward('25210CEFBACC7CCF', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
@@ -32,25 +32,25 @@ FTBQuestsEvents.customReward('345530A235F5629F', event =>{
 })
 
 //Study Maze Mother
-FTBQuestsEvents.customReward('3EB4CFC7F70B1AA1', event =>{
+FTBQuestsEvents.customReward('4E9B4EF9CF9C6CCE', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
 
 //Study Nameless Hanged
-FTBQuestsEvents.customReward('3A87EC0F8B883A7F', event =>{
+FTBQuestsEvents.customReward('1197D0052A3FB283', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
 
 //Study HideBehind
-FTBQuestsEvents.customReward('53161CF8D76544C4', event =>{
+FTBQuestsEvents.customReward('6A15502D7B47A6D1', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })
 
 //Study Herobrine/the Possessed
-FTBQuestsEvents.customReward('3BFEA5393CFB2BF5', event =>{
+FTBQuestsEvents.customReward('371E149DA4A5B079', event =>{
     event.player.persistentData.insightCount+=1
     console.log("Player insight after completing quest is now "+event.player.persistentData.insightCount)
 })

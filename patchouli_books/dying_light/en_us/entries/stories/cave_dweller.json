@@ -2,7 +2,7 @@
     "name": "Cave Dweller",
     "icon": "thaumon:eldritch_lantern",
     "category": "patchouli:stories",
-    "advancement": "dying_light:dweller_story",
+    "advancement": "dying_light:dweller/dweller_story",
     "pages": [
         {
             "type": "patchouli:text",

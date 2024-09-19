@@ -58,6 +58,32 @@
 			x: 3.5d
 			y: -3.0d
 		}
+		{
+			height: 5.0d
+			image: "dying_light:textures/ui_images/handsketch.png"
+			rotation: 0.0d
+			width: 2.6666666666666665d
+			x: -3.0999999999999996d
+			y: 15.6d
+		}
+		{
+			height: 5.0d
+			image: "dying_light:textures/ui_images/skullsketch.png"
+			rotation: 0.0d
+			width: 4.891666666666667d
+			x: -2.1000000000000005d
+			y: 9.0d
+		}
+		{
+			color: 14002822
+			height: 15.0d
+			image: "dying_light:textures/ui_images/page_bg7.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0999999999999996d
+			y: 12.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -350,8 +376,8 @@
 				title: "Obtain Special Ferns"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -4.5d
+			y: -3.3d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -363,40 +389,26 @@
 				"You can upgrade to a &bPortable Crock Pot&r, which can make some recipes that basic can't (such as &bAsparagazpacho&r). Your recipe book should show &awhich recipes are available in which pot&r."
 			]
 			id: "434B44E6A1A72B01"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08304518A3FB39C4"
-				table_id: 178161256721351510L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08304518A3FB39C4"
+					table_id: 178161256721351510L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E87DE3A1004A943"
+					table_id: 4159696836559898363L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "336C93FDCC383098"
 				item: "crockpot:crock_pot"
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1B394C3591A983C6"]
-			description: [
-				"This might not sound crucial to survival, but hear me out - you'll want a calendar."
-				""
-				"It allows you to &atrack what season you're in&r, which will help you with things like &agrowing crops&r and &amanaging your temperature&r."
-			]
-			id: "151A7C37A91DE175"
-			rewards: [{
-				command: "/sanity add @s 20"
-				id: "13B8149F9181B28F"
-				title: "Click this to regain some sanity."
-				type: "command"
-			}]
-			tasks: [{
-				id: "52358D9631F8FEB7"
-				item: "sereneseasons:calendar"
-				type: "item"
-			}]
-			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -430,7 +442,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -2.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -1058,6 +1070,382 @@
 			}]
 			x: 8.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["1B394C3591A983C6"]
+			description: ["You can also control temperature by &asewing liners into you &bArmor&r or &bClothing&r. For that, you'll need a &bSewing Machine&r, and a fair amount of &bThread&r."]
+			id: "3A3A8D4D215AF768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57F521E91A0C1743"
+				table_id: 5193163368653490218L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "73F57EC5E16182B8"
+				item: "legendarysurvivaloverhaul:sewing_table"
+				type: "item"
+			}]
+			x: -3.3d
+			y: -2.4d
+		}
+		{
+			dependencies: ["1B394C3591A983C6"]
+			description: ["Your home is your castle, or something like that - that's a saying, right? Anyway. Unlike a castle, you can &aset up temperature control&r in your home by using a &bBoiler&r or an &bIce Box&r. No, you can't store food in it. But these will be invaluable during the summer and winter!"]
+			id: "53E163D3D0ECB2D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A679B6BF6D31731"
+				table_id: 4159696836559898363L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4831223F2D342492"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(legendarysurvivaloverhaul:heater)item(legendarysurvivaloverhaul:cooler))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Heating and Cooling"
+			x: -1.7999999999999998d
+			y: -3.3d
+		}
+		{
+			dependencies: ["128C0831D93CC414"]
+			description: [
+				"One of the more relaxing things you can do is to &6brew and drink some &bTea&r. Your sanity may rely on it, in fact."
+				""
+				"You can find &bTea&r by breaking &bAzalea&r or &bFlowering Azalea&r leaves. You can also find &bCoffee&r, in &cJungles&r, which grow as bushes."
+				""
+				"&bCoffee&r can then be &agrown in a garden&r."
+			]
+			id: "7AA891BB6FAB4D14"
+			tasks: [
+				{
+					id: "64A4D8155B3AEDC9"
+					item: "bitter_brews:copper_tea_kettle"
+					type: "item"
+				}
+				{
+					id: "7E17DD9AF6EBC185"
+					item: "bitter_brews:mud_stove"
+					type: "item"
+				}
+			]
+			title: "Brewing Tea"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C7F896A612AB817"]
+			description: [
+				"Wow, you really did it. In a world of tragedy, you're a hero. Thank you for helping all these people."
+				""
+				"I hate to admit this, but they were cursed because of me. This whole realm was. I broke the rules, and I brought this nightmare into being. &aYou're my hope of fixing things&r."
+			]
+			id: "2D18F2CD7E7075D4"
+			rewards: [{
+				auto: "disabled"
+				command: "/tbalignment @s increase 1000"
+				elevate_perms: true
+				id: "7DA499DA27D0EDA4"
+				silent: true
+				title: "Gain 1000 Positive Alignment"
+				type: "command"
+			}]
+			tasks: [{
+				checkItem: true
+				entity: "minecraft:zombie_villager"
+				icon: "minecraft:golden_apple"
+				id: "56B7E3D5A22A60CD"
+				item: "minecraft:golden_apple"
+				nbt: { }
+				title: "Cure 50 Zombie Villagers"
+				type: "questsadditions:interaction"
+				value: 50L
+			}]
+			x: -4.6d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2A2CAE3F8A8D5B06"]
+			description: [
+				"You did it! You &acured a &eVillager&r! That's incredible."
+				""
+				"I want you to do something as a favor to me. I want you to &acure as many zombie villagers as you can&r. I would do it myself, if I still existed in the way you do."
+				""
+				"Why? Oh, it's a long and sad story. Maybe I'll tell you someday."
+			]
+			id: "3C7F896A612AB817"
+			rewards: [{
+				command: "/tbalignment @s increase 10"
+				elevate_perms: true
+				id: "2F9ABE7E53F358D6"
+				silent: true
+				title: "Gain 10 Positive Alignment"
+				type: "command"
+			}]
+			shape: "spstar"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "4C2A702A8EAF204F"
+				type: "advancement"
+			}]
+			x: -5.1d
+			y: 10.0d
+		}
+		{
+			dependencies: ["18B331087284BB4F"]
+			description: [
+				"You’re heading to the &cDeep Frozen Ocean&r, and let me warn you - it’s &acolder than you can imagine&r. The water’s dangerous, but I’ve got a &bScroll of Frost Resistance&r to help you swim without turning into an icicle. Still, I’d suggest bundling up. &bSnow Clothing&r or &bWarming Coats&r on your gear will help keep the cold at bay, even with the scroll."
+				""
+				"Now, this isn’t just a swim. &eCaptain Cornelia&r’s ghost haunts those waters, and she’s been stuck there for a long time. If you can find any traces of her - or what happened to her crew - it might be enough to give her some peace. &6Look for any structures that could hold clues&r. There’s a story to uncover, and it’s up to you to finish it."
+			]
+			id: "5E5E7C12C295D7ED"
+			rewards: [{
+				id: "5C0E81B5E35F7A49"
+				item: {
+					Count: 1
+					id: "tombstone:scroll_of_frost_resistance"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "minecraft:blue_ice"
+				id: "3595B8728949191A"
+				type: "biome"
+			}]
+			title: "Find a Deep Frozen Ocean"
+			x: -1.0999999999999996d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5E5E7C12C295D7ED"]
+			description: [
+				"You’re close to understanding what happened out there, but there’s still some work to do. Scattered across the ocean are three &bLogbooks&r, each holding part of the story of this crew. The first one’s on her &cShip&r, the second at the &cOutpost&r, and the last one’s hidden in a &cShelter&r. Find them, and you’ll know the full tale of her fate."
+				""
+				"Once you’ve got all three, I’ll give you something - an old &bhorn&r. It’s powerful, but &abe careful with it&r. If you &6blow the &bhorn&r near the water, &eCornelia&r’s ghost will appear. She’s not the same as she once was, though. Whatever’s been keeping her trapped has also made her… hostile. &dSummoning her is not something you should do lightly&r."
+			]
+			id: "474F61F94EB65E2B"
+			rewards: [
+				{
+					id: "2A0764A68FAF9AE1"
+					item: "aquamirae:shell_horn"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "2CCB4FAEB4F23E1C"
+					ignore_reward_blocking: true
+					stage: "cornelia_begun"
+					type: "gamestage"
+				}
+				{
+					advancement: "dying_light:cornelia/cornelia_unlock"
+					criterion: ""
+					id: "76A71BACF6DBDEDA"
+					type: "advancement"
+				}
+			]
+			tasks: [
+				{
+					id: "6B19B6B292070339"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #34\\n\\nThese beasts from the depths prowl for someone to devour… One of those critters has already eaten our midshipman… Swallowed him whole along with his crossbow.\"}"
+								"{\"text\":\"Entry #35\\n\\nWe are waiting in vain for rescue… No one will come to help us, we have to survive on our own. Today the construction of the fort from parts of the ship was completed. In any case, she could no longer plow the seas ever again.\"}"
+								"{\"extra\":[{\"text\":\"Entry #36\\n\\nWe are no longer able to heat the fort, resources are running out. \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Underground shelter\"},{\"text\":\"\\n   There are more structures\\n   underneath the ice... Looks\\n   like I have to go down to\\n   these terrible fish...\"}],\"text\":\"\"}},\"text\":\"[Part of the crew began to dig a shelter underground]\"},{\"text\":\". It is the only way we have a chance not to freeze to death.\"}],\"text\":\"\"}"
+								"{\"text\":\"Entry #37\\n\\nWe hid our supplies and valuable cargo underground. But Poseidon cursed us, and during the storm the lieutenant washed away into the sea… Along with master keys.\"}"
+								"{\"extra\":[{\"text\":\"The hope remains that we could possibly find \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Сargo keys\"},{\"text\":\"\\n   Without the keys, I will not\\n   be able to receive the\\n   most valuable cargo. I need\\n   to find other ships nearby.\"}],\"text\":\"\"}},\"text\":\"[similar keys on other ships of our fleet]\"},{\"text\":\", which have suffered the same fate as us.\"}],\"text\":\"\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F7A486970318897"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "46B2060FEFB5579B"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							OBSData: { }
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
+								"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
+								"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
+								"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Discover the Fate of Cornelia"
+			x: -1.0999999999999996d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5E5E7C12C295D7ED"]
+			description: [
+				"This item, when used, will &asummon a &eGiant Eel&r, which will attack you on sight. This could be considered a foolish move by some, but I suspect you know the truth - the &eEel&r has &bvaluable loot&r, and can otherwise be hard to find."
+				""
+				"Specifically, they will drop the &bShell Horn&r, which can be used to &asummon the spirit of &eCaptain Cornelia&r."
+			]
+			id: "350D9CB09FC5108F"
+			tasks: [{
+				id: "28CE4A5A73FD4DFC"
+				item: "kubejs:eel_bait"
+				type: "item"
+			}]
+			x: 0.5000000000000018d
+			y: 11.7d
+		}
+		{
+			dependencies: ["727BB3B57AD220A1"]
+			id: "1F72239234712C48"
+			tasks: [
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "587D685E83FFFC27"
+					type: "advancement"
+				}
+				{
+					id: "553A56CE4E824AF9"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			x: 1.9000000000000004d
+			y: 15.0d
+		}
+		{
+			dependencies: ["18B331087284BB4F"]
+			description: [
+				"Alright, here we go. You’re getting closer, but there’s one more thing you need to find. Deep underground, there’s an ancient place called the &cStronghold&r. It’s old, and it’s seen better days, but what you’re really after is the &bportal&r hidden inside. I won’t spoil what it leads to… yet."
+				""
+				"Now, I hope you’ve got that &bExplorer’s Compass&r handy. It’s going to help you zero in on the &cStronghold&r. Once you’re inside, though—well, let’s just say it’s easy to get lost. The &cStronghold&r is a real labyrinth."
+				""
+				"That’s where the &bChalk&r comes in. You can &ause it to mark where you’ve been&r, so you don’t end up wandering in circles. Trust me, that little trick saved me from losing my way more times than I’d like to admit."
+				""
+				"Oh, and before you head in - &6double-check your gear&r. Make sure you’ve got some solid &6enchantments going&r. You don’t want to be caught off-guard down there. The place isn’t exactly friendly."
+				""
+				"Alright, off you go. You’re getting closer, and you’re doing great. Just keep your wits about you."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "727BB3B57AD220A1"
+			tasks: [
+				{
+					icon: "minecraft:end_portal_frame"
+					id: "37E65D809E0F6BB2"
+					structure: "minecraft:stronghold"
+					title: "Find the Stronghold"
+					type: "structure"
+				}
+				{
+					id: "74A713745167CBDB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(chalk:chalks)"
+						}
+					}
+					title: "Bring some Chalk"
+					type: "item"
+				}
+				{
+					id: "088075C85A71F463"
+					title: "Enchant Your Gear"
+					type: "checkmark"
+				}
+			]
+			x: 1.9000000000000004d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Alright, listen, you're not going to like this, but it's gotta be done. There's a place... well, it's kind of like this one, but hotter and &aa lot more deadly&r. We call it the &cNether&r. If you want to move forward, you're going to &aneed something that can only be found there&r: &bBlaze Rods&r."
+				""
+				"You'll need them to make &bEyes of Ender&r, which will help you find even more important... well, you'll see. Plus, they'll &acome in handy for &bpotions&r. Gotta be prepared for whatever comes next, right?"
+				""
+				"Now, there's a &cfortress&r hidden somewhere down there—dark, massive, crawling with trouble. That's where the Blazes are. Stay sharp. I’ve seen people go in unprepared, and let’s just say it didn’t end well."
+				""
+				"But with those rods in hand, you're &aone step closer to untangling this mess&r. You're doing better than I ever did."
+			]
+			icon: "minecraft:blaze_rod"
+			id: "18B331087284BB4F"
+			rewards: [{
+				count: 2
+				id: "4B901A126C1F9E7D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "banner"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "139B391DD98DD361"
+					type: "dimension"
+				}
+				{
+					id: "5CD59EFC1CA1D48E"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+				{
+					count: 5L
+					id: "6339922890FD5F49"
+					item: { Count: 5, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			title: "Getting Blaze Rods"
+			x: 1.9000000000000004d
+			y: 9.0d
 		}
 	]
 	title: "The Basics"

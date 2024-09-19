@@ -1896,6 +1896,23 @@
 			x: 7.5d
 			y: 9.0d
 		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: [
+				"Certain fish can only be caught during &aspecific moon phases&r, and it can be difficult to tell what the moon looks like when you're hiding underground (or it's raining)."
+				""
+				"Thankfully, you can craft a &bLunar Gem&r and &6right click while holding it&r to tell what the current moon phase is, and how long until the &aFull Moon&r."
+			]
+			id: "0749B7CF7B2D01FE"
+			tasks: [{
+				id: "753A27B77103BCFC"
+				item: "kubejs:lunar_gem"
+				type: "item"
+			}]
+			title: "Telling the Moon Phases"
+			x: -8.1d
+			y: -1.7999999999999998d
+		}
 	]
 	title: "Pursuits"
 }

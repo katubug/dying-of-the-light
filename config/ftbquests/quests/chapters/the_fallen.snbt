@@ -9,46 +9,51 @@
 	images: [
 		{
 			color: 11373165
-			height: 15.0d
+			height: 20.0d
 			image: "dying_light:textures/ui_images/page_bg8.png"
+			order: -1
 			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
+			width: 20.0d
+			x: -3.8999999999999995d
+			y: 8.399999999999999d
 		}
 		{
-			height: 5.0d
-			image: "dying_light:textures/ui_images/handsketch.png"
+			height: 53.28d
+			image: "dying_light:textures/ui_images/limbobg.png"
 			rotation: 0.0d
-			width: 2.6666666666666665d
-			x: 2.5d
-			y: -4.0d
+			width: 18.0d
+			x: -5.099999999999999d
+			y: 23.7d
 		}
 		{
 			color: 11373165
 			height: 20.0d
-			image: "dying_light:textures/ui_images/page_bg8.png"
+			image: "dying_light:textures/ui_images/page_bg3.png"
+			order: -2
 			rotation: 0.0d
 			width: 20.0d
-			x: 1.0d
-			y: 14.0d
+			x: -8.1d
+			y: 19.5d
 		}
 		{
-			height: 5.0d
-			image: "dying_light:textures/ui_images/skullsketch.png"
-			rotation: 0.0d
-			width: 4.891666666666667d
-			x: 3.5d
-			y: 8.5d
+			color: 11373165
+			height: 20.0d
+			image: "dying_light:textures/ui_images/page_bg1.png"
+			order: -2
+			rotation: -180.0d
+			width: 20.0d
+			x: -2.6999999999999997d
+			y: 27.9d
 		}
 		{
-			color: 14002822
-			height: 15.0d
-			image: "dying_light:textures/ui_images/page_bg7.png"
+			color: 15054736
+			height: 20.0d
+			image: "dying_light:textures/ui_images/page_bg5.png"
+			order: -2
 			rotation: 0.0d
-			width: 15.0d
-			x: -13.5d
-			y: 2.0d
+			width: 20.0d
+			x: -6.0d
+			y: 39.0d
 		}
 	]
 	order_index: 2
@@ -62,8 +67,8 @@
 				title: "d"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -5.3999999999999995d
+			y: 9.299999999999999d
 		}
 		{
 			description: [
@@ -93,144 +98,45 @@
 				title: "Entities"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -4.0d
+			title: "Trapped Spirits"
+			x: -5.4d
+			y: 13.2d
 		}
 		{
-			dependencies: ["5E5E7C12C295D7ED"]
+			dependencies: ["44C3A1487558DE6C"]
 			description: [
-				"You’re close to understanding what happened out there, but there’s still some work to do. Scattered across the ocean are three &bLogbooks&r, each holding part of the story of this crew. The first one’s on her &cShip&r, the second at the &cOutpost&r, and the last one’s hidden in a &cShelter&r. Find them, and you’ll know the full tale of her fate."
+				"&aDeep underground&r, in the darkest, most forgotten caves, there’s a creature called the &eCave Dweller&r. You can find it &cbeneath y level 20&r. His territory ranges wide, so finding him may be difficult."
 				""
-				"Once you’ve got all three, I’ll give you something - an old &bhorn&r. It’s powerful, but &abe careful with it&r. If you &6blow the &bhorn&r near the water, &eCornelia&r’s ghost will appear. She’s not the same as she once was, though. Whatever’s been keeping her trapped has also made her… hostile. &dSummoning her is not something you should do lightly&r."
+				"However, when you do encounter him, you'll find him &asluggish&r, and he shouldn't present much of a challenge for your studies. Observe him for long enough, and you'll gain more understanding."
+				""
+				"I recommend &abringing your &bcamera&r, because for the upcoming ritual, you'll need a &bPhotograph&r of him."
 			]
-			id: "474F61F94EB65E2B"
-			rewards: [
-				{
-					id: "2A0764A68FAF9AE1"
-					item: "aquamirae:shell_horn"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					id: "2CCB4FAEB4F23E1C"
-					ignore_reward_blocking: true
-					stage: "cornelia_begun"
-					type: "gamestage"
-				}
-				{
-					advancement: "dying_light:cornelia/cornelia_unlock"
-					criterion: ""
-					id: "76A71BACF6DBDEDA"
-					type: "advancement"
-				}
-			]
-			tasks: [
-				{
-					id: "6B19B6B292070339"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #34\\n\\nThese beasts from the depths prowl for someone to devour… One of those critters has already eaten our midshipman… Swallowed him whole along with his crossbow.\"}"
-								"{\"text\":\"Entry #35\\n\\nWe are waiting in vain for rescue… No one will come to help us, we have to survive on our own. Today the construction of the fort from parts of the ship was completed. In any case, she could no longer plow the seas ever again.\"}"
-								"{\"extra\":[{\"text\":\"Entry #36\\n\\nWe are no longer able to heat the fort, resources are running out. \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Underground shelter\"},{\"text\":\"\\n   There are more structures\\n   underneath the ice... Looks\\n   like I have to go down to\\n   these terrible fish...\"}],\"text\":\"\"}},\"text\":\"[Part of the crew began to dig a shelter underground]\"},{\"text\":\". It is the only way we have a chance not to freeze to death.\"}],\"text\":\"\"}"
-								"{\"text\":\"Entry #37\\n\\nWe hid our supplies and valuable cargo underground. But Poseidon cursed us, and during the storm the lieutenant washed away into the sea… Along with master keys.\"}"
-								"{\"extra\":[{\"text\":\"The hope remains that we could possibly find \"},{\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[{\"text\":\"ↈ \"},{\"color\":\"green\",\"text\":\"Сargo keys\"},{\"text\":\"\\n   Without the keys, I will not\\n   be able to receive the\\n   most valuable cargo. I need\\n   to find other ships nearby.\"}],\"text\":\"\"}},\"text\":\"[similar keys on other ships of our fleet]\"},{\"text\":\", which have suffered the same fate as us.\"}],\"text\":\"\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-128379751
+							-873381404
+							-1438275779
+							105458153
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ3ZjAyZDE0Nzc1YmZiMGE2ZDk1OGViNGE0NGE1YWE4Y2Y2MmYxN2U3NDlhMmMxNjE1Y2RiN2E3M2ZkZmRkOSJ9fX0="
+							}]
 						}
 					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "0F7A486970318897"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
-								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "46B2060FEFB5579B"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							OBSData: { }
-							author: "Unknown"
-							generation: 3
-							pages: [
-								"{\"text\":\"Entry #41\\n\\nIn these cursed lands there you can’t find shelter even under the ice and the thickness of the earth... Some creatures that look like eels crawled out of the depths of the underworld, depriving us of the opportunity \"}"
-								"{\"text\":\"to return back to the surface.\\n\\nOnly the mistress of the moon knows how long shall we last... At all events, our hopes of seeing sunlight had all but vanished. This place will become our grave, our eternal tomb. For us and that damned rune...\"}"
-								"{\"text\":\"Last Entry\\n\\nIt whispers to me, whispers inside my head the secrets of ice and snow... Ice... Now we are chained in ice forever...\\n\\nI suppose a similar fate awaits the crew that set out in search of the fire rune... I wonder if they made it\"}"
-								"{\"text\":\"to the Great Dark Forest valley. Though it doesn't really matter now…\"}"
-							]
-							resolved: 1b
-							title: "Logbook"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-			]
-			title: "Discover the Fate of Cornelia"
-			x: -5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["32F5932093E919BD"]
-			description: [
-				"You’re heading to the &cDeep Frozen Ocean&r, and let me warn you - it’s &acolder than you can imagine&r. The water’s dangerous, but I’ve got a &bScroll of Frost Resistance&r to help you swim without turning into an icicle. Still, I’d suggest bundling up. &bSnow Clothing&r or &bWarming Coats&r on your gear will help keep the cold at bay, even with the scroll."
-				""
-				"Now, this isn’t just a swim. &eCaptain Cornelia&r’s ghost haunts those waters, and she’s been stuck there for a long time. If you can find any traces of her - or what happened to her crew - it might be enough to give her some peace. &6Look for any structures that could hold clues&r. There’s a story to uncover, and it’s up to you to finish it."
-			]
-			id: "5E5E7C12C295D7ED"
-			rewards: [{
-				id: "5C0E81B5E35F7A49"
-				item: {
-					Count: 1
-					id: "tombstone:scroll_of_frost_resistance"
-					tag: {
-						enchant: 1b
+					display: {
+						Lore: [
+							"{\"text\":\"Custom Head ID: 95994\",\"color\":\"gray\",\"italic\":false}"
+							"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Shadow Monster\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
 					}
 				}
-				type: "item"
-			}]
-			tasks: [{
-				biome: "minecraft:deep_frozen_ocean"
-				icon: "minecraft:blue_ice"
-				id: "3595B8728949191A"
-				type: "biome"
-			}]
-			title: "Find a Deep Frozen Ocean"
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["32F5932093E919BD"]
-			description: [
-				"Time to face something a little more… unsettling. &aDeep underground&r, in the darkest, most forgotten caves, there’s a creature called the &eCave Dweller&r. You can find it &cbeneath y level 20&r."
-				""
-				"It’s a frightening thing, but don’t let it get to you. It’s slow, so &ayou can outrun it&r if you need to. The key is to stay calm and keep moving."
-				""
-				"&6Learn what you can from it&r and we will come back to it later."
-			]
+			}
 			id: "650100693BC8C6C9"
 			rewards: [
 				{
@@ -245,6 +151,12 @@
 					criterion: ""
 					id: "5AAE3DE465A5FA36"
 					type: "advancement"
+				}
+				{
+					icon: "kubejs:insight_eye_anim"
+					id: "25210CEFBACC7CCF"
+					title: "Gain Insight"
+					type: "custom"
 				}
 			]
 			tasks: [
@@ -266,123 +178,53 @@
 					type: "location"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-128379751
+									-873381404
+									-1438275779
+									105458153
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ3ZjAyZDE0Nzc1YmZiMGE2ZDk1OGViNGE0NGE1YWE4Y2Y2MmYxN2U3NDlhMmMxNjE1Y2RiN2E3M2ZkZmRkOSJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 95994\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Shadow Monster\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
 					id: "1EC5433EE14408A0"
 					observe_type: 5
-					timer: 0L
+					timer: 100L
 					title: "Spot the Cave Dweller"
 					to_observe: "cave_dweller:cave_dweller"
 					type: "observation"
 				}
 			]
-			title: "Finding the Cave Dweller"
-			x: -4.0d
-			y: -2.0d
+			title: "Study the Cave Dweller"
+			x: -8.9d
+			y: 18.2d
 		}
 		{
-			dependencies: ["727BB3B57AD220A1"]
-			id: "1F72239234712C48"
-			tasks: [
-				{
-					advancement: "minecraft:end/kill_dragon"
-					criterion: ""
-					id: "587D685E83FFFC27"
-					type: "advancement"
-				}
-				{
-					id: "553A56CE4E824AF9"
-					item: "minecraft:book"
-					type: "item"
-				}
+			dependencies: [
+				"4BC13C6B899FAD45"
+				"33AE28E8F4A21032"
+				"67F47BCDF815B78B"
+				"521D49D9C72B3462"
+				"2DA2218998158790"
+				"727582CDDD8D4D8A"
 			]
-			x: -2.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["18B331087284BB4F"]
-			description: [
-				"Alright, here we go. You’re getting closer, but there’s one more thing you need to find. Deep underground, there’s an ancient place called the &cStronghold&r. It’s old, and it’s seen better days, but what you’re really after is the &bportal&r hidden inside. I won’t spoil what it leads to… yet."
-				""
-				"Now, I hope you’ve got that &bExplorer’s Compass&r handy. It’s going to help you zero in on the &cStronghold&r. Once you’re inside, though—well, let’s just say it’s easy to get lost. The &cStronghold&r is a real labyrinth."
-				""
-				"That’s where the &bChalk&r comes in. You can &ause it to mark where you’ve been&r, so you don’t end up wandering in circles. Trust me, that little trick saved me from losing my way more times than I’d like to admit."
-				""
-				"Oh, and before you head in - &6double-check your gear&r. Make sure you’ve got some solid &6enchantments going&r. You don’t want to be caught off-guard down there. The place isn’t exactly friendly."
-				""
-				"Alright, off you go. You’re getting closer, and you’re doing great. Just keep your wits about you."
-			]
-			icon: "minecraft:end_portal_frame"
-			id: "727BB3B57AD220A1"
-			tasks: [
-				{
-					icon: "minecraft:end_portal_frame"
-					id: "37E65D809E0F6BB2"
-					structure: "minecraft:stronghold"
-					title: "Find the Stronghold"
-					type: "structure"
-				}
-				{
-					id: "74A713745167CBDB"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "item_tag(chalk:chalks)"
-						}
-					}
-					title: "Bring some Chalk"
-					type: "item"
-				}
-				{
-					id: "088075C85A71F463"
-					title: "Enchant Your Gear"
-					type: "checkmark"
-				}
-			]
-			x: -2.0d
-			y: 5.5d
-		}
-		{
-			description: [
-				"Alright, listen, you're not going to like this, but it's gotta be done. There's a place... well, it's kind of like this one, but hotter and &aa lot more deadly&r. We call it the &cNether&r. If you want to move forward, you're going to &aneed something that can only be found there&r: &bBlaze Rods&r."
-				""
-				"You'll need them to make &bEyes of Ender&r, which will help you find even more important... well, you'll see. Plus, they'll &acome in handy for &bpotions&r. Gotta be prepared for whatever comes next, right?"
-				""
-				"Now, there's a &cfortress&r hidden somewhere down there—dark, massive, crawling with trouble. That's where the Blazes are. Stay sharp. I’ve seen people go in unprepared, and let’s just say it didn’t end well."
-				""
-				"But with those rods in hand, you're &aone step closer to untangling this mess&r. You're doing better than I ever did."
-			]
-			icon: "minecraft:blaze_rod"
-			id: "18B331087284BB4F"
-			rewards: [{
-				count: 2
-				id: "4B901A126C1F9E7D"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			tasks: [
-				{
-					dimension: "minecraft:the_nether"
-					id: "139B391DD98DD361"
-					type: "dimension"
-				}
-				{
-					id: "5CD59EFC1CA1D48E"
-					structure: "minecraft:fortress"
-					type: "structure"
-				}
-				{
-					count: 5L
-					id: "6339922890FD5F49"
-					item: { Count: 5, id: "minecraft:blaze_rod" }
-					type: "item"
-				}
-			]
-			title: "Getting Blaze Rods"
-			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18B331087284BB4F"]
 			description: [
 				"Alright, you’ve made it far enough to reach a major milestone. It’s time to build a &bSummoning Altar&r. This isn’t just any old structure - it’s your way to commune with the Guardians, the gods of this world. They &ahold a lot of knowledge&r, and it’s crucial for what’s coming next."
 				""
@@ -390,7 +232,7 @@
 				""
 				"Right now, you’re in a position to &aatone for my past mistakes&r. Building this altar and using it to commune with them might just help make things right. To complete the altar, you’ll need a &bWither Skeleton Skull&r. It’s the conduit that &alets the gods listen in&r. So if you don’t have one, you’ll need to venture into the Nether and deal with some wither skeletons."
 				""
-				"Once the altar’s up and running, you’ll be able to get the guidance you need and unlock the next chapter of your journey. It’s a big step, so get ready."
+				"Once the altar’s up and running, you’ll be able to get the guidance you need and unlock the next chapter of your journey."
 			]
 			id: "1035722C6FC71A91"
 			rewards: [{
@@ -398,7 +240,7 @@
 				item: "abyssal_decor:bottomless_bag_of_netherrack"
 				type: "item"
 			}]
-			shape: "spstar"
+			shape: "window"
 			size: 2.0d
 			tasks: [{
 				id: "7B1FB7FD4BFD3D32"
@@ -406,68 +248,8 @@
 				type: "item"
 			}]
 			title: "Communing with the Gods"
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2A2CAE3F8A8D5B06"]
-			description: [
-				"You did it! You &acured a &eVillager&r! That's incredible."
-				""
-				"I want you to do something as a favor to me. I want you to &acure as many zombie villagers as you can&r. I would do it myself, if I still existed in the way you do."
-				""
-				"Why? Oh, it's a long and sad story. Maybe I'll tell you someday."
-			]
-			id: "3C7F896A612AB817"
-			rewards: [{
-				command: "/tbalignment @s increase 10"
-				elevate_perms: true
-				id: "2F9ABE7E53F358D6"
-				silent: true
-				title: "Gain 10 Positive Alignment"
-				type: "command"
-			}]
-			shape: "spstar"
-			size: 2.0d
-			tasks: [{
-				advancement: "minecraft:story/cure_zombie_villager"
-				criterion: ""
-				id: "4C2A702A8EAF204F"
-				type: "advancement"
-			}]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["3C7F896A612AB817"]
-			description: [
-				"Wow, you really did it. In a world of tragedy, you're a hero. Thank you for helping all these people."
-				""
-				"I hate to admit this, but they were cursed because of me. This whole realm was. I broke the rules, and I brought this nightmare into being. &aYou're my hope of fixing things&r."
-			]
-			id: "2D18F2CD7E7075D4"
-			rewards: [{
-				auto: "disabled"
-				command: "/tbalignment @s increase 1000"
-				elevate_perms: true
-				id: "7DA499DA27D0EDA4"
-				silent: true
-				title: "Gain 1000 Positive Alignment"
-				type: "command"
-			}]
-			tasks: [{
-				checkItem: true
-				entity: "minecraft:zombie_villager"
-				icon: "minecraft:golden_apple"
-				id: "56B7E3D5A22A60CD"
-				item: "minecraft:golden_apple"
-				nbt: { }
-				title: "Cure 50 Zombie Villagers"
-				type: "questsadditions:interaction"
-				value: 50L
-			}]
-			x: 8.5d
-			y: 7.5d
+			x: -5.4d
+			y: 23.0d
 		}
 		{
 			dependencies: ["25F63F9940D7563C"]
@@ -481,25 +263,30 @@
 				type: "gamestage"
 			}]
 			tasks: [{
-				id: "2C1356F21BE19F33"
+				icon: "legendarysurvivaloverhaul:heart_fruit"
+				id: "5A060434BB1B8A30"
 				title: "Bring Him Peace"
 				type: "custom"
 			}]
 			title: "Bring Him Peace"
-			x: -3.5d
-			y: 19.0d
+			x: -9.0d
+			y: 30.8d
 		}
 		{
 			dependencies: ["6BE79CC7B3D03F77"]
-			description: ["A &eZombie&r dropped this strange toy... could it be related to the &eCave Dweller&r?"]
+			description: [
+				"A &eZombie&r dropped this strange toy... could it be related to the &eCave Dweller&r? Could that zombie have been... his daughter? It's good that she's &afinally at rest&r, then."
+				""
+				"You should &aseek out the dweller&r and &6offer it to him&r."
+			]
 			id: "25F63F9940D7563C"
 			tasks: [{
 				id: "21E43E427C0495E5"
 				item: "kubejs:teddy"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 17.5d
+			x: -9.0d
+			y: 29.3d
 		}
 		{
 			dependencies: ["5A318BB8FF1D1CB2"]
@@ -542,9 +329,9 @@
 					type: "item"
 				}
 				{
-					advancement: "dying_light:dweller_story"
+					advancement: "dying_light:dweller/dweller_story"
 					criterion: ""
-					id: "2E93F3B582D65260"
+					id: "4F435CB4D8EE1B47"
 					type: "advancement"
 				}
 			]
@@ -558,8 +345,8 @@
 				type: "observation"
 			}]
 			title: "Translate the Cave Dweller's Story"
-			x: -3.5d
-			y: 16.0d
+			x: -9.0d
+			y: 27.799999999999997d
 		}
 		{
 			dependencies: ["03E602F91005DFD9"]
@@ -568,18 +355,24 @@
 				""
 				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
 			]
+			icon: "minecraft:lectern"
 			id: "5A318BB8FF1D1CB2"
 			rewards: [{
-				id: "4BBDB83A531554E9"
-				title: "Gain Insight"
-				type: "custom"
+				id: "42A5ADDD34BF4AE1"
+				item: "kubejs:lunatics_tome"
+				type: "item"
 			}]
 			tasks: [
+				{
+					id: "6F00D4355F01B3F1"
+					stage: "translation"
+					type: "gamestage"
+				}
 				{
 					block: "minecraft:lectern"
 					block_type: 0
 					checkItem: true
-					id: "056C019AC48F3B54"
+					id: "367A01EF1FB59E9B"
 					isItemInteraction: true
 					item: {
 						Count: 1
@@ -605,20 +398,25 @@
 					type: "questsadditions:use"
 					value: 1L
 				}
-				{
-					id: "6F00D4355F01B3F1"
-					stage: "translation"
-					type: "gamestage"
-				}
 			]
 			title: "Prepare Your Study"
-			x: -3.5d
-			y: 14.5d
+			x: -9.0d
+			y: 26.299999999999997d
 		}
 		{
-			dependencies: ["281064B532F2240B"]
-			description: ["You can obtain the &bStory of the Cave Dweller&r by &6performing a ritual&r and beseeching the Limbo Guardian."]
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of the Cave Dweller&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_dweller.png width:250 height:250 align:center}"
+			]
 			id: "03E602F91005DFD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA48D8120EA4CC5"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "5EA2DB8CBA71DCE7"
 				item: {
@@ -646,12 +444,12 @@
 				type: "item"
 			}]
 			title: "Seek the Cave Dweller's Story"
-			x: -3.5d
-			y: 13.0d
+			x: -9.0d
+			y: 24.799999999999997d
 		}
 		{
 			can_repeat: true
-			dependencies: ["14C6E4CDBD954F66"]
+			dependencies: ["650100693BC8C6C9"]
 			description: [
 				"Take and develop a &bPhoto of the Cave Dweller&r. This will capture a part of his essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
 				""
@@ -682,62 +480,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Cave Dweller"
-			x: -3.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["44C3A1487558DE6C"]
-			description: [
-				"The &eCave Dweller&r can usually be found &cbelow y level 40&r, although it's not a guarantee. His territory ranges wide, so finding him may be difficult."
-				""
-				"However, when you do encounter him, you'll find him &asluggish&r, and he shouldn't present much of a challenge for your studies. Observe him for long enough, and you'll gain more understanding."
-				""
-				"I recommend &abringing your &bcamera&r, because for the upcoming ritual, you'll need a &bPhotograph&r of him."
-			]
-			id: "14C6E4CDBD954F66"
-			progression_mode: "linear"
-			rewards: [{
-				icon: "kubejs:ancient_eye"
-				id: "2705B493FC2A0145"
-				title: "Obtain Insight"
-				type: "custom"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:player_head"
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								-128379751
-								-873381404
-								-1438275779
-								105458153
-							]
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ3ZjAyZDE0Nzc1YmZiMGE2ZDk1OGViNGE0NGE1YWE4Y2Y2MmYxN2U3NDlhMmMxNjE1Y2RiN2E3M2ZkZmRkOSJ9fX0="
-								}]
-							}
-						}
-						display: {
-							Lore: [
-								"{\"text\":\"Custom Head ID: 95994\",\"color\":\"gray\",\"italic\":false}"
-								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
-							]
-							Name: "{\"text\":\"Shadow Monster\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
-						}
-					}
-				}
-				id: "6CA9952926ABCFDF"
-				observe_type: 5
-				timer: 100L
-				title: "Study the Cave Dweller"
-				to_observe: "cave_dweller:cave_dweller"
-				type: "observation"
-			}]
-			x: -3.5d
-			y: 10.0d
+			x: -8.9d
+			y: 19.7d
 		}
 		{
 			dependencies: ["05F023CB8156D1C9"]
@@ -750,24 +494,30 @@
 				type: "gamestage"
 			}]
 			tasks: [{
+				icon: "minecraft:dark_oak_hanging_sign"
 				id: "74A1E604A452A534"
 				title: "Give Him a Name"
 				type: "custom"
 			}]
 			title: "Give Him a Name"
-			x: -2.0d
-			y: 19.0d
+			x: -7.5d
+			y: 30.8d
 		}
 		{
 			dependencies: ["18561A07B84D2E7E"]
+			description: [
+				"He was just a poor merchant, in the wrong place at the wrong time. Maybe a bit of a scoundrel, pretending to be blind... but he didn't deserve to die."
+				""
+				"The thing is, he’s been trapped here ever since, bound to that injustice. But I think I know what he really needs: a &aname&r. Without it, he’s stuck between worlds, never quite belonging to either. If you could get your hands on a &bName Tag&r and &6give him one&r, maybe that would set things right. A new name for a new beginning, you know?"
+			]
 			id: "05F023CB8156D1C9"
 			tasks: [{
 				id: "2E14B20A6ABB632C"
 				item: "minecraft:name_tag"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 17.5d
+			x: -7.5d
+			y: 29.3d
 		}
 		{
 			dependencies: ["76195CAF71CCF73B"]
@@ -781,6 +531,7 @@
 			require_sequential_tasks: true
 			rewards: [
 				{
+					auto: "enabled"
 					id: "0213CF284C24B4BE"
 					item: {
 						Count: 1
@@ -803,12 +554,10 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/advancement grant @s only dying_light:nameless_story"
-					elevate_perms: true
-					id: "79AC749EC0AF99C8"
-					silent: true
-					type: "command"
+					advancement: "dying_light:nameless_hanged/nameless_story"
+					criterion: ""
+					id: "2581F83E09B5B153"
+					type: "advancement"
 				}
 			]
 			tasks: [{
@@ -821,18 +570,34 @@
 				type: "observation"
 			}]
 			title: "Translate the Nameless Hanged's Story"
-			x: -2.0d
-			y: 16.0d
+			x: -7.5d
+			y: 27.799999999999997d
 		}
 		{
 			dependencies: ["4BD151FB2B3233C7"]
+			description: [
+				"You may have noticed that you can't read the book you received. Your &bInsight&r needs to be high enough for you to &atranslate&r the runes into common speech."
+				""
+				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
+			]
+			icon: "minecraft:lectern"
 			id: "76195CAF71CCF73B"
+			rewards: [{
+				id: "794BF056CF8976D4"
+				item: "kubejs:lunatics_tome"
+				type: "item"
+			}]
 			tasks: [
+				{
+					id: "26233D697F5D2CBB"
+					stage: "translation"
+					type: "gamestage"
+				}
 				{
 					block: "minecraft:lectern"
 					block_type: 0
 					checkItem: true
-					id: "5FDEB37ACC3BCA80"
+					id: "16913ABCF619A52C"
 					isItemInteraction: true
 					item: {
 						Count: 1
@@ -858,18 +623,25 @@
 					type: "questsadditions:use"
 					value: 1L
 				}
-				{
-					id: "26233D697F5D2CBB"
-					stage: "translation"
-					type: "gamestage"
-				}
 			]
-			x: -2.0d
-			y: 14.5d
+			title: "Prepare Your Study"
+			x: -7.5d
+			y: 26.299999999999997d
 		}
 		{
-			dependencies: ["1BA5321F5473DC64"]
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of the Nameless Hanged&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_nameless.png width:250 height:250 align:center}"
+			]
 			id: "4BD151FB2B3233C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AB6551430B01F34"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "7E30706A42685FF4"
 				item: {
@@ -895,11 +667,12 @@
 				type: "item"
 			}]
 			title: "Seek the Nameless Hanged's Story"
-			x: -2.0d
-			y: 13.0d
+			x: -7.5d
+			y: 24.799999999999997d
 		}
 		{
-			dependencies: ["62DEF424711114D5"]
+			can_repeat: true
+			dependencies: ["00B9BF0E7586DEC0"]
 			description: [
 				"Take and develop a &bPhoto of the Nameless Hanged&r. This will capture a part of his essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
 				""
@@ -930,33 +703,11 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Nameless Hanged"
-			x: -2.0d
-			y: 11.5d
+			x: -7.4d
+			y: 19.7d
 		}
 		{
-			dependencies: ["44C3A1487558DE6C"]
-			id: "62DEF424711114D5"
-			progression_mode: "linear"
-			rewards: [{
-				icon: "kubejs:ancient_eye"
-				id: "3A87EC0F8B883A7F"
-				title: "Obtain Insight"
-				type: "custom"
-			}]
-			tasks: [{
-				icon: "minecraft:string"
-				id: "6E7F86DC3E0BB4F7"
-				observe_type: 5
-				timer: 100L
-				title: "Study the Nameless Hanged"
-				to_observe: "graveyard:nameless_hanged"
-				type: "observation"
-			}]
-			x: -2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["1035722C6FC71A91"]
+			dependencies: ["32F5932093E919BD"]
 			description: [
 				"You've done well, coming this far. Good job. Now, the real journey begins."
 				""
@@ -969,7 +720,7 @@
 			hide: true
 			id: "44C3A1487558DE6C"
 			invisible: true
-			shape: "spstar"
+			shape: "circle"
 			size: 2.0d
 			tasks: [{
 				icon: {
@@ -984,15 +735,20 @@
 				type: "gamestage"
 			}]
 			title: "Gain Insight"
-			x: 0.5d
-			y: 8.0d
+			x: -5.4d
+			y: 16.2d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
+			description: [
+				"In order to &aStudy &eCaptain Cornelia&r, you'll need to &6summon her and then get close&r. This is not easily achieved - her mind is long rotten and she will &dattack whoever calls her forth&r. My recommendation is to &6quickly photograph her&r and &aobserve her through your camera lens&r, and then &6to flee&r."
+				""
+				"You can try fighting her, but she is tough and has incredible power. It won't be easy to succeed. If you do decide to go that route - godspeed, friend."
+			]
 			id: "1288CD493430D87B"
 			progression_mode: "linear"
 			rewards: [{
-				icon: "kubejs:ancient_eye"
+				icon: "kubejs:insight_eye_anim"
 				id: "345530A235F5629F"
 				title: "Obtain Insight"
 				type: "custom"
@@ -1006,10 +762,11 @@
 				to_observe: "aquamirae:captain_cornelia"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: -5.9d
+			y: 18.2d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1288CD493430D87B"]
 			description: [
 				"Take and develop a &bPhoto of Captain Cornelia&r. This will capture a part of her essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
@@ -1041,12 +798,23 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph Captain Cornelia"
-			x: -0.5d
-			y: 11.5d
+			x: -5.9d
+			y: 19.7d
 		}
 		{
-			dependencies: ["1F8AEA41053112D0"]
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of Captain Cornelia&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_cornelia.png width:250 height:250 align:center}"
+			]
 			id: "33E3B5595E078DB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "497E8A85DF273C95"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "68E5B4499182F060"
 				item: {
@@ -1075,18 +843,34 @@
 				type: "item"
 			}]
 			title: "Seek Captain Cornelia's Story"
-			x: -0.5d
-			y: 13.0d
+			x: -6.0d
+			y: 24.799999999999997d
 		}
 		{
 			dependencies: ["33E3B5595E078DB8"]
+			description: [
+				"You may have noticed that you can't read the book you received. Your &bInsight&r needs to be high enough for you to &atranslate&r the runes into common speech."
+				""
+				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
+			]
+			icon: "minecraft:lectern"
 			id: "580A16DE0E6DA14D"
+			rewards: [{
+				id: "399C08898EF2AC12"
+				item: "kubejs:lunatics_tome"
+				type: "item"
+			}]
 			tasks: [
+				{
+					id: "5262150EDDEAFA3B"
+					stage: "translation"
+					type: "gamestage"
+				}
 				{
 					block: "minecraft:lectern"
 					block_type: 0
 					checkItem: true
-					id: "3B4FF7AB87FA6538"
+					id: "7A284256D31BE093"
 					isItemInteraction: true
 					item: {
 						Count: 1
@@ -1114,14 +898,10 @@
 					type: "questsadditions:use"
 					value: 1L
 				}
-				{
-					id: "5262150EDDEAFA3B"
-					stage: "translation"
-					type: "gamestage"
-				}
 			]
-			x: -0.5d
-			y: 14.5d
+			title: "Prepare Your Study"
+			x: -6.0d
+			y: 26.299999999999997d
 		}
 		{
 			dependencies: ["580A16DE0E6DA14D"]
@@ -1134,6 +914,7 @@
 			progression_mode: "linear"
 			rewards: [
 				{
+					auto: "enabled"
 					id: "7F871E066B227219"
 					item: {
 						Count: 1
@@ -1158,12 +939,10 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/advancement grant @s only dying_light:cornelia_story"
-					elevate_perms: true
-					id: "5F5B322E78CFF73C"
-					silent: true
-					type: "command"
+					advancement: "dying_light:cornelia/cornelia_story"
+					criterion: ""
+					id: "36CDAF30EE2D5F4C"
+					type: "advancement"
 				}
 			]
 			tasks: [{
@@ -1176,22 +955,45 @@
 				type: "observation"
 			}]
 			title: "Translate Captain Cornelia's Story"
-			x: -0.5d
-			y: 16.0d
+			x: -6.0d
+			y: 27.799999999999997d
 		}
 		{
 			dependencies: ["0876A6B6494AE2CA"]
+			description: [
+				"&eCaptain Cornelia&r’s tale is heartbreaking. The monarch, in desperation for power, sent her on a mission that no one could survive - to retrieve the &bRune of the Storm&r. It wasn’t theirs to claim, though. That Rune belongs to the &eGuardians&r, and it’s time we set things right."
+				""
+				"You’ll need to find the &bRune&r first, and then... returning it to the gods isn’t as simple as handing it over. There’s a ritual involved, and for that, you’ll need &aseveral ingredients&r. The hardest part? You’ll have to summon a &eGiant Eel&r and sacrifice it. It’s dangerous work, but it’s the only way to complete the ritual and bring peace to Cornelia’s story."
+				""
+				"Once the Rune is back where it belongs, maybe she'll finally be at ease."
+				""
+				""
+				"{image:dying_light:textures/quest_images/ritual_frozen_heart.png width:350 height:260 align:center fit:true}"
+			]
 			id: "3907AD77F0963F1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C993AF4CEF0D1B2"
+				table_id: 178161256721351510L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "024FFFC8DCF466B9"
 				item: "aquamirae:rune_of_the_storm"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 17.5d
+			x: -6.0d
+			y: 29.3d
 		}
 		{
 			dependencies: ["3907AD77F0963F1D"]
+			description: [
+				"Now that you've &areturned the &bRune&r to its rightful place, you can finally &afree Cornelia&r. Take the &bFrozen Heart&r and &6craft it together with something she loved&r - the &bHeart of the Sea&r - and it should thaw from the curse and &areturn to normal&r."
+				""
+				"Then, you'll need to &6summon &eCornelia&r, and &6give her back her heart&r."
+				""
+				"Once that's done, you'll be one step closer to your - maybe our? - freedom."
+			]
 			id: "4B182572C6CC69D4"
 			rewards: [{
 				auto: "invisible"
@@ -1200,14 +1002,22 @@
 				stage: "cornelia_resolved"
 				type: "gamestage"
 			}]
-			tasks: [{
-				icon: "aquamirae:rune_of_the_storm"
-				id: "3A9AAEE3F10F9971"
-				title: "Return the Rune"
-				type: "custom"
-			}]
-			x: -0.5d
-			y: 19.0d
+			tasks: [
+				{
+					id: "70CBAE3C293E2D23"
+					item: "kubejs:frozen_heart"
+					type: "item"
+				}
+				{
+					icon: "kubejs:cornelias_heart"
+					id: "4D44B295F353FE1C"
+					title: "Give Her Heart Back"
+					type: "custom"
+				}
+			]
+			title: "Give Her Heart Back"
+			x: -6.0d
+			y: 30.8d
 		}
 		{
 			dependencies: ["0C456408BC2FA85E"]
@@ -1220,30 +1030,24 @@
 				type: "gamestage"
 			}]
 			tasks: [{
+				icon: "minecraft:white_concrete"
 				id: "44EDF70AA4AEB3E0"
 				title: "Purify Her"
 				type: "custom"
 			}]
-			x: 1.0d
-			y: 19.0d
+			x: -4.5d
+			y: 30.8d
 		}
 		{
 			dependencies: ["0514046B7A7658F3"]
 			id: "0C456408BC2FA85E"
 			tasks: [{
-				id: "10060AA17B9ACF94"
-				item: {
-					Count: 1
-					id: "tombstone:scroll_of_purification"
-					tag: {
-						ancient: 1b
-						enchant: 1b
-					}
-				}
+				id: "632968DCAA12C55B"
+				item: "abyssal_decor:white_pearl"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 17.5d
+			x: -4.5d
+			y: 29.3d
 		}
 		{
 			dependencies: ["0BC076F6AB84DB22"]
@@ -1255,14 +1059,38 @@
 			hide: true
 			id: "0514046B7A7658F3"
 			progression_mode: "linear"
-			rewards: [{
-				auto: "invisible"
-				command: "/advancement grant @s only dying_light:mother_story"
-				elevate_perms: true
-				id: "5B3345723FADBE6E"
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					id: "16DB8B8D4383B61F"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"In the depths of the frozen ocean are ancient beings. Cetaceans, Mylobatiae, and creatures too old to be named.\\n\\nOne of them, once, was the Mother. She was so called for her gentle shepherding of the sea life.\"}"
+								"{\"text\":\"She once upon a time would glide silently through the dark waters, as if in flight. A fitting thought, for her wide fins looked very much like wings.\\n\\nShe ruled the ocean, a peaceful, loving being. But all good things must come to an end.\"}"
+								"{\"text\":\"For humans had arrived in that isolated place. Bearing the stink of dead whales and rotting fish, they bore down upon the frozen ocean and were soon consumed by the ice. The Mother did not know of man, and so maintained her distance. \"}"
+								"{\"text\":\"But her solitude would soon be broken, as one of their ilk descended into the depths. The being had a round, metal head and a vicious spear. It drew up from the depths an item which the Mother did not understand, but which burned into her mind once unearthed.\"}"
+								"{\"text\":\"It was poison, fell magic seeping from its shell. Powerful, indeed, but with a corruption that no living thing could resist.\\n\\nThe metal being seemed similarly affected, for it warped and mutated, growing tentacles and writhing in apparent agony.\"}"
+								"{\"text\":\"The item, glowing with malice, reached out to the Mother and drew her in, as well. Her sleek black visage became studded with glowing crystals, and her eyes turned dead and sallow. Her behavior was matronly no more: now she was hungry. Desperately so.\"}"
+								"{\"text\":\"In the end, the gentle manta which once watched over the isolated waters became a hollow force; haunting the sound, devouring all in her path.\"}"
+							]
+							resolved: 1b
+							title: "The Mother"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "dying_light:maze_mother/mother_story"
+					criterion: ""
+					id: "1DED9D067FC67450"
+					type: "advancement"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:writable_book"
 				id: "59790E45115E127F"
@@ -1272,41 +1100,59 @@
 				to_observe: "minecraft:lectern"
 				type: "observation"
 			}]
-			title: "Translate the Maze Mother's Story"
-			x: 1.0d
-			y: 16.0d
+			title: "Translate the Mother of the Maze's Story"
+			x: -4.5d
+			y: 27.799999999999997d
 		}
 		{
 			dependencies: ["699089D661D088B9"]
+			description: [
+				"You may have noticed that you can't read the book you received. Your &bInsight&r needs to be high enough for you to &atranslate&r the runes into common speech."
+				""
+				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
+			]
+			icon: "minecraft:lectern"
 			id: "0BC076F6AB84DB22"
-			rewards: [{
-				id: "043CB2964E7CE49A"
-				item: {
-					Count: 1
-					id: "minecraft:written_book"
-					tag: {
-						author: "unknown"
-						generation: 3
-						pages: [
-							"{\"text\":\"In the depths of the frozen ocean are ancient beings. Cetaceans, Mylobatiae, and creatures too old to be named.\\n\\nOne of them, once, was the Mother. She was so called for her gentle shepherding of the sea life.\"}"
-							"{\"text\":\"She once upon a time would glide silently through the dark waters, as if in flight. A fitting thought, for her wide fins looked very much like wings.\\n\\nShe ruled the ocean, a peaceful, loving being. But all good things must come to an end.\"}"
-							"{\"text\":\"For humans had arrived in that isolated place. Bearing the stink of dead whales and rotting fish, they bore down upon the frozen ocean and were soon consumed by the ice. The Mother did not know of man, and so maintained her distance. \"}"
-							"{\"text\":\"But her solitude would soon be broken, as one of their ilk descended into the depths. The being had a round, metal head and a vicious spear. It drew up from the depths an item which the Mother did not understand, but which burned into her mind once unearthed.\"}"
-							"{\"text\":\"It was poison, fell magic seeping from its shell. Powerful, indeed, but with a corruption that no living thing could resist.\\n\\nThe metal being seemed similarly affected, for it warped and mutated, growing tentacles and writhing in apparent agony.\"}"
-							"{\"text\":\"The item, glowing with malice, reached out to the Mother and drew her in, as well. Her sleek black visage became studded with glowing crystals, and her eyes turned dead and sallow. Her behavior was matronly no more: now she was hungry. Desperately so.\"}"
-							"{\"text\":\"In the end, the gentle manta which once watched over the isolated waters became a hollow force; haunting the sound, devouring all in her path.\"}"
-						]
-						title: "The Mother"
+			rewards: [
+				{
+					id: "043CB2964E7CE49A"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"In the depths of the frozen ocean are ancient beings. Cetaceans, Mylobatiae, and creatures too old to be named.\\n\\nOne of them, once, was the Mother. She was so called for her gentle shepherding of the sea life.\"}"
+								"{\"text\":\"She once upon a time would glide silently through the dark waters, as if in flight. A fitting thought, for her wide fins looked very much like wings.\\n\\nShe ruled the ocean, a peaceful, loving being. But all good things must come to an end.\"}"
+								"{\"text\":\"For humans had arrived in that isolated place. Bearing the stink of dead whales and rotting fish, they bore down upon the frozen ocean and were soon consumed by the ice. The Mother did not know of man, and so maintained her distance. \"}"
+								"{\"text\":\"But her solitude would soon be broken, as one of their ilk descended into the depths. The being had a round, metal head and a vicious spear. It drew up from the depths an item which the Mother did not understand, but which burned into her mind once unearthed.\"}"
+								"{\"text\":\"It was poison, fell magic seeping from its shell. Powerful, indeed, but with a corruption that no living thing could resist.\\n\\nThe metal being seemed similarly affected, for it warped and mutated, growing tentacles and writhing in apparent agony.\"}"
+								"{\"text\":\"The item, glowing with malice, reached out to the Mother and drew her in, as well. Her sleek black visage became studded with glowing crystals, and her eyes turned dead and sallow. Her behavior was matronly no more: now she was hungry. Desperately so.\"}"
+								"{\"text\":\"In the end, the gentle manta which once watched over the isolated waters became a hollow force; haunting the sound, devouring all in her path.\"}"
+							]
+							title: "The Mother"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "64673743CE0A11DD"
+					item: "kubejs:lunatics_tome"
+					type: "item"
+				}
+			]
 			tasks: [
+				{
+					id: "63D08DFE00ED57FD"
+					stage: "translation"
+					type: "gamestage"
+				}
 				{
 					block: "minecraft:lectern"
 					block_type: 0
 					checkItem: true
-					id: "6C5F2C29D10955C0"
+					id: "29C62201BC9C8329"
 					isItemInteraction: true
 					item: {
 						Count: 1
@@ -1333,18 +1179,25 @@
 					type: "questsadditions:use"
 					value: 1L
 				}
-				{
-					id: "63D08DFE00ED57FD"
-					stage: "translation"
-					type: "gamestage"
-				}
 			]
-			x: 1.0d
-			y: 14.5d
+			title: "Prepare Your Study"
+			x: -4.5d
+			y: 26.299999999999997d
 		}
 		{
-			dependencies: ["7361637B98437EA6"]
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of the Mother of the Maze&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_mother.png width:250 height:250 align:center}"
+			]
 			id: "699089D661D088B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC69B2ABCD1CC92"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "6AD35353DF83CFE0"
 				item: {
@@ -1372,11 +1225,12 @@
 				type: "item"
 			}]
 			title: "Seek the Maze Mother's Story"
-			x: 1.0d
-			y: 13.0d
+			x: -4.5d
+			y: 24.799999999999997d
 		}
 		{
-			dependencies: ["1B1185AAA5E8EE36"]
+			can_repeat: true
+			dependencies: ["152E69E65BB93169"]
 			description: [
 				"Take and develop a &bPhoto of the Maze Mother&r. This will capture a part of her essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
 				""
@@ -1407,55 +1261,12 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the Maze Mother"
-			x: 1.0d
-			y: 11.5d
+			x: -4.4d
+			y: 19.7d
 		}
 		{
-			dependencies: ["44C3A1487558DE6C"]
-			id: "1B1185AAA5E8EE36"
-			rewards: [{
-				icon: "kubejs:ancient_eye"
-				id: "3EB4CFC7F70B1AA1"
-				title: "Obtain Insight"
-				type: "custom"
-			}]
-			tasks: [{
-				icon: "aquamirae:abyssal_amethyst"
-				id: "71CEC7CCED7324D9"
-				observe_type: 5
-				timer: 100L
-				title: "Study the Maze Mother"
-				to_observe: "aquamirae:maze_mother"
-				type: "observation"
-			}]
-			x: 1.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["44C3A1487558DE6C"]
-			id: "06A650977AD36E4F"
-			progression_mode: "linear"
-			rewards: [{
-				icon: "kubejs:ancient_eye"
-				id: "53161CF8D76544C4"
-				title: "Obtain Insight"
-				type: "custom"
-			}]
-			tasks: [{
-				icon: "abyssal_decor:bog_apple_leaves"
-				id: "1CD0F6A1A34C03F3"
-				observe_type: 5
-				timer: 100L
-				title: "Study the HideBehind"
-				to_observe: "whisperwoods:hidebehind"
-				type: "observation"
-			}]
-			title: "Study the HideBehind"
-			x: 2.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["06A650977AD36E4F"]
+			can_repeat: true
+			dependencies: ["2EBB26DF883E8071"]
 			description: [
 				"Take and develop a &bPhoto of the Sneaking Terror&r. This will capture a part of its essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
 				""
@@ -1467,8 +1278,8 @@
 			]
 			id: "3D9BBE18812FFC06"
 			rewards: [{
-				id: "68E9F855C4564EB4"
-				item: "kubejs:sneaking_terror_poppet"
+				id: "46E85E1069440624"
+				item: "kubejs:hidebehind_poppet"
 				type: "item"
 			}]
 			tasks: [{
@@ -1486,11 +1297,23 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph the HideBehind"
-			x: 2.5d
-			y: 11.5d
+			x: -2.9000000000000004d
+			y: 19.7d
 		}
 		{
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of the Hidebehind&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_hidebehind.png width:250 height:250 align:center}"
+			]
 			id: "453B122AD1E1259A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03469FB8010E5F2F"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "1089075401104A99"
 				item: {
@@ -1519,43 +1342,94 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 13.0d
+			title: "Seek the Hidebehind's Story"
+			x: -3.0d
+			y: 24.799999999999997d
 		}
 		{
+			dependencies: ["453B122AD1E1259A"]
+			description: [
+				"You may have noticed that you can't read the book you received. Your &bInsight&r needs to be high enough for you to &atranslate&r the runes into common speech."
+				""
+				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
+			]
+			icon: "minecraft:lectern"
 			id: "005931DFA0F55E64"
-			rewards: [{
-				id: "184E4ABD87C55A83"
-				item: {
-					Count: 1
-					id: "minecraft:written_book"
-					tag: {
-						author: "unknown"
-						generation: 3
-						pages: [
-							"{\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
-							"{\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
-							"{\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
-							"{\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
-							"{\"extra\":[{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"italic\":true,\"text\":\"hurt!\"},{\"text\":\" And no one cared. No one even \"},{\"italic\":true,\"text\":\"noticed\"},{\"text\":\".\"}],\"text\":\"\"}"
-							"{\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
-							"{\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
-							"{\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
-							"{\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
-						]
-						resolved: 1b
-						title: "Benjamin"
+			rewards: [
+				{
+					id: "184E4ABD87C55A83"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
+								"{\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
+								"{\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
+								"{\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
+								"{\"extra\":[{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"italic\":true,\"text\":\"hurt!\"},{\"text\":\" And no one cared. No one even \"},{\"italic\":true,\"text\":\"noticed\"},{\"text\":\".\"}],\"text\":\"\"}"
+								"{\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
+								"{\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
+								"{\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
+								"{\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
+							]
+							resolved: 1b
+							title: "Benjamin"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F8219E5FC5F49A6"
-				stage: "translation"
-				type: "gamestage"
-			}]
-			x: 2.5d
-			y: 14.5d
+				{
+					id: "04BC1B56E6B006CE"
+					item: "kubejs:lunatics_tome"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F8219E5FC5F49A6"
+					stage: "translation"
+					type: "gamestage"
+				}
+				{
+					block: "minecraft:lectern"
+					block_type: 0
+					checkItem: true
+					id: "6D9BE20D63F5EEE4"
+					isItemInteraction: true
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							display: {
+								Name: "{\"font\":\"runelic:runelic\",\"text\":\"Benjamin\"}"
+							}
+							generation: 3
+							pages: [
+								"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
+								"{\"extra\":[{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"italic\":true,\"text\":\"hurt!\"},{\"text\":\" And no one cared. No one even \"},{\"italic\":true,\"text\":\"noticed\"},{\"text\":\".\"}],\"text\":\"\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
+								"{\"font\":\"runelic:runelic\",\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
+							]
+							resolved: 1b
+							title: "Benjamin"
+						}
+					}
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "Prepare Your Study"
+			x: -3.0d
+			y: 26.299999999999997d
 		}
 		{
 			dependencies: ["005931DFA0F55E64"]
@@ -1566,14 +1440,38 @@
 			]
 			id: "646A94FB41D1FECA"
 			progression_mode: "linear"
-			rewards: [{
-				auto: "invisible"
-				command: "/advancement grant @s only dying_light:hidebehind_story"
-				elevate_perms: true
-				id: "521B379FF7E848B4"
-				silent: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					id: "0683847E9BE3AB3D"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Benjamin was not a wanted child. Not hated, but never loved. His parents did not want him, not even a little.\\n\\nAnd it hardly mattered what they wanted, because they would die before Benjamin had turned six years old.\"}"
+								"{\"text\":\"He spent his whole childhood trundled from one place to another, like an old suitcase that the grown-ups needed to find a place to store. Benjamin felt as if he were relegated to the back of the closet; dusty and forgotten.\"}"
+								"{\"text\":\"Nowhere ever felt like home. He spent much of his time hiding from his caretakers, and no one ever seemed to want to find him.\\n\\nThey seemed to prefer when he was out of sight. He had little toys to play with, and very few books to read.\"}"
+								"{\"text\":\"He felt an emptiness, a yawning void in his chest, but never quite knew why. After all, this loneliness was all he'd known.\\n\\nThen, one day when he was not quite ten years old, he fell and injured his knee.\"}"
+								"[\"\",{\"text\":\"Now, this was not an unusual injury for a boy his age, and it wasn't particularly severe. A grown-up, if any had bothered to notice, would probably have dismissed it out of hand. But it snapped something inside of Benjamin. It \"},{\"text\":\"hurt!\",\"italic\":true},{\"text\":\" And no one cared. No one even \",\"color\":\"reset\"},{\"text\":\"noticed\",\"italic\":true},{\"text\":\".\",\"color\":\"reset\"}]"
+								"{\"text\":\"Benjamin ran, sobbing, to the forest. He tucked himself behind a tree, and cried until he couldn't anymore. He fell asleep, and dreamed of rescue. But when he awoke, he was still by the tree, covered in autumn leaves. He sighed, and his broken heart died within him.\"}"
+								"{\"text\":\"He went back home, where he was barely greeted. He wished they would admonish him for making them worry, but they did not. They didn't even ask him where he'd been.\\n\\nBut he could fall no lower into despair. He had become gray inside.\"}"
+								"{\"text\":\"Benjamin grew up, and finished school, and took up a trade. He worked with his hands so that his mind would keep quiet. He got up, went to work, came home, went to bed. Each and every day, day in and day out. A gray, nothing man in a world which couldn't seem to see him.\"}"
+								"{\"text\":\"And then one day, quite without circumstance, he died. Without ever having had a friend, without ever knowing what it was like to be embraced.\\n\\nAn entire life lived alone - and when he was gone, there was no one to cry for him.\"}"
+							]
+							title: "Benjamin"
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "dying_light:hidebehind/hidebehind_story"
+					criterion: ""
+					id: "6A288B04975FFFE6"
+					type: "advancement"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:writable_book"
 				id: "02F7D43D70E047F2"
@@ -1584,8 +1482,8 @@
 				type: "observation"
 			}]
 			title: "Translate the HideBehind's Story"
-			x: 2.5d
-			y: 16.0d
+			x: -3.0d
+			y: 27.799999999999997d
 		}
 		{
 			dependencies: ["646A94FB41D1FECA"]
@@ -1595,8 +1493,8 @@
 				item: "legendarysurvivaloverhaul:plaster"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 17.5d
+			x: -3.0d
+			y: 29.3d
 		}
 		{
 			dependencies: ["07CE7E8EA468192B"]
@@ -1613,8 +1511,8 @@
 				title: "Comfort Him"
 				type: "custom"
 			}]
-			x: 2.5d
-			y: 19.0d
+			x: -3.0d
+			y: 30.8d
 		}
 		{
 			dependencies: ["55CF9C7DF241EB18"]
@@ -1631,8 +1529,8 @@
 				title: "Give Him a Soul"
 				type: "custom"
 			}]
-			x: 4.0d
-			y: 19.0d
+			x: -1.5d
+			y: 30.8d
 		}
 		{
 			dependencies: ["29F7E947E2EDA699"]
@@ -1642,8 +1540,8 @@
 				item: "tombstone:soul_receptacle"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.5d
+			x: -1.5d
+			y: 29.3d
 		}
 		{
 			dependencies: ["2E4B5074B02D5864"]
@@ -1679,12 +1577,10 @@
 					type: "item"
 				}
 				{
-					auto: "invisible"
-					command: "/advancement grant @s only dying_light:herobrine_story"
-					elevate_perms: true
-					id: "4D1B5D1F97245EC7"
-					silent: true
-					type: "command"
+					advancement: "dying_light:herobrine/herobrine_story"
+					criterion: ""
+					id: "45DD6BE9FF1CCC63"
+					type: "advancement"
 				}
 			]
 			tasks: [{
@@ -1697,12 +1593,23 @@
 				type: "observation"
 			}]
 			title: "Translate Herobrine's Story"
-			x: 4.0d
-			y: 16.0d
+			x: -1.5d
+			y: 27.799999999999997d
 		}
 		{
-			dependencies: ["1B7AF70862C5DF64"]
+			dependencies: ["7ACC54646C02D353"]
+			description: [
+				"You may have noticed that you can't read the book you received. Your &bInsight&r needs to be high enough for you to &atranslate&r the runes into common speech."
+				""
+				"You'll also need a &agood space to work&r. I recommend pulling up a comfy chair and a &bLectern&r."
+			]
+			icon: "minecraft:lectern"
 			id: "2E4B5074B02D5864"
+			rewards: [{
+				id: "6EB7320622E6DDDD"
+				item: "kubejs:lunatics_tome"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5B66ED4DAE8DEB34"
@@ -1740,11 +1647,13 @@
 					value: 1L
 				}
 			]
-			x: 4.0d
-			y: 14.5d
+			title: "Prepare Your Study"
+			x: -1.5d
+			y: 26.299999999999997d
 		}
 		{
-			dependencies: ["6079DE59B33AA9C6"]
+			can_repeat: true
+			dependencies: ["2B3FA4EB128B72F2"]
 			description: [
 				"Take and develop a &bPhoto of &eHerobrine&r. You can identify them by their &aglowing white eyes&r. This will capture a part of its essence, which can be put into a &bPoppet&r, which you'll need for the upcoming ritual."
 				""
@@ -1775,34 +1684,11 @@
 				weak_nbt_match: true
 			}]
 			title: "Photograph Herobrine"
-			x: 4.0d
-			y: 11.5d
+			x: -1.4000000000000004d
+			y: 19.7d
 		}
 		{
 			dependencies: ["44C3A1487558DE6C"]
-			description: [""]
-			id: "6079DE59B33AA9C6"
-			progression_mode: "linear"
-			rewards: [{
-				icon: "kubejs:ancient_eye"
-				id: "3BFEA5393CFB2BF5"
-				title: "Obtain Insight"
-				type: "custom"
-			}]
-			tasks: [{
-				icon: "endofherobrine:herobrine_head"
-				id: "152261B8FB53F545"
-				observe_type: 6
-				timer: 100L
-				title: "Study the Possessed"
-				to_observe: "forge:possessed"
-				type: "observation"
-			}]
-			x: 4.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["32F5932093E919BD"]
 			description: [
 				"You’ve probably noticed it by now - &eHerobrine&r, or at least that's what I call him. Scruffy guy, blue shirt, eyes that don't seem of this world. It’s been following you, hasn’t it? Always just out of reach, never quite close enough for you to confront. That’s its way, it did the same to me. It &adoesn’t harm you outright&r, but it doesn't feel like it has your best interests in mind, that's for sure."
 				""
@@ -1825,27 +1711,34 @@
 					stage: "herobrine_begun"
 					type: "gamestage"
 				}
+				{
+					icon: "kubejs:insight_eye_anim"
+					id: "371E149DA4A5B079"
+					title: "Gain Insight"
+					type: "custom"
+				}
 			]
 			tasks: [{
 				icon: "endofherobrine:herobrine_head"
 				id: "43FDA4C5AAF66D11"
 				observe_type: 6
-				timer: 0L
+				timer: 100L
 				title: "Meet the Possessed"
 				to_observe: "forge:possessed"
 				type: "observation"
 			}]
-			title: "Meet the Possessed"
-			x: -3.0d
-			y: -4.5d
+			title: "Study the Possessed"
+			x: -1.4000000000000004d
+			y: 18.2d
 		}
 		{
-			dependencies: ["32F5932093E919BD"]
+			dependencies: ["44C3A1487558DE6C"]
 			description: [
 				"I call him the &eNameless Hanged&r. A little unimaginative, I know, but naming things isn't my strong suit. Although he looks frightening, he isn't."
 				""
 				"He's a ghost, and can be most commonly found in &cGraveyards&r and other such places. He is not hostile, and in fact will barter with you if you &6approach him at night&r."
 			]
+			icon: "kubejs:ragged_rope"
 			id: "00B9BF0E7586DEC0"
 			rewards: [
 				{
@@ -1861,6 +1754,12 @@
 					stage: "nameless_begun"
 					type: "gamestage"
 				}
+				{
+					icon: "kubejs:insight_eye_anim"
+					id: "1197D0052A3FB283"
+					title: "Gain Insight"
+					type: "custom"
+				}
 			]
 			tasks: [
 				{
@@ -1869,20 +1768,36 @@
 					type: "structure"
 				}
 				{
+					icon: "kubejs:ragged_rope"
 					id: "59FC2AAB613DFC59"
 					observe_type: 5
-					timer: 0L
+					timer: 100L
 					to_observe: "graveyard:nameless_hanged"
 					type: "observation"
 				}
 			]
 			title: "Encounter the Nameless Hanged"
-			x: -8.5d
-			y: -3.0d
+			x: -7.4d
+			y: 18.2d
 		}
 		{
-			dependencies: ["00B9BF0E7586DEC0"]
+			dependencies: ["1BA5321F5473DC64"]
+			description: [
+				"The Nameless Hanged - he seems like an okay guy, right? We need to find out &awhat keeps him here&r. I think we can discover more about him if we &6collect his effects&r. I've made a list of some things to keep a look out for:"
+				""
+				"- &bRagged Rope&r: From my research, this is probably &adropped from &ePillagers&r, so I'd start by fighting a few of those."
+				""
+				"- &bTrade Goods&r: My sources indicate that he used to spend time in &cTaiga or Snowy villages&r, so check the houses there. It might be inside a chest."
+				""
+				"- &bBlindfold&r: This can most likely be found in &cPillager Outposts&r, but be careful - those places are dangerous!"
+			]
 			id: "67F47BCDF815B78B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ADB30DF896886A1"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "330FB2FE4098AB73"
@@ -1900,14 +1815,14 @@
 					type: "item"
 				}
 			]
-			title: "Collect Effects"
-			x: -10.0d
-			y: -2.0d
+			title: "Nameless Hanged Evidence"
+			x: -7.4d
+			y: 21.2d
 		}
 		{
-			dependencies: ["650100693BC8C6C9"]
+			dependencies: ["281064B532F2240B"]
 			description: [
-				"Okay, nice job spotting him. Now, let's get down to business. I think the &eCave Dweller&r has a backstory, too, and I think we might be able to track it down. Here's a list of items which I think might tell us more."
+				"Okay, now that you've got the measure of him, let's get down to business. I think the &eCave Dweller&r has a backstory, too, and I think we might be able to track it down. Here's a list of items which I think might tell us more."
 				""
 				"&bWoman's Locket&r - This item can most likely be found in &cMedium Graveyards&r, probably in the &alarger graves&r."
 				""
@@ -1916,6 +1831,12 @@
 				"&bNecromantic Contract&r - Well, if I had to guess, I'd assume this is being kept by &ea Witch&r."
 			]
 			id: "521D49D9C72B3462"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ABB175B14D0D18A"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "199E469FC247B836"
@@ -1934,12 +1855,29 @@
 				}
 			]
 			title: "Cave Dweller Evidence"
-			x: -3.5d
-			y: -0.5d
+			x: -8.9d
+			y: 21.2d
 		}
 		{
-			dependencies: ["474F61F94EB65E2B"]
+			dependencies: ["1F8AEA41053112D0"]
+			description: [
+				"Phew, that was intense. Good job getting close to her, and I'm glad you're still here with me."
+				""
+				"Next, let's see what we can find regarding &eCaptain Cornelia&r. I suspect most of it will be found in the &cDeep Frozen Ocean&r."
+				""
+				"- &bRune Echo Stone&r: I suspect that these can be gotten as &adrops from the &eTortured Souls&r found in the &cShelters&r that Cornelia's crew hid inside of."
+				""
+				"- &bIcy Heart Fragment&r: I'm not exactly sure what this is, but I believe you get it by &6fishing during a full-on blizzard&r in the &cDeep Frozen Ocean&r. It's then that the veil is thinnest, and you're more likely to obtain &arare and magical drops&r."
+				""
+				"- &bShip's Log Entry&r: This shouldn't be hard to find - just &6check the chests in the &cShips&r that the Deep Frozen Ocean has to offer."
+			]
 			id: "727582CDDD8D4D8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0980777E8F9E4E05"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "45930A118A7D36E2"
@@ -1957,11 +1895,12 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 2.0d
+			title: "Cornelia Evidence"
+			x: -5.9d
+			y: 21.2d
 		}
 		{
-			dependencies: ["2B3FA4EB128B72F2"]
+			dependencies: ["1B7AF70862C5DF64"]
 			description: [
 				"Your observations have been good so far, but we need to find out more about &eHerobrine&r. I've thrown together a list of items which seem to have to do with it, try to find them. Maybe we can use them to &alearn its story&r."
 				""
@@ -1972,6 +1911,12 @@
 				"&bStrange Tool&r - I've seen a few weird objects that might be related to &eHerobrine&r, usually in &aToolsmith&r chests."
 			]
 			id: "4BC13C6B899FAD45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0112AF27A0C7DDD3"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "26AE798A343E6A56"
@@ -1990,11 +1935,16 @@
 				}
 			]
 			title: "Herobrine Evidence"
-			x: -1.0d
-			y: -4.5d
+			x: -1.4000000000000004d
+			y: 21.2d
 		}
 		{
-			dependencies: ["5E5E7C12C295D7ED"]
+			dependencies: ["44C3A1487558DE6C"]
+			description: [
+				"The &eMother of the Maze&r is a gigantic, ray-like creature which lives in the &cDeep Frozen Oceans&r. She is also a spirit, although of a slightly different kind to the other which are trapped in this Limbo. I'm not sure how, I just know her energy feels altered."
+				""
+				"Try not to engage her while in the water - you can easily &6study and photograph her&r from dry land. Well, perhaps not easily. But it can be done. Good luck!"
+			]
 			id: "152E69E65BB93169"
 			rewards: [
 				{
@@ -2010,20 +1960,45 @@
 					stage: "mother_begun"
 					type: "gamestage"
 				}
+				{
+					icon: "kubejs:insight_eye_anim"
+					id: "4E9B4EF9CF9C6CCE"
+					title: "Gain Insight"
+					type: "custom"
+				}
 			]
 			tasks: [{
+				icon: "kubejs:manta_ray_idol"
 				id: "501E8871CC1A1D37"
 				observe_type: 5
-				timer: 0L
+				timer: 100L
 				to_observe: "aquamirae:maze_mother"
 				type: "observation"
 			}]
-			x: -7.0d
-			y: 0.0d
+			title: "Study the Mother of the Maze"
+			x: -4.4d
+			y: 18.2d
 		}
 		{
-			dependencies: ["152E69E65BB93169"]
+			dependencies: ["7361637B98437EA6"]
+			description: [
+				"The Mother of the Maze - what a terrifying entity. I won't lie to you, I avoided the &cDeep Frozen Oceans&r during my time before I became burned and bodiless. It was cold and deeply hostile for so many reasons."
+				""
+				"Unfortunately, you cannot share in my cowardice. You will need to &6search for these artifacts&r to help unravel the mystery of the &eMother of the Maze&r."
+				""
+				"- &bRune-Tainted Pearl&r: Word has it that this can be &afished up&r in &cDeep Frozen Oceans&r when it's &asnowing&r. Be careful while fishing, though - the &eMaws&r like to sneak up on you."
+				""
+				"- &bManta Ray Idol&r: Found in &cIgloos&r, these items are rare to find, but I think you can do it."
+				""
+				"- &bWhalebone Harpoon&r: Dropped either from the &eMother of the Maze&r herself, or rarely from &aAnglerfish&r."
+			]
 			id: "2DA2218998158790"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51FF26BDD78ACB24"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "017D4BBD32233879"
@@ -2041,16 +2016,18 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 2.5d
+			title: "Mother of the Maze Evidence"
+			x: -4.4d
+			y: 21.2d
 		}
 		{
-			dependencies: ["32F5932093E919BD"]
+			dependencies: ["44C3A1487558DE6C"]
 			description: [
 				"There’s something out there in the dark forests - folks call it the &eHidebehind&r. You won’t spot it during the day, and it’s smart enough to &astay away from any light&r you bring. But once night falls, or if you end up in the shadows... it’s out there, watching. Keep your eyes peeled."
 				""
 				"The trick is to get close enough to it &awithout ending up dead&r. You’ll want to stay sharp, keep a lantern or a camera handy. The light will keep it at a distance, at least for a little while. But don’t let your guard down - it’s fast when it’s dark, and you don’t want to lose track of it. Stay alert, and whatever you do, don’t let the darkness swallow you whole."
 			]
+			icon: "kubejs:unsent_letter"
 			id: "2EBB26DF883E8071"
 			rewards: [
 				{
@@ -2065,6 +2042,12 @@
 					ignore_reward_blocking: true
 					stage: "hidebehind_begun"
 					type: "gamestage"
+				}
+				{
+					icon: "kubejs:insight_eye_anim"
+					id: "6A15502D7B47A6D1"
+					title: "Gain Insight"
+					type: "custom"
 				}
 			]
 			tasks: [
@@ -2082,11 +2065,11 @@
 				}
 			]
 			title: "Meet the Hidebehind"
-			x: -3.0d
-			y: -3.0d
+			x: -2.9000000000000004d
+			y: 18.2d
 		}
 		{
-			dependencies: ["2EBB26DF883E8071"]
+			dependencies: ["3D9BBE18812FFC06"]
 			description: [
 				"Good job with your observations so far. Now, I have a feeling that the Hidebehind is no mere beast. I am not sure what his story is, but I &asense that there is more to him&r than is immediately noticeable. I've got a list of items which I think might help us learn his story."
 				""
@@ -2097,6 +2080,12 @@
 				"&bCarved Whistle&r - This is most likely found where &ePillagers&r convene, maybe in their &cMansion&r."
 			]
 			id: "33AE28E8F4A21032"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E703E538CA5D1D8"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "3D56E72337FEEA4F"
@@ -2115,8 +2104,52 @@
 				}
 			]
 			title: "Hidebehind Evidence"
-			x: -1.0d
-			y: -2.5d
+			x: -2.9000000000000004d
+			y: 21.2d
+		}
+		{
+			dependencies: ["1035722C6FC71A91"]
+			description: [
+				"You can obtain the &bStory of Herobrine&r by &6performing a ritual&r and beseeching the Limbo Guardian. Use the &bartifacts&r that you've collected, as well as some &bother items pictured below&r. Finally, &6right click on the &bAltar&r with a &bBook&r to allow the &eGuardians&r to communicate the spirit's story to you."
+				""
+				"{image:dying_light:textures/quest_images/ritual_herobrine.png width:250 height:250 align:center}"
+			]
+			id: "7ACC54646C02D353"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C80B95E47A7E9E"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5892ACDC8CF41571"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "unknown"
+						display: {
+							Name: "{\"font\":\"runelic:runelic\",\"text\":\"Herobrine\"}"
+						}
+						generation: 3
+						pages: [
+							"{\"font\":\"runelic:runelic\",\"text\":\"Legends say that Herobrine was once a man named Steve, but this is not quite so.\\n\\nThe being you call Herobrine is not of this realm at all, but instead hails from a distant plane, cold and lifeless, and always dark. A plane of dust and nothingness.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He is not a true creature, but one of diaphanous thought. No brain, no heart, no soul. A hollow, pale existence.\\n\\nHe was drawn to this realm by the sunshine, leaking in through a crack in reality. He passed through, and was enraptured.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"There he met a human - perhaps one named Steve - and became obsessed with his vigor.\\n\\nHerobrine tried to mimic his appearance, but it brought him no revelations. Still, he lingered, copying Steve's actions like an echo.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He wishes to be alive the way we are. To feel the heat of blood pulsing through your veins; to enjoy the taste of fresh, wholesome food; to succumb to the gentleness of an embrace.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"The stark oblivion of his home is so far removed from our vibrant lush world, that he simply cannot comprehend our experience. He fundamentally lacks the tools we use to interpret our lives.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He tries to get a semblance of life by possessing villagers, creatures, even monsters. In those bodies, he can pretend he feels the brilliant sunshine or the comforting rain.\\n\\nBut he cannot understand.\"}"
+							"{\"font\":\"runelic:runelic\",\"text\":\"He cannot truly feel, and his inability drives him mad. The lack of soulfulness permeates him in every cell of his borrowed body. What he desires the most, he can never have.\\n\\nSo he haunts this world, appearing in the form of a man in blue.\"}"
+						]
+						resolved: 1b
+						title: "Herobrine"
+					}
+				}
+				type: "item"
+			}]
+			title: "Seek Herobrine's Story"
+			x: -1.5d
+			y: 24.799999999999997d
 		}
 	]
 	title: "The Fallen"

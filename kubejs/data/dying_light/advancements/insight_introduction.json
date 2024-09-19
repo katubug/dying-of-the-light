@@ -1,20 +1,19 @@
 {
-    "display": {
-      "icon": {
-        "item": "kubejs:ancient_eye"
-      },
-      "title": "Gain Insight",
-      "description": "",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": true
+  "display": {
+    "icon": {
+      "item": "kubejs:ancient_eye"
     },
-    "parent": "dying_light:root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
-    },
-    "sends_telemetry_event": true
-  }
-  
+    "title": "Gain Insight",
+    "description": "You have begun to learn.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dying_light:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

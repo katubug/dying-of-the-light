@@ -1,0 +1,17 @@
+{
+	id: "67FFF265009FD9D5"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 5, item: "minecraft:leather" }
+		{ count: 5, item: "minecraft:raw_iron" }
+		{ count: 2, item: "tide:lucky_bait" }
+		{ item: "exposure:black_and_white_film" }
+		{ count: 10, item: "thaumon:mutagen" }
+		{ count: 2, item: "sculksickness:vile_herb" }
+		{ item: "legendarysurvivaloverhaul:bandage" }
+		{ count: 20, item: "hardcore_torches:animal_fat" }
+		{ item: "minecraft:rabbit_foot" }
+	]
+	title: "Misc"
+}

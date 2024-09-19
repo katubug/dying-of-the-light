@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:insight_eye_anim"
+      },
+      "title": "Become Insightful",
+      "description": "You have gained a higher level of knowledge about the world.",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "dying_light:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

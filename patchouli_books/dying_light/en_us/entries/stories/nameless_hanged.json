@@ -2,7 +2,7 @@
     "name": "Nameless Hanged",
     "icon": "graveyard:corruption",
     "category": "patchouli:stories",
-    "advancement": "dying_light:nameless_story",
+    "advancement": "dying_light:nameless_hanged/nameless_story",
     "pages": [
         {
             "type": "patchouli:text",

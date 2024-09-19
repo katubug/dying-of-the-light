@@ -2,7 +2,7 @@
     "name": "Herobrine",
     "icon": "endofherobrine:herobrine_head",
     "category": "patchouli:stories",
-    "advancement": "dying_light:herobrine_story",
+    "advancement": "dying_light:herobrine/herobrine_story",
     "pages": [
         {
             "type": "patchouli:text",

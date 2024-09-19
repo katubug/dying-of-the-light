@@ -1,0 +1,21 @@
+{
+    "name": "Summoning Altar",
+    "icon": "summoningrituals:altar",
+    "category": "patchouli:mechanics",
+    "advancement": "dying_light:insightful",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You have reached a level of Insight which grants you knowledge of $(#00a800)communing with the gods$() of this world, known as the $(#5454fc)Guardians$(). In order to do this, you must first make a $(#00a8a8)Summoning Altar$()."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Next, you will $(6)right click certain ingredients onto the altar$(). They will remain there until removed, or until the ritual is complete. Once you have the necessary reagents, $(6)right click with the$() $(#00a8a8)Catalyst$(), an item which indicates that you are beginning the ritual."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "summoningrituals:altar",
+            "text": "The $(#00a8a8)Summoning Altar$() provides a conduit for the Guardians to listen to you and respond. It's not known exactly how this works, but you'll need to be $(#00a800)very clear$() about your requests for information, or you'll get no response."
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "Maze Mother",
     "icon": "aquamirae:abyssal_amethyst",
     "category": "patchouli:stories",
-    "advancement": "dying_light:mother_story",
+    "advancement": "dying_light:maze_mother/mother_story",
     "pages": [
         {
             "type": "patchouli:text",
@@ -34,7 +34,7 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "tombstone:scroll_of_purification",
+            "item": "abyssal_decor:white_pearl",
             "text": "$(7)I wonder if it's possible to purify the corrupted soul of this being?$()"
         }
     ]

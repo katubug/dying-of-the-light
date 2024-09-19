@@ -2,7 +2,7 @@
     "name": "Captain Cornelia",
     "icon": "aquamirae:three_bolt_helmet",
     "category": "patchouli:entities",
-    "advancement": "dying_light:cornelia_unlock",
+    "advancement": "dying_light:cornelia/cornelia_unlock",
     "pages": [
         {
             "type": "patchouli:text",

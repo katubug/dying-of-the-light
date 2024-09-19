@@ -2,7 +2,7 @@
     "name": "Cave Dweller",
     "icon": "thaumon:eldritch_lantern",
     "category": "patchouli:entities",
-    "advancement": "dying_light:dweller_unlock",
+    "advancement": "dying_light:dweller/dweller_unlock",
     "pages": [
         {
             "type": "patchouli:text",

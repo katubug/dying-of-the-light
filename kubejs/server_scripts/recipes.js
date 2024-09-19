@@ -1,4 +1,15 @@
 ServerEvents.recipes(event => {
+    //Eel Bait Craftable
+    event.shapeless(
+        Item.of('kubejs:eel_bait'),
+        [
+            '#minecraft:foodstuffs/raw',
+            'aquamirae:spinefish',
+            '#forge:salt'
+        ]
+    )
+    
+    //Ring of Return easier to make
     event.shaped(
         Item.of('ring_of_return:ring_of_return'),
         [
@@ -11,14 +22,25 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Make Pure White Pearls craftable at high insight
     event.shapeless(
         Item.of('abyssal_decor:white_pearl'),
         [
             'tombstone:scroll_of_purification',
             '#forge:pearls_for_purification'
         ]
-    )
+    ).stage("insightful")
 
+    //Make Ender Eyes craftable with medium insight
+    event.shapeless(
+        Item.of('minecraft:ender_eye'),
+        [
+            'minecraft:blaze_powder', 
+            'minecraft:ender_pearl'
+        ]
+    ).stage("insight_shop")
+
+    //Essence of Undeath craftable
     event.shaped(
         Item.of('2x tombstone:essence_of_undeath'),
         [
@@ -31,6 +53,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Lantern requires glowstone
     event.shaped(
         Item.of('minecraft:lantern'),
         [
@@ -43,6 +66,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Lunar Gem craftable
     event.shaped(
         Item.of('kubejs:lunar_gem'),
         [
@@ -55,6 +79,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Summoning Altar craftable at high insight
     event.shaped(
         Item.of('summoningrituals:altar'),
         [
@@ -68,8 +93,7 @@ ServerEvents.recipes(event => {
             D: 'minecraft:wither_skeleton_skull', 
             E: 'minecraft:candle'
         }
-    )
-
+    ).stage('insightful')
 
     //Summoning Ritual for Lore Books
     //Cave Dweller
@@ -77,9 +101,11 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(dwellerBook)
         .input('kubejs:cave_dweller_poppet')
+        .input('kubejs:womans_locket')
+        .input('kubejs:necromantic_contract')
+        .input('kubejs:polished_coal')
         .input(Item.of('minecraft:iron_pickaxe', '{Damage:0}'))
         .input('64x minecraft:cobblestone')
-        .input('minecraft:rotten_flesh')
         .blockBelow('minecraft:deepslate')
         .recipeTime(200)
 
@@ -89,7 +115,9 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(corneliaBook)
         .input('kubejs:captain_cornelia_poppet')
-        .input('minecraft:iron_bars')
+        .input('kubejs:ships_log')
+        .input('kubejs:rune_echo_stone')
+        .input('kubejs:icy_heart_fragment')
         .input('4x aquamirae:ship_graveyard_echo')
         .input('2x minecraft:pufferfish')
         .blockBelow('minecraft:packed_ice')
@@ -100,8 +128,10 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(motherBook)
         .input('kubejs:maze_mother_poppet')
+        .input('kubejs:manta_ray_idol')
+        .input('kubejs:tainted_pearl')
+        .input('kubejs:whalebone_harpoon')
         .input('aquamirae:abyssal_amethyst')
-        .input('4x minecraft:ink_sac')
         .input('2x minecraft:glow_ink_sac')
         .blockBelow('minecraft:blue_ice')
         .recipeTime(200)
@@ -111,7 +141,9 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(namelessBook)
         .input('kubejs:nameless_hanged_poppet')
-        .input('legendarysurvivaloverhaul:cold_string')
+        .input('kubejs:blindfold')
+        .input('kubejs:trade_goods')
+        .input('kubejs:ragged_rope')
         .input('5x minecraft:emerald')
         .input('3x graveyard:corruption')
         .blockBelow('minecraft:snow_block')
@@ -122,10 +154,12 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(hidebehindBook)
         .input('kubejs:hidebehind_poppet')
-        .input('minecraft:dirt')
-        .input('minecraft:dirt')
-        .input('minecraft:dirt')
-        .blockBelow('minecraft:dirt')
+        .input('kubejs:carved_whistle')
+        .input('kubejs:unsent_letter')
+        .input('kubejs:broken_toy')
+        .input('minecraft:dark_oak_sapling')
+        .input('minecraft:fermented_spider_eye')
+        .blockBelow('minecraft:dark_oak_log')
         .recipeTime(200)
 
         //Herobrine
@@ -134,9 +168,11 @@ ServerEvents.recipes(event => {
         event.recipes.summoningrituals.altar("minecraft:book")
         .itemOutput(herobrineBook)
         .input('kubejs:herobrine_poppet')
+        .input('kubejs:strange_tool')
+        .input('kubejs:oblivion_dust')
+        .input('kubejs:possessed_journal')
         .input('4x minecraft:redstone_torch')
         .input('endofherobrine:cursed_head')
-        .input('minecraft:torch')
         .blockBelow('minecraft:gold_block')
         .recipeTime(200)
 
@@ -161,8 +197,41 @@ ServerEvents.recipes(event => {
         .recipeTime(100)
         .dayTime('night')
         .weather('thunder')
+
+        //Return Rune of the Storm
+        event.recipes.summoningrituals.altar('aquamirae:rune_of_the_storm')
+        .itemOutput('kubejs:frozen_heart')
+        .input('tombstone:strange_tablet')
+        .input('chalk:white_chalk')
+        .input('minecraft:nautilus_shell')
+        .input('aquamirae:ship_graveyard_echo')
+        .input('aquamirae:anglers_fang')
+        .input('aquamirae:abyssal_amethyst')
+        .blockBelow('thaumon:runic_ancient_stone')
+        .recipeTime(100)
+        .weather('thunder')
+        .sacrifice('aquamirae:eel')
+        .sacrificeRegion(9, 9)
+//it gives you her heart which is frozen
+//you heal the heart somehow (combine with icy heart fragment?)
+//you click the heart onto cornelia
+//HEART OF THE SEA
+
+    event.shaped(
+
+        Item.of('kubejs:cornelias_heart'),
+        [
+            ' A ',
+            'CBC',
+            ' C '
+        ], {
+            A: 'kubejs:frozen_heart',
+            B: 'minecraft:heart_of_the_sea',
+            C: 'legendarysurvivaloverhaul:sun_fern'
+        }
+    )
+    
+
+
+
 })
-
-
-
-

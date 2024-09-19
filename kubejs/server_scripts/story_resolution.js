@@ -1,3 +1,4 @@
+//Cave Dweller
 ItemEvents.entityInteracted('kubejs:teddy', (event) => {
 	const {
 		player,
@@ -19,13 +20,14 @@ ItemEvents.entityInteracted('kubejs:teddy', (event) => {
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
-	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 2C1356F21BE19F33`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 4E1E94854D89D78C`)
 	const itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:cave_dweller_note')
 	itemEntity.setPos(x + 1, y, z);
 	itemEntity.spawn();
 });
 
+//Nameless Hanged
 ItemEvents.entityInteracted('minecraft:nametag', (event) => {
 	const {
 		player,
@@ -47,14 +49,15 @@ ItemEvents.entityInteracted('minecraft:nametag', (event) => {
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
-	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 74A1E604A452A534`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 60EB099B66664AB0`)
 	const itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:nameless_hanged_note')
 	itemEntity.setPos(x + 1, y, z);
 	itemEntity.spawn();
 });
 
-ItemEvents.entityInteracted('aquamirae:rune_of_the_storm', (event) => {
+//Captain Cornelia
+ItemEvents.entityInteracted('kubejs:cornelias_heart', (event) => {
 	const {
 		player,
 		hand,
@@ -75,6 +78,7 @@ ItemEvents.entityInteracted('aquamirae:rune_of_the_storm', (event) => {
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 4B182572C6CC69D4`)
 	let itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:captain_cornelia_note')
 	itemEntity.setPos(x + 1, y, z);
@@ -101,6 +105,7 @@ ItemEvents.entityInteracted('aquamirae:rune_of_the_storm', (event) => {
 	itemEntity6.spawn();
 });
 
+//Herobrine
 ItemEvents.entityInteracted('tombstone:soul_receptacle', (event) => {
 	const {
 		player,
@@ -122,6 +127,7 @@ ItemEvents.entityInteracted('tombstone:soul_receptacle', (event) => {
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 6362E71906F370EC`)
 	const itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:herobrine_note')
 	itemEntity.setPos(x + 1, y, z);
@@ -129,7 +135,7 @@ ItemEvents.entityInteracted('tombstone:soul_receptacle', (event) => {
 });
 
 //HideBehind
-ItemEvents.entityInteracted('minecraft:oak_planks', (event) => {
+ItemEvents.entityInteracted('legendarysurvivaloverhaul:plaster', (event) => {
 	const {
 		player,
 		hand,
@@ -144,13 +150,13 @@ ItemEvents.entityInteracted('minecraft:oak_planks', (event) => {
 		level
 	} = event;
 
-    console.log(target.type)
-	if (target.type != 'whisperwoods:hidebehind') return
+	if (target.type() != "entity.whisperwoods.hidebehind") return
 	player.swing(hand, true);
 	item.count--
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 2F5A3770228081FD`)
 	const itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:hidebehind_note')
 	itemEntity.setPos(x + 1, y, z);
@@ -179,6 +185,7 @@ ItemEvents.entityInteracted('abyssal_decor:white_pearl', (event) => {
 	server.runCommandSilent(`particle heart ${target.x} ${target.y+1} ${target.z} 1 1 1 0 10 normal`)
 	target.discard()
 	server.runCommandSilent(`playsound minecraft:block.bubble_column.upwards_inside master @a ${target.x} ${target.y+1} ${target.z} 100000`)
+	event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} complete 42FCF194A16D7C61`)
 	const itemEntity = level.createEntity('item');
 	itemEntity.item = Item.of('kubejs:maze_mother_note')
 	itemEntity.setPos(x + 1, y, z);

@@ -2,7 +2,7 @@
     "name": "Maze Mother",
     "icon": "aquamirae:abyssal_amethyst",
     "category": "patchouli:entities",
-    "advancement": "dying_light:mother_unlock",
+    "advancement": "dying_light:maze_mother/mother_unlock",
     "pages": [
         {
             "type": "patchouli:text",

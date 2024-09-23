@@ -17,6 +17,12 @@ PlayerEvents.tick(event => {
     }
 })
 
+//Player Head Reward
+FTBQuestsEvents.customReward('483E8F283CA3F286', event =>{
+    console.log(`${event.player.name.string} got their head?`)
+    event.server.runCommandSilent(`/give ${event.player.name.string} minecraft:player_head{SkullOwner:"${event.player.name.string}"}`)
+})
+
 //Insight Rewards
 
 //Study Cave Dweller

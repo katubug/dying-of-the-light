@@ -5,6 +5,8 @@
 	default_quest_shape: ""
 	filename: "the_basics"
 	group: "1C5854C2652D1117"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
 	id: "700C9261B7122EA6"
 	images: [
 		{
@@ -83,6 +85,14 @@
 			width: 15.0d
 			x: -1.0999999999999996d
 			y: 12.5d
+		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/progression_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 1.5d
+			y: 17.099999999999998d
 		}
 	]
 	order_index: 1
@@ -164,6 +174,7 @@
 				command: "/weather rain"
 				elevate_perms: true
 				exclude_from_claim_all: true
+				icon: "legendarysurvivaloverhaul:water_plant_seeds"
 				id: "5F36C1EA53BE14B1"
 				title: "Click this to summon rain."
 				type: "command"
@@ -225,7 +236,7 @@
 				""
 				"But keep in mind - not all monsters fear the light. And if you're at &dlow health or sanity&r, they'll come for you regardless."
 				""
-				"There is another way to protect yourself even when you're bleeding and insane - the &bCamera Obscura&r. But we'll discuss that later."
+				"There is another way to protect yourself even when you're bleeding and insane - the &bCamera Obscura&r. But we'll discuss that later, check the &dPursuits&r chapter for more information."
 			]
 			id: "1B5C14A58EAEF356"
 			rewards: [{
@@ -494,7 +505,11 @@
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
-			description: ["You can help slow &afood spoilage&r by placing your food in a &bPicnic Basket&r."]
+			description: [
+				"You can help slow &afood spoilage&r by placing your food in a &bPicnic Basket&r."
+				""
+				"When placed, you can &6store up to 9 stacks of items&r in them. Then, once you're ready to move them, &6left click&r the &bPicnic Basket&r to pick it up, and it will &aretain its inventory&r."
+			]
 			id: "46302055705891EA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -535,8 +550,8 @@
 				item: "ring_of_return:ring_of_return"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -7.8d
+			y: 0.6d
 		}
 		{
 			dependencies: ["0A981F6115A5041A"]
@@ -587,9 +602,19 @@
 		{
 			dependencies: ["46302055705891EA"]
 			description: [
-				"One way you can preserve your food is by &6applying salt in a &bCrafting Table&r. This works best if you &ado it right away&r, before the food has a chance to begin spoiling."
+				"Another way you can preserve your food is by &6applying salt in a &bCrafting Table&r. This works best if you &ado it right away&r, before the food has a chance to begin spoiling."
 				""
 				"Once salted, &afood should stay good indefinitely&r, and it will also &arestore more saturation when eaten&r."
+				""
+				"You can obtain salt several ways:"
+				""
+				"- By &amining&r, and it is found in &cBeach&r, &bOcean&r, and &cDripstone Cave&r biomes."
+				""
+				"- By &agrowing salt clusters&r"
+				""
+				"- Through &aevaporation&r using a &bCauldron&r"
+				""
+				"- And by &atrading with &eButchers&r."
 			]
 			id: "55977E8E37667A36"
 			rewards: [{
@@ -693,6 +718,7 @@
 				title: "w"
 				type: "checkmark"
 			}]
+			title: "center"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -857,8 +883,8 @@
 				title: "Insight"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 3.5999999999999996d
+			y: -2.1d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -883,8 +909,8 @@
 				type: "advancement"
 			}]
 			title: "Companionship"
-			x: 7.0d
-			y: -1.0d
+			x: 5.7d
+			y: -1.7999999999999998d
 		}
 		{
 			dependencies: ["708CDBBF3DE6402A"]
@@ -918,8 +944,8 @@
 				type: "item"
 			}]
 			title: "Restoring What Was Lost"
-			x: 9.5d
-			y: -1.0d
+			x: 9.299999999999999d
+			y: -2.1d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -966,8 +992,8 @@
 				type: "item"
 			}]
 			title: "Listen to Music"
-			x: 8.0d
-			y: 1.0d
+			x: 7.8d
+			y: 0.6d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -1053,14 +1079,72 @@
 				"&cWe need you&r."
 			]
 			id: "72BC1CA3B94610AF"
-			rewards: [{
-				command: "/sanity add 50"
-				elevate_perms: true
-				id: "117F1242F7175201"
-				silent: true
-				title: "Click this for a quick boost"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/sanity add 50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1904719285
+									-1590541285
+									-1819358627
+									-1560716860
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNmYTIxMTk5OWJkMzcxYjcwZTlmZjhkZTUyMDFlMTEzNDMwNGUzNDBiODEzZjVhZjE2MTE1ZWRkNjVhMmFjZCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 28898\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Brain\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					id: "117F1242F7175201"
+					silent: true
+					title: "Click this for a quick boost"
+					type: "command"
+				}
+				{
+					id: "4F8EE9F273BD944F"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1904719285
+									-1590541285
+									-1819358627
+									-1560716860
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNmYTIxMTk5OWJkMzcxYjcwZTlmZjhkZTUyMDFlMTEzNDMwNGUzNDBiODEzZjVhZjE2MTE1ZWRkNjVhMmFjZCJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 28898\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Brain\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "endofherobrine:cursed_head"
 				id: "6B2BB9B2328CD325"
@@ -1124,6 +1208,12 @@
 				"&bCoffee&r can then be &agrown in a garden&r."
 			]
 			id: "7AA891BB6FAB4D14"
+			rewards: [{
+				count: 2
+				id: "0A19D64A878D423F"
+				item: "bitter_brews:tea_leaves"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "64A4D8155B3AEDC9"
@@ -1137,8 +1227,8 @@
 				}
 			]
 			title: "Brewing Tea"
-			x: 6.0d
-			y: 0.0d
+			x: 6.3d
+			y: -0.6d
 		}
 		{
 			dependencies: ["3C7F896A612AB817"]
@@ -1152,6 +1242,13 @@
 				auto: "disabled"
 				command: "/tbalignment @s increase 1000"
 				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "tombstone:ankh_of_prayer"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "7DA499DA27D0EDA4"
 				silent: true
 				title: "Gain 1000 Positive Alignment"
@@ -1172,7 +1269,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["2A2CAE3F8A8D5B06"]
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"You did it! You &acured a &eVillager&r! That's incredible."
 				""
@@ -1184,6 +1281,13 @@
 			rewards: [{
 				command: "/tbalignment @s increase 10"
 				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "tombstone:ankh_of_prayer"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "2F9ABE7E53F358D6"
 				silent: true
 				title: "Gain 10 Positive Alignment"
@@ -1226,8 +1330,8 @@
 				type: "biome"
 			}]
 			title: "Find a Deep Frozen Ocean"
-			x: -1.0999999999999996d
-			y: 11.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5E5E7C12C295D7ED"]
@@ -1323,8 +1427,8 @@
 				}
 			]
 			title: "Discover the Fate of Cornelia"
-			x: -1.0999999999999996d
-			y: 12.5d
+			x: -2.6999999999999997d
+			y: 12.899999999999999d
 		}
 		{
 			dependencies: ["5E5E7C12C295D7ED"]
@@ -1334,32 +1438,18 @@
 				"Specifically, they will drop the &bShell Horn&r, which can be used to &asummon the spirit of &eCaptain Cornelia&r."
 			]
 			id: "350D9CB09FC5108F"
+			rewards: [{
+				id: "4B1798771EC19986"
+				item: "aquamirae:abyssal_amethyst"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28CE4A5A73FD4DFC"
 				item: "kubejs:eel_bait"
 				type: "item"
 			}]
-			x: 0.5000000000000018d
-			y: 11.7d
-		}
-		{
-			dependencies: ["727BB3B57AD220A1"]
-			id: "1F72239234712C48"
-			tasks: [
-				{
-					advancement: "minecraft:end/kill_dragon"
-					criterion: ""
-					id: "587D685E83FFFC27"
-					type: "advancement"
-				}
-				{
-					id: "553A56CE4E824AF9"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
-			x: 1.9000000000000004d
-			y: 15.0d
+			x: -0.6d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["18B331087284BB4F"]
@@ -1376,6 +1466,11 @@
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "727BB3B57AD220A1"
+			rewards: [{
+				id: "455201F3FAE099DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					icon: "minecraft:end_portal_frame"
@@ -1402,10 +1497,11 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.9000000000000004d
-			y: 12.0d
+			x: 1.7999999999999998d
+			y: 12.899999999999999d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"Alright, listen, you're not going to like this, but it's gotta be done. There's a place... well, it's kind of like this one, but hotter and &aa lot more deadly&r. We call it the &cNether&r. If you want to move forward, you're going to &aneed something that can only be found there&r: &bBlaze Rods&r."
 				""
@@ -1417,12 +1513,20 @@
 			]
 			icon: "minecraft:blaze_rod"
 			id: "18B331087284BB4F"
-			rewards: [{
-				count: 2
-				id: "4B901A126C1F9E7D"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "4B901A126C1F9E7D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D27F97650AF59DD"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
 			shape: "banner"
 			size: 2.0d
 			tasks: [
@@ -1446,6 +1550,55 @@
 			title: "Getting Blaze Rods"
 			x: 1.9000000000000004d
 			y: 9.0d
+		}
+		{
+			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"So, you died. It happens to us all, eventually! It's not as permanent as you might worry - unless you end up burned and bodiless, like me. And even still, I'm here to help you, aren't I?"
+				""
+				"Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				""
+				"You can use your &bEnchanted Grave Key&r to teleport to the site of your last death by &6holding right click&r until it activates.. Then, &6right click on your grave&r to recover all your items and gear."
+				""
+				"When you die, you receive &bKnowledge of Death&r, which can &agrant unique perks&r, as well as &aunlockable abilities&r. You can access these powers by &6pressing Y&r."
+			]
+			id: "4CEC8881FCF2428B"
+			tasks: [{
+				id: "705E98FE3C74248B"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "Knowledge of Death"
+			x: -6.3d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["727BB3B57AD220A1"]
+			description: [
+				"Ironically, reaching &cthe End&r is less of an ending and more of a \"middle\" - There is much to do yet."
+				""
+				"This land is barren, save for some &cabandoned cities&r infested with &eShulkers&r, and of course, the &eDragon&r."
+				""
+				"This is... sort of my fault. There never used to be a Dragon here, and those city outposts were inhabited by my people. But when I stole from the Guardians, they sent the beast as punishment. It drove out my people and filled the End with its own minions."
+				""
+				"You'll need to &6defeat the &eDragon&r if you want to make amends with the Guardians, because you'll need access to the item that I stole. Once we finish &6freeing the trapped spirits&r, I will tell you more."
+			]
+			id: "3F2CD716BFE0AB7A"
+			rewards: [{
+				id: "75DD7976C20DA08E"
+				item: "bitter_brews:cup_of_hot_cocoa"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "75099ABA958AC5AD"
+				title: "Reach the End"
+				type: "dimension"
+			}]
+			x: 1.7999999999999998d
+			y: 15.0d
 		}
 	]
 	title: "The Basics"

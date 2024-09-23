@@ -132,9 +132,6 @@
 		"Limit explosion size" = 12
 
 	[World."Coal & Fire"]
-		#How much faster fire ticks and spreads.
-		#Range: 0.0 ~ 100.0
-		"Fire spread speed multiplier" = 1.0
 		#If true, campfires must be lit
 		"Unlit campfire" = true
 
@@ -705,7 +702,7 @@
 				Maximum = 3600.0
 
 		["Hunger & Health"."No Hunger"."Food Heal"]
-			#The formula to calculate the health regenerated when eating a food. Leave empty to disable. Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
+			#The formula to calculate the health regenerated overtime when eating food. Leave empty to disable. Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
 			"Over Time" = "(hunger^1.37) * 0.5"
 			#How much HP does food regen each second? Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html
 			"Over time Strength" = "MAX(0.15, 5 * saturation_modifier * (1 / hunger))"

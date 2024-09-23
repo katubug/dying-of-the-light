@@ -6,6 +6,7 @@
 	default_repeatable_quest: true
 	filename: "insight_shop"
 	group: "725A765315FCAF74"
+	hide_quest_until_deps_visible: true
 	icon: "kubejs:ancient_eye"
 	id: "3ACF4D7E8C95C447"
 	images: [
@@ -40,14 +41,31 @@
 	quests: [
 		{
 			can_repeat: false
+			dependencies: [
+				"619B225244EE9A1B"
+				"4EA36CD0281FC5AB"
+			]
+			description: [
+				"You can access this page when you have &a20 &bInsight&a or higher&r. You can &6trade your &bInsight&r for items, which could prove useful."
+				""
+				"Be careful not to overspend - &bInsight&r is necessary to complete a number of your goals. But should you find yourself in excess, then this shop should allow you to make use of that."
+			]
 			hide_dependency_lines: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			id: "7F588C2BBD868E89"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C7C69B3273C346"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			secret: true
 			shape: "embellish"
+			size: 2.0d
 			tasks: [{
+				icon: "kubejs:insight_eye_anim"
 				id: "1BA41EDCFD4E4B07"
 				secret: true
 				stage: "insight_shop"

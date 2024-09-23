@@ -160,7 +160,7 @@
 		{
 			dependencies: ["5E5382368FA3021C"]
 			description: [
-				"This modpack adds several &anew mechanics&r, which you'll need to contend with. These will also be covered in the in-game &bJournal&r item."
+				"This modpack adds several &anew mechanics&r, which you'll need to contend with. &dThese will also be covered in the in-game &bOld Journal&r item."
 				""
 				"&cYou have sanity&r. This mechanic will be covered in depth in another quest, but for now just know that &aself-care is vital&r, even more so than usual."
 				""
@@ -180,8 +180,14 @@
 			]
 			id: "58A436B93EC5625A"
 			rewards: [{
-				id: "57704ED8BDB98876"
-				item: "minecraft:bread"
+				id: "4C1F37F0926B6A78"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:dying_light"
+					}
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -201,6 +207,7 @@
 				title: "d"
 				type: "checkmark"
 			}]
+			title: "center"
 			x: -0.5d
 			y: 0.0d
 		}

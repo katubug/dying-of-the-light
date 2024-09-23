@@ -5,6 +5,7 @@
 	default_quest_shape: ""
 	filename: "pursuits"
 	group: "725A765315FCAF74"
+	hide_quest_until_deps_visible: true
 	icon: "exposure:camera"
 	id: "6A7A8E71B9BF04AB"
 	images: [
@@ -69,11 +70,20 @@
 			x: -3.0d
 			y: 10.0d
 		}
+		{
+			height: 3.0d
+			image: "dying_light:textures/ui_images/misc_header.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.1d
+			y: 4.8d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["619B225244EE9A1B"]
 			id: "5EA10E46D2F902AB"
 			rewards: [{
 				id: "14E14426B7F178FE"
@@ -90,6 +100,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			id: "61CECD673926204F"
 			rewards: [{
 				id: "3718B763DA9C127A"
@@ -106,6 +117,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"The &eMoths&r of this world are truly beautiful. Did you know you can &6capture them in &bBottles&r? It sounds cruel, but if you don't, they can &abreak your torches&r, so I wouldn't feel too bad."
 				""
@@ -778,8 +790,14 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
-			description: ["It's also important to &aupgrade your &bFishing Line&r, which "]
+			description: ["It's also important to &aupgrade your &bFishing Line&r, which affects things like &bLuck&r or &bDurability&r."]
 			id: "16538E097DFE166F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23ED275ACCE9F90C"
+				table_id: 178161256721351510L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "33B5D3BF0897C4FF"
 				item: {
@@ -801,9 +819,10 @@
 			description: ["If you'd like a chance at a &abetter catch&r, you can attach a &bHook&r to your rod. Different hooks have &adifferent effects&r, hover over each to find out more."]
 			id: "7B15A049B94A97F5"
 			rewards: [{
-				id: "76C933E3E09B032E"
-				item: "fishofthieves:earthworms"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6DA3027404974D11"
+				table_id: 7493974820583889365L
+				type: "choice"
 			}]
 			tasks: [{
 				id: "6892CCF2742779AD"
@@ -872,6 +891,12 @@
 			dependencies: ["286CA5891064B321"]
 			description: ["A basic &bFishing Rod&r is one thing, but did you know there are better options? Why not make one out of &bIron&r, or even &bDiamond&r?"]
 			id: "7541252E94451A93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD69FADA8F73ECC"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "60AAD0CA63B39362"
 				item: {
@@ -914,7 +939,38 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["Catch all the &bBasic Fish&r in order to complete this quest."]
 			id: "0730CFED1258B299"
+			rewards: [{
+				id: "0E4F2BC936AB794B"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-485986336
+								-873247434
+								-1440781748
+								-1942730161
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgwNzdhMDRjNzc3M2MzZDRiYmZjZWM0MWQzOGYzNmE3N2VlODY0M2JjODRjYTBjNDRmOTQzMjJjZGRhZDdkNiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 98277\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Slime\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5E90C1F870F37DA5"
@@ -972,6 +1028,11 @@
 			dependencies: ["7541252E94451A93"]
 			description: ["Go big or go home, that's what I always say. If you're going to be a fisher, you might as well do it in style with a &bNetherite Rod&r."]
 			id: "57304D5B080BA48D"
+			rewards: [{
+				id: "3B64402011B6CD99"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2571CBEAACF25797"
 				item: {
@@ -1027,7 +1088,38 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Have a pet &eDog&r? No? Oh. Well. Get one. And then take him to the &cEnd&r and then &6take his picture&r."]
 			id: "034FCF51039F0B29"
+			rewards: [{
+				id: "049CC749785B73B6"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								653180511
+								529417866
+								-1369098792
+								-1151087805
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc1YTQzY2YyN2FkZGZmNzVmNmEyZmNlNzkyMjhmMWQ2ZjE1Y2E5MDliYWU4NGMwNjUwMjA0MTY0N2M5NmIzOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 96793\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Doge\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18FAC0CE15F60CD2"
 				item: {
@@ -1049,7 +1141,14 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Capture a photo of &asome &eEndermen&r in the &bEnd&r. But be careful, if you &alook directly at them&r, they'll &dattack you despite the &bCamera Obscura&r."]
 			id: "5E6139DE64BDA014"
+			rewards: [{
+				count: 3
+				id: "0BDFBE351CBD1443"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "196172C23FAB8DFD"
 				item: {
@@ -1066,8 +1165,8 @@
 				weak_nbt_match: true
 			}]
 			title: "A Risky Proposition"
-			x: 8.0d
-			y: 1.0d
+			x: 8.1d
+			y: 0.6d
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
@@ -1112,7 +1211,13 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Can you get a &eCow&r, &ePig&r, and &eSheep&r to pose together for a photo?"]
 			id: "7FB3E5DA9D0A3C4E"
+			rewards: [{
+				id: "2BBB76F87811982B"
+				item: "crockpot:bone_stew"
+				type: "item"
+			}]
 			tasks: [{
 				id: "098680CDCADEC634"
 				item: {
@@ -1135,7 +1240,14 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Show off your moody side with a somber grayscale self-portrait."]
 			id: "058D4C5FFC5107BE"
+			rewards: [{
+				icon: "minecraft:player_head"
+				id: "483E8F283CA3F286"
+				title: "Obtain...Your Head??"
+				type: "custom"
+			}]
 			tasks: [{
 				id: "6953566AD535346B"
 				item: {
@@ -1155,7 +1267,35 @@
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
-			description: ["It is said that &aphotographing someone steals their soul&r. Perhaps the creatures here know that, because if you &6point your camera at them, they'll stay away&r."]
+			description: [
+				"It is said that &aphotographing someone steals their soul&r. Perhaps the creatures here know that, because if you &6point your camera at them, they'll stay away&r."
+				""
+				"Likewise, when you &6take photos&r, you can &again &bInsight&r and &bSanity&r, both of which are crucial to your progress through this realm."
+				""
+				"These following goals are here to help you &akeep your mind&r, and &ahave fun&r! After all, just because the world is a dreary and frightening place, doesn't mean that you shouldn't try to enjoy yourself. In fact, I'd argue it's even more important to be playful in a situation like this. In hindsight, I wish I had done the same."
+				""
+				"&6Shift right click&r while holding the &bCamera&r to access the interface. Here you can load &bFilm&r - color, or black and white. You can also add the following:"
+				""
+				"- &bRedstone Lamp&r to add a &aflash&r"
+				"- &bSpyglass&r to add a &azoom&r"
+				"- &bGlass Pane&r to add &afilters&r"
+				"{@pagebreak}"
+				"There are even certain creatures which will &dtake damage when you take photos of them&r, so it's a way to avoid a fight when you're desperate."
+				""
+				"These creatures are:"
+				""
+				"- Cave Dweller"
+				"- Captain Cornelia"
+				"- Ghouls"
+				"- Lich"
+				"- Nightmares"
+				"- Reapers"
+				"- Revenants"
+				"- Wraiths"
+				"- Tortured Souls"
+				"- Rotting Stalker"
+				"- Sneaking Terror"
+			]
 			id: "4EA36CD0281FC5AB"
 			rewards: [{
 				id: "387E0C600AD7234D"
@@ -1176,16 +1316,28 @@
 			size: 2.0d
 			tasks: [{
 				id: "3ED3006EBD0171A6"
-				title: "Taking Photos"
+				title: "Capture Memories"
 				type: "checkmark"
 			}]
-			title: "Documenting Your Journey"
+			title: "The Camera Obscura"
 			x: 3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Capture the beauty of death (or undeath) by photographing a &cLarge Graveyard&r."]
 			id: "0F6F954DEEBC0383"
+			rewards: [{
+				id: "6EF96B57051F2B27"
+				item: {
+					Count: 1
+					id: "tombstone:decorative_grave_original"
+					tag: {
+						model_texture: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E438C16F7F63F57"
 				item: {
@@ -1205,7 +1357,42 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: [
+				"Are you a risk taker? Why not try &6photographing the &eWarden&r?"
+				""
+				"Warning: I do not think he'll spare you &deven if you're aiming your camera&r at him."
+			]
 			id: "4553C41C2BDFDCAF"
+			rewards: [{
+				id: "5468B8BA74E7A5D5"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1013635459
+								363744614
+								-1992935894
+								2043763061
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBjZmI0ZWE3NDk2ZjI4ODEyOTc5NjlhMmJiNDgyMzMwNDFhMWViNTIxNjk4NmE4NjNhZDA5MWI2YjVkZTIzNiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 98834\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Sculk Cube\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "49A52B362B873A24"
 				item: {
@@ -1220,12 +1407,18 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 6.8999999999999995d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["An elegant, if parasitic, being."]
 			id: "5C6CE2A1F1F3741F"
+			rewards: [{
+				id: "26A9D97BAAA77165"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "289B98BFD49D10EB"
 				item: {
@@ -1240,13 +1433,19 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: 8.7d
+			y: -5.3999999999999995d
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
-			description: ["spawns to protect decorative graves"]
+			description: ["The &eGrave Guardian&r spawns to protect decorative graves, so it may be necessary to &acraft some to draw him near&r. He is not hostile to you, but will instead &aprotect you from undead&r."]
 			id: "763120AA95A4F152"
+			rewards: [{
+				count: 6
+				id: "503E891AF37CF86D"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04727A1DE537B0A8"
 				item: {
@@ -1266,6 +1465,7 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Not easily accomplished, but if you can &6photograph the &eWither&r, you will be &aamply rewarded&r."]
 			id: "422E26D7878AE3DF"
 			rewards: [{
 				id: "118431EC847CCB16"
@@ -1291,6 +1491,7 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["If these fiends have souls, you've surely got the measure of them now."]
 			id: "56946F952B94D169"
 			tasks: [{
 				id: "0C5949908636A278"
@@ -1333,6 +1534,36 @@
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
 			id: "42ABEB59ECA84EBF"
+			rewards: [{
+				id: "03FD25A683D9C0E2"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-2076156031
+								2010335556
+								-1555994541
+								-674831169
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU5YjI4OTFhYjJiYzU5NGEwNjkxMDg3MTgyZDI0NDdhZWZkMjE3YzgzNDRiZTdiMzMwMjM1NjdkNzhhMGY5NSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 71775\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Axolotl in a Bucket\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15F95D6AFC549FFA"
 				item: {
@@ -1353,8 +1584,52 @@
 		}
 		{
 			dependencies: ["7FFE132D465B3198"]
+			description: ["Can you catch every type of &bAberrant Fish&r? If you can, you'll be rewarded."]
 			id: "5B5B50901326E87E"
 			optional: true
+			rewards: [
+				{
+					id: "0ED63E07B7DA44AB"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									690590302
+									1176981287
+									-1898166977
+									1709318521
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk5MDJjODdmNjVlNDViNzFjNThhN2FlYjRmZmRiM2IzNDY5NDQ5Nzk0NDcwNTlkNTk5ZGQ4OTdkYzA0Nzk3MyJ9fX0="
+									}]
+								}
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Custom Head ID: 39171\",\"color\":\"gray\",\"italic\":false}"
+									"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+								]
+								Name: "{\"text\":\"Eerie Eye\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FA59AB04FC3D1F6"
+					table_id: 7493974820583889365L
+					type: "choice"
+				}
+				{
+					id: "79B4DD0FB638DC75"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [
 				{
 					id: "159A84C01D6DFE45"
@@ -1774,6 +2049,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"Sometimes you'll find you need &bSouls&r to accomplish things. There are hundreds of them here, unmoored, lacking any form of identity, little more than an amorphous collection of energy."
 				""
@@ -1803,6 +2079,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"&bAmethyst&r has interesting properties. One of its aspects is &achaos&r, which is why it's not surprising that you can &agrind it into powder&r to transform things."
 				""
@@ -1820,10 +2097,11 @@
 				type: "item"
 			}]
 			title: "A Useful Gem"
-			x: -6.0d
-			y: 4.5d
+			x: -6.3d
+			y: 6.3d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"Did you hear that boom? I think it was a &bFalling Star&r. They happen here, occasionally. If you can &6find where it landed&r, you should be able to collect some &bStarmetal&r."
 				""
@@ -1845,6 +2123,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"Ah, you've caught &bSculk Sickness&r. It's... unpleasant. Back when I had a body, I got it once, and I was never quite the same. You're healthier than I was though. You should be okay."
 				""
@@ -1872,6 +2151,7 @@
 			y: 15.0d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"villagers in basement"
 				"free wither skeleton skull"
@@ -1882,10 +2162,11 @@
 				structure: "graveyard:haunted_house"
 				type: "structure"
 			}]
-			x: 6.0d
-			y: 12.5d
+			x: -3.5999999999999996d
+			y: 11.1d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: ["underground structure, full of acolytes and cool stuff"]
 			id: "61E700BDC5DB7857"
 			tasks: [{
@@ -1893,8 +2174,8 @@
 				structure: "graveyard:crypt"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: 9.0d
+			x: 0.3d
+			y: 10.2d
 		}
 		{
 			dependencies: ["286CA5891064B321"]
@@ -1904,6 +2185,36 @@
 				"Thankfully, you can craft a &bLunar Gem&r and &6right click while holding it&r to tell what the current moon phase is, and how long until the &aFull Moon&r."
 			]
 			id: "0749B7CF7B2D01FE"
+			rewards: [{
+				id: "631F09E230A72C69"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-2017652954
+								-1240838706
+								-1126590803
+								133821034
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjZjk0OTVjNGE5NmFhM2U5MmM5NmNmZTkzMzM4YzZjYjdkYWJhODYzNjA1MGNlMTliNzY1NDk5ZTA2N2YyMiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 66329\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Moon (full)\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "753A27B77103BCFC"
 				item: "kubejs:lunar_gem"
@@ -1912,6 +2223,43 @@
 			title: "Telling the Moon Phases"
 			x: -8.1d
 			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["To earn this, you'll need to &acapture 10 photos with &bFlash&r enabled."]
+			id: "59E601B220E12778"
+			tasks: [{
+				id: "1F5681707050DDD3"
+				stat: "exposure:flashes_triggered"
+				type: "stat"
+				value: 10
+			}]
+			x: 7.199999999999999d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["286CA5891064B321"]
+			description: [
+				"One thousand fish! That's quite a number. You must be &oexceedingly sane&r, and yet... what kind of person catches that many fish? Surely a lunatic."
+				""
+				"As reward, please accept this &bLunatic's Tome&r."
+			]
+			id: "1E4620BD8F46C8E7"
+			rewards: [{
+				id: "056C966D7DAEB387"
+				item: "kubejs:lunatics_tome"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:salmon"
+				id: "3D82A0FF7426A5D9"
+				stat: "minecraft:fish_caught"
+				title: "Caught 1000 Fish"
+				type: "stat"
+				value: 1000
+			}]
+			x: -4.8d
+			y: -2.1d
 		}
 	]
 	title: "Pursuits"

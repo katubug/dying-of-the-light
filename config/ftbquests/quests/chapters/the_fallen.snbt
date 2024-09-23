@@ -5,6 +5,8 @@
 	default_quest_shape: ""
 	filename: "the_fallen"
 	group: "1C5854C2652D1117"
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:insight_eye_anim"
 	id: "183AC202545FBB8F"
 	images: [
 		{
@@ -67,10 +69,12 @@
 				title: "d"
 				type: "checkmark"
 			}]
+			title: "center"
 			x: -5.3999999999999995d
 			y: 9.299999999999999d
 		}
 		{
+			dependencies: ["619B225244EE9A1B"]
 			description: [
 				"Many beings in this world will &abe hostile to you&r. They have undergone tragedy the likes of which most can't fathom, and that is what traps them here. I take pity on them, and I hope you do, as well."
 				""
@@ -2150,6 +2154,56 @@
 			title: "Seek Herobrine's Story"
 			x: -1.5d
 			y: 24.799999999999997d
+		}
+		{
+			dependencies: [
+				"4B182572C6CC69D4"
+				"42FCF194A16D7C61"
+				"6362E71906F370EC"
+				"60EB099B66664AB0"
+				"2F5A3770228081FD"
+				"4E1E94854D89D78C"
+			]
+			description: [
+				"You've done it. You've freed all the spirits that were trapped here. Now... it's time for this &cLimbo&r to end. You can set the world to rights by &areturning that which I stole from the &eGuardians&r - the &bVoid Tome&r."
+				""
+				"You can obtain it by &6throwing a &bBook&r into the &cVoid of the End&r."
+			]
+			id: "18900D8ABC1D6612"
+			shape: "banner"
+			size: 2.0d
+			tasks: [{
+				id: "464910109AA4B523"
+				item: "void_tome:void_tome"
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 33.0d
+		}
+		{
+			dependencies: ["18900D8ABC1D6612"]
+			id: "721D97B138DFB623"
+			tasks: [{
+				id: "4078EBDE1F11F1FA"
+				item: {
+					Count: 1
+					id: "void_tome:void_tome"
+					tag: {
+						display: {
+							Lore: [
+								"[\"\",{\"text\":\"A tome containing the power of\",\"italic\":false,\"color\":\"yellow\"}]"
+								"[\"\",{\"text\":\"the Guardians. This time, it is\",\"italic\":false,\"color\":\"yellow\"}]"
+								"[\"\",{\"text\":\"willingly given.\",\"italic\":false,\"color\":\"yellow\"}]"
+							]
+							Name: "[\"\",{\"text\":\"Tome of Forgiveness\",\"italic\":false}]"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 35.1d
 		}
 	]
 	title: "The Fallen"

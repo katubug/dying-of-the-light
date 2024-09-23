@@ -520,7 +520,6 @@ ServerEvents.tags('entity_type', event => {
         'cave_dweller:cave_dweller',
         'aquamirae:captain_cornelia',
         'graveyard:ghoul',
-        'graveyard:ghouling',
         'graveyard:lich',
         'graveyard:nightmare',
         'graveyard:reaper',

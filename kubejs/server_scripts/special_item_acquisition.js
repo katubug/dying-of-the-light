@@ -12,7 +12,7 @@ LootJS.modifiers((event) => {
     //Fish up Cornelia's Frozen Heart
     event.addLootTableModifier("minecraft:gameplay/fishing")
     .logName("cornelia_heart")
-    .hasAnyStage(['cornelia_begun'])
+    //.hasAnyStage(['cornelia_begun'])
     .weatherCheck({
         raining: true,
         thundering: true
@@ -76,7 +76,7 @@ LootJS.modifiers((event) => {
     //Idol from Igloos. 100% chance because of how rare igloos are. I think I might not even have the stage attached to it? And then just add in something else you can do with the item.
     event.addLootTableModifier("minecraft:chests/igloo_chest")
     .logName("maze_mother_igloo")
-    //.hasAnyStage(["mother_begun"])
+    .hasAnyStage(["mother_begun"])
     .pool((pool) =>{
         pool.rolls([1, 1])
         pool.randomChance(1.0)
@@ -87,7 +87,7 @@ LootJS.modifiers((event) => {
     //Tainted Pearl from fishing in Deep Frozen Ocean during rain
     event.addLootTableModifier("minecraft:gameplay/fishing")
     .logName("mother_pearl")
-    .hasAnyStage(['mother_begun'])
+    //.hasAnyStage(['mother_begun'])
     .weatherCheck({
         raining: true
     })

@@ -55,12 +55,6 @@
 			hide_text_until_complete: true
 			id: "7F588C2BBD868E89"
 			invisible: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "48C7C69B3273C346"
-				table_id: 7493974820583889365L
-				type: "choice"
-			}]
 			secret: true
 			shape: "embellish"
 			size: 2.0d

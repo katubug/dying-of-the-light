@@ -102,7 +102,7 @@
 				""
 				"For &aResource Packs&r, I recommend enabling everything except for the following:"
 				""
-				"{image:dying_light:textures/quest_images/resource_packs.png width:280 height:320 align:center}"
+				"{image:dying_light:textures/quest_images/resource_packs.png width:300 height:300 align:center fit:true}"
 			]
 			id: "5E5382368FA3021C"
 			rewards: [{

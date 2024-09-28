@@ -284,6 +284,12 @@
 				"You should &aseek out the dweller&r and &6offer it to him&r."
 			]
 			id: "25F63F9940D7563C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA9499BC416741F"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "21E43E427C0495E5"
 				item: "kubejs:teddy"
@@ -489,6 +495,7 @@
 		}
 		{
 			dependencies: ["05F023CB8156D1C9"]
+			description: ["Name a &bName Tag&r, and give it to the &eNameless Hanged&r to help him move on."]
 			id: "60EB099B66664AB0"
 			rewards: [{
 				auto: "invisible"
@@ -515,6 +522,12 @@
 				"The thing is, he’s been trapped here ever since, bound to that injustice. But I think I know what he really needs: a &aname&r. Without it, he’s stuck between worlds, never quite belonging to either. If you could get your hands on a &bName Tag&r and &6give him one&r, maybe that would set things right. A new name for a new beginning, you know?"
 			]
 			id: "05F023CB8156D1C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E77ADE24EB13C80"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "2E14B20A6ABB632C"
 				item: "minecraft:name_tag"
@@ -967,20 +980,28 @@
 			description: [
 				"&eCaptain Cornelia&r’s tale is heartbreaking. The monarch, in desperation for power, sent her on a mission that no one could survive - to retrieve the &bRune of the Storm&r. It wasn’t theirs to claim, though. That Rune belongs to the &eGuardians&r, and it’s time we set things right."
 				""
-				"You’ll need to find the &bRune&r first, and then... returning it to the gods isn’t as simple as handing it over. There’s a ritual involved, and for that, you’ll need &aseveral ingredients&r. The hardest part? You’ll have to summon a &eGiant Eel&r and sacrifice it. It’s dangerous work, but it’s the only way to complete the ritual and bring peace to Cornelia’s story."
+				"You’ll need to find the &bRune&r first, and then... returning it to the gods isn’t as simple as handing it over. There’s a ritual involved, and for that, you’ll need &aseveral ingredients&r and &aa storm&r. The hardest part? You’ll have to summon a &eGiant Eel&r and &6sacrifice it&r - &ddon't kill it, just perform the ritual nearby it&r. It’s dangerous work, but it’s the only way to complete the ritual and bring peace to Cornelia’s story."
 				""
 				"Once the Rune is back where it belongs, maybe she'll finally be at ease."
 				""
 				""
-				"{image:dying_light:textures/quest_images/ritual_frozen_heart.png width:350 height:260 align:center fit:true}"
+				"{image:dying_light:textures/quest_images/ritual_frozen_heart.png width:300 height:230 align:center}"
 			]
 			id: "3907AD77F0963F1D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C993AF4CEF0D1B2"
-				table_id: 178161256721351510L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C993AF4CEF0D1B2"
+					table_id: 178161256721351510L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55DD5F98A57E34CF"
+					table_id: 7493974820583889365L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "024FFFC8DCF466B9"
 				item: "aquamirae:rune_of_the_storm"
@@ -995,9 +1016,8 @@
 				"Now that you've &areturned the &bRune&r to its rightful place, you can finally &afree Cornelia&r. Take the &bFrozen Heart&r and &6craft it together with something she loved&r - the &bHeart of the Sea&r - and it should thaw from the curse and &areturn to normal&r."
 				""
 				"Then, you'll need to &6summon &eCornelia&r, and &6give her back her heart&r."
-				""
-				"Once that's done, you'll be one step closer to your - maybe our? - freedom."
 			]
+			icon: "kubejs:cornelias_heart"
 			id: "4B182572C6CC69D4"
 			rewards: [{
 				auto: "invisible"
@@ -1025,6 +1045,7 @@
 		}
 		{
 			dependencies: ["0C456408BC2FA85E"]
+			description: ["Take your &bPure White Pearl&r and &6apply it to the &eMother of the Maze&r to purify her corruption."]
 			id: "42FCF194A16D7C61"
 			rewards: [{
 				auto: "invisible"
@@ -1044,7 +1065,20 @@
 		}
 		{
 			dependencies: ["0514046B7A7658F3"]
+			description: [
+				"A deific creature, corrupted through no fault of her own. Simply in the wrong place at the wrong time - my heart goes out to her, and to those who were under her protection and suddenly became her prey."
+				""
+				"I wonder if there is any way to &apurify her&r of the &bRune's influence&r. Hmm..."
+				""
+				"You know, it's said that &bPearls&r have healing properties. After all, their very existence has come to be because they were an impurity slowly covered with soft beauty. If you could find - or make - a &bPure White Pearl&r and manage to &6apply it to the &eMother of the Maze&r, I think you could &acleanse her&r."
+			]
 			id: "0C456408BC2FA85E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "463CD6C6358A6FED"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "632968DCAA12C55B"
 				item: "abyssal_decor:white_pearl"
@@ -1491,7 +1525,18 @@
 		}
 		{
 			dependencies: ["646A94FB41D1FECA"]
+			description: [
+				"Benjamin. His name was Benjamin. No child should ever go unloved or unwanted, it's little wonder he ended up trapped here."
+				""
+				"I believe a part of his spirit got stuck, so to speak, in his childhood. Although he grew up and lived the rest of his life, I think some of him got &aleft behind&r, that day that he hurt himself and the world failed him. It may seem trite, but I think we need to &aappeal to his inner child&r. Why not take a &bPlaster&r and &6offer to treat that hurt&r?"
+			]
 			id: "07CE7E8EA468192B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77C1E33DF115F1F5"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "54A86CA2EA90829E"
 				item: "legendarysurvivaloverhaul:plaster"
@@ -1502,6 +1547,8 @@
 		}
 		{
 			dependencies: ["07CE7E8EA468192B"]
+			description: ["Locate the &eHidebehind&r, and gently &6offer him a &bPlaster&r to ease his pain."]
+			icon: "minecraft:magenta_wool"
 			id: "2F5A3770228081FD"
 			rewards: [{
 				auto: "invisible"
@@ -1511,6 +1558,7 @@
 				type: "gamestage"
 			}]
 			tasks: [{
+				icon: "legendarysurvivaloverhaul:plaster"
 				id: "650C20D606079560"
 				title: "Comfort Him"
 				type: "custom"
@@ -1520,6 +1568,12 @@
 		}
 		{
 			dependencies: ["55CF9C7DF241EB18"]
+			description: [
+				"&6Summon Herobrine&r with the &aritual below&r, and &aoffer it &ba Soul Receptacle&r of its own. Be careful - it may feel threatened having suddenly been summoned, and &dmay attack you&r. It may also &dtry to flee&r, so &6be ready when you summon it&r."
+				""
+				""
+				"{image:dying_light:textures/quest_images/ritual_summon_herobrine.png width:250 height:250 align:center}"
+			]
 			id: "6362E71906F370EC"
 			rewards: [{
 				auto: "invisible"
@@ -1529,6 +1583,7 @@
 				type: "gamestage"
 			}]
 			tasks: [{
+				icon: "endofherobrine:cursed_head"
 				id: "15D9F62B048663D5"
 				title: "Give Him a Soul"
 				type: "custom"
@@ -1538,7 +1593,18 @@
 		}
 		{
 			dependencies: ["29F7E947E2EDA699"]
+			description: [
+				"A soulless husk from a plane of desolation! That explains its obsession with &alife and the living&r, and why it possesses creatures of this plane. It's just trying to understand us through mimicry."
+				""
+				"I wonder if we could &alend it a soul&r? This realm is littered with &buntethered souls&r, which sometimes &aattach themselves to &bGravestones&r. If you &6captured one in a &bSoul Receptacle&r, could you &6give it to &eHerobrine&r?"
+			]
 			id: "55CF9C7DF241EB18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "346033C80801AA1D"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "2CE7D5CF7359555F"
 				item: "tombstone:soul_receptacle"
@@ -2168,8 +2234,15 @@
 				"You've done it. You've freed all the spirits that were trapped here. Now... it's time for this &cLimbo&r to end. You can set the world to rights by &areturning that which I stole from the &eGuardians&r - the &bVoid Tome&r."
 				""
 				"You can obtain it by &6throwing a &bBook&r into the &cVoid of the End&r."
+				""
+				"It is a powerful artifact - I mean, I suppose that's obvious - capable of great destruction of living things, and it also &adrains your sanity while you hold it&r. The sooner you &6return it to the &eGuardians&r, the sooner you and I can both rest."
 			]
 			id: "18900D8ABC1D6612"
+			rewards: [{
+				id: "23E6CD19DB2480F2"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
 			shape: "banner"
 			size: 2.0d
 			tasks: [{
@@ -2182,7 +2255,19 @@
 		}
 		{
 			dependencies: ["18900D8ABC1D6612"]
+			description: [
+				"It's finally over. I can finally move on - thank you. Thank you. I am so tired..."
+				""
+				"The &eGuardians&r seem to have forgiven me, and they seem to &afavor you&r. You may linger here a while longer, if you want. Now that the spectres of the trapped have been dispelled, perhaps this place can be a little more gentle to exist in. And perhaps you're feeling attached. Or perhaps you're not."
+				""
+				"Whatever the case may be, you can &amove on whenever you are ready&r. In the meantime, please care for this place in the way I failed to, and &aI shall rest easy&r. Thank you again."
+			]
 			id: "721D97B138DFB623"
+			rewards: [{
+				id: "42E0C73B0AED0059"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4078EBDE1F11F1FA"
 				item: {

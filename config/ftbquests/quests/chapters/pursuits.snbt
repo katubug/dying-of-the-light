@@ -63,20 +63,20 @@
 		}
 		{
 			color: 10058336
-			height: 15.0d
+			height: 10.0d
 			image: "dying_light:textures/ui_images/page_bg3.png"
 			rotation: 0.0d
-			width: 15.0d
-			x: -3.0d
-			y: 10.0d
+			width: 10.0d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			height: 3.0d
 			image: "dying_light:textures/ui_images/misc_header.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -5.1d
-			y: 4.8d
+			x: -3.5999999999999996d
+			y: 5.1d
 		}
 	]
 	order_index: 0
@@ -96,8 +96,8 @@
 				title: "Catch a Large Moth"
 				type: "custom"
 			}]
-			x: 2.0d
-			y: 6.5d
+			x: 0.9000000000000004d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -113,8 +113,8 @@
 				title: "Catch a Tiny Moth"
 				type: "custom"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 0.9000000000000004d
+			y: 5.699999999999999d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -258,8 +258,8 @@
 				}
 			]
 			title: "Catch All Moth Types"
-			x: 0.5d
-			y: 5.5d
+			x: -1.7999999999999998d
+			y: 6.6d
 		}
 		{
 			id: "5563626619763B14"
@@ -276,13 +276,30 @@
 		{
 			dependencies: ["286CA5891064B321"]
 			description: [
-				"- midas fish"
-				"- voidseeker (found in The End, during specific moon phases)"
-				"- shooting starfish (only at night, under a full moon)"
+				"These fish are &aincredibly rare&r."
+				""
+				"The &bVoidseeker&r can only be found in &cthe End&r, during &acertain moon phases&r (full or new)."
+				""
+				"The &bShooting Starfish&r spawns only &aat night, under a full moon&r. It can be found in &cOcean biomes&r."
+				""
+				"The &bMidasfish&r can be found basically anywhere, but &arequires maximum &bLuck&r to be caught."
 			]
 			hide_dependency_lines: true
 			id: "7586DE55A6539A94"
 			optional: true
+			rewards: [
+				{
+					id: "7030CACA58B06D68"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "070209D49E37B623"
+					table_id: 7493974820583889365L
+					type: "choice"
+				}
+			]
 			tasks: [
 				{
 					id: "7321AEDEFA0FDEDA"
@@ -306,9 +323,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["These fish can only be caught in &cThe Nether&r."]
 			hide_dependency_lines: true
 			id: "2928A5582A5DAC1E"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55FB651B51A6ADE8"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "634351737DCAA7C0"
@@ -358,10 +382,23 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
-			description: ["- purpur pike (end city)"]
+			description: ["These fish can be found in &apools and ponds&r in &cThe End&r. The &bPurpur Pike&r can only be found in or near &cEnd Cities&r, however."]
 			hide_dependency_lines: true
 			id: "3EFA13D7AC4B212C"
 			optional: true
+			rewards: [
+				{
+					id: "168BCD965E92BEBB"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E32097121502998"
+					table_id: 7493974820583889365L
+					type: "choice"
+				}
+			]
 			tasks: [
 				{
 					id: "08B95A4983F2BD67"
@@ -400,9 +437,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["These fish can be caught &canywhere&r!"]
 			hide_dependency_lines: true
 			id: "21036F37C4713D4C"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AFA44C998B89874"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "51011E1F1E54DABA"
@@ -461,9 +505,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["Not to be confused with &bUnderground Fish&r, &bDeep Fish&r can be found only &cdeep underground, at &bDeepslate&r level."]
 			hide_dependency_lines: true
 			id: "31FBB2C511249AED"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7F148F89AE70B4"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "6552DA00D538D55D"
@@ -507,9 +558,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["These fish can be found in &aponds&r and &cRivers&r."]
 			hide_dependency_lines: true
 			id: "7300ACAC3911D424"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22233E1578BA2B98"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "3FFC04D4F64305F3"
@@ -564,26 +622,34 @@
 		{
 			dependencies: ["286CA5891064B321"]
 			description: [
-				"- prairie pike (plains?)"
-				"- sandskipper (desert)"
-				"- blossom bass (cherry grove)"
-				"- oakfish (forest)"
-				"- frostbite flounder (cold biomes)"
-				"- mirage catfish (hot overworld biomes)"
-				"- echofin snapper (deep dark)"
-				"- sunspike goby (savannah)"
-				"- birch trout (forest)"
-				"- stonefish (mountains)"
-				"- dripstone darter (caves)"
-				"- slimefin snapper (swamps)"
-				"- sporestalker (mushroom fields)"
-				"- leafback (jungle)"
-				"- fluttergill (lush caves)"
-				"- pine perch (forest)"
+				"These fish can be found in a variety of biomes!"
+				""
+				"- Prairie Pike: Plains"
+				"- Sandskipper: Desert"
+				"- Blossom Bass: Cherry Grove"
+				"- Oakfish: Forests"
+				"- Frostbite Flounder: Cold Biomes"
+				"- Mirage Catfish: Hot overworld biomes"
+				"- Echofin Snapper: Deep Dark"
+				"- Sunspike Goby: Savannah"
+				"- Birch Trout: Forests"
+				"- Stonefish: Mountains"
+				"- Dripstone Darter: Dripstone Caves"
+				"- Slimefin Snapper: Swamps"
+				"- Sporestalker: Mushroom Fields"
+				"- Leafback: Jungles"
+				"- Fluttergill: Lush Caves"
+				"- Pine Perch: Forests"
 			]
 			hide_dependency_lines: true
 			id: "09B276670C9D0E11"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15781A4F2A313A35"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "5F8B5129BC38AE28"
@@ -672,9 +738,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["These fish can be found in &cOceans&r."]
 			hide_dependency_lines: true
 			id: "40A311AFF1311953"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E813D9C394E6207"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "7186799BFAA4CF45"
@@ -713,9 +786,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["These fish can be found in &bLava&r in the &cOverworld&r."]
 			hide_dependency_lines: true
 			id: "6A46E1E8ACB6817A"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62CF5F0B37BF83D9"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "527271FB7A17D6E3"
@@ -744,9 +824,16 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
+			description: ["To find these fish, you'll need to find some &cunderground rivers or lakes&r."]
 			hide_dependency_lines: true
 			id: "3DE06E66F45109C3"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C2EA5006CFE20D6"
+				table_id: 7493974820583889365L
+				type: "choice"
+			}]
 			tasks: [
 				{
 					id: "0440604AE05DA1FA"
@@ -1170,7 +1257,38 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["This ought to be a suitable challenge - find a &eWitch&r and &6photograph her above ground, during the day&r."]
 			id: "324CD818BDC8A56C"
+			rewards: [{
+				id: "28478C8CC0462DC5"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1586245175
+								-1620491240
+								-1542127883
+								1915108447
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYwMTE1OGVlZTgyOTE3ZjM0ZDFjNDQ4ZDViYmI3MjM0NmQ4ZTE5MTA1Yzg5MWQyNmUzNTgwZTQyNjFmZGU3YSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 64299\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Cauldron (mold)\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B8E9A4326157907"
 				item: {
@@ -1191,7 +1309,13 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Take a photo of the &bEnd Portal&r inside the &cStronghold&r to meet this challenge."]
 			id: "3F7FF3873505CF25"
+			rewards: [{
+				id: "56B62FC7CBD0A97D"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DFD3471206ED421"
 				item: {
@@ -1206,6 +1330,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
+			title: "Photo of the End Portal"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -1279,6 +1404,8 @@
 				"- &bRedstone Lamp&r to add a &aflash&r"
 				"- &bSpyglass&r to add a &azoom&r"
 				"- &bGlass Pane&r to add &afilters&r"
+				""
+				"Please go to the next page."
 				"{@pagebreak}"
 				"There are even certain creatures which will &dtake damage when you take photos of them&r, so it's a way to avoid a fight when you're desperate."
 				""
@@ -1493,6 +1620,11 @@
 			dependencies: ["4EA36CD0281FC5AB"]
 			description: ["If these fiends have souls, you've surely got the measure of them now."]
 			id: "56946F952B94D169"
+			rewards: [{
+				id: "62EBCB9D3D992CDE"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C5949908636A278"
 				item: {
@@ -1512,7 +1644,38 @@
 		}
 		{
 			dependencies: ["4EA36CD0281FC5AB"]
+			description: ["Man's other best friend! Take a photo of a &eVillager&r and a &eCat&r together."]
 			id: "66A4E1ED8E67410D"
+			rewards: [{
+				id: "3E388C6FEC782361"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1229187529
+								114770553
+								-1440610870
+								-701238892
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRkZTdhNjFiYTQyMmUxZGQyNTNmNjEyZGZhZTdjOGQ5MDllZDJlN2E3YWY1NzRiNjcxMDE2MmE1MTU1MDNlNCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"Custom Head ID: 102127\",\"color\":\"gray\",\"italic\":false}"
+								"{\"text\":\"www.minecraft-heads.com\",\"color\":\"blue\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Cat\",\"color\":\"gold\",\"underlined\":true,\"bold\":true,\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "262740198CFE2533"
 				item: {
@@ -2075,8 +2238,8 @@
 				type: "item"
 			}]
 			title: "Make a Decorative Grave"
-			x: -8.0d
-			y: 5.5d
+			x: -3.9d
+			y: 8.7d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2097,8 +2260,8 @@
 				type: "item"
 			}]
 			title: "A Useful Gem"
-			x: -6.3d
-			y: 6.3d
+			x: -4.5d
+			y: 6.6d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2119,8 +2282,8 @@
 				id: "1852EE5489E3915B"
 				type: "advancement"
 			}]
-			x: -8.0d
-			y: 7.5d
+			x: -1.7999999999999998d
+			y: 8.7d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2147,8 +2310,8 @@
 				type: "custom"
 			}]
 			title: "Contract Sculk Illness"
-			x: 1.5d
-			y: 15.0d
+			x: 1.2000000000000002d
+			y: 11.399999999999999d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2162,8 +2325,8 @@
 				structure: "graveyard:haunted_house"
 				type: "structure"
 			}]
-			x: -3.5999999999999996d
-			y: 11.1d
+			x: -2.4d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2175,7 +2338,7 @@
 				type: "structure"
 			}]
 			x: 0.3d
-			y: 10.2d
+			y: 9.6d
 		}
 		{
 			dependencies: ["286CA5891064B321"]
@@ -2228,6 +2391,11 @@
 			dependencies: ["4EA36CD0281FC5AB"]
 			description: ["To earn this, you'll need to &acapture 10 photos with &bFlash&r enabled."]
 			id: "59E601B220E12778"
+			rewards: [{
+				id: "780C2765092DD909"
+				item: "exposure:color_film"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F5681707050DDD3"
 				stat: "exposure:flashes_triggered"

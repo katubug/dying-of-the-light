@@ -1203,17 +1203,24 @@
 			description: [
 				"One of the more relaxing things you can do is to &6brew and drink some &bTea&r. Your sanity may rely on it, in fact."
 				""
-				"You can find &bTea&r by breaking &bAzalea&r or &bFlowering Azalea&r leaves. You can also find &bCoffee&r, in &cJungles&r, which grow as bushes."
+				"You can find &bTea&r by breaking &bAzalea&r or &bFlowering Azalea leaves&r. You can also find &bCoffee&r, in &cJungles&r, which grow as bushes."
 				""
 				"&bCoffee&r can then be &agrown in a garden&r."
 			]
 			id: "7AA891BB6FAB4D14"
-			rewards: [{
-				count: 2
-				id: "0A19D64A878D423F"
-				item: "bitter_brews:tea_leaves"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0A19D64A878D423F"
+					item: "bitter_brews:tea_leaves"
+					type: "item"
+				}
+				{
+					id: "3271C4E808D5FD50"
+					item: "bitter_brews:coffee_beans"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "64A4D8155B3AEDC9"

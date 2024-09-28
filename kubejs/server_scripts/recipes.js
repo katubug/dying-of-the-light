@@ -95,6 +95,33 @@ ServerEvents.recipes(event => {
         }
     ).stage('insightful')
 
+    //Ritual to Return Void Tome
+    event.recipes.summoningrituals.altar("void_tome:void_tome")
+        .itemOutput(Item.of('void_tome:void_tome', "{display:{Lore:['[\"\",{\"text\":\"A tome containing the power of\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"the Guardians. This time, it is\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"willingly given.\",\"italic\":false,\"color\":\"yellow\"}]'],Name:'[\"\",{\"text\":\"Tome of Forgiveness\",\"italic\":false}]'}}"))
+        .input('kubejs:captain_cornelia_note')
+        .input('kubejs:nameless_hanged_note')
+        .input('minecraft:ghast_tear')
+        .input('kubejs:maze_mother_note')
+        .input('kubejs:cave_dweller_note')
+        .input('kubejs:herobrine_note')
+        .input('kubejs:hidebehind_note')
+        .blockBelow('minecraft:crying_obsidian')
+        .recipeTime(500)
+
+    //Ritual to Summon Herobrine
+    event.recipes.summoningrituals.altar('endofherobrine:netherrack_totem')
+        .mobOutput('endofherobrine:herobrine')
+        .input('minecraft:redstone_torch')
+        .input('minecraft:gold_block')
+        .input('minecraft:redstone_torch')
+        .input('minecraft:gold_block')
+        .input('minecraft:redstone_torch')
+        .input('minecraft:gold_block')
+        .input('minecraft:redstone_torch')
+        .input('minecraft:gold_block')
+        .blockBelow('minecraft:blackstone')
+        .recipeTime(200)
+
     //Summoning Ritual for Lore Books
     //Cave Dweller
     let dwellerBook = Item.of('minecraft:written_book', '{author:"unknown",display:{Name:\'{"font":"runelic:runelic","text":"Cave Dweller"}\'},generation:3,pages:[\'{"font":"runelic:runelic","text":"The creature known as Cave Dweller was once a human man, known as Garrik. He was a miner, and a devoted husband and father. He and his family lived in a modest, cozy hut by the sea.\\\\n\\\\nBut his fate was cursed to tragedy."}\',\'{"font":"runelic:runelic","text":"One bright, otherwise cheery summer, his young daughter fell gravely ill.\\\\n\\\\nThe sickness came from the blue - she had been a laughing, healthy child her whole life. Yet within days, she withered, and passed away."}\',\'{"font":"runelic:runelic","text":"Garrik and his wife were devastated. In less than a week, their precious child had gone from vibrant and happy - to gone from this world.\\\\n\\\\nHis wife fell into a deep depression, and Garrik feared he would lose her, too."}\',\'{"font":"runelic:runelic","text":"Without his wife knowing, Garrik sought the help of a necromancer, who agreed to revive Garrik\\\'s daughter - but at a desperate price.\\\\n\\\\nHe agreed without hesitation, and the necromancer promised to begin his dark rituals."}\',\'{"font":"runelic:runelic","text":"Over the next few weeks, Garrik grew leaner and paler. His wife, lost to sorrow as she was, barely acknowledged the change until the day he lashed out at her, but it was too late. With his new, freakish strength, he killed her, and in doing so, lost his mind."}\',\'{"font":"runelic:runelic","text":"In horror at his own actions, Garrik fled the house. He did not stop running until he was deep into the mines that were so familiar to him.\\\\n\\\\nThere, he wailed and writhed, and tore at his own flesh, refusing to eat or drink."}\',\'{"font":"runelic:runelic","text":"And there he has stayed since, his body and mind warping until neither held any remaining trace of humanity.\\\\n\\\\nMeanwhile, back behind a modest, cozy hut by the sea, a small grave stirred in the darkness of night..."}\'],title:"Cave Dweller"}')

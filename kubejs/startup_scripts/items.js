@@ -45,12 +45,12 @@ StartupEvents.registry('item', event => {
     event.create('carved_whistle').displayName('Carved Whistle')          //a whistle he made as part of his job
     
     //Poppets 
-    event.create('herobrine_poppet').texture('kubejs:item/poppet').displayName("Herobrine Poppet")
-    event.create('hidebehind_poppet').texture('kubejs:item/poppet').displayName("HideBehind Poppet")
-    event.create('nameless_hanged_poppet').texture('kubejs:item/poppet').displayName("Nameless Hanged Poppet")
-    event.create('captain_cornelia_poppet').texture('kubejs:item/poppet').displayName("Captain Cornelia Poppet")
-    event.create('maze_mother_poppet').texture('kubejs:item/poppet').displayName("Maze Mother Poppet")
-    event.create('cave_dweller_poppet').texture('kubejs:item/poppet').displayName("Cave Dweller Poppet")
+    event.create('herobrine_poppet').texture('kubejs:item/poppet_herobrine').displayName("Herobrine Poppet")
+    event.create('hidebehind_poppet').texture('kubejs:item/poppet_hidebehind').displayName("HideBehind Poppet")
+    event.create('nameless_hanged_poppet').texture('kubejs:item/poppet_nameless').displayName("Nameless Hanged Poppet")
+    event.create('captain_cornelia_poppet').texture('kubejs:item/poppet_cornelia').displayName("Captain Cornelia Poppet")
+    event.create('maze_mother_poppet').texture('kubejs:item/poppet_mother').displayName("Maze Mother Poppet")
+    event.create('cave_dweller_poppet').texture('kubejs:item/poppet_dweller').displayName("Cave Dweller Poppet")
 
     //Notes
     event.create('hidebehind_note').displayName("Note from Benjamin")

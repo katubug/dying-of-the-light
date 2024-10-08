@@ -5,13 +5,20 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This place can really mess with your head if you're not cautious. If you're careful and take good care of yourself, you might be okay, but you have to $(#00a800)watch your sanity$(). If you dip too low, $(d)monsters can sense it$(), and they'll attack you even if you're holding a lantern or camera."
+            "text": "It's important to take care of your mental health. The lower your $(#00a8a8)sanity$() is, the more $(d)unpleasant side effects$() you may experience. Low sanity can not only lead to $(#00a800)paranoia, fear and hallucinaions$(), but it can $(d)make monsters more aggressive$()."
         },
         {
             "type": "patchouli:text",
-            "text": "Take a break when you need it—grab some $(#00a8a8)tea$(), get plenty of $(#00a800)sleep$(), or get a hobby - $(#00a800)gardening and fishing$() are good ideas.$(br2)Keep your sanity in check, because if you let the darkness in, things can get bad real quick."
+            "text": "You can $(#00a800)lose sanity$() through the following:$(li) Being in the dark$(li) Being near hostile creatures$(li) Being overly hungry or tired$(li) Getting hurt$(li) Hurting animals$(li) Having a pet die$(li) Having your movement restrained$(li) Holding or using certain items, or wearing certain types of armor"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "You can $(#00a800)regain sanity$() through the following:$(li) Eating certain foods or drinks$(li) Having a nearby pet$(li) Sleeping$(li) Fishing$(li) Being near certain blocks, like Campfires$(li) Earning advancements$(li) Trading with villagers$(li) Breeding and shearing animals"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Your $(#00a8a8)alignment$() and $(#00a8a8)Insight$() will also affect your sanity. High insight will provide a passive regeneration to your sanity - but beware, because the higher your insight, the more sanity you lose when it goes down.$(br2)Positive alignment will grant a passive buff to your sanity, and negative alignment will slowly drain it."
         }
-        
     ]
 }
 

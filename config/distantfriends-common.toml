@@ -10,6 +10,6 @@
 [compat]
 	#Add players from a Player Mobs whitelist to the Friends list [default: false]
 	playerMobsCompat = false
-	#The player mobs Name Links
-	playerMobsWhitelist = [""]
+	#The player mobs Name Links, must start with https://whitelist.gorymoon.se
+	playerMobsNameLinks = []
 

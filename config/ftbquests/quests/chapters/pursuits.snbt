@@ -2223,7 +2223,7 @@
 			id: "6FA0C04049DA9E98"
 			rewards: [{
 				id: "7FE87DFBBC4F8B9B"
-				item: "tombstone:soul_receptacle"
+				item: "tombstone:receptacle_of_soul"
 				type: "item"
 			}]
 			tasks: [{
@@ -2428,6 +2428,41 @@
 			}]
 			x: -4.8d
 			y: -2.1d
+		}
+		{
+			description: [
+				"In order to &aprint your photographs&r, you must first &adevelop the film&r."
+				""
+				"This is done by crafting &bThick&r, &bAwkward&r, and &bMundane Potions&r together with the &bColor Film&r. To develop &bBlack and White Film&r, you only need a &bWater Bottle&r. &6Combine these in a &bCrafting Table&r to obtain the developed film."
+				""
+				"You &aprint your photographs&r using the &bLightroom&r. Here you can &aview your developed negatives&r in detail, as well."
+				""
+				"&bBlack and White Film&r requires &bPaper&r and &bBlack Dye&r. Printing in &acolor&r additionally requires &bCyan&r, &bMagenta&r, and &bYellow Dyes&r."
+				""
+				"Once you have &6chosen your photo with left click&r, you can then &6click the checkmark&r to begin printing."
+			]
+			id: "42707B4BD17C31CE"
+			rewards: [
+				{
+					count: 4
+					id: "678AA4B862D7C838"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "276EF451127FD140"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71F3828C3BD055AF"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: -7.8d
 		}
 	]
 	title: "Pursuits"

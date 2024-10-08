@@ -919,6 +919,26 @@
 		#Seconds until you can milk cows (or stew mooshrooms)
 		#Range: > -2147483648
 		"Milk Cooldown" = 1200
+		#Chance for animals breeding to get twins. This chance is applied for every baby spawned so you have have triplets if lucky enough.
+		#Range: 0.0 ~ 1.0
+		"Twins chance" = 0.5
+		#Chance every 10 seconds for animals to fall in love without food (breeding cooldown still applies).
+		#Range: 0.0 ~ 1.0
+		"Auto-breed chance" = 0.00
+
+		#Experience obtained when cows or mooshrooms are milked or stewed. This only works if the fluid cooldown is enabled.
+		[Farming.Livestock."Milk xp"]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Minimum = 2.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Maximum = 5.0
+
+		#Experience obtained when shearing sheep.
+		[Farming.Livestock."Shear xp"]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Minimum = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Maximum = 3.0
 
 [Experience]
 	#Various changes to experience. You can also use the iguanatweaks:disableExperience game rule to disable experience drops and experience bar.
@@ -960,6 +980,13 @@
 		#Can be set to 0 to make Bottle o' enchanting drop no bonus experience
 		#Range: 0 ~ 512
 		"Bottle o' Enchanting Bonus XP" = 35
+
+		#Experience gained from harvesting Honey or Honeycombs from beehives
+		[Experience.Experience."Honey Harvest Experience"]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Minimum = 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			Maximum = 10.0
 
 	#Better repair, free rename and merge. With this feature enabled, EMI's repairs and enchanting in anvil recipes are removed.
 	[Experience.Anvils]
@@ -1073,8 +1100,6 @@
 	"Enable Snowballs" = true
 	#Armor gives regenerating absorption and regen absorption speed instead of armor and toughness
 	"Enable Absorption Armor" = false
-	#Rework critical hits to be a chance to happen instead of damage on jump
-	"Enable Critical Hits" = false
 	#Change armor and toughness formula
 	"Enable Armor Rework" = false
 	#Players are able to hit mobs through no collision blocks like grass or torches.
@@ -1083,6 +1108,8 @@
 	"Enable Piercing damage" = true
 	#Less invincibility frames and none with arrows.
 	"Enable Attack invincibility" = false
+	#Rework critical hits to be a chance to happen instead of damage on jump. Also the chance and bonus damage are now an attribute. By default critical_chance is 0 and can increase with the Critical enchantment and critical_damage is 0.5 (+50%).
+	"Enable Critical Rework" = false
 
 	#Players be left with half a heart when too much damage that would kill them is dealt (only works for damage taken from mobs)
 	[Combat."Unfair one-shots"]
@@ -1166,21 +1193,6 @@
 		#If true, freezing stacks each hit.
 		"Freezing Stacks" = true
 
-	#Rework critical hits to be a chance to happen instead of damage on jump
-	[Combat."Critical Hits"]
-		#If set >= 0 critical hits are no longer dealt, have a random chance to happen.
-		#Range: -1.0 ~ 1.0
-		Chance = 0.05
-		#Chance increase per level of Critical enchantment.
-		#Range: -1.0 ~ 1.0
-		"Enchantment Chance" = 0.1
-		#Critical multiplier increase per level of Critical enchantment. This only applies if chance based crit is enabled, otherwise critical doubles the crit multiplier.
-		#Range: -1.0 ~ 1.0
-		"Enchantment Bonus" = 0.3
-		#How much damage a critical hit does. Vanilla is 1.5
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Damage multiplier" = 1.5
-
 	#Change armor and toughness formula
 	[Combat."Armor Rework"]
 		#Vanilla formula is 'damage * (1 - ((MIN(20, MAX(armor / 5, armor - ((4 * damage) / (toughness + 8)))))) / 25))'
@@ -1192,4 +1204,13 @@
 		"Invincibility frames based off attack speed" = true
 		#If true, a data pack is enabled that makes Arrows and magic damage ignore invincibility frames.
 		"Arrows and magic ignore invincibility frames" = false
+
+	#Rework critical hits to be a chance to happen instead of damage on jump. Also the chance and bonus damage are now an attribute. By default critical_chance is 0 and can increase with the Critical enchantment and critical_damage is 0.5 (+50%).
+	[Combat."Critical Rework"]
+		#iguanatweaksreborn:critical_chance increase per level of Critical enchantment.
+		#Range: -1.0 ~ 1.0
+		"Enchantment Chance" = 0.1
+		#iguanatweaksreborn:critical_damage increase per level of Critical enchantment.
+		#Range: -1.0 ~ 1.0
+		"Enchantment Damage" = 0.3
 

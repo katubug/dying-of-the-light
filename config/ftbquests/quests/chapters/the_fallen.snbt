@@ -1607,7 +1607,7 @@
 			}]
 			tasks: [{
 				id: "2CE7D5CF7359555F"
-				item: "tombstone:soul_receptacle"
+				item: "tombstone:receptacle_of_soul"
 				type: "item"
 			}]
 			x: -1.5d

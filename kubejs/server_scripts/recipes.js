@@ -211,6 +211,7 @@ ServerEvents.recipes(event => {
         .input('minecraft:iron_ingot')
         .blockBelow('minecraft:packed_ice')
         .recipeTime(100)
+        
 
         //Hirschgeist Skull
         event.recipes.summoningrituals.altar('tide:deep_aqua_crystal')

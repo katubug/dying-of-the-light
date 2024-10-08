@@ -1,0 +1,31 @@
+{
+  "replace":true,
+    "display": {
+      "icon": {
+        "item": "starmetal:star_metal"
+      },
+      "title": {
+      "translate": "advancements.adventure.chase_a_falling_star.title"
+    },
+      "description": {
+      "translate": "advancements.adventure.chase_a_falling_star.description"
+    }
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "starmetal:star_metal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

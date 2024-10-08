@@ -11,7 +11,7 @@ LootJS.modifiers((event) => {
 
     //Fish up Cornelia's Frozen Heart
     event.addLootTableModifier("minecraft:gameplay/fishing")
-    .logName("cornelia_heart")
+    //.logName("cornelia_heart")
     //.hasAnyStage(['cornelia_begun'])
     .weatherCheck({
         raining: true,

@@ -448,7 +448,7 @@ ServerEvents.tags('item', event => {
 
     event.add(
         'forge:sanity_drain_item',
-        'void_tome:void_tome',
+        'kubejs:void_tome',
         'aquamirae:terrible_sword',
         'aquamirae:fin_cutter',
         'aquamirae:divider',

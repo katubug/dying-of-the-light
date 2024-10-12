@@ -1387,8 +1387,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 6.6d
+			y: -6.0d
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
@@ -2397,6 +2397,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: "exposure:camera"
 				id: "1F5681707050DDD3"
 				stat: "exposure:flashes_triggered"
 				type: "stat"
@@ -2430,6 +2431,7 @@
 			y: -2.1d
 		}
 		{
+			dependencies: ["4EA36CD0281FC5AB"]
 			description: [
 				"In order to &aprint your photographs&r, you must first &adevelop the film&r."
 				""
@@ -2461,8 +2463,9 @@
 				item: "exposure:lightroom"
 				type: "item"
 			}]
-			x: 3.5999999999999996d
-			y: -7.8d
+			title: "Developing and Printing Photos"
+			x: 2.6999999999999997d
+			y: -2.6999999999999997d
 		}
 	]
 	title: "Pursuits"

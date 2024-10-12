@@ -41,7 +41,9 @@ PlayerEvents.tick(event => {
 			}
 		}
 	}
-	if (player.mainHandItem.id == 'exposure:camera' && player.mainHandItem.nbt.Active == 0) {
+	if (player.mainHandItem.id == 'exposure:camera'){
+	if (!player.mainHandItem.nbt) return;
+	if (player.mainHandItem.nbt.Active == 0) {
 		{
 			if (player.stages.has('camera')) {
 				player.stages.remove('camera')
@@ -49,8 +51,10 @@ PlayerEvents.tick(event => {
 			}
 		}
 	}
+	}
 
 	if (player.mainHandItem.id == 'exposure:camera') {
+		if (!player.mainHandItem.nbt.Film) return;
 		let film = player.mainHandItem.nbt.Film.Count
 		let Active = player.mainHandItem.nbt.Active
 

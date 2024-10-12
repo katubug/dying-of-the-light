@@ -28,6 +28,7 @@
 	"Enable Berries" = true
 	#Change a few things relative to Serene Seasons
 	"Enable Seasons" = true
+	"Enable Weather" = true
 
 	#Spawners are now a challenge. Monsters spawning from spawners ignore light.
 	[World.Spawners]
@@ -194,6 +195,27 @@
 		"Time Control day night shift" = 1.5
 		"Season based fishing time" = true
 
+	[World.Weather]
+
+		[World.Weather."Thunderstorm Intensity"]
+			#Minimum thunderstorm intensity.
+			#Range: > 1
+			"Min Intensity" = 1
+			#Maximum thunderstorm intensity.
+			#Range: > 1
+			"Max Intensity" = 15
+			#Base duration of each intensity (in minutes). Lasts less and less the higher the intensity
+			#Range: > 1
+			"Base Duration" = 4
+
+		[World.Weather."Foggy Weather"]
+			#Minimum time (in minutes) a foggy weather can last.
+			#Range: > 1
+			"Min Time" = 1
+			#Maximum time (in minutes) a foggy weather can last.
+			#Range: > 1
+			"Max Time" = 20
+
 ["Sleep & Respawn"]
 	#Changes to respawning. Adds the doLooseRespawn gamerule that can disable the loose spawn range
 	"Enable Respawn" = true
@@ -228,6 +250,52 @@
 			Minimum = 0.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			Maximum = 0.0
+
+		["Sleep & Respawn".Respawn."Stats Penalty"]
+			#If hunger or saturation were above the values on death, they will not be reduced.
+			"Only if below" = true
+
+			["Sleep & Respawn".Respawn."Stats Penalty".Health]
+
+				#Min Health of respawning players
+				["Sleep & Respawn".Respawn."Stats Penalty".Health.Minimum]
+					#Range: 0.0 ~ 20.0
+					"Easy/Peaceful" = 10.0
+					#Range: 0.0 ~ 20.0
+					Normal = 10.0
+					#Range: 0.0 ~ 20.0
+					Hard = 6.0
+
+				#How much health respawning players loose on respawn
+				["Sleep & Respawn".Respawn."Stats Penalty".Health."Per Death"]
+					#Range: 0.0 ~ 20.0
+					"Easy/Peaceful" = 1.0
+					#Range: 0.0 ~ 20.0
+					Normal = 2.0
+					#Range: 0.0 ~ 20.0
+					Hard = 2.0
+
+			["Sleep & Respawn".Respawn."Stats Penalty".Hunger]
+
+				#Min Hunger of respawning players
+				["Sleep & Respawn".Respawn."Stats Penalty".Hunger.Minimum]
+					#Range: 0.0 ~ 20.0
+					"Easy/Peaceful" = 14.0
+					#Range: 0.0 ~ 20.0
+					Normal = 14.0
+					#Range: 0.0 ~ 20.0
+					Hard = 10.0
+
+			["Sleep & Respawn".Respawn."Stats Penalty".Saturation]
+
+				#Min Saturation of respawning players
+				["Sleep & Respawn".Respawn."Stats Penalty".Saturation.Minimum]
+					#Range: 0.0 ~ 20.0
+					"Easy/Peaceful" = 10.0
+					#Range: 0.0 ~ 20.0
+					Normal = 10.0
+					#Range: 0.0 ~ 20.0
+					Hard = 6.0
 
 	#Changes to sleeping and spawn points
 	["Sleep & Respawn"."Sleeping and Spawn Point"]
@@ -575,6 +643,9 @@
 		#Range: 0.0 ~ 1.0
 		"Fishing has a chance to fish a guardian" = 0.0
 		"No fish if fishing in the same spot" = false
+		#When an entity is hit and on a mount they have this chance to fall
+		#Range: 0.0 ~ 1.0
+		"Fall from mount chance" = 0.2
 
 [Mining]
 	#Changes Gold tools to have an innate Fortune/Looting I and changes the harvest level to be like stone tools
@@ -713,7 +784,7 @@
 			"Over time Strength" = "MAX(0.15, 5 * saturation_modifier * (1 / hunger))"
 			#The formula to calculate the health restored instantly when eating. Leave empty to disable. To have the same effect as pre-Beta 1.8 food just use "hunger". Variables as hunger, saturation_modifier, effectiveness as numbers and fast_food as boolean can be used. This is evaluated with EvalEx https://ezylang.github.io/EvalEx/concepts/parsing_evaluation.html.
 			"Instant Heal" = "(hunger^1.3) * 0.35"
-			#Foods below this saturation will instantly heal, foods above this threshold will have overtime heal.
+			#Foods below this saturation will instantly heal, foods equal or above this threshold will have overtime heal.
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"Saturation threshold" = 4.0
 			#Over Time Heal will be consumed at the rate of exhaustion multiplied by this
@@ -776,37 +847,6 @@
 		#When eating you'll get healed by this percentage of (hunger + saturation) restored.
 		#Range: 0.0 ~ 1.0
 		"Food Heal Multiplier" = 0.0
-
-		["Hunger & Health"."Hunger Health Regen".Respawn]
-			#If hunger or saturation were above the values on respawn, they will not be reduced.
-			"Only if below" = true
-
-			#Health of respawning players
-			["Hunger & Health"."Hunger Health Regen".Respawn.Health]
-				#Range: 0.0 ~ 20.0
-				"Easy/Peaceful" = 20.0
-				#Range: 0.0 ~ 20.0
-				Normal = 14.0
-				#Range: 0.0 ~ 20.0
-				Hard = 8.0
-
-			#Hunger of respawning players
-			["Hunger & Health"."Hunger Health Regen".Respawn.Hunger]
-				#Range: 0.0 ~ 20.0
-				"Easy/Peaceful" = 14.0
-				#Range: 0.0 ~ 20.0
-				Normal = 10.0
-				#Range: 0.0 ~ 20.0
-				Hard = 10.0
-
-			#Saturation of respawning players
-			["Hunger & Health"."Hunger Health Regen".Respawn.Saturation]
-				#Range: 0.0 ~ 20.0
-				"Easy/Peaceful" = 10.0
-				#Range: 0.0 ~ 20.0
-				Normal = 10.0
-				#Range: 0.0 ~ 20.0
-				Hard = 6.0
 
 	#Changes to food nourishment and the speed on how food is eaten or how items are consumed. Custom Food Properties are controlled via json in this feature's folder. Removing entries from the json requires a minecraft restart.
 	["Hunger & Health"."Foods & Drinks"]
@@ -924,7 +964,7 @@
 		"Twins chance" = 0.5
 		#Chance every 10 seconds for animals to fall in love without food (breeding cooldown still applies).
 		#Range: 0.0 ~ 1.0
-		"Auto-breed chance" = 0.00
+		"Auto-breed chance" = 0.0
 
 		#Experience obtained when cows or mooshrooms are milked or stewed. This only works if the fluid cooldown is enabled.
 		[Farming.Livestock."Milk xp"]
@@ -1182,6 +1222,9 @@
 		"Item Stats Data Pack" = false
 		#Makes swords do sweep attack even if not on ground and if did crit
 		"Better sweeping" = true
+		#Changes bows accuracy. Vanilla is 1.0
+		#Range: 0.0 ~ 10.0
+		"Bow Inaccuracy" = 0.5
 
 	[Combat.Snowballs]
 		#Snowballs deal this amount of damage.

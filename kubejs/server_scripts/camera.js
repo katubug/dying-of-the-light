@@ -10,6 +10,7 @@ let $ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
 ItemEvents.rightClicked('exposure:camera', event => {
     const { item, server, player, entity, target } = event
     const Mth = Java.loadClass('net.minecraft.util.Mth')
+    if (!item.nbt.Film) return;
     let film = item.nbt.Film.Count
     let filmType = item.nbt.Film.id
     let Active = item.nbt.Active

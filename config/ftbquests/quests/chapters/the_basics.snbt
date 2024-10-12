@@ -963,8 +963,8 @@
 				id: "52AEDBA3D0E6F5A0"
 				type: "advancement"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 9.0d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -992,8 +992,8 @@
 				type: "item"
 			}]
 			title: "Listen to Music"
-			x: 7.8d
-			y: 0.6d
+			x: 7.199999999999999d
+			y: 2.4d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]
@@ -1005,6 +1005,8 @@
 				"For greater success, consider using &bBait&r. Hold it in your offhand while you fish to increase your chances of a fruitful catch. Alongside items explicitly called Bait, you can also use &bGrubs&r, &bWorms&r, and &bLeeches&r."
 				""
 				"Let the gentle rhythm of the water and the thrill of the catch restore your spirit, one fish at a time."
+				""
+				"&dThis quest unlocks further &lPursuits&r."
 			]
 			id: "085671CEEECD2D16"
 			rewards: [
@@ -1028,6 +1030,8 @@
 					type: "item"
 				}
 			]
+			shape: "window"
+			size: 2.0d
 			tasks: [
 				{
 					id: "57B5DB67F25ABDAA"
@@ -1048,8 +1052,8 @@
 				}
 			]
 			title: "A Pasttime"
-			x: 7.5d
-			y: 3.0d
+			x: 10.799999999999999d
+			y: 0.3d
 		}
 		{
 			dependencies: ["128C0831D93CC414"]

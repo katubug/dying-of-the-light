@@ -2233,22 +2233,22 @@
 			description: [
 				"You've done it. You've freed all the spirits that were trapped here. Now... it's time for this &cLimbo&r to end. You can set the world to rights by &areturning that which I stole from the &eGuardians&r - the &bVoid Tome&r."
 				""
-				"You can obtain it by &6throwing a &bBook&r into the &cVoid of the End&r."
+				"I give this to you, now. The source of my great shame."
 				""
-				"It is a powerful artifact - I mean, I suppose that's obvious - capable of great destruction of living things, and it also &adrains your sanity while you hold it&r. The sooner you &6return it to the &eGuardians&r, the sooner you and I can both rest."
+				"It is a powerful artifact - I mean, I suppose that's obvious - capable of great destruction, and it also &adrains your sanity while you hold it&r. The sooner you &6return it to the &eGuardians&r, the sooner you and I can both rest."
 			]
 			id: "18900D8ABC1D6612"
 			rewards: [{
-				id: "23E6CD19DB2480F2"
-				item: "minecraft:crying_obsidian"
+				id: "163AAC9A49E29E00"
+				item: "kubejs:void_tome"
 				type: "item"
 			}]
 			shape: "banner"
 			size: 2.0d
 			tasks: [{
-				id: "464910109AA4B523"
-				item: "void_tome:void_tome"
-				type: "item"
+				id: "7DA523CFE20AB8AF"
+				title: "Chance at Redemption"
+				type: "checkmark"
 			}]
 			x: -5.3999999999999995d
 			y: 33.0d
@@ -2269,10 +2269,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4078EBDE1F11F1FA"
+				id: "1F80D23F20F34622"
 				item: {
 					Count: 1
-					id: "void_tome:void_tome"
+					id: "kubejs:void_tome"
 					tag: {
 						display: {
 							Lore: [

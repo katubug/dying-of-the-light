@@ -136,6 +136,7 @@
 			id: "619B225244EE9A1B"
 			rewards: [
 				{
+					count: 4
 					id: "3779AE74F4EA7C9B"
 					item: "minecraft:dark_oak_sapling"
 					type: "item"

@@ -8,7 +8,7 @@
 	positive_multiplier = 1.0
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 1.0
+	negative_multiplier = 0.8
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -17,13 +17,13 @@
 		passive = 0.0
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
-		raining = 0.0
+		raining = 0.01
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
 		hunger_threshold = 15
 		#Players with food levels at and below <hunger_threshold> gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		hungry = -0.2
+		hungry = -0.1
 		#Players will gain this amount of sanity per second for 5 seconds after looking at an enderman
 		#Range: -100.0 ~ 100.0
 		ender_man_anger = -5.0
@@ -45,7 +45,7 @@
 		lightness = 0.05
 		#Minimum light level considered to be lightness (inclusive)
 		#Range: 0 ~ 15
-		lightness_threshold = 15
+		lightness_threshold = 13
 		#Players who are stuck in blocks (such as cobweb) and have their movement restricted gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
 		block_stuck = -0.09
@@ -183,7 +183,7 @@
 	#Client configuration
 	[sanity.client]
 		#Whether to render sanity postprocessing effects
-		render_post = true
+		render_post = false
 		#Whether to enable sanity sound effects
 		play_sounds = true
 		#Insanity ambience max volume

@@ -10,6 +10,7 @@ StartupEvents.registry('item', event => {
     event.create('lunar_gem').displayName("Lunar Gem")
     event.create('lunatics_tome').displayName("Lunatic's Tome")
     event.create('great_ones_tome').displayName("Great One's Tome")
+    event.create('void_tome').displayName("Void Tome")
     
     //Herobrine Items
     event.create('oblivion_dust').displayName('Dust of Oblivion')           //dust from his origin plane

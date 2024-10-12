@@ -14,12 +14,6 @@
 	[Client.Fog]
 		#If true you'll be able to see better in lava when with the Fire Resistance Effect.
 		"Better visibility in Lava with Fire Resistance Lava" = true
-		#Changes fog to start closer to the player. E.g. A value of 0.5 makes fog start at half the render distance. Vanilla is 1, Pre-1.18.1 was 0.75, Pre-1.7.2 was 0.25
-		#Range: 0.0 ~ 1.0
-		"Overworld Fog Start Ratio" = 0.4
-		#Changes fog ratio when raining. Vanilla is 1
-		#Range: 0.0 ~ 1.0
-		"Overworld Fog Start Ratio on Rain" = 0.0
 		#If true Nether Fog is no longer limited to 12 chunks.
 		"Better Nether Fog" = true
 		#Render distance is multiplied by this value in the Nether. Vanilla is 0.5.

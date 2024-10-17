@@ -19,7 +19,7 @@
     },
     {
         "mob":["eyesinthedarkness:eyes", "distantfriends:friend"],
-        "gamestage":"insanity",
+        "gamestage":"madness",
         "maxcount":20,
         "result":"allow",
         "continue": true
@@ -199,6 +199,26 @@
         "gamestage": "hidebehind_resolved",
         "result": "deny",
         "continue": true
+    },
+    {
+        "mob":"graveyard:acolyte",
+        "mincount": 10,
+        "result": "deny",
+        "continue": true
+    },
+    {
+        "result": "deny",
+        "mob": [
+          "minecraft:skeleton",
+          "minecraft:zombie",
+          "minecraft:enderman",
+          "minecraft:creeper",
+          "minecraft:drowned"
+        ],
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        }
     }
 ]
 

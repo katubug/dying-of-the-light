@@ -734,7 +734,7 @@
 				""
 				"Let's begin."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "44C3A1487558DE6C"
 			invisible: true
 			shape: "circle"
@@ -1094,7 +1094,7 @@
 				""
 				"Try to ensure you are &dnot interrupted&r, or you'll have to start over."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0514046B7A7658F3"
 			progression_mode: "linear"
 			rewards: [

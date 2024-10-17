@@ -9,7 +9,7 @@
 	#Should ops NOT burn? Default: true
 	noOpBurn = true
 	#If enabled armor in the head slot will prevent burning. Default: false
-	checkArmor = false
+	checkArmor = true
 	#If enabled armor will take damage if 'checkArmor' is enabled. Default: false
 	damageArmor = false
 	#If enabled effects will be checked to see if they prevent burning. Default: false

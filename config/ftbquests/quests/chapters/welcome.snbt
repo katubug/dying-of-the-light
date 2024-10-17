@@ -75,7 +75,7 @@
 				""
 				"-&l&1Eerie Music&r: This mod is included but is turned off by default, as it definitely tips the vibe from cozy to spooky, and thus is up to personal player preference."
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3C0FDF1561619D43"
 			rewards: [{
 				id: "6D770A5A26AA7EDF"

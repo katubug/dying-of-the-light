@@ -16,16 +16,16 @@ SanityEvents.change(event => {
         }
     }
     if (newSanity >= 50) {
-        if(player.stages.has('insanity')) return;
-                player.stages.add('insanity')
+        if(player.stages.has('madness')) return;
+                player.stages.add('madness')
                 player.persistentData.insightCount++ //Player gets insight for losing their mind
                 console.log("Player insight is now "+event.player.persistentData.insightCount)
                 player.tell("You feel as if the world is out to get you...")
                 server.runCommandSilent(`apathy set-admin join ${event.player.name.string} insane`)
     }
     if (newSanity < 50) {
-        if(!player.stages.has('insanity')) return;
-            player.stages.remove('insanity')
+        if(!player.stages.has('madness')) return;
+            player.stages.remove('madness')
             player.tell("You feel a sense of well-being.")
             server.runCommandSilent(`apathy set-admin part ${event.player.name.string} insane`)
     }

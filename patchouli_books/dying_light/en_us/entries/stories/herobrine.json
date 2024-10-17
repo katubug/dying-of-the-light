@@ -34,7 +34,7 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "tombstone:soul_receptacle",
+            "item": "tombstone:receptacle_of_soul",
             "text": "$(7)The thing he lacks is a soul...$()"
         }
     ]

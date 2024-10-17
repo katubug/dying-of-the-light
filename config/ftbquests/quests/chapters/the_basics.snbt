@@ -556,7 +556,7 @@
 		{
 			dependencies: ["0A981F6115A5041A"]
 			description: [
-				"You can drink any water you find by &6right clicking with an empty hand&r, but not all water sources are clean enough to satisfy your thirst."
+				"You can drink any water you find by &6right clicking with an empty hand&r, but not all water sources are clean enough to satisfy your thirst. One water source that is clean, however, is rain! You can &aright click the air with an empty hand to catch rain to drink&r."
 				""
 				"It's recommended that you &bbottle&r or &bCanteen&r your water, then &asmelt it&r to purify."
 			]
@@ -1152,7 +1152,7 @@
 			tasks: [{
 				icon: "endofherobrine:cursed_head"
 				id: "6B2BB9B2328CD325"
-				stage: "insanity"
+				stage: "madness"
 				title: "Go Insane"
 				type: "gamestage"
 			}]
@@ -1574,6 +1574,12 @@
 				"When you die, you receive &bKnowledge of Death&r, which can &agrant unique perks&r, as well as &aunlockable abilities&r. You can access these powers by &6pressing Y&r."
 			]
 			id: "4CEC8881FCF2428B"
+			rewards: [{
+				count: 4
+				id: "1823B071FA475C5D"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "705E98FE3C74248B"
 				stat: "minecraft:deaths"

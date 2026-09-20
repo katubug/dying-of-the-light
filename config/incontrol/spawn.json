@@ -49,14 +49,22 @@
                 "graveyard:medium_graveyard",
                 "graveyard:small_graveyard"
             ],
-        "result": "allow",
+        "mincount": 1,
+        "result": "deny",
         "continue": true
     },
     {
         "mob":"graveyard:nameless_hanged",
-        "mincount": 1,
-        "result": "deny",
-        "continue": true
+        "structure": [
+                "graveyard:large_graveyard",
+                "graveyard:medium_graveyard",
+                "graveyard:small_graveyard"
+            ],
+        "result": "allow"
+    },
+    {
+        "mob":"graveyard:nameless_hanged",
+        "result": "deny"
     },
     {
         "mob":"aquamirae:maze_mother",
@@ -72,19 +80,23 @@
                 "aquamirae:ice_maze/arch",
                 "aquamirae:ice_maze/spiral"
             ],
-        "result": "default",
-        "continue": true
-    },
-    {
-        "mob":"aquamirae:maze_mother",
         "mincount": 1,
         "result": "deny",
         "continue": true
     },
     {
         "mob":"aquamirae:maze_mother",
-        "result": "deny",
-        "continue": true
+        "biome": "minecraft:deep_frozen_ocean",
+        "structure": [
+                "aquamirae:ice_maze/common",
+                "aquamirae:ice_maze/arch",
+                "aquamirae:ice_maze/spiral"
+            ],
+        "result": "default"
+    },
+    {
+        "mob":"aquamirae:maze_mother",
+        "result": "deny"
     },
     {
         "mob":"endofherobrine:armor_stand",
@@ -207,7 +219,7 @@
         "continue": true
     },
     {
-        "spawnersource": "spawn_egg",
+        "spawntype": "spawn_egg",
         "result": "default"
     },
     {

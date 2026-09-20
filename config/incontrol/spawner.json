@@ -9,7 +9,15 @@
             "maximum": 1
         },
         "conditions":{
-            "dimension": "minecraft:overworld"
+            "dimension": "minecraft:overworld",
+            "maxthis": 1,
+            "and": {
+                "structure": [
+                    "graveyard:large_graveyard",
+                    "graveyard:medium_graveyard",
+                    "graveyard:small_graveyard"
+                ]
+            }
         }
     },
     {
@@ -23,7 +31,11 @@
         },
         "conditions":{
             "dimension": "minecraft:overworld",
-            "inwater": true
+            "maxthis": 1,
+            "inwater": true,
+            "and": {
+                "biome": "minecraft:deep_frozen_ocean"
+            }
         }
     },
     {

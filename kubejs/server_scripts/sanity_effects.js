@@ -3,31 +3,29 @@ SanityEvents.change(event => {
     let oldSanity = event.getPreviousSanity();
     let newSanity = event.getSanity();
 
-    if (player.persistentData.insightCount >=150){
-        //console.log("Player's Insight is high, applying additional sanity effects.")
-        if (oldSanity < newSanity){
-            //console.log(`Old Sanity was ${oldSanity}, New Sanity is ${newSanity}, therefore Sanity Loss is `+(oldSanity<newSanity))
-            let sanityDiff = oldSanity-newSanity
-            // (sanityDiff >= 0.0001){
-                server.runCommandSilent(`sanity add ${event.player.name.string} ${sanityDiff}`)
-                //console.log(`Insight compounded Sanity loss by ${sanityDiff}.`)
-                //console.log(`Total Sanity is now ${event.player.getSanity()}.`)
-            //}
+    if (newSanity < 50) {
+        if(!player.stages.has('madness')) {
+            player.stages.add('madness')
+            if (player.persistentData.insightCount == null || isNaN(player.persistentData.insightCount)) player.persistentData.insightCount = 0
+            player.persistentData.insightCount++
+            console.log("Player insight is now "+event.player.persistentData.insightCount)
+            player.tell("You feel as if the world is out to get you...")
+            server.runCommandSilent(`apathy set-admin join ${event.player.name.string} insane`)
         }
     }
     if (newSanity >= 50) {
-        if(player.stages.has('madness')) return;
-                player.stages.add('madness')
-                player.persistentData.insightCount++ //Player gets insight for losing their mind
-                console.log("Player insight is now "+event.player.persistentData.insightCount)
-                player.tell("You feel as if the world is out to get you...")
-                server.runCommandSilent(`apathy set-admin join ${event.player.name.string} insane`)
-    }
-    if (newSanity < 50) {
-        if(!player.stages.has('madness')) return;
+        if(player.stages.has('madness') && player.persistentData.insightCount < 150) {
             player.stages.remove('madness')
             player.tell("You feel a sense of well-being.")
             server.runCommandSilent(`apathy set-admin part ${event.player.name.string} insane`)
+        }
+    }
+
+    if (player.persistentData.insightCount >=150){
+        if (oldSanity < newSanity){
+            let sanityDiff = oldSanity-newSanity
+            server.runCommandSilent(`sanity add ${event.player.name.string} ${sanityDiff}`)
+        }
     }
 });
 

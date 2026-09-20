@@ -43,15 +43,10 @@ PlayerEvents.loggedIn(event => {
 
 PlayerEvents.tick(event => {
     let { player } = event
-    if (!player.persistentData.insightCount) player.persistentData.insightCount = 0
-    if (player.persistentData.insightCount <=0 && player.stages.has('insight_shop')) {
-        player.stages.remove('insight_shop')
-        console.log("Player can no longer access Insight Shop.")
-        event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} reset 7F588C2BBD868E89`)
-    }
+    if (player.persistentData.insightCount == null || isNaN(player.persistentData.insightCount)) player.persistentData.insightCount = 0
     if (player.age % 20 != 0) return
     //Set text to insight count
-    event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`}})
+    //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`}})
     //Low Insight
     //If player has 1+ insight, give them an advancement
     if (player.persistentData.insightCount >= 1) {
@@ -72,7 +67,7 @@ PlayerEvents.tick(event => {
     }
     //If player has 11+ insight...
     //if player has the low insight stage, remove it
-    if (player.persistentData.insightCount >=11){
+    if (player.persistentData.insightCount >=10){
         if (player.stages.has('low_insight')) {
             player.stages.remove('low_insight')
         }
@@ -92,7 +87,9 @@ PlayerEvents.tick(event => {
     }
     //If player drops below 20 Insight, remove Insightful stage from them
     if (player.persistentData.insightCount <20 && player.stages.has('insight_shop')) {
-            player.stages.remove('insight_shop')       
+            player.stages.remove('insight_shop')
+            console.log("Player can no longer access Insight Shop.")
+            event.server.runCommandSilent(`/ftbquests change_progress ${event.player.name.string} reset 7F588C2BBD868E89`)
     }
     //50 Insight/Insightful
     //If player has 50+ Insight and does not have the insightful stage, add it
@@ -129,13 +126,15 @@ PlayerEvents.tick(event => {
     if (player.persistentData.insightCount >=150){
         if(!player.stages.has('madness')) {
             player.stages.add('madness')
+            player.tell("You have seen too much. The world unravels before your eyes...")
         }
         //and show the eye
         event.player.paint({insight_eye_anim: {visible:true}})
         //event.player.paint({insight_count_display: {text:`${player.persistentData.insightCount}`, visible:true}})
     }
-    //If player drops below 150 Insight, remove Madness stage from them
-    if (player.persistentData.insightCount <150 && player.stages.has('madness')) {
+    //If player drops below 150 Insight, remove Madness stage (only if sanity isn't also keeping it)
+    let sanity = player.nbt.ForgeCaps['sanitydim:sanity']['sanity.sanity']
+    if (player.persistentData.insightCount <150 && player.stages.has('madness') && sanity >= 50) {
         player.stages.remove('madness')
         event.player.paint({insight_eye_anim: {visible:false}})
     }
@@ -152,18 +151,18 @@ PlayerEvents.tick(event => {
 })
 
 EntityEvents.death(event => {
-    const {entity, player} = event
+    const {entity} = event
     if (!entity.isPlayer()) return
-    if (player.persistentData.insightCount > 0) {
-    player.persistentData.insightCount--
-    console.log(`Player ${event.player.name.string} lost insight when dying. Insight is now `+player.persistentData.insightCount+"."
-        )
+    if (entity.persistentData.insightCount > 0) {
+        entity.persistentData.insightCount--
+        console.log(`Player ${entity.name.string} lost insight when dying. Insight is now ` + entity.persistentData.insightCount + ".")
     }
 })
 
 
 PlayerEvents.advancement(event => {
     let {advancement} = event
+    if (event.player.persistentData.insightCount == null || isNaN(event.player.persistentData.insightCount)) event.player.persistentData.insightCount = 0
     event.player.persistentData.insightCount++
     console.log("Player gained insight from advancement "+advancement+" and now has "+event.player.persistentData.insightCount+" insight.")
 })

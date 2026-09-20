@@ -29,7 +29,7 @@
 	[Timers.Leave]
 		#Time (in seconds) it takes for the Cave Dweller to leave
 		#Range: 1 ~ 6000
-		time_until_leave = 300
+		time_until_leave = 600
 		#Time (in seconds) it takes for the Cave Dweller to leave once a chase begins
 		#Range: 1 ~ 600
 		time_until_leave_chase = 30
@@ -94,10 +94,10 @@
 	attack_damage = 6.0
 	#Attack speed
 	#Range: 0.0 ~ 10.0
-	attack_speed = 0.1
+	attack_speed = 0.2
 	#Movement speed
 	#Range: 0.0 ~ 5.0
-	movement_speed = 0.1
+	movement_speed = 0.5
 	#Depth Strider (movement speed in water) bonus
 	#Range: 0.0 ~ 3.0
 	depth_strider_bonus = 1.5

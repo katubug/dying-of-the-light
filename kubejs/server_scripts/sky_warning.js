@@ -12,10 +12,11 @@ PlayerEvents.tick(event => {
             ){
                 if(!player.stages.has('sun_warning')){
                 server.scheduleInTicks(1 * 20, callback => {
-                    if(!player.hasEffect("fire_resistance"))
+                    if(!player.hasEffect("fire_resistance")) {
                         player.stages.add('sun_warning')
                         server.runCommandSilent(`title ${event.player.name.string} title {"text":"It hurts!", "bold":true, "italic":true, "color":"red"}`)
                         server.runCommandSilent(`title ${event.player.name.string} subtitle {"text":"Get out of the sunlight!", "italic":true, "color":"yellow"}`)
+                    }
                     })
                 }
             }

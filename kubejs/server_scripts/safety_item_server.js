@@ -3,27 +3,30 @@ PlayerEvents.tick(event => {
 		player
 	} = event
 	if (player.age % 20 != 0) return
+
 	if (player.mainHandItem.id == 'minecraft:lantern' || player.mainHandItem.id == 'hardcore_torches:lit_lantern') {
-		if (player.stages.has('safety_item')) return;
-		player.stages.add('safety_item')
-		event.server.runCommandSilent(`apathy set-admin join ${event.player.name.string} safety_item`)
-	}
-	if (player.mainHandItem.id != 'minecraft:lantern' && player.mainHandItem.id != 'hardcore_torches:lit_lantern') {
-		if (!player.stages.has('safety_item')) return;
-		player.stages.remove('safety_item')
-		event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} safety_item`)
+		if (!player.stages.has('safety_item')) {
+			player.stages.add('safety_item')
+			event.server.runCommandSilent(`apathy set-admin join ${event.player.name.string} safety_item`)
+		}
+	} else {
+		if (player.stages.has('safety_item')) {
+			player.stages.remove('safety_item')
+			event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} safety_item`)
+		}
 	}
 
 	if (player.getHealth() < 10) {
-		if (player.stages.has('low_health')) return;
-		player.stages.add('low_health')
-		player.tell("You're bleeding - monsters can smell the blood!")
-		event.server.runCommandSilent(`apathy set-admin join ${event.player.name.string} low_health`)
-	}
-	if (player.getHealth() >= 10) {
-		if (!player.stages.has('low_health')) return;
-		player.stages.remove('low_health')
-		event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} low_health`)
+		if (!player.stages.has('low_health')) {
+			player.stages.add('low_health')
+			player.tell("You're bleeding - monsters can smell the blood!")
+			event.server.runCommandSilent(`apathy set-admin join ${event.player.name.string} low_health`)
+		}
+	} else {
+		if (player.stages.has('low_health')) {
+			player.stages.remove('low_health')
+			event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} low_health`)
+		}
 	}
 })
 
@@ -34,21 +37,17 @@ PlayerEvents.tick(event => {
 	if (player.age % 20 != 0) return
 
 	if (player.mainHandItem.id != 'exposure:camera') {
-		{
-			if (player.stages.has('camera')) {
-				player.stages.remove('camera')
-				event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
-			}
+		if (player.stages.has('camera')) {
+			player.stages.remove('camera')
+			event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
 		}
 	}
 	if (player.mainHandItem.id == 'exposure:camera'){
 	if (!player.mainHandItem.nbt) return;
 	if (player.mainHandItem.nbt.Active == 0) {
-		{
-			if (player.stages.has('camera')) {
-				player.stages.remove('camera')
-				event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
-			}
+		if (player.stages.has('camera')) {
+			player.stages.remove('camera')
+			event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
 		}
 	}
 	}
@@ -60,12 +59,10 @@ PlayerEvents.tick(event => {
 
 		//If player has no film, but has safety, remove them from safety.
 		if (film < 1) {
-			{
-				if (player.stages.has('camera')) {
-					player.stages.remove('camera')
-					player.tell("The camera can't protect you without film!")
-					event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
-				}
+			if (player.stages.has('camera')) {
+				player.stages.remove('camera')
+				player.tell("The camera can't protect you without film!")
+				event.server.runCommandSilent(`apathy set-admin part ${event.player.name.string} camera`)
 			}
 		}
 		//If camera has film, but has taken no photos...

@@ -132,6 +132,11 @@
       "overall": 1,
       "whale": 1
     },
+    "pale-garden": {
+      "overall": 1,
+      "pale-garden-ambience": 1,
+      "owl": 1
+    },
     "plains": {
       "overall": 1,
       "cricket": 1,
@@ -213,6 +218,7 @@
       }
     },
     "cave": 0.8820058703422546,
+    "suspense": 1,
     "weather": 0.5870206356048584,
     "wind": 0.17404130101203918
   },

@@ -87,7 +87,7 @@
 			id: "5EA10E46D2F902AB"
 			rewards: [{
 				id: "14E14426B7F178FE"
-				item: "aquamirae:golden_moth_in_a_jar"
+				item: "aquamirae:golden_moth_jar"
 				type: "item"
 			}]
 			tasks: [{
@@ -104,7 +104,7 @@
 			id: "61CECD673926204F"
 			rewards: [{
 				id: "3718B763DA9C127A"
-				item: "aquamirae:golden_moth_in_a_jar"
+				item: "aquamirae:golden_moth_jar"
 				type: "item"
 			}]
 			tasks: [{
@@ -340,16 +340,6 @@
 					type: "item"
 				}
 				{
-					id: "7E51F305BDAC1870"
-					item: "tide:ashen_perch"
-					type: "item"
-				}
-				{
-					id: "047897E23A5EBDC0"
-					item: "tide:soulscaler"
-					type: "item"
-				}
-				{
 					id: "627FB2D1CB18893C"
 					item: "tide:warped_guppy"
 					type: "item"
@@ -401,11 +391,6 @@
 			]
 			tasks: [
 				{
-					id: "08B95A4983F2BD67"
-					item: "tide:endstone_perch"
-					type: "item"
-				}
-				{
 					id: "3B5DE0EA54605B2F"
 					item: "tide:enderfin"
 					type: "item"
@@ -413,11 +398,6 @@
 				{
 					id: "58144AF22C65802A"
 					item: "tide:endergazer"
-					type: "item"
-				}
-				{
-					id: "1FD0DB6D6CE6471E"
-					item: "tide:purpur_pike"
 					type: "item"
 				}
 				{
@@ -570,16 +550,6 @@
 			}]
 			tasks: [
 				{
-					id: "3FFC04D4F64305F3"
-					item: "tide:trout"
-					type: "item"
-				}
-				{
-					id: "650601933FBDD70B"
-					item: "tide:bass"
-					type: "item"
-				}
-				{
 					id: "53457B5E41BFB8A9"
 					item: "tide:yellow_perch"
 					type: "item"
@@ -587,11 +557,6 @@
 				{
 					id: "79BD0746E5EFB475"
 					item: "tide:bluegill"
-					type: "item"
-				}
-				{
-					id: "41EDA515B3B3BC26"
-					item: "tide:mint_carp"
 					type: "item"
 				}
 				{
@@ -609,11 +574,6 @@
 					item: "tide:catfish"
 					type: "item"
 				}
-				{
-					id: "7DEE58B0398FB397"
-					item: "tide:clayfish"
-					type: "item"
-				}
 			]
 			title: "Freshwater Fish"
 			x: -8.0d
@@ -621,26 +581,7 @@
 		}
 		{
 			dependencies: ["286CA5891064B321"]
-			description: [
-				"These fish can be found in a variety of biomes!"
-				""
-				"- Prairie Pike: Plains"
-				"- Sandskipper: Desert"
-				"- Blossom Bass: Cherry Grove"
-				"- Oakfish: Forests"
-				"- Frostbite Flounder: Cold Biomes"
-				"- Mirage Catfish: Hot overworld biomes"
-				"- Echofin Snapper: Deep Dark"
-				"- Sunspike Goby: Savannah"
-				"- Birch Trout: Forests"
-				"- Stonefish: Mountains"
-				"- Dripstone Darter: Dripstone Caves"
-				"- Slimefin Snapper: Swamps"
-				"- Sporestalker: Mushroom Fields"
-				"- Leafback: Jungles"
-				"- Fluttergill: Lush Caves"
-				"- Pine Perch: Forests"
-			]
+			description: ["These fish can be found in a variety of biomes! Check your &bGuide&r for more information."]
 			hide_dependency_lines: true
 			id: "09B276670C9D0E11"
 			optional: true
@@ -652,23 +593,8 @@
 			}]
 			tasks: [
 				{
-					id: "5F8B5129BC38AE28"
-					item: "tide:prarie_pike"
-					type: "item"
-				}
-				{
-					id: "7CE63527DECAB21B"
-					item: "tide:sandskipper"
-					type: "item"
-				}
-				{
 					id: "5C2AFF40B75C625D"
 					item: "tide:blossom_bass"
-					type: "item"
-				}
-				{
-					id: "6D9EFF3DE2D917BF"
-					item: "tide:oakfish"
 					type: "item"
 				}
 				{
@@ -682,53 +608,8 @@
 					type: "item"
 				}
 				{
-					id: "6D24C4931F09B569"
-					item: "tide:echofin_snapper"
-					type: "item"
-				}
-				{
-					id: "77A8E496AAD06745"
-					item: "tide:sunspike_goby"
-					type: "item"
-				}
-				{
-					id: "6EBE8342D63D54DA"
-					item: "tide:birch_trout"
-					type: "item"
-				}
-				{
-					id: "7CEC296B6FBA11A2"
-					item: "tide:stonefish"
-					type: "item"
-				}
-				{
 					id: "0AFF154B06F70C8B"
 					item: "tide:dripstone_darter"
-					type: "item"
-				}
-				{
-					id: "51AB7EA48D06F927"
-					item: "tide:slimefin_snapper"
-					type: "item"
-				}
-				{
-					id: "486650EDDA87D3AB"
-					item: "tide:sporestalker"
-					type: "item"
-				}
-				{
-					id: "50B8DC98C812D3A3"
-					item: "tide:leafback"
-					type: "item"
-				}
-				{
-					id: "51F250B461E11E55"
-					item: "tide:fluttergill"
-					type: "item"
-				}
-				{
-					id: "1CF88CDE9AE1D9DE"
-					item: "tide:pine_perch"
 					type: "item"
 				}
 			]
@@ -770,13 +651,14 @@
 					type: "item"
 				}
 				{
-					id: "14E296F1B39FF84A"
-					item: "tide:barracuda"
-					type: "item"
-				}
-				{
 					id: "4BA1707324A7B8C2"
-					item: "tide:sailfish"
+					item: {
+						Count: 1
+						id: "tide:sailfish"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1157,7 +1039,13 @@
 			shape: "diamond"
 			tasks: [{
 				consume_items: true
-				icon: "tide:sailfish"
+				icon: {
+					Count: 1
+					id: "tide:sailfish"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "7EF6D3B0374754C5"
 				item: {
 					Count: 1
@@ -2015,29 +1903,6 @@
 					type: "item"
 				}
 				{
-					id: "3D1CD248637DE201"
-					item: {
-						Count: 1
-						id: "tide:bass"
-						tag: {
-							Enchantments: [{ }]
-							Tags: "aberrant_fish"
-							display: {
-								Lore: [
-									"[\"\",{\"text\":\"Two heads, fused at the spine,\",\"italic\":false}]"
-									"[\"\",{\"text\":\"struggle for control. One side is\",\"italic\":false}]"
-									"[\"\",{\"text\":\"vibrant and alive, the other,\",\"italic\":false}]"
-									"[\"\",{\"text\":\"rotting and festering—both eyes\",\"italic\":false}]"
-									"[\"\",{\"text\":\"seeing, neither agreeing.\",\"italic\":false}]"
-								]
-								Name: "[\"\",{\"text\":\"Twinscale Bass\",\"italic\":false,\"color\":\"yellow\"}]"
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
 					id: "3BAB3B48CC8EFD46"
 					item: {
 						Count: 1
@@ -2091,6 +1956,7 @@
 						Count: 1
 						id: "tide:sailfish"
 						tag: {
+							Damage: 0
 							Enchantments: [{ }]
 							Tags: "aberrant_fish"
 							display: {
@@ -2157,54 +2023,6 @@
 					match_nbt: true
 					type: "item"
 					weak_nbt_match: true
-				}
-				{
-					id: "60779FBA4CB1C501"
-					item: {
-						Count: 1
-						id: "tide:trout"
-						tag: {
-							Enchantments: [{ }]
-							Tags: "aberrant_fish"
-							display: {
-								Lore: [
-									"[\"\",{\"text\":\"Scales gleam unnaturally, shifting\",\"italic\":false}]"
-									"[\"\",{\"text\":\"in color like oil on water. Each\",\"italic\":false}]"
-									"[\"\",{\"text\":\"glint hypnotizes onlookers, but\",\"italic\":false}]"
-									"[\"\",{\"text\":\"those who stare too long find\",\"italic\":false}]"
-									"[\"\",{\"text\":\"the colors never leave their\",\"italic\":false}]"
-									"[\"\",{\"text\":\"vision.\",\"italic\":false}]"
-								]
-								Name: "[\"\",{\"text\":\"Shimmergill Trout\",\"italic\":false,\"color\":\"gold\"}]"
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "38364D5364D45C1D"
-					item: {
-						Count: 1
-						id: "tide:barracuda"
-						tag: {
-							Enchantments: [{ }]
-							Tags: "aberrant_fish"
-							display: {
-								Lore: [
-									"[\"\",{\"text\":\"Cracks run jagged across its body,\",\"italic\":false}]"
-									"[\"\",{\"text\":\"each fissure leaking a faint,\",\"italic\":false}]"
-									"[\"\",{\"text\":\"pale light. The fish twitches in\",\"italic\":false}]"
-									"[\"\",{\"text\":\"sharp, erratic movements as if\",\"italic\":false}]"
-									"[\"\",{\"text\":\"it's being pulled apart from the\",\"italic\":false}]"
-									"[\"\",{\"text\":\"inside.\",\"italic\":false}]"
-								]
-								Name: "[\"\",{\"text\":\"Splintered Barracuda\",\"italic\":false,\"color\":\"gold\"}]"
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
 				}
 			]
 			title: "Collect All Aberrant Fish"

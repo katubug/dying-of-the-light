@@ -692,12 +692,13 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy some &bIce and Sun Ferns&r at the cost of &b2 Insight&r."]
-			icon: "legendarysurvivaloverhaul:ice_fern"
+			icon: "legendarysurvivaloverhaul:sun_fern_leaf"
 			id: "0CDFF2B833E4653D"
 			rewards: [
 				{
 					auto: "invisible"
 					exclude_from_claim_all: true
+					icon: "kubejs:ancient_eye"
 					id: "14E9C39DEA20DF5B"
 					ignore_reward_blocking: true
 					title: "Spent Insight"
@@ -705,14 +706,14 @@
 				}
 				{
 					count: 2
-					id: "45E4266362789DA8"
-					item: "legendarysurvivaloverhaul:sun_fern"
+					id: "7B3E4F94C97ABCEE"
+					item: "legendarysurvivaloverhaul:sun_fern_leaf"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "354D475AC4196262"
-					item: "legendarysurvivaloverhaul:ice_fern"
+					id: "4EF6689E5048B9A2"
+					item: "legendarysurvivaloverhaul:ice_fern_leaf"
 					type: "item"
 				}
 			]
@@ -728,12 +729,19 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy some &bPotion Ingredients&r at the cost of &b2 Insight&r."]
-			icon: "legendarysurvivaloverhaul:ice_fern"
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:awkward"
+				}
+			}
 			id: "01BF9B7EE7784968"
 			rewards: [
 				{
 					auto: "invisible"
 					exclude_from_claim_all: true
+					icon: "kubejs:ancient_eye"
 					id: "0AFF61B8CD24E091"
 					ignore_reward_blocking: true
 					title: "Spent Insight"
@@ -789,20 +797,20 @@
 		{
 			dependencies: ["7F588C2BBD868E89"]
 			description: ["Buy a &bMedikit&r at the cost of &b15 Insight&r."]
-			icon: "legendarysurvivaloverhaul:medikit"
+			icon: "legendarysurvivaloverhaul:medkit"
 			id: "560ECBB5395D6D33"
 			rewards: [
-				{
-					id: "7EB472400D406E98"
-					item: "legendarysurvivaloverhaul:medikit"
-					type: "item"
-				}
 				{
 					auto: "invisible"
 					icon: "kubejs:ancient_eye"
 					id: "456BEDDA420CC26C"
 					title: "Spent Insight"
 					type: "custom"
+				}
+				{
+					id: "7EE72834B27D77F1"
+					item: "legendarysurvivaloverhaul:medkit"
+					type: "item"
 				}
 			]
 			tasks: [{

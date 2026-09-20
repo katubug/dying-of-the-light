@@ -1000,7 +1000,7 @@
 			description: [
 				"One of the most soothing ways to restore your sanity is to &ago fishing&r. The waters here are teeming with a wide variety of fish, found across multiple biomes and even in other dimensions."
 				""
-				"To enhance your fishing experience, seek out an &bAngler's Workshop&r, where you can &acustomize your Fishing Rod with&r different attachments."
+				"To enhance your fishing experience, seek out an &bAngling Table&r, where you can &acustomize your Fishing Rod with&r different attachments."
 				""
 				"For greater success, consider using &bBait&r. Hold it in your offhand while you fish to increase your chances of a fruitful catch. Alongside items explicitly called Bait, you can also use &bGrubs&r, &bWorms&r, and &bLeeches&r."
 				""
@@ -1034,11 +1034,6 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "57B5DB67F25ABDAA"
-					item: "tide:angler_workshop"
-					type: "item"
-				}
-				{
 					id: "421A24F3C9E70E2E"
 					item: {
 						Count: 1
@@ -1048,6 +1043,11 @@
 						}
 					}
 					title: "Starter Fishing Rod"
+					type: "item"
+				}
+				{
+					id: "1D07C23B7CC0682C"
+					item: "tide:angling_table"
 					type: "item"
 				}
 			]

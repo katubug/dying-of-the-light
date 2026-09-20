@@ -14,7 +14,7 @@
 		#Sun Width Scalar
 		#Range: 0.0 ~ 100.0
 		width = 4.0
-		#Moon Height Scalar
+		#Sun Height Scalar
 		#Range: 0.0 ~ 100.0
 		height = 4.0
 

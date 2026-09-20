@@ -18,4 +18,12 @@ morning_tick = 100
 #Wolf volume
 #Range: 0 ~ 100
 wolf_volume = 50
+#Chance to play Rooster sound
+#Range: 0 ~ 100
+chance_rooster = 100
+#Chance to play Wolf sound
+#Range: 0 ~ 100
+chance_wolf = 100
+#Current moon phase
+moon_phase = "All"
 

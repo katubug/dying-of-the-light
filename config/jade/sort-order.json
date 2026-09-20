@@ -1,4 +1,5 @@
 {
+  "balm:jade": null,
   "crockpot:birdcage": null,
   "crockpot:crock_pot": null,
   "exposure:lightroom": null,
@@ -51,5 +52,7 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
-  "tombstone:graves": null
+  "tombstone:decorative_graves": null,
+  "tombstone:graves": null,
+  "tombstone:player_graves": null
 }

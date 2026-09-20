@@ -267,7 +267,7 @@
 				type: "gamestage"
 			}]
 			tasks: [{
-				icon: "legendarysurvivaloverhaul:heart_fruit"
+				icon: "legendarysurvivaloverhaul:heart_container"
 				id: "5A060434BB1B8A30"
 				title: "Bring Him Peace"
 				type: "custom"

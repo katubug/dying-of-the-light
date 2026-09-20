@@ -56,7 +56,8 @@
     "photograph_frame": true
   },
   "tombstone": {
-    "graves": true
+    "decorative_graves": true,
+    "player_graves": true
   },
   "crockpot": {
     "birdcage": true,
@@ -69,5 +70,8 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "balm": {
+    "jade": true
   }
 }

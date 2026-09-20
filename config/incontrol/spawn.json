@@ -207,6 +207,15 @@
         "continue": true
     },
     {
+        "spawnersource": "spawn_egg",
+        "result": "default"
+    },
+    {
+        "mincount": 30,
+        "result": "deny",
+        "continue": true
+    },
+    {
         "result": "deny",
         "mob": [
           "minecraft:skeleton",

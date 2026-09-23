@@ -102,13 +102,6 @@ PlayerEvents.tick(event => {
         server.runCommandSilent(`sanity add ${event.player.name.string} -10`)
         //console.log(`Void Tome has reduced Sanity to ${event.player.getSanity()}`)
     }
-    /*
-    //Sanity passively drains while holding Void Tome.
-    if (player.mainHandItem.id == 'void_tome:void_tome'){
-        server.runCommandSilent(`sanity add ${event.player.name.string} -10`)
-        //console.log(`Void Tome has reduced Sanity to ${event.player.getSanity()}`)
-    }
-        */
 })
 
 

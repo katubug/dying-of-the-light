@@ -94,21 +94,7 @@ ServerEvents.recipes(event => {
             E: 'minecraft:candle'
         }
     ).stage('insightful')
-    /*
-    //Ritual to Return Void Tome
-    event.recipes.summoningrituals.altar("void_tome:void_tome")
-        .itemOutput(Item.of('void_tome:void_tome', "{display:{Lore:['[\"\",{\"text\":\"A tome containing the power of\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"the Guardians. This time, it is\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"willingly given.\",\"italic\":false,\"color\":\"yellow\"}]'],Name:'[\"\",{\"text\":\"Tome of Forgiveness\",\"italic\":false}]'}}"))
-        .input('kubejs:captain_cornelia_note')
-        .input('kubejs:nameless_hanged_note')
-        .input('minecraft:ghast_tear')
-        .input('kubejs:maze_mother_note')
-        .input('kubejs:cave_dweller_note')
-        .input('kubejs:herobrine_note')
-        .input('kubejs:hidebehind_note')
-        .blockBelow('minecraft:crying_obsidian')
-        .recipeTime(500)
-        */
-
+   
     //Ritual to Return Void Tome
     event.recipes.summoningrituals.altar("kubejs:void_tome")
     .itemOutput(Item.of('kubejs:void_tome', "{display:{Lore:['[\"\",{\"text\":\"A tome containing the power of\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"the Guardians. This time, it is\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"willingly given.\",\"italic\":false,\"color\":\"yellow\"}]'],Name:'[\"\",{\"text\":\"Tome of Forgiveness\",\"italic\":false}]'}}"))
@@ -218,7 +204,7 @@ ServerEvents.recipes(event => {
         .recipeTime(200)
 
         //Frozen Key
-        event.recipes.summoningrituals.altar('tide:deep_aqua_crystal')
+        event.recipes.summoningrituals.altar('thaumon:crystal_stand')
         .itemOutput('aquamirae:frozen_key')
         .input('minecraft:blue_ice')
         .input('aquamirae:fin')
@@ -228,7 +214,7 @@ ServerEvents.recipes(event => {
         
 
         //Hirschgeist Skull
-        event.recipes.summoningrituals.altar('tide:deep_aqua_crystal')
+        event.recipes.summoningrituals.altar('thaumon:crystal_stand')
         .itemOutput('whisperwoods:hirschgeist_skull')
         .input('graveyard:bone_dagger')
         .input('minecraft:skeleton_skull')

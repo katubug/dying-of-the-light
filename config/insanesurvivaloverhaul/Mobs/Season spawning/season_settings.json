@@ -6,9 +6,9 @@
       "late_winter"
     ],
     "despawn_distance": 112,
-    "hostile_cap": 70,
-    "animal_cap": 0,
-    "water_ambient_cap": 0
+    "hostile_cap": 85,
+    "animal_cap": 10,
+    "water_ambient_cap": 20
   },
   {
     "seasons": [
@@ -17,8 +17,8 @@
       "late_spring"
     ],
     "despawn_distance": 128,
-    "hostile_cap": 60,
-    "animal_cap": 30,
+    "hostile_cap": 70,
+    "animal_cap": 10,
     "water_ambient_cap": 20
   },
   {
@@ -29,7 +29,7 @@
     ],
     "despawn_distance": 128,
     "hostile_cap": 55,
-    "animal_cap": 50,
+    "animal_cap": 10,
     "water_ambient_cap": 20
   },
   {
@@ -40,7 +40,7 @@
     ],
     "despawn_distance": 128,
     "hostile_cap": 70,
-    "animal_cap": 15,
-    "water_ambient_cap": 10
+    "animal_cap": 10,
+    "water_ambient_cap": 20
   }
 ]

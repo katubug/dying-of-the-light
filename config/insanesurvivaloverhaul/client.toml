@@ -1,7 +1,7 @@
 "Enable Client" = true
 
 [Client]
-	"Enable Fog" = true
+	"Enable Fog" = false
 	"Enable Misc" = true
 	#Changes to death
 	"Enable Death" = true

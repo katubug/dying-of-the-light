@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "on":"custom",
+        "parameters":{
+            "name":"dotl_zombify_villager"
+        },
+        "command":["summon minecraft:zombie_villager ~ ~ ~ {PersistenceRequired:1b}"]
+    }
+]

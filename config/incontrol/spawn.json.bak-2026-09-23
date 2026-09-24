@@ -1,17 +1,4 @@
 [
-    {
-        "when":"onjoin",
-        "mob":"minecraft:villager",
-        "spawntype":"structure",
-        "customevent":"dotl_zombify_villager",
-        "result":"deny_with_actions"
-    },
-    {
-        "when":"onjoin",
-        "mob":"minecraft:iron_golem",
-        "spawntype":["structure"],
-        "result":"deny"
-    },
 	{
         "mob":["cave_dweller:cave_dweller"],
         "gamestage":"dweller_resolved",

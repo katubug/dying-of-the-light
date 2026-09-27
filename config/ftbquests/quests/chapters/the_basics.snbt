@@ -376,12 +376,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "183B0BBEE35D83BA"
+				id: "57C610A4D75F67C6"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "or(item(legendarysurvivaloverhaul:ice_fern)item(legendarysurvivaloverhaul:sun_fern))"
+						"ftbfiltersystem:filter": "or(item(legendarysurvivaloverhaul:ice_fern_leaf)item(legendarysurvivaloverhaul:sun_fern_leaf))"
 					}
 				}
 				title: "Obtain Special Ferns"
@@ -805,6 +805,7 @@
 		}
 		{
 			dependencies: ["619B225244EE9A1B"]
+			dependency_requirement: "one_completed"
 			description: [
 				"This place can really mess with your head if you're not careful. The dark's full of things you don't want to mess with, so it’s important to stay grounded."
 				""
@@ -846,7 +847,7 @@
 			shape: "spstar"
 			size: 2.0d
 			tasks: [{
-				id: "0ABCBC16A2F51A54"
+				id: "69DFD5D3C66D2B45"
 				title: "Your Mind is Fragile"
 				type: "checkmark"
 			}]
@@ -1002,7 +1003,9 @@
 				""
 				"To enhance your fishing experience, seek out an &bAngling Table&r, where you can &acustomize your Fishing Rod with&r different attachments."
 				""
-				"For greater success, consider using &bBait&r. Hold it in your offhand while you fish to increase your chances of a fruitful catch. Alongside items explicitly called Bait, you can also use &bGrubs&r, &bWorms&r, and &bLeeches&r."
+				"For greater success, consider using &bBait&r. &6Equip it to your rod&r by &6right clicking it onto the item&r to increase your chances of a fruitful catch. "
+				""
+				"Alongside items explicitly called Bait, you can also use &bGrubs&r, &bWorms&r, and &bLeeches&r."
 				""
 				"Let the gentle rhythm of the water and the thrill of the catch restore your spirit, one fish at a time."
 				""
@@ -1051,7 +1054,7 @@
 					type: "item"
 				}
 			]
-			title: "A Pasttime"
+			title: "A Pastime"
 			x: 10.799999999999999d
 			y: 0.3d
 		}
@@ -1161,7 +1164,7 @@
 		}
 		{
 			dependencies: ["1B394C3591A983C6"]
-			description: ["You can also control temperature by &asewing liners into you &bArmor&r or &bClothing&r. For that, you'll need a &bSewing Machine&r, and a fair amount of &bThread&r."]
+			description: ["You can also control temperature by &asewing liners into your &bArmor&r or &bClothing&r. For that, you'll need a &bSewing Machine&r, and a fair amount of &bThread&r."]
 			id: "3A3A8D4D215AF768"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1616,6 +1619,52 @@
 			}]
 			x: 1.7999999999999998d
 			y: 15.0d
+		}
+		{
+			description: [
+				"The &bFire Starter&r will allow you to, well, start fires. You'll most certainly want it for &bCampfires&r, which do not spawn pre-lit."
+				""
+				"Be aware that &dthe Fire Starter can fail&r, but may still be consumed. So you may wish to &amake a few of them&r."
+			]
+			id: "51F09A8277D0E994"
+			rewards: [{
+				count: 5
+				id: "1E714CE63E031802"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6381150CF4B0426A"
+				item: "hardcore_torches:fire_starter"
+				type: "item"
+			}]
+			title: "The Fire Starter"
+			x: -9.6d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["0A981F6115A5041A"]
+			description: [
+				"The &bCampfire&r will behave a little differently than you're used to. For one thing, &dit does not automatically light&r. It may also &aextinguish in the rain&r. It also &arequires &bGlowstone&r to craft. You may wish to begin with the &bUnlit Campfire&r."
+				""
+				"In order to &alight the &bUnlit Campfire&r, you'll need to &6throw &bFuel&r (anything with a burn time) onto the top, and then &6use a &bFire Starter&r or &btwo Flint&r, one in the offhand and one in the main hand. Or, of course, the &bFlint and Steel&r."
+				""
+				"Thankfully, you'll find that being near a &bCampfire&r will both &aheal you&r and &arestore your sanity&r."
+			]
+			id: "1E3D396972F9B9F9"
+			rewards: [{
+				id: "2198641FAE53EA10"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			tasks: [{
+				id: "268482C7D4B43980"
+				item: "hardcore_torches:unlit_campfire"
+				type: "item"
+			}]
+			title: "The Campfires are Different"
+			x: -9.9d
+			y: -0.6d
 		}
 	]
 	title: "The Basics"

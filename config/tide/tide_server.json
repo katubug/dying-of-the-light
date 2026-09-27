@@ -2,7 +2,7 @@
   "general": {
     "overrideVanillaRod": true,
     "holdToCast": true,
-    "rodDurabilityMultiplier": 1.0,
+    "rodDurabilityMultiplier": 5.0,
     "fishableVoidHeights": [
       {
         "dimension": "minecraft:overworld",
@@ -32,7 +32,7 @@
     "pocketWatchBlacklist": []
   },
   "journal": {
-    "giveJournal": true,
+    "giveJournal": false,
     "showToasts": true
   },
   "minigame": {

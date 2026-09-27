@@ -12,18 +12,6 @@
         "spawntype":["structure"],
         "result":"deny"
     },
-    {
-        "when":"onjoin",
-        "mob":"sanitydim:rotting_stalker",
-        "healthset":40,
-        "result":"default"
-    },
-    {
-        "when":"onjoin",
-        "mob":"sanitydim:sneaking_terror",
-        "healthset":60,
-        "result":"default"
-    },
 	{
         "mob":["cave_dweller:cave_dweller"],
         "gamestage":"dweller_resolved",

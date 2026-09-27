@@ -29,6 +29,8 @@
 				"If you'd like, you can &6set difficulty to Easy&r to prevent any hostile creatures from attacking you, period. You will still have to deal with the other survival aspects of the pack, but you can rest easy knowing &ayou are safe&r."
 				""
 				"Thanks for playing!"
+				""
+				"PS - &dyou can zoom in and out in quest pages&r using your scroll wheel. Make sure you don't miss anything!"
 			]
 			id: "6C508F9592F24515"
 			rewards: [{
@@ -100,9 +102,15 @@
 				""
 				"- &l&2Spooklementary&r: A darker, more saturated option which is also lighter on performance. A solid second place. Also adds additional eyes in the darkness."
 				""
+				"A few notes on accessibility:"
+				""
+				"If you find yourself having issues with &aBlood Effects&r, then you can &ddisable them in &lEnhanced Visuals'&r config."
+				""
+				"You may also change the temperature appearance from &aFarenheit to Celcius&r in the &lLegendary Survival Overhaul&r's config."
+				""
 				"For &aResource Packs&r, I recommend enabling everything except for the following:"
 				""
-				"{image:dying_light:textures/quest_images/resource_packs.png width:300 height:300 align:center fit:true}"
+				"{image:dying_light:textures/quest_images/resource_packs.png width:300 height:250 align:center fit:true}"
 			]
 			id: "5E5382368FA3021C"
 			rewards: [{
@@ -116,7 +124,7 @@
 				title: "Resource Packs"
 				type: "checkmark"
 			}]
-			title: "Resource Packs and Shaders"
+			title: "Visual Effects and Shaders"
 			x: 4.5d
 			y: 5.0d
 		}

@@ -79,7 +79,7 @@
 	#Range: 0 ~ 2
 	takeTorchMode = 2
 	#When a torch burns out it will become unlit, and when you light a torch, it will be fully refueled.
-	relightTorches = false
+	relightTorches = true
 
 #Lantern Settings
 [lantern]
@@ -135,5 +135,5 @@
 #Compatibility Settings
 [compat]
 	#If true, and Farmer's Delight is installed, the Stove will be crafted as a hardcore version which needs fuel.
-	craftHardcoreStove = true
+	craftHardcoreStove = false
 

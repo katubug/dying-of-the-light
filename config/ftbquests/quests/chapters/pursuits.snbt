@@ -812,6 +812,8 @@
 		{
 			dependencies: ["085671CEEECD2D16"]
 			description: [
+				"&o&dThis quest is unlocked via the quest \"A Pastime\"&r."
+				""
 				"Fishing isn't quite as mindless here as it usually is. Hold &6right click&r to charge your cast, and then wait for the bite, and begin the catch as normal."
 				""
 				"Once you hook a fish, you need to &acarefully time your right click&r in order to catch the fish properly!"

@@ -33,7 +33,8 @@ JEIEvents.hideItems(event => {
         'itemfilters:custom',
         'tombstone:impregnated_diamond',
         'tombstone:bone_needle',
-        'kubejs:insight_eye_anim'
+        'kubejs:insight_eye_anim',
+        'iguanatweaksreborn:firestarter'
 ];
     
 for (const hide of toHide) {

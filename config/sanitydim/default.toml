@@ -65,7 +65,7 @@
 		#Supports boolean block state properties (can be omitted together with brackets)
 		#Prefix with TAG_ and follow with a tag registry name to define all blocks with the tag
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds; needs testing
-		blocks = ["minecraft:campfire[lit=true];0.1;4;false", "minecraft:campfire[lit=true];0.1;4;false", "chimes:bamboo_chimes;0.1;4;false", "chimes:iron_chimes;0.1;4;false", "chimes:carved_bamboo_chimes;0.1;4;false", "chimes:copper_chimes;0.1;4;false", "chimes:amethyst_chimes;0.1;4;false"]
+		blocks = ["minecraft:campfire[lit=true];0.1;4;false", "hardcore_torches:hardcore_campfire[lit=true];0.1;4;false", "chimes:bamboo_chimes;0.1;4;false", "chimes:iron_chimes;0.1;4;false", "chimes:carved_bamboo_chimes;0.1;4;false", "chimes:copper_chimes;0.1;4;false", "chimes:amethyst_chimes;0.1;4;false"]
 
 	#Configuration for active sanity sources
 	[sanity.active]

@@ -23,6 +23,19 @@ ItemEvents.tooltip(event => {
         'Right click to gain a large amount of Insight.'
     )
 
+    //Staged Recipe Tooltips
+    event.add('minecraft:ender_eye',
+        'Recipe unlocked at 20 Insight.'
+    )
+
+    event.add('abyssal_decor:white_pearl',
+        'Recipe unlocked at 50 Insight.'
+    )
+
+    event.add('summoningrituals:altar',
+        'Recipe unlocked at 50 Insight.'
+    )
+
     //Drink Tooltips
     event.add([
         'abyssal_decor:cinnamon_tea',

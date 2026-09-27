@@ -18,4 +18,38 @@ weatherOptions = [["clear", "rain", "storm"], ["ignore", "clear", "rain", "storm
 weatherWeights = [[7, 3, 2], [7, 1, 2, 3]]
 #When enabled, print the scheduled weather events to server console at the beginning of the day, and the current event when a new event starts (including ignore events)
 logSchedule = false
+#If Serene Seasons is present, you can enable this to use an alternative set of lists for each season, these options work the same as the ones listed above and have identical default values.
+enableSeasons = false
+#Spring weather times
+weatherTimesSpring = [20, 14000]
+#Spring weather ranges
+weatherRangesSpring = [[0, 0], [0, 2000]]
+#Spring weather options
+weatherOptionsSpring = [["clear", "rain", "storm"], ["ignore", "clear", "rain", "storm"]]
+#Spring weather weights
+weatherWeightsSpring = [[7, 2, 1], [7, 1, 1, 1]]
+#Summer weather times
+weatherTimesSummer = [20, 14000]
+#Summer weather ranges
+weatherRangesSummer = [[0, 0], [0, 2000]]
+#Summer weather options
+weatherOptionsSummer = [["clear", "rain", "storm"], ["ignore", "clear", "rain", "storm"]]
+#Summer weather weights
+weatherWeightsSummer = [[7, 2, 1], [7, 1, 1, 1]]
+#Fall weather times
+weatherTimesFall = [20, 14000]
+#Fall weather ranges
+weatherRangesFall = [[0, 0], [0, 2000]]
+#Fall weather options
+weatherOptionsFall = [["clear", "rain", "storm"], ["ignore", "clear", "rain", "storm"]]
+#Fall weather weights
+weatherWeightsFall = [[7, 2, 1], [7, 1, 1, 1]]
+#Winter weather times
+weatherTimesWinter = [20, 14000]
+#Winter weather ranges
+weatherRangesWinter = [[0, 0], [0, 2000]]
+#Winter weather options
+weatherOptionsWinter = [["clear", "rain", "storm"], ["ignore", "clear", "rain", "storm"]]
+#Winter weather weights
+weatherWeightsWinter = [[7, 2, 1], [7, 1, 1, 1]]
 

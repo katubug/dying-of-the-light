@@ -512,7 +512,7 @@
 	#Replace stone tools with flint ones.
 	"Enable Flint expansion" = true
 	#If enabled, a data pack will be enabled that disables stone tools crafting and generation in chests will be replaced with copper ones.
-	"Enable Stone tools gone" = true
+	"Enable Stone tools gone" = false
 
 	#Make items not able to mine / attack
 	[Items."Disabled items"]
@@ -579,7 +579,7 @@
 
 	#Replace stone tools with flint ones.
 	[Items."Flint expansion"]
-		"Enable tools" = false
+		"Enable tools" = true
 		"Enable ground flint" = true
 
 [World]
@@ -921,11 +921,11 @@
 		#Range: > 0
 		"Composter time to produce" = 50
 		#Chance for a bone meal to fail to grow something. Empty this string to disable. Accepts a list of seasons and chances separated by a ;
-		"Season fail chance" = "WINTER,0.65"
+		"Season fail chance" = "WINTER,0"
 		#If true, you can bone meal dirt that's near a grass block (or below tall grass) to get grass block.
 		"Bone meal dirt to grass" = true
 		#Makes bone meal have a chance to fail on Cave Vines, Saplings and Sweet Berry Bushes.
-		"Data pack" = true
+		"Data pack" = false
 
 		[Farming."Bone meal"."Rich farmland"]
 			#Bone meal used on Farmland (or crouch right clicked on crops) transforms it into Rich Farmland.
@@ -937,7 +937,7 @@
 			#Range: 0.0 ~ 1.0
 			"Chance to decay" = 0.4
 			#Prevents bone meal from working on crops and will just create rich farmland on right-click
-			"Disable bone meal" = true
+			"Disable bone meal" = false
 
 		#How many stages will bone meal make stuff grow?
 		[Farming."Bone meal"."Stage growth"]
@@ -1153,7 +1153,7 @@
 	#Changes to sleeping and spawn points
 	"Enable Sleeping and Spawn Point" = true
 	#Zombies drop cloth instead of Rotten Flesh. Cloth is used to make beds and various other stuff.
-	"Enable Cloth" = true
+	"Enable Cloth" = false
 	#Prevents sleeping if the player is not tired. Tiredness is gained by gaining exhaustion. Allows you to sleep during daytime if too tired. Energy Boost Items are controlled via json in this feature's folder
 	"Enable Tiredness" = true
 	#Changes to respawning. Adds the doLooseRespawn gamerule that can disable the loose spawn range

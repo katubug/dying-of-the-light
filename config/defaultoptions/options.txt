@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/v2 Creepier Cave Dwellers-1.20.0.zip","file/More Cave Sounds.zip","file/Pixelated_v1.3.3_EnhancedVisuals(nox_cgt).zip","file/Clear Glass Pack 1.20.zip","file/Blues_Better_Monsters_v0.10.zip","file/FreshAnimations_v1.9.2.zip","file/LowOnFire_1.20.1.zip","file/SmoothFont_1.20.zip","eatinganimations_compat","file/Frozy\u0027s Quest Book.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/boss-refreshed-v1.4.zip","file/FA+All_Extensions-v1.4.zip","file/realistic-books.zip","file/vanilla-armors-reforged.zip","file/Magic enchanting table v1.0.zip","file/Arcane Enchanting Book 1.19.zip","file/Angel\u0027s_Weather_v1.4.zip","file/BraysWorld_1.0.4.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/v2 Creepier Cave Dwellers-1.20.0.zip","file/More Cave Sounds.zip","file/Clear Glass Pack 1.20.zip","file/LowOnFire_1.20.1.zip","file/SmoothFont_1.20.zip","eatinganimations_compat","file/Frozy\u0027s Quest Book.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/realistic-books.zip","file/Magic enchanting table v1.0.zip","file/Arcane Enchanting Book 1.19.zip","file/BraysWorld_1.0.4.zip","file/vanilla-armors-reforged.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip","generated/fragmentum_layer","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Angel\u0027s_Weather_v1.9.1.3hf.zip","file/Blues_Better_Monstersv0.11.zip","file/FA+All_Extensions-v1.8.1.zip","file/FreshAnimations_v1.10.4.zip","file/boss-refreshed-v2-1.19-1.21.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -85,7 +85,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:0.6690140845070423
-soundCategory_music:0.4753521126760563
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

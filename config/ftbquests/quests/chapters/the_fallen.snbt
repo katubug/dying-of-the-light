@@ -170,13 +170,13 @@
 					ignore_dimension: false
 					position: [I;
 						0
-						-20
+						20
 						0
 					]
 					size: [I;
-						1
-						1
-						1
+						1800000
+						2
+						1800000
 					]
 					title: "Go Deep Underground"
 					type: "location"

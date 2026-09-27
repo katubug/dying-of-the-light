@@ -97,7 +97,7 @@
 	attack_speed = 0.2
 	#Movement speed
 	#Range: 0.0 ~ 5.0
-	movement_speed = .3
+	movement_speed = 0.3
 	#Depth Strider (movement speed in water) bonus
 	#Range: 0.0 ~ 3.0
 	depth_strider_bonus = 1.5

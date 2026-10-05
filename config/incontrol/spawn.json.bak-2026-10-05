@@ -238,12 +238,6 @@
         "continue": true
     },
     {
-        "mob":"whisperwoods:hidebehind",
-        "mincount": 1,
-        "result": "deny",
-        "continue": true
-    },
-    {
         "mob":"graveyard:acolyte",
         "mincount": 10,
         "result": "deny",

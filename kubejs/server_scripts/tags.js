@@ -494,7 +494,13 @@ ServerEvents.tags('item', event => {
         'minecraft:cod', 
         'minecraft:salmon'
     )
-    
+
+    //Bitter Brews tea leaves work in Crock Pot tea
+    event.add(
+        'crockpot:ingredients/tea',
+        'bitter_brews:tea_leaves'
+    )
+
 })
 
 ServerEvents.tags('block', event =>{

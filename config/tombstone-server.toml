@@ -27,21 +27,21 @@
 	enable_enchantment_blessing = false
 	#Enables the enchantment Frostbite [false/true|default:true]
 	enable_enchantment_frostbite = false
-	#Allows Spectral Bite at enchanting table [false/true|default:false]
+	#Allows Spectral Bite at enchanting table [false/true|default:true]
 	spectral_bite_enchanting_table = false
-	#Allows Magic Siphon at enchanting table [false/true|default:false]
+	#Allows Magic Siphon at enchanting table [false/true|default:true]
 	magic_siphon_enchanting_table = false
-	#Allows Plague Bringer at enchanting table [false/true|default:false]
+	#Allows Plague Bringer at enchanting table [false/true|default:true]
 	plague_bringer_enchanting_table = false
-	#Allows Curse of Bones at enchanting table [false/true|default:false]
+	#Allows Curse of Bones at enchanting table [false/true|default:true]
 	curse_of_bones_enchanting_table = false
-	#Allows Blessing at enchanting table [false/true|default:false]
+	#Allows Blessing at enchanting table [false/true|default:true]
 	blessing_enchanting_table = false
-	#Allows Frostbite at enchanting table [false/true|default:false]
+	#Allows Frostbite at enchanting table [false/true|default:true]
 	frostbite_enchanting_table = false
 	#Enables the enchantment Spectral Conjurer [false/true|default:true]
 	enable_enchantment_spectral_conjurer = false
-	#Allows Spectral Conjurer at enchanting table [false/true|default:false]
+	#Allows Spectral Conjurer at enchanting table [false/true|default:true]
 	spectral_conjurer_enchanting_table = false
 	#Enables the enchantment Incurable Wounds [false/true|default:true]
 	enable_enchantment_incurable_wounds = true
@@ -53,13 +53,13 @@
 	enable_enchantment_ruthless_strike = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
 	soulbound_enchanting_table = true
-	#Allows Incurable Wounds at enchanting table [false/true|default:false]
+	#Allows Incurable Wounds at enchanting table [false/true|default:true]
 	incurable_wounds_enchanting_table = true
-	#Allows Decrepitude at enchanting table [false/true|default:false]
+	#Allows Decrepitude at enchanting table [false/true|default:true]
 	decrepitude_enchanting_table = true
-	#Allows Sanctified at enchanting table [false/true|default:false]
+	#Allows Sanctified at enchanting table [false/true|default:true]
 	sanctified_enchanting_table = true
-	#Allows Ruthless Strike at enchanting table [false/true|default:false]
+	#Allows Ruthless Strike at enchanting table [false/true|default:true]
 	ruthless_strike_enchanting_table = true
 
 #For settings related to magic items

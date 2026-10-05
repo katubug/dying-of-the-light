@@ -29,7 +29,7 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "legendarysurvivaloverhaul:ice_fern",
+            "item": "legendarysurvivaloverhaul:ice_fern_leaf",
             "text": "Finally, you can brew $(#00a8a8)Potions$() of both $(#00a800)heat and cold resistance$(), which are helpful so long as you have a $(#00a8a8)Brewing$() setup. Which, arguably, you really should."
         }
     ]

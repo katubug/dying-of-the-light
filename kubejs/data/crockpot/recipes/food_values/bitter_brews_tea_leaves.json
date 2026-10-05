@@ -1,0 +1,5 @@
+{
+  "type": "crockpot:food_values",
+  "items": ["bitter_brews:tea_leaves"],
+  "values": {"VEGGIE": 0.5}
+}

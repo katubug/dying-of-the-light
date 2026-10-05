@@ -2,14 +2,12 @@
 background:          dying_light:textures/ui_images/2.png; color=#DCffffff; tile_size=128
 backgroundy:         ftblibrary:textures/gui/background_squares.png; color=#DCFFFFFF; tile_size=64
 background2:         dying_light:textures/ui_images/paper_texture.png; color=#DC000000; tile_size=250
-background3:         dying_light:textures/ui_images/1.png; color=#DC000000; tile_size=128
-background4:         dying_light:textures/ui_images/2.png; color=#DC000000; tile_size=128
-background5:         dying_light:textures/ui_images/3.png; color=#DC000000; tile_size=128
+background3:         part:dying_light:textures/ui_images/quest_bg.png; corner=30
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, epstar, banner, embellish, window, spstar
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0
-disabled_text_color: #999999
+disabled_text_color: #433c3c
 
 widget_border:     #5c3a20
 widget_background: #75645600
@@ -21,7 +19,7 @@ panel:                 {{container_slot}}
 disabled_button:       hollow_rectangle:{{widget_border}}
 hover_button:          {{button}} + {{widget_background}}; padding=1
 context_menu:          hollow_rectangle:{{widget_border}}; round_edges + {{background2}}; color=#ffffff; padding=1
-quest_wrapper:         hollow_rectangle:{{widget_border}}; round_edges + {{background2}}; color=#ffffff; padding=1
+quest_wrapper:         hollow_rectangle:{{widget_border}}; round_edges + {{background3}}; color=#ffffff; padding=1
 quest_icons:           hollow_rectangle:{{widget_border}}; round_edges + {{background2}}; color=#ff0000; padding=1
 scroll_bar_background: {{widget_background}}
 scroll_bar:            {{button}} + {{widget_background}}; padding=1
@@ -61,11 +59,11 @@ left_arrow:           ftblibrary:icons/left
 right_arrow:          ftblibrary:icons/right
 
 full_screen_quest:                  0
-tasks_text_color:                   #a9a9f5
-rewards_text_color:                 #FFAA00
-quest_view_background:              {{quest_wrapper}}
+tasks_text_color:                   #49499c
+rewards_text_color:                 #725212
+quest_view_background:              {{background3}}; padding=-20
 quest_view_border:                  {{widget_border}}
-quest_view_title:                   #AAAAAA
+quest_view_title:                   #312c46
 quest_completed_color:              #C856FF56
 quest_started_color:                #C800FFFF
 quest_not_started_color:            #96FFFFFF

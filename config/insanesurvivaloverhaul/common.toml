@@ -1298,7 +1298,7 @@
 		"On death behaviour" = "SET_AT_EFFECT"
 		#Phantoms will no longer spawn based on insomnia, but instead based off tiredness. Will spawn with Tired III.
 		"Tired tied phantoms" = true
-		"Allow sleeping even when not tired" = false
+		"Allow sleeping even when not tired" = true
 		#If true, sets the playersSleepingPercentage gamerule to 1 so tired players can sleep no matter how many players on a server.
 		"Force one player sleep" = true
 		#If true, Simple Clouds' clouds will speed up when player skips time by sleeping.

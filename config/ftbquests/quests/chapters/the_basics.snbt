@@ -279,8 +279,9 @@
 			description: ["There used to be other people around, but I haven't seen any in ages. I think if you could &afind a village&r, maybe you could get some help?"]
 			id: "6227ECCC0C34E83A"
 			rewards: [{
-				id: "6AA85A2AF992083D"
-				item: "minecraft:emerald"
+				count: 2
+				id: "240FD4588BCD39F9"
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -338,7 +339,7 @@
 			]
 			id: "7DAE9062575584B7"
 			rewards: [{
-				count: 3
+				count: 10
 				id: "197FF5D00F0C4955"
 				item: "minecraft:emerald"
 				type: "item"
@@ -358,7 +359,9 @@
 		{
 			dependencies: ["1B394C3591A983C6"]
 			description: [
-				"Okay, you want to know my tip for climate tolerance? Use the local flora. These &bspecial types of ferns&r can be used to make &bPotions of Heat and Cold Resistance&r."
+				"Life can be unnecessarily harsh, and temperature is no reprieve. However, there are ways that you can keep yourself from overheating, or from freezing. "
+				""
+				"Among them, the local flora: &bIce Ferns&r and &bSun Ferns&r spawn in cold and warm biomes, respectively, and can be used to make &bPotions of Heat and Cold Resistance&r."
 				""
 				"In particularly hot or cold climates, this can be the difference between life or death."
 			]
